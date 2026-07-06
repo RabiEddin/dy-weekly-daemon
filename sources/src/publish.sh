@@ -59,5 +59,7 @@ if git diff --cached --quiet; then
 else
   git commit -m "publish $(date +%F)"
   git push origin main
-  echo "✅ 발행 완료 → https://rabieddin.github.io/dy-weekly-daemon/"
+  # 2026-07 GitHub Pages 장애 우회: push 후 배포를 API로 직접 트리거 (자동 배포가 실패해도 이걸로 뜸)
+  gh api -X POST "repos/RabiEddin/dy-weekly-daemon/pages/builds" >/dev/null 2>&1 || true
+  echo "✅ 발행 완료 → https://rabieddin.github.io/dy-weekly-daemon/ (반영까지 1~2분)"
 fi
