@@ -108,8 +108,8 @@ article h3:first-of-type {
 
 // ---- 기사 헤드라인: 위 괘선 + 블랙 고딕 ----
 article h3 {
-  font-family: "Gothic A1", sans-serif; // Black Han Sans는 ㄷ·ㅁ 속공간이 막혀 판독성 저하
-  font-weight: 900;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
   font-size: 1.28rem;
   border-top: 2.5px solid var(--dark);
   padding-top: 0.5em;
