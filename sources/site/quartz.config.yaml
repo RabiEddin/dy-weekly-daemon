@@ -6,7 +6,7 @@ configuration:
   pageTitle: THE WEEKLY DAEMON
   pageTitleSuffix: ""
   enableSPA: false
-  enablePopovers: true
+  enablePopovers: false
   analytics:
     provider: null
   locale: ko-KR
