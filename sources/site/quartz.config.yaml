@@ -103,6 +103,24 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
+    options:
+      fontOrigin: googleFonts
+      title:
+        name: Black Han Sans
+        weights: [400]
+      header:
+        name: Black Han Sans
+        weights: [400]
+      body:
+        name: Gothic A1
+        weights: [400, 600, 900]  # 900 = 기사 헤드라인(h3)용 Black
+        includeItalic: true
+      code:
+        name: IBM Plex Mono
+        weights: [400, 600]
+      h3:
+        name: Gothic A1
+        weights: [900]
   - source: github:quartz-community/remove-draft
     enabled: true  # ⚠️ 공개 배포 전 true로 (draft: true 제외)
   - source: github:quartz-community/explicit-publish

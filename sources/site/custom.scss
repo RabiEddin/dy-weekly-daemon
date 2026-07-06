@@ -108,15 +108,15 @@ article h3:first-of-type {
 
 // ---- 기사 헤드라인: 위 괘선 + 블랙 고딕 ----
 article h3 {
-  font-family: "Black Han Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Gothic A1", sans-serif; // Black Han Sans는 ㄷ·ㅁ 속공간이 막혀 판독성 저하
+  font-weight: 900;
   font-size: 1.28rem;
   border-top: 2.5px solid var(--dark);
   padding-top: 0.5em;
   margin-top: 1.4em;
   margin-bottom: 0.25rem;
   line-height: 1.22;
-  letter-spacing: 0; // 음수 자간은 축소 시 Black Han Sans 글자가 붙어 보임
+  letter-spacing: 0.025em; // Black Han Sans는 속공간이 좁아 자간을 살짝 벌려야 뭉침이 풀림
   break-inside: avoid; // 헤드라인이 컬럼 경계에서 잘리지 않게
   break-after: avoid;
 }
