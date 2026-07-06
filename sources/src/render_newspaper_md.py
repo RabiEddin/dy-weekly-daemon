@@ -232,7 +232,7 @@ def copy_pdf(week: str, vol: int) -> bool:
 def write_landing(weeks, vol_of) -> None:
     """랜딩(newspaper/index.md) 재생성 — 최신호 위, PDF 원본이 1차 링크."""
     lines = ["---", "title: THE WEEKLY DAEMON", "---", "",
-             "## 호별 아카이브", ""]
+             "## ARCHIVE", ""]
     for p in reversed(weeks):
         w = p.name
         vol = vol_of[w]
