@@ -103,14 +103,14 @@ article {
 article h3:first-of-type {
   border-top: 5px solid var(--dark); // 톱기사: 굵은 위 괘선
   margin-top: 0.9rem;
-  font-size: 1.75rem;
+  font-size: 1.85rem;
 }
 
 // ---- 기사 헤드라인: 위 괘선 + 블랙 고딕 ----
 article h3 {
   font-family: "Black Han Sans", sans-serif;
   font-weight: 400;
-  font-size: 1.28rem;
+  font-size: 1.4rem;
   border-top: 2.5px solid var(--dark);
   padding-top: 0.5em;
   margin-top: 1.4em;
