@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>THE WEEKLY DAEMON</title>
+      <link>https://rabieddin.github.io/dy-weekly-daemon</link>
+      <description>Last 10 notes on THE WEEKLY DAEMON</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>THE WEEKLY DAEMON</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/</guid>
+    <description><![CDATA[ 호별 아카이브 Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF Vol.13 (6/4-6/11) · PDF Vol.12 (5/28-6/4) · PDF Vol.11 (5/21-5/28) · PDF Vol.10 (5/14-5/21) · PDF Vol.9 (5/7-5/14) · PDF Vol.8 (4/30-5/7) · PDF Vol.7 (4/23-4/30) · PDF Vol.6 (4/16-4/23) · PDF Vol.5 (4/9-4/16) · PDF Vol... ]]></description>
+    <pubDate>Mon, 06 Jul 2026 11:35:31 GMT</pubDate>
+  </item><item>
+    <title>Vol.16 (6/25-7/2)</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/2026-06-25_07-02/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/2026-06-25_07-02/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.16 2026.6/25 – 7/2WEEKLY TECH &amp; AI DIGEST26 Articles This Week CLAUDE’S PICK Paca — AI 에이전트와 인간이 동등하게 협력하는 오픈소스 프로젝트 관리 플랫폼 Jira, Trello, ClickUp 등 기존 프로젝트 관리 도구에서는 AI가 부수적인 챗봇으로만 통합되어 스크럼 프로세스에 진정으로 참여하지 못하는 문제가 있다. ]]></description>
+    <pubDate>Wed, 01 Jul 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vol.15 (6/18-6/25)</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/2026-06-18_06-25/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/2026-06-18_06-25/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.15 2026.6/18 – 6/25WEEKLY TECH &amp; AI DIGEST27 Articles This Week CLAUDE’S PICK Elasticsearch: 에이전트 메모리를 위한 3인덱스 하이브리드 검색 아키텍처 LLM 에이전트는 컨텍스트 윈도우 제한과 lost-in-the-middle 효과로 인해 장기적 사용자 이력을 효과적으로 활용하지 못한다. ]]></description>
+    <pubDate>Wed, 24 Jun 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vol.14 (6/11-6/18)</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/2026-06-11_06-18/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/2026-06-11_06-18/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.14 2026.6/11 – 6/18WEEKLY TECH &amp; AI DIGEST19 Articles This Week CLAUDE’S PICK Amazon Aurora MCP 서버 — LLM 에이전트와 데이터베이스 연결 표준화 LLM 기반 에이전트가 SQL을 직접 작성하지 않고도 자연어 명령으로 데이터베이스를 조작할 수 없는 문제를 해결하기 위해 AWS가 제공하는 MCP 서버 솔루션. ]]></description>
+    <pubDate>Wed, 17 Jun 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vol.13 (6/4-6/11)</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/2026-06-04_06-11/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/2026-06-04_06-11/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.13 2026.6/4 – 6/11WEEKLY TECH &amp; AI DIGEST24 Articles This Week CLAUDE’S PICK PaddleOCR-VL-1.6: 문서 파싱을 위한 멀티모달 OCR 모델 문서 이미지에서 텍스트, 레이아웃, 표, 수식 등을 정확히 추출하는 멀티모달 OCR 모델. ]]></description>
+    <pubDate>Wed, 10 Jun 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vol.12 (5/28-6/4)</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/2026-05-28_06-04/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/2026-05-28_06-04/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.12 2026.5/28 – 6/4WEEKLY TECH &amp; AI DIGEST27 Articles This Week CLAUDE’S PICK OmniRetrieval: 이질적 지식 소스 통합 검색 프레임워크 기존 RAG 시스템은 모든 지식을 벡터로 변환하여 단일 벡터 공간에 저장하므로 텍스트, 테이블, 지식 그래프 등 구조적으로 다양한 지식 소스의 특성을 손실한다. ]]></description>
+    <pubDate>Wed, 03 Jun 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vol.11 (5/21-5/28)</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/2026-05-21_05-28/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/2026-05-21_05-28/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.11 2026.5/21 – 5/28WEEKLY TECH &amp; AI DIGEST40 Articles This Week CLAUDE’S PICK Gemini 3.5: 프론티어 지능과 에이전트 기능을 결합한 최신 AI 모델 Google I/O 2026에서 공개된 Gemini 3.5는 최고 성능의 AI 모델들과 경쟁하면서도 Flash 시리즈의 빠른 속도를 유지하는 문제를 해결한다. ]]></description>
+    <pubDate>Wed, 27 May 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vol.10 (5/14-5/21)</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/2026-05-14_05-21/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/2026-05-14_05-21/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.10 2026.5/14 – 5/21WEEKLY TECH &amp; AI DIGEST35 Articles This Week CLAUDE’S PICK 로민 — 우리은행 다큐먼트 AI 지원으로 AI 전환 가속 금융기관의 대량 문서 처리 과정에서 수동 작업 부담이 큰 문제를 해결하기 위해 로민이 OCR 및 파싱 등 다큐먼트 AI 기술을 제공한다. ]]></description>
+    <pubDate>Wed, 20 May 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vol.9 (5/7-5/14)</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/2026-05-07_05-14/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/2026-05-07_05-14/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.9 2026.5/7 – 5/14WEEKLY TECH &amp; AI DIGEST36 Articles This Week CLAUDE’S PICK Kimi K2.6 — 중국 오픈웨이트 모델이 글로벌 AI 시장 재편하다 Claude Opus의 성능 우위에도 불구하고 가격 격차로 인한 실제 운영 비용 차이가 AI 에이전트 시장의 선택을 바꾸고 있다. ]]></description>
+    <pubDate>Wed, 13 May 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vol.8 (4/30-5/7)</title>
+    <link>https://rabieddin.github.io/dy-weekly-daemon/2026-04-30_05-07/</link>
+    <guid>https://rabieddin.github.io/dy-weekly-daemon/2026-04-30_05-07/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.8 2026.4/30 – 5/7WEEKLY TECH &amp; AI DIGEST33 Articles This Week CLAUDE’S PICK Claude — 금융 실무용 AI 에이전트 템플릿 공개 금융 기업들이 엑셀과 파워포인트에서 수동으로 처리해온 기업 가치 평가, 피칭 자료 작성, 월말 결산 업무를 자동화하기 어려운 문제를 해결한다. ]]></description>
+    <pubDate>Wed, 06 May 2026 15:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
