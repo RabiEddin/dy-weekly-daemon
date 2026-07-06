@@ -18,24 +18,34 @@ SMALL_ENOUGH = 150_000  # 이보다 작고 폭도 넘지 않으면 그대로 복
 
 
 def process(src: Path, dst: Path) -> str:
+    """확장자 기준으로 재인코딩 (.jpg인데 내용물이 PNG인 파일이 많음 — 확장자에 맞추는 게 옳음)."""
     try:
         im = Image.open(src)
+        if getattr(im, "n_frames", 1) > 1:  # 애니메이션(GIF 등)은 통과 — 프레임 리사이즈는 깨질 위험
+            shutil.copy2(src, dst)
+            return "copy"
         im = ImageOps.exif_transpose(im)  # EXIF 회전 반영 (리사이즈 시 EXIF 소실 대비)
     except Exception:
         shutil.copy2(src, dst)
         return "copy"
-    fmt = (im.format or Image.open(src).format or "").upper()
     w, h = im.size
     if w <= MAX_W and src.stat().st_size < SMALL_ENOUGH:
         shutil.copy2(src, dst)
         return "copy"
     if w > MAX_W:
         im = im.resize((MAX_W, max(1, int(h * MAX_W / w))), Image.LANCZOS)
+    ext = src.suffix.lower()
     try:
-        if fmt == "JPEG":
-            im.convert("RGB").save(dst, "JPEG", quality=JPEG_QUALITY,
-                                   optimize=True, progressive=True)
-        elif fmt == "PNG":
+        if ext in (".jpg", ".jpeg"):
+            if im.mode in ("RGBA", "LA", "P"):  # 투명도는 흰 배경에 플래튼
+                rgba = im.convert("RGBA")
+                bg = Image.new("RGB", rgba.size, (255, 255, 255))
+                bg.paste(rgba, mask=rgba.split()[-1])
+                im = bg
+            else:
+                im = im.convert("RGB")
+            im.save(dst, "JPEG", quality=JPEG_QUALITY, optimize=True, progressive=True)
+        elif ext == ".png":
             im.save(dst, "PNG", optimize=True)
         else:  # GIF·WebP·SVG 등은 건드리지 않음
             shutil.copy2(src, dst)
