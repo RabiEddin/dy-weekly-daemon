@@ -92,7 +92,8 @@ article {
 
   p {
     text-align: justify;
-    word-break: keep-all;
+    word-break: normal;        // 한글 음절 단위 줄바꿈(종이 신문 방식) — keep-all은 justify와 만나면 자간이 뭉침
+    overflow-wrap: break-word; // 긴 영단어·URL 넘침 방지
     font-size: 0.95rem;
     line-height: 1.65;
   }
@@ -115,7 +116,7 @@ article h3 {
   margin-top: 1.4em;
   margin-bottom: 0.25rem;
   line-height: 1.22;
-  letter-spacing: -0.01em;
+  letter-spacing: 0; // 음수 자간은 축소 시 Black Han Sans 글자가 붙어 보임
   break-inside: avoid; // 헤드라인이 컬럼 경계에서 잘리지 않게
   break-after: avoid;
 }
