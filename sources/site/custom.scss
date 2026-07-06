@@ -480,6 +480,19 @@ article .badges {
   max-height: 100vh;
 }
 
+// ---- 상단 괘선 일자 정렬: 좌우 첫 괘선(⌂·IN THIS ISSUE)을 마스트헤드 하단 굵은 선(5px)에 맞춤 ----
+// 가운데 스택과 동일 수식: margin-top(0.4rem) + 굵은 괘선(9px) + 제호(3.9rem×1.1)
+//                        + 메타 바(가는 줄 1.5px + 패딩 0.42rem + 글줄 ≈1.02rem)
+@media (min-width: 800px) {
+  .sidebar.left,
+  .sidebar.right {
+    padding-top: calc(0.4rem + 9px + 4.29rem + 1.5px + 1.44rem);
+  }
+}
+
+// 마스트헤드 위 breadcrumb(Home / Vol.N) 제거 — 신문 디자인에 불필요 + 상단 높이 변수 제거
+.breadcrumb-container { display: none; }
+
 // ---- 폴더 페이지 끝의 구조용 hr·빈 푸터 영역 숨김 (마감 괘선은 footer가 담당) ----
 .center > hr,
 .page-listing + hr,
