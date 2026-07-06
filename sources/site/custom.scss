@@ -297,7 +297,7 @@ article h2 {
     font-family: "Black Han Sans", sans-serif; // 랜딩과 같은 블랙 고딕
     text-decoration: none;
   }
-  a:hover { color: var(--tertiary); }
+  a:hover { color: var(--secondary); } // 링크 파랑 — 본문 링크와 통일
 }
 
 // 지난 호 목록에서 호가 아닌 항목 숨김 (랜딩 홈 링크·404·태그류)
@@ -328,7 +328,7 @@ body[data-slug="index"] .sidebar.left .recent-notes { display: none; }
       text-decoration: none;
     }
     a::before { content: "⌂ "; }
-    a:hover { color: var(--tertiary); }
+    a:hover { color: var(--secondary); }
   }
 
   // 검색·다크모드: 같은 잉크 박스 버튼 한 줄 (세로 중심선 강제 정렬)
@@ -368,7 +368,7 @@ body[data-slug="index"] .sidebar.left .recent-notes { display: none; }
 
     p { font-size: 0.8rem; margin: 0; letter-spacing: 0.12em; }
     svg { width: 13px; height: 13px; flex: none; }
-    &:hover { color: var(--tertiary); border-color: var(--tertiary); }
+    &:hover { color: var(--secondary); border-color: var(--secondary); }
   }
 
   .darkmode {
@@ -393,7 +393,7 @@ body[data-slug="index"] .sidebar.left .recent-notes { display: none; }
       left: 50%;
       transform: translate(-50%, -50%);
     }
-    &:hover { border-color: var(--tertiary); }
+    &:hover { border-color: var(--secondary); }
   }
 }
 
