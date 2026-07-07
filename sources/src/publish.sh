@@ -23,7 +23,7 @@ npx quartz build -o public-publish
 # 2) 사이트 → docs/ (PDF·기사 이미지 제외 동기화, GitHub Pages가 이 폴더를 서빙)
 mkdir -p "$DOCS"
 rsync -a --delete --exclude='vol-*.pdf' --exclude='/20*/images/' "$BUILD/" "$DOCS/"
-rm -f "$DOCS/CNAME"          # 커스텀 도메인 아님 — 있으면 Pages 설정 충돌
+echo "weekly-daemon.searchdoc.ai" > "$DOCS/CNAME"   # 커스텀 도메인 (Pages가 이 파일로 도메인 등록 유지)
 touch "$DOCS/.nojekyll"
 
 # 2.5) 기사 이미지 경량화 (원본이 갱신된 것만 — 폭 1400px 상한 + 재압축, 원본 불변)

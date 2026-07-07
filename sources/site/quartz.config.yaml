@@ -10,7 +10,7 @@ configuration:
   analytics:
     provider: null
   locale: ko-KR
-  baseUrl: rabieddin.github.io/dy-weekly-daemon
+  baseUrl: weekly-daemon.searchdoc.ai
   ignorePatterns:
     - private
     - templates
