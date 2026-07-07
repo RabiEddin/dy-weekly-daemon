@@ -239,7 +239,7 @@ def write_landing(weeks, vol_of) -> None:
         rng = f"{int(w[5:7])}/{int(w[8:10])}-{int(w[11:13])}/{int(w[14:16])}"
         pdf = OUT / w / f"vol-{vol:02d}.pdf"
         if pdf.exists():
-            lines.append(f"- [**Vol.{vol}** ({rng})]({w}) · [PDF]({w}/vol-{vol:02d}.pdf)")
+            lines.append(f'- [**Vol.{vol}** ({rng})]({w}) · <a href="{w}/vol-{vol:02d}.pdf" target="_blank" rel="noopener">PDF</a>')
         else:
             lines.append(f"- [Vol.{vol} ({rng})]({w})")
     (OUT / "index.md").write_text("\n".join(lines) + "\n")
