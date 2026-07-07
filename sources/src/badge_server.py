@@ -165,17 +165,42 @@ def start_publish() -> str | None:
 # ---------- PDF 스탬프 ----------
 
 def _find_anchor(pdf_path: Path, title: str):
-    """pdfminer로 제목 라인의 (page, x1, y_top) 탐색."""
+    """제목의 마지막 줄 기준 앵커 탐색.
+
+    반환: (page, last_x0, last_x1, last_y0, last_y1, col_right, n_lines)
+    제목이 줄바꿈되면 이어지는 줄(같은 x0, 바로 아래, 비슷한 높이)을 따라가
+    마지막 줄을 찾는다. col_right = 제목 줄들의 최대 x1 (칼럼 오른쪽 추정).
+    """
     from pdfminer.high_level import extract_pages
     from pdfminer.layout import LTTextContainer, LTTextLine
-    key = norm(title)[:12]
+    key = norm(title)
     for pidx, layout in enumerate(extract_pages(str(pdf_path))):
+        all_lines = []
         for el in layout:
-            if not isinstance(el, LTTextContainer):
+            if isinstance(el, LTTextContainer):
+                all_lines.extend(l for l in el if isinstance(l, LTTextLine))
+        for line in all_lines:
+            if not norm(line.get_text())[:12].startswith(key[:8]):
                 continue
-            for line in el:
-                if isinstance(line, LTTextLine) and norm(line.get_text())[:12].startswith(key[:8]):
-                    return pidx, line.x1, line.y1
+            tls = [line]
+            acc = norm(line.get_text())
+            h0 = line.height
+            cur = line
+            while len(acc) < len(key) - 1:
+                nxt = None
+                for l2 in all_lines:
+                    if l2 in tls or abs(l2.height - h0) > h0 * 0.35:
+                        continue
+                    if abs(l2.x0 - cur.x0) < 12 and -2 <= (cur.y0 - l2.y1) < h0 * 1.2:
+                        nxt = l2
+                        break
+                if not nxt:
+                    break
+                tls.append(nxt)
+                acc += norm(nxt.get_text())
+                cur = nxt
+            last = tls[-1]
+            return pidx, last.x0, last.x1, last.y0, last.y1, max(l.x1 for l in tls), len(tls)
     return None
 
 
@@ -216,16 +241,24 @@ def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
         anchor = _find_anchor(pdf_path, title)
         if not anchor:
             return False
-        pidx, x1, y_top = anchor
-        # 같은 기사 기존 스탬프 수만큼 왼쪽으로 밀어 겹침 배치
+        pidx, lx0, lx1, ly0, ly1, col_right, nlines = anchor
         page = writer.pages[pidx]
         existing = 0
         for a in page.get("/Annots") or []:
-            if str(a.get_object().get("/NM", "")).startswith(f"dybadge:") and str(a.get_object().get("/NM", "")).endswith(f":{n}"):
+            nm_ = str(a.get_object().get("/NM", ""))
+            if nm_.startswith("dybadge:") and nm_.split(":")[-1] == str(n):
                 existing += 1
         size = 34.0
-        x0 = min(x1 + 6 + existing * (size * 0.55), float(page.mediabox.width) - size - 8)
-        y0 = y_top - size + 10
+        if nlines >= 2:
+            # 여러 줄 제목: 마지막 줄 끝 오른쪽에 (칼럼 경계는 살짝만 넘게)
+            x0 = lx1 + 6 + existing * (size * 0.55)
+            x0 = min(x0, col_right - size + 14)
+            y0 = ly1 - size + 10
+        else:
+            # 한 줄 제목: 제목 끝 아래에 (추가 스탬프는 왼쪽으로)
+            x0 = lx1 - size + 4 - existing * (size * 0.55)
+            y0 = ly0 - size - 2
+        x0 = max(8.0, min(x0, float(page.mediabox.width) - size - 4))
         rect = [x0, y0, x0 + size, y0 + size]
 
         img = Image.open(STICKER_PNG[kind]).convert("RGBA")
