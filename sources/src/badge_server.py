@@ -77,6 +77,9 @@ def edit_md(week: str, n: int, kind: str, op: str) -> str:
             lines[j] = '<div class="badges">' + " ".join(BADGE_IMG[k] for k in sorted(kinds)) + "</div>"
         else:
             lines[j] = f"<!-- badge:{n} -->"
+        # HTML 블록이 다음 줄(이미지/본문)을 삼키지 않도록 빈 줄 보장
+        if j + 1 < len(lines) and lines[j + 1].strip():
+            lines.insert(j + 1, "")
         p.write_text("\n".join(lines) + "\n")
         return title
     raise ValueError(f"기사 {n} 없음 (총 {counter})")
