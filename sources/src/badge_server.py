@@ -199,8 +199,9 @@ def _find_anchor(pdf_path: Path, title: str):
                 tls.append(nxt)
                 acc += norm(nxt.get_text())
                 cur = nxt
-            last = tls[-1]
-            return pidx, last.x0, last.x1, last.y0, last.y1, max(l.x1 for l in tls), len(tls)
+            first, last = tls[0], tls[-1]
+            return (pidx, first.x0, first.x1, first.y0, first.y1,
+                    last.x0, last.x1, last.y0, last.y1, max(l.x1 for l in tls), len(tls))
     return None
 
 
@@ -241,7 +242,7 @@ def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
         anchor = _find_anchor(pdf_path, title)
         if not anchor:
             return False
-        pidx, lx0, lx1, ly0, ly1, col_right, nlines = anchor
+        pidx, fx0, fx1, fy0, fy1, lx0, lx1, ly0, ly1, col_right, nlines = anchor
         page = writer.pages[pidx]
         existing = 0
         for a in page.get("/Annots") or []:
@@ -249,15 +250,19 @@ def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
             if nm_.startswith("dybadge:") and nm_.split(":")[-1] == str(n):
                 existing += 1
         size = 34.0
-        if nlines >= 2:
-            # 여러 줄 제목: 마지막 줄 끝 오른쪽에 (칼럼 경계는 살짝만 넘게)
-            x0 = lx1 + 6 + existing * (size * 0.55)
-            x0 = min(x0, col_right - size + 14)
-            y0 = ly1 - size + 10
+        if n == 1:
+            # 헤드라인: 마지막 줄 끝 오른쪽 (한 줄이면 제목 끝 아래)
+            if nlines >= 2:
+                x0 = lx1 + 6 + existing * (size * 0.55)
+                x0 = min(x0, col_right - size + 14)
+                y0 = ly1 - size + 10
+            else:
+                x0 = lx1 - size + 4 - existing * (size * 0.55)
+                y0 = ly0 - size - 2
         else:
-            # 한 줄 제목: 제목 끝 아래에 (추가 스탬프는 왼쪽으로)
-            x0 = lx1 - size + 4 - existing * (size * 0.55)
-            y0 = ly0 - size - 2
+            # 일반 기사: 제목 왼쪽 위 (추가 스탬프는 오른쪽으로)
+            x0 = fx0 - 4 + existing * (size * 0.55)
+            y0 = fy1 - 6  # 스탬프 하단이 제목 첫 줄 상단에 살짝 걸침
         x0 = max(8.0, min(x0, float(page.mediabox.width) - size - 4))
         rect = [x0, y0, x0 + size, y0 + size]
 
