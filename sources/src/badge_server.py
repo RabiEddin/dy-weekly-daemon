@@ -10,7 +10,10 @@
   uv run --with pypdf --with pillow --with pdfminer.six python3 src/badge_server.py
 """
 import json
+import os
 import re
+import subprocess
+import threading
 import unicodedata
 import zlib
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -102,6 +105,58 @@ def edit_wiki(week: str, title: str, kind: str, op: str) -> bool:
         wp.write_text("\n".join(lines) + "\n")
         return True
     return False
+
+
+# ---------- 발행 ----------
+
+PUBLISH_STATE = {"running": False, "ok": None, "log": "", "released": None}
+
+
+def _latest_week():
+    weeks = sorted(d for d in NEWS.iterdir() if d.is_dir() and d.name[:4].isdigit())
+    return weeks[-1] if weeks else None
+
+
+def _latest_draft():
+    """최신 호가 draft: true면 주차명, 아니면 None."""
+    d = _latest_week()
+    if d and re.search(r"^draft: true$", (d / "index.md").read_text(), re.M):
+        return d.name
+    return None
+
+
+def _run_publish():
+    # 로그인 셸 + ~/.zshrc 로 npx/uv/gh/git 인증 환경 확보 (데몬에서 실행되므로)
+    cmd = f'source ~/.zshrc >/dev/null 2>&1; exec "{PROJECT}/src/publish.sh"'
+    try:
+        proc = subprocess.Popen(
+            ["/bin/zsh", "-lc", cmd], cwd=str(PROJECT), text=True,
+            stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+            env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+        )
+        for line in proc.stdout:
+            PUBLISH_STATE["log"] += line
+        PUBLISH_STATE["ok"] = proc.wait() == 0
+    except Exception as e:
+        PUBLISH_STATE["log"] += f"\n{e}"
+        PUBLISH_STATE["ok"] = False
+    finally:
+        PUBLISH_STATE["running"] = False
+
+
+def start_publish() -> str | None:
+    """최신 호 draft 해제 + publish.sh 백그라운드 실행. 반환: 해제한 주차명(없으면 None)."""
+    if PUBLISH_STATE["running"]:
+        raise ValueError("이미 발행이 진행 중입니다")
+    released = None
+    week = _latest_draft()
+    if week:
+        p = NEWS / week / "index.md"
+        p.write_text(re.sub(r"^draft: true$", "draft: false", p.read_text(), count=1, flags=re.M))
+        released = week
+    PUBLISH_STATE.update(running=True, ok=None, log="", released=released)
+    threading.Thread(target=_run_publish, daemon=True).start()
+    return released
 
 
 # ---------- PDF 스탬프 ----------
@@ -225,6 +280,70 @@ def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
 BADGE_JS = r"""
 (function () {
   if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return;
+  var API = "http://127.0.0.1:8099";
+
+  // ---- 발행 버튼 (localhost 전용, 모든 페이지 우하단) ----
+  var btn = document.createElement("button");
+  btn.textContent = "발행";
+  btn.style.cssText = "position:fixed;right:18px;bottom:18px;z-index:9999;" +
+    "padding:10px 20px;border:none;border-radius:24px;cursor:pointer;" +
+    "background:#6B3FA0;color:#fff;font-weight:700;font-size:14px;font-family:inherit;" +
+    "box-shadow:0 2px 8px rgba(0,0,0,.3);";
+  document.body.appendChild(btn);
+
+  function setBusy(last) {
+    btn.disabled = true;
+    btn.style.opacity = ".6";
+    btn.style.cursor = "wait";
+    btn.textContent = "발행 중…";
+    btn.title = last || "";
+  }
+  function setIdle() {
+    btn.disabled = false;
+    btn.style.opacity = "1";
+    btn.style.cursor = "pointer";
+    btn.textContent = "발행";
+    btn.title = "";
+  }
+
+  function pollPublish() {
+    fetch(API + "/api/publish/status").then(function (r) { return r.json(); }).then(function (s) {
+      if (s.running) {
+        setBusy(s.last);
+        setTimeout(pollPublish, 3000);
+      } else if (s.ok === true) {
+        setIdle();
+        alert("✅ 발행 완료 — 1~2분 후 라이브 반영\nhttps://rabieddin.github.io/dy-weekly-daemon/" +
+          (s.released ? "\n(draft 해제: " + s.released + ")" : ""));
+      } else if (s.ok === false) {
+        setIdle();
+        alert("❌ 발행 실패:\n" + (s.tail || "로그 없음"));
+      } else {
+        setIdle();
+      }
+    }).catch(function () { setIdle(); });
+  }
+
+  btn.addEventListener("click", function () {
+    fetch(API + "/api/publish/status").then(function (r) { return r.json(); }).then(function (s) {
+      if (s.running) { setBusy(s.last); pollPublish(); return; }
+      var msg = s.latest_draft
+        ? "이번 호(" + s.latest_draft + ") draft를 해제하고 발행할까요?"
+        : "새 draft 없음 — 현재 상태 그대로 재발행할까요?";
+      if (!confirm(msg + "\n(빌드+업로드 1~3분 소요)")) return;
+      setBusy("");
+      fetch(API + "/api/publish", { method: "POST" }).then(function (r) { return r.json(); }).then(function (res) {
+        if (!res.ok) { setIdle(); alert("발행 시작 실패: " + res.error); return; }
+        pollPublish();
+      }).catch(function () { setIdle(); alert("배지 서버가 꺼져 있습니다"); });
+    }).catch(function () { alert("배지 서버가 꺼져 있습니다"); });
+  });
+
+  // 페이지 이동 후에도 진행 중이던 발행 이어서 표시
+  fetch(API + "/api/publish/status").then(function (r) { return r.json(); }).then(function (s) {
+    if (s.running) { setBusy(s.last); pollPublish(); }
+  }).catch(function () {});
+
   var slug = document.body.dataset.slug || "";
   var m = slug.match(/^(\d{4}-\d{2}-\d{2}_\d{2}-\d{2})/);
   if (!m) return;
@@ -315,10 +434,25 @@ class Handler(BaseHTTPRequestHandler):
             self._send(200, BADGE_JS, "application/javascript")
         elif self.path == "/ping":
             self._send(200, '{"ok":true}')
+        elif self.path == "/api/publish/status":
+            lines = [l for l in PUBLISH_STATE["log"].splitlines() if l.strip()]
+            self._send(200, json.dumps({
+                "running": PUBLISH_STATE["running"], "ok": PUBLISH_STATE["ok"],
+                "released": PUBLISH_STATE["released"],
+                "last": lines[-1] if lines else "",
+                "tail": "\n".join(lines[-15:]),
+                "latest_draft": _latest_draft(),
+            }, ensure_ascii=False))
         else:
             self._send(404, '{"error":"not found"}')
 
     def do_POST(self):
+        if self.path == "/api/publish":
+            try:
+                released = start_publish()
+                return self._send(200, json.dumps({"ok": True, "released": released}, ensure_ascii=False))
+            except Exception as e:
+                return self._send(500, json.dumps({"ok": False, "error": str(e)}, ensure_ascii=False))
         if self.path != "/api/badge":
             return self._send(404, '{"error":"not found"}')
         try:
