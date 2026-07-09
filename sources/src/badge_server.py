@@ -174,35 +174,44 @@ def _find_anchor(pdf_path: Path, title: str):
     from pdfminer.high_level import extract_pages
     from pdfminer.layout import LTTextContainer, LTTextLine
     key = norm(title)
+    klen = min(12, len(key))
+    # 전 페이지에서 후보 수집 → 본문에 제목 앞부분이 등장해도(예: "Claude Code…")
+    # 글자가 가장 큰 줄(제목 폰트)을 채택해 오매칭 방지
+    pages = []
+    cands = []
     for pidx, layout in enumerate(extract_pages(str(pdf_path))):
         all_lines = []
         for el in layout:
             if isinstance(el, LTTextContainer):
                 all_lines.extend(l for l in el if isinstance(l, LTTextLine))
+        pages.append(all_lines)
         for line in all_lines:
-            if not norm(line.get_text())[:12].startswith(key[:8]):
+            if norm(line.get_text())[: klen + 2].startswith(key[:klen]):
+                cands.append((pidx, line))
+    if not cands:
+        return None
+    pidx, line = max(cands, key=lambda c: c[1].height)
+    all_lines = pages[pidx]
+    tls = [line]
+    acc = norm(line.get_text())
+    h0 = line.height
+    cur = line
+    while len(acc) < len(key) - 1:
+        nxt = None
+        for l2 in all_lines:
+            if l2 in tls or abs(l2.height - h0) > h0 * 0.35:
                 continue
-            tls = [line]
-            acc = norm(line.get_text())
-            h0 = line.height
-            cur = line
-            while len(acc) < len(key) - 1:
-                nxt = None
-                for l2 in all_lines:
-                    if l2 in tls or abs(l2.height - h0) > h0 * 0.35:
-                        continue
-                    if abs(l2.x0 - cur.x0) < 12 and -2 <= (cur.y0 - l2.y1) < h0 * 1.2:
-                        nxt = l2
-                        break
-                if not nxt:
-                    break
-                tls.append(nxt)
-                acc += norm(nxt.get_text())
-                cur = nxt
-            first, last = tls[0], tls[-1]
-            return (pidx, first.x0, first.x1, first.y0, first.y1,
-                    last.x0, last.x1, last.y0, last.y1, max(l.x1 for l in tls), len(tls))
-    return None
+            if abs(l2.x0 - cur.x0) < 12 and -2 <= (cur.y0 - l2.y1) < h0 * 1.2:
+                nxt = l2
+                break
+        if not nxt:
+            break
+        tls.append(nxt)
+        acc += norm(nxt.get_text())
+        cur = nxt
+    first, last = tls[0], tls[-1]
+    return (pidx, first.x0, first.x1, first.y0, first.y1,
+            last.x0, last.x1, last.y0, last.y1, max(l.x1 for l in tls), len(tls))
 
 
 def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
@@ -244,24 +253,28 @@ def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
             return False
         pidx, fx0, fx1, fy0, fy1, lx0, lx1, ly0, ly1, col_right, nlines = anchor
         page = writer.pages[pidx]
-        existing = 0
+        # 같은 기사의 기존 스탬프 실제 x좌표들 — 개수 대신 좌표 기준으로 다음 슬롯 배정
+        # (뗐다 다시 붙여도 남은 스탬프와 안 겹침)
+        xs = []
         for a in page.get("/Annots") or []:
-            nm_ = str(a.get_object().get("/NM", ""))
+            o_ = a.get_object()
+            nm_ = str(o_.get("/NM", ""))
             if nm_.startswith("dybadge:") and nm_.split(":")[-1] == str(n):
-                existing += 1
+                xs.append(float(o_["/Rect"][0]))
         size = 34.0
+        step = size * 0.55
         if n == 1:
             # 헤드라인: 마지막 줄 끝 오른쪽 (한 줄이면 제목 끝 아래)
             if nlines >= 2:
-                x0 = lx1 + 6 + existing * (size * 0.55)
+                x0 = (max(xs) + step) if xs else (lx1 + 6)
                 x0 = min(x0, col_right - size + 14)
                 y0 = ly1 - size + 10
             else:
-                x0 = lx1 - size + 4 - existing * (size * 0.55)
+                x0 = (min(xs) - step) if xs else (lx1 - size + 4)
                 y0 = ly0 - size - 2
         else:
             # 일반 기사: 제목 왼쪽 위 (추가 스탬프는 오른쪽으로)
-            x0 = fx0 - 4 + existing * (size * 0.55)
+            x0 = (max(xs) + step) if xs else (fx0 - 4)
             y0 = fy1 - 6  # 스탬프 하단이 제목 첫 줄 상단에 살짝 걸침
         x0 = max(8.0, min(x0, float(page.mediabox.width) - size - 4))
         rect = [x0, y0, x0 + size, y0 + size]
