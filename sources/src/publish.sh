@@ -48,10 +48,13 @@ done
 
 # 4) 소스 백업 (디자인·스크립트·신문 md — 재해 복구용)
 SRCDIR="$PUB/sources"
-mkdir -p "$SRCDIR/site/toc-dist-patch/components" "$SRCDIR/src" "$SRCDIR/newspaper"
+mkdir -p "$SRCDIR/site/toc-dist-patch/components" "$SRCDIR/site/search-dist-patch/components" "$SRCDIR/src" "$SRCDIR/newspaper"
 cp "$SITE/quartz.config.yaml" "$SITE/quartz/styles/custom.scss" "$SRCDIR/site/"
 cp "$SITE/.quartz/plugins/table-of-contents/dist/index.js" "$SRCDIR/site/toc-dist-patch/"
 cp "$SITE/.quartz/plugins/table-of-contents/dist/components/index.js" "$SRCDIR/site/toc-dist-patch/components/"
+# 검색 한글 bigram 패치 (플러그인 업데이트 시 재적용 필요)
+cp "$SITE/.quartz/plugins/search/dist/index.js" "$SRCDIR/site/search-dist-patch/"
+cp "$SITE/.quartz/plugins/search/dist/components/index.js" "$SRCDIR/site/search-dist-patch/components/"
 for f in render_newspaper_md.py sync_stickers.py badge_server.py compress_pdf.py compress_img.py serve.sh publish.sh; do
   cp "$PROJECT/src/$f" "$SRCDIR/src/"
 done
