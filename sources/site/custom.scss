@@ -241,6 +241,8 @@ footer {
 
 // ---- 섹션 배너 (h2): 검정 박스 라벨 (시안 스타일 — 괘선 대신 대비로 구분) ----
 // 러닝 헤드: 섹션을 읽는 동안 화면 상단에 붙어 따라오고, 다음 섹션이 오면 교체됨
+// min-width = 가장 긴 라벨(DEVTOOLS & OPEN SOURCE) 이상으로 폭 통일 —
+// 다음 배너가 이전 배너를 항상 완전히 가려서 "교체"로 보이게 (좁은 라벨이 넓은 걸 못 덮는 문제 방지)
 article h2 {
   font-family: "Black Han Sans", sans-serif;
   font-size: 0.92rem;
@@ -249,13 +251,17 @@ article h2 {
   color: var(--light);
   display: block;
   width: fit-content;
+  min-width: min(22em, 100%);
+  box-sizing: border-box;
+  text-align: center; // 폭 통일로 생긴 여백을 좌우로 분산 (짧은 라벨 균형)
   padding: 0.3em 1em 0.26em 1em;
   margin: 1rem 0; // 위아래 동일 간격 (본문 문단 여백과 같은 값)
   border: none;
   position: sticky;
   top: 0.5rem;
   z-index: 3;
-  box-shadow: 2.5px 2.5px 0 color-mix(in srgb, var(--dark) 25%, transparent);
+  // 그림자는 불투명하게 — 반투명이면 겹친 배너의 그림자가 이중으로 짙어져 "밑에 뭔가" 보임
+  box-shadow: 2.5px 2.5px 0 color-mix(in srgb, var(--dark) 25%, var(--light));
 }
 
 // ---- 왼쪽 사이드바: "지난 호" 아카이브 목록 (신문 톤) ----
