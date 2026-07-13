@@ -304,6 +304,7 @@ article h2 {
     text-decoration: none;
   }
   a:hover { color: var(--secondary); } // 링크 파랑 — 본문 링크와 통일
+  a.current-vol { color: var(--tertiary); } // 지금 보고 있는 호 — TOC 현재 위치와 같은 잉크
 }
 
 // 지난 호 목록에서 호가 아닌 항목 숨김 (랜딩 홈 링크·404·태그류)

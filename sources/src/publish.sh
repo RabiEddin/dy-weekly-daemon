@@ -20,6 +20,9 @@ perl -0pi -e 's/(remove-draft\n\s*enabled: )false/${1}true/' quartz.config.yaml
 trap 'cd "$SITE" && perl -0pi -e "s/(remove-draft\n\s*enabled: )true/\${1}false/" quartz.config.yaml' EXIT
 npx quartz build -o public-publish
 
+# 1.5) 검색 인덱스 기사 단위 분해 — 검색 결과가 호(vol)가 아닌 기사 제목으로 뜨고 기사 앵커로 이동
+python3 "$PROJECT/src/split_search_index.py" "$BUILD"
+
 # 2) 사이트 → docs/ (PDF·기사 이미지 제외 동기화, GitHub Pages가 이 폴더를 서빙)
 mkdir -p "$DOCS"
 rsync -a --delete --exclude='vol-*.pdf' --exclude='/20*/images/' "$BUILD/" "$DOCS/"
@@ -55,12 +58,13 @@ cp "$SITE/.quartz/plugins/table-of-contents/dist/components/index.js" "$SRCDIR/s
 # 검색 한글 bigram 패치 (플러그인 업데이트 시 재적용 필요)
 cp "$SITE/.quartz/plugins/search/dist/index.js" "$SRCDIR/site/search-dist-patch/"
 cp "$SITE/.quartz/plugins/search/dist/components/index.js" "$SRCDIR/site/search-dist-patch/components/"
-for f in render_newspaper_md.py sync_stickers.py badge_server.py compress_pdf.py compress_img.py serve.sh publish.sh; do
+for f in render_newspaper_md.py sync_stickers.py badge_server.py compress_pdf.py compress_img.py split_search_index.py serve.sh publish.sh; do
   cp "$PROJECT/src/$f" "$SRCDIR/src/"
 done
 cp "$PROJECT/newspaper/index.md" "$SRCDIR/newspaper/"
 for d in "$PROJECT"/newspaper/*/; do
   w="$(basename "$d")"
+  [ -d "$DOCS/$w" ] || continue   # draft 주차 제외 — 미발행 기사가 공개 repo에 선공개되는 것 방지
   [ -f "$d/index.md" ] && mkdir -p "$SRCDIR/newspaper/$w" && cp "$d/index.md" "$SRCDIR/newspaper/$w/"
 done
 
