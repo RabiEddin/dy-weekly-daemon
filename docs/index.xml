@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF Vol.13 (6/4-6/11) · PDF Vol.12 (5/28-6/4) · PDF Vol.11 (5/21-5/28) · PDF Vol.10 (5/14-5/21) · PDF Vol.9 (5/7-5/14) · PDF Vol.8 (4/30-5/7) · PDF Vol.7 (4/23-4/30) · PDF Vol.6 (4/16-4/23) · PDF Vol... ]]></description>
-    <pubDate>Thu, 09 Jul 2026 01:08:35 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF Vol.13 (6/4-6/11) · PDF Vol.12 (5/28-6/4) · PDF Vol.11 (5/21-5/28) · PDF Vol.10 (5/14-5/21) · PDF Vol.9 (5/7-5/14) · PDF Vol.8 (4/30-5/7) · PDF Vol.7 (4/23-4/30) · PDF Vol... ]]></description>
+    <pubDate>Thu, 16 Jul 2026 01:08:36 GMT</pubDate>
+  </item><item>
+    <title>Vol.18 (7/9-7/16)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-07-09_07-16/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-07-09_07-16/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.18 7/9 - 7/16WEEKLY TECH &amp; AI DIGEST26 Articles This Week CLAUDE’S PICK Obsidian Second Brain — AI 우선 크로스 CLI 기반 자동갱신 노트 시스템 사용자의 Obsidian 볼트가 시간이 지남에 따라 자동으로 진부화되거나 모순되는 문제를 해결하는 시스템. ]]></description>
+    <pubDate>Wed, 15 Jul 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.17 (7/2-7/9)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-07-02_07-09/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-05-14_05-21/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.10 2026.5/14 – 5/21WEEKLY TECH &amp; AI DIGEST35 Articles This Week CLAUDE’S PICK 로민 — 우리은행 다큐먼트 AI 지원으로 AI 전환 가속 금융기관의 대량 문서 처리 과정에서 수동 작업 부담이 큰 문제를 해결하기 위해 로민이 OCR 및 파싱 등 다큐먼트 AI 기술을 제공한다. ]]></description>
     <pubDate>Wed, 20 May 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.9 (5/7-5/14)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-05-07_05-14/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-05-07_05-14/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.9 2026.5/7 – 5/14WEEKLY TECH &amp; AI DIGEST36 Articles This Week CLAUDE’S PICK Kimi K2.6 — 중국 오픈웨이트 모델이 글로벌 AI 시장 재편하다 Claude Opus의 성능 우위에도 불구하고 가격 격차로 인한 실제 운영 비용 차이가 AI 에이전트 시장의 선택을 바꾸고 있다. ]]></description>
-    <pubDate>Wed, 13 May 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
