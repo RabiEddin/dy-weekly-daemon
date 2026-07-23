@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF Vol.13 (6/4-6/11) · PDF Vol.12 (5/28-6/4) · PDF Vol.11 (5/21-5/28) · PDF Vol.10 (5/14-5/21) · PDF Vol.9 (5/7-5/14) · PDF Vol.8 (4/30-5/7) · PDF Vol.7 (4/23-4/30) · PDF Vol... ]]></description>
-    <pubDate>Thu, 16 Jul 2026 01:08:36 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF Vol.13 (6/4-6/11) · PDF Vol.12 (5/28-6/4) · PDF Vol.11 (5/21-5/28) · PDF Vol.10 (5/14-5/21) · PDF Vol.9 (5/7-5/14) · PDF Vol.8 (4/30-5/7) · PDF Vo... ]]></description>
+    <pubDate>Thu, 23 Jul 2026 01:09:32 GMT</pubDate>
+  </item><item>
+    <title>Vol.19 (7/16-7/23)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-07-16_07-23/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-07-16_07-23/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.19 7/16 - 7/23WEEKLY TECH &amp; AI DIGEST30 Articles This Week CLAUDE’S PICK ColGraphRAG: 다중모드 그래프 기반 질문 답변의 시각 증거 검색 개선 그래프 기반 다중모드 질문 답변에서 텍스트, 표, 이미지를 구조화된 증거 그래프로 조직하지만, 단일 벡터 기반 인코더는 미세한 정렬에 필요한 패치 및 토큰 수준의 구조를 손실시키는 문제가 있다. ]]></description>
+    <pubDate>Wed, 22 Jul 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.18 (7/9-7/16)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-07-09_07-16/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-05-21_05-28/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.11 2026.5/21 – 5/28WEEKLY TECH &amp; AI DIGEST40 Articles This Week CLAUDE’S PICK Gemini 3.5: 프론티어 지능과 에이전트 기능을 결합한 최신 AI 모델 Google I/O 2026에서 공개된 Gemini 3.5는 최고 성능의 AI 모델들과 경쟁하면서도 Flash 시리즈의 빠른 속도를 유지하는 문제를 해결한다. ]]></description>
     <pubDate>Wed, 27 May 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.10 (5/14-5/21)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-05-14_05-21/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-05-14_05-21/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.10 2026.5/14 – 5/21WEEKLY TECH &amp; AI DIGEST35 Articles This Week CLAUDE’S PICK 로민 — 우리은행 다큐먼트 AI 지원으로 AI 전환 가속 금융기관의 대량 문서 처리 과정에서 수동 작업 부담이 큰 문제를 해결하기 위해 로민이 OCR 및 파싱 등 다큐먼트 AI 기술을 제공한다. ]]></description>
-    <pubDate>Wed, 20 May 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
