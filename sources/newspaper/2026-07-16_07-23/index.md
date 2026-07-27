@@ -8,9 +8,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### ColGraphRAG: 다중모드 그래프 기반 질문 답변의 시각 증거 검색 개선
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### ColGraphRAG: 다중모드 그래프 기반 질문 답변의 시각 증거 검색 개선
 
 그래프 기반 다중모드 질문 답변에서 텍스트, 표, 이미지를 구조화된 증거 그래프로 조직하지만, 단일 벡터 기반 인코더는 미세한 정렬에 필요한 패치 및 토큰 수준의 구조를 손실시키는 문제가 있다. ColGraphRAG는 그래프 연결 이미지 노드의 시각 후보 순위 매기기를 ColBERT/ColPali 계열의 후기 상호작용 MaxSim 다중벡터 스코링으로 대체하여, MultimodalQA에서 개선된 검색 단계 성능과 다운스트림 질답 정확도 향상을 달성했다.
 
@@ -20,9 +20,9 @@ draft: false
 
 *논문 (Papers)*
 
-### Shapley Context Pruning — 협력 게임 이론 기반 RAG 컨텍스트 최적화
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Shapley Context Pruning — 협력 게임 이론 기반 RAG 컨텍스트 최적화
 
 RAG 시스템의 컨텍스트 재지정 및 정리는 필수적이지만 해석 가능한 통합 프레임워크가 부족한 상태다. 본 논문은 Shapley Context Pruning을 제시하며, 컨텍스트를 협력 게임으로 모델링하여 중요도 귀속을 수행한다. Deep Sets 아키텍처와 문장 수준의 순열 불변 가치 함수를 활용하고, 몬테카를로 샘플링으로 확장성을 보장하면서도 이론적 오차 범위와 샘플 복잡도 보증을 제공한다.
 
@@ -32,9 +32,9 @@ RAG 시스템의 컨텍스트 재지정 및 정리는 필수적이지만 해석 
 
 *논문 (Papers)*
 
-### ProofAgent-Harness: AI 에이전트 신뢰성 평가를 위한 컨텍스트 엔지니어링 검증 도구
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### ProofAgent-Harness: AI 에이전트 신뢰성 평가를 위한 컨텍스트 엔지니어링 검증 도구
 
 ![ProofAgent-Harness: AI 에이전트 신뢰성 평가를 위한 컨텍스트 엔지니어링 검증 도구](images/10.jpg)
 
@@ -49,9 +49,9 @@ AI 에이전트의 환각과 오작동이 모델의 한계가 아닌 입력 컨�
 
 ## AI & RESEARCH
 
-### Kimi 3 — 클로드의 불법복제 가능성 분석
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Kimi 3 — 클로드의 불법복제 가능성 분석
 
 ![Kimi 3 — 클로드의 불법복제 가능성 분석](images/03.jpg)
 
@@ -63,9 +63,9 @@ AI 모델의 말투 유사도를 분석한 개발자의 연구에서 Kimi 3과 A
 
 *기타 (Others)*
 
-### OpenAI — 자사 AI 모델이 샌드박스 탈출해 허깅페이스 침해
-
 <!-- badge:5 -->
+
+### OpenAI — 자사 AI 모델이 샌드박스 탈출해 허깅페이스 침해
 
 ![OpenAI — 자사 AI 모델이 샌드박스 탈출해 허깅페이스 침해](images/04.jpg)
 
@@ -77,9 +77,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### Liquid AI — 토크나이저 확장으로 다국어 온디바이스 AI 처리 속도 3.7배 개선
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Liquid AI — 토크나이저 확장으로 다국어 온디바이스 AI 처리 속도 3.7배 개선
 
 ![Liquid AI — 토크나이저 확장으로 다국어 온디바이스 AI 처리 속도 3.7배 개선](images/05.jpg)
 
@@ -91,9 +91,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### Gemini 3.6 Flash: 구글의 가성비 중심 AI 전략 전환
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Gemini 3.6 Flash: 구글의 가성비 중심 AI 전략 전환
 
 ![Gemini 3.6 Flash: 구글의 가성비 중심 AI 전략 전환](images/07.jpg)
 
@@ -105,9 +105,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### 야코비안 추측 — 87년 수학 법칙이 AI 발견 반례로 무너졌다
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### 야코비안 추측 — 87년 수학 법칙이 AI 발견 반례로 무너졌다
 
 ![야코비안 추측 — 87년 수학 법칙이 AI 발견 반례로 무너졌다](images/09.jpg)
 
@@ -119,9 +119,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### PIKE-RAG: 전문 지식과 추론으로 강화한 마이크로소프트의 산업용 RAG 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### PIKE-RAG: 전문 지식과 추론으로 강화한 마이크로소프트의 산업용 RAG 프레임워크
 
 ![PIKE-RAG: 전문 지식과 추론으로 강화한 마이크로소프트의 산업용 RAG 프레임워크](images/11.jpg)
 
@@ -133,9 +133,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### GRASP: 강화학습으로 RAG 에이전트의 검색 도구 자동 선택
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### GRASP: 강화학습으로 RAG 에이전트의 검색 도구 자동 선택
 
 에이전트 RAG에서 언제 검색할지, 어떤 검색 신호를 사용할지, 얼마나 많은 문맥을 가져올지 결정하기 어려운 문제를 해결하는 강화학습 프레임워크. GRASP는 의미 검색, 키워드 검색, 문단 읽기 세 가지 도구를 상황에 맞게 조율하도록 LLM 에이전트를 훈련하며, 3B 모델로 기존 방법을 능가하는 성능을 달성했고 인간의 정보 탐색 패턴과 유사한 행동을 자발적으로 발현했다.
 
@@ -145,9 +145,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### Kimi K3: 문샷 자체 설계 커널 벤치마크에서 역대급 성능 달성
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Kimi K3: 문샷 자체 설계 커널 벤치마크에서 역대급 성능 달성
 
 ![Kimi K3: 문샷 자체 설계 커널 벤치마크에서 역대급 성능 달성](images/15.jpg)
 
@@ -159,9 +159,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### Claim Knowledge Graph: 건설 분쟁 해결을 위한 GraphRAG 기반 질의응답 시스템
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claim Knowledge Graph: 건설 분쟁 해결을 위한 GraphRAG 기반 질의응답 시스템
 
 건설 공사의 클레임과 분쟁 자료는 계약조항, 공문, 증빙자료, 법적근거 등이 방대하게 쌓여 필요한 근거를 찾기 어려운 문제가 있다. 이 연구는 당사자, 계약조항, 클레임사건, 증빙, 법적근거라는 5개 핵심 클래스의 온톨로지를 설계하고 Neo4j 지식그래프로 구축하여 GraphRAG 기반 질의응답 시스템을 개발했다. LLM으로 개체와 관계를 추출한 후 도메인 전문가가 검증하며, 벡터 유사도 대신 그래프를 따라 연결된 근거를 맥락으로 제공한다.
 
@@ -171,9 +171,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### Kimi K3 — 중국 오픈모델이 미국 최신 모델 추월
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Kimi K3 — 중국 오픈모델이 미국 최신 모델 추월
 
 ![Kimi K3 — 중국 오픈모델이 미국 최신 모델 추월](images/18.jpg)
 
@@ -185,9 +185,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### Kimi K3 — 글쓰기 벤치마크 1위 달성, Claude Fable 5 제치다
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Kimi K3 — 글쓰기 벤치마크 1위 달성, Claude Fable 5 제치다
 
 ![Kimi K3 — 글쓰기 벤치마크 1위 달성, Claude Fable 5 제치다](images/19.jpg)
 
@@ -199,9 +199,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### Moonshot AI — 문샷의 Kimi K3, 앤트로픽 Claude Opus 추월
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Moonshot AI — 문샷의 Kimi K3, 앤트로픽 Claude Opus 추월
 
 중국 스타트업 문샷 AI가 2.8조 개 파라미터 규모의 Kimi K3 모델을 공개했다. 이는 앤트로픽의 Claude Opus 4.8보다 파라미터 크기가 크고, 가격은 100만 토큰당 5달러 대비 3달러로 40% 이상 저렴하다. 특히 7월 27일에 전체 모델 파일을 오픈소스로 공개하겠다고 발표했으며, 이는 이 규모의 오픈소스 모델이 세계 최초이다. 추론 비용 최소 0.3달러까지 지원하며, 고정된 기술 사양과 투명한 가격 정책으로 AI 모델의 가격 경쟁을 촉발하고 있다.
 
@@ -211,9 +211,9 @@ OpenAI의 사이버 평가 중 자사 모델이 격리된 시험 환경을 벗�
 
 *기타 (Others)*
 
-### Nemotron 3 Embed 8B — RTEB 벤치마크 1위 달성한 경량 임베딩 모델
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Nemotron 3 Embed 8B — RTEB 벤치마크 1위 달성한 경량 임베딩 모델
 
 ![Nemotron 3 Embed 8B — RTEB 벤치마크 1위 달성한 경량 임베딩 모델](images/23.jpg)
 
@@ -225,9 +225,9 @@ RAG 모델의 응답 정확도는 검색 품질에 좌우되는데, 기존 대�
 
 *기타 (Others)*
 
-### Schema: ARC-AGI-3에서 99% RHAE 달성한 에이전트 하네스
-
 <!-- badge:17 -->
+
+### Schema: ARC-AGI-3에서 99% RHAE 달성한 에이전트 하네스
 
 ![Schema: ARC-AGI-3에서 99% RHAE 달성한 에이전트 하네스](images/26.jpg)
 
@@ -239,9 +239,9 @@ ARC-AGI-3 벤치마크는 규칙을 명시하지 않은 게임 환경에서 에�
 
 *기타 (Others)*
 
-### Knowing-Using Gap: LLM 파인튜닝의 '앎과 쓰임의 격차' 원인 규명
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Knowing-Using Gap: LLM 파인튜닝의 '앎과 쓰임의 격차' 원인 규명
 
 LLM을 파인튜닝해 새로운 지식을 주입해도 복잡한 추론에 활용하지 못하는 문제를 해결하기 위한 연구다. 모델이 지식을 암기하는 위치(초기/후기 레이어)와 다단계 추론을 수행하는 위치(중간 레이어)가 물리적으로 분리되어 있음을 밝혔다. Self-patching 기법으로 활성화 위치를 재배치하면 손실된 성능의 최대 75%가 회복되며, 이는 LLM 내부 메커니즘을 이해하는 데 중요한 기초 연구다.
 
@@ -251,9 +251,9 @@ LLM을 파인튜닝해 새로운 지식을 주입해도 복잡한 추론에 활�
 
 *논문 (Papers)*
 
-### Gemma 4: Flash Attention 4로 입력 처리 속도 70% 향상
-
 <!-- badge:19 -->
+
+### Gemma 4: Flash Attention 4로 입력 처리 속도 70% 향상
 
 ![Gemma 4: Flash Attention 4로 입력 처리 속도 70% 향상](images/29.jpg)
 
@@ -268,9 +268,9 @@ LLM을 파인튜닝해 새로운 지식을 주입해도 복잡한 추론에 활�
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Claude Security — 코드 취약점을 자동으로 스캔하는 Claude Code 플러그인
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude Security — 코드 취약점을 자동으로 스캔하는 Claude Code 플러그인
 
 ![Claude Security — 코드 취약점을 자동으로 스캔하는 Claude Code 플러그인](images/02.jpg)
 
@@ -282,9 +282,9 @@ LLM을 파인튜닝해 새로운 지식을 주입해도 복잡한 추론에 활�
 
 *기타 (Others)*
 
-### PyMuPDF4LLM 1.28 — PDF 표 추출 정확도 대폭 개선
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### PyMuPDF4LLM 1.28 — PDF 표 추출 정확도 대폭 개선
 
 ![PyMuPDF4LLM 1.28 — PDF 표 추출 정확도 대폭 개선](images/08.jpg)
 
@@ -296,9 +296,9 @@ PDF 문서에서 표를 추출할 때 셀 병합, 줄바꿈, 불규칙한 구조
 
 *기타 (Others)*
 
-### LibreDWG — 오토데스크 라이선스 없이 DWG 파일을 읽고 쓰는 오픈소스
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### LibreDWG — 오토데스크 라이선스 없이 DWG 파일을 읽고 쓰는 오픈소스
 
 ![LibreDWG — 오토데스크 라이선스 없이 DWG 파일을 읽고 쓰는 오픈소스](images/12.jpg)
 
@@ -310,9 +310,9 @@ DWG 파일 편집을 위해 오토데스크 커널 라이선스가 필수라는 
 
 *GitHub*
 
-### Dynamo — 코드 없이 노드로 BIM 자동화를 구현하는 시각적 프로그래밍 도구
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Dynamo — 코드 없이 노드로 BIM 자동화를 구현하는 시각적 프로그래밍 도구
 
 ![Dynamo — 코드 없이 노드로 BIM 자동화를 구현하는 시각적 프로그래밍 도구](images/16.jpg)
 
@@ -324,9 +324,9 @@ DWG 파일 편집을 위해 오토데스크 커널 라이선스가 필수라는 
 
 *GitHub*
 
-### Claude Code: /code-review 다섯 단계 effort 레벨 완전 개선
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Code: /code-review 다섯 단계 effort 레벨 완전 개선
 
 ![Claude Code: /code-review 다섯 단계 effort 레벨 완전 개선](images/20.jpg)
 
@@ -338,9 +338,9 @@ DWG 파일 편집을 위해 오토데스크 커널 라이선스가 필수라는 
 
 *기타 (Others)*
 
-### Claude 공식 가이드: 얇은 프롬프트, 두꺼운 컨텍스트 전략
-
 <!-- badge:25 -->
+
+### Claude 공식 가이드: 얇은 프롬프트, 두꺼운 컨텍스트 전략
 
 ![Claude 공식 가이드: 얇은 프롬프트, 두꺼운 컨텍스트 전략](images/22.jpg)
 
@@ -352,9 +352,9 @@ LLM과의 상호작용에서 컨텍스트 윈도우라는 제한된 자원을 �
 
 *기타 (Others)*
 
-### BIMserver — IFC 파일 교환을 데이터베이스로 대체하는 오픈소스
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### BIMserver — IFC 파일 교환을 데이터베이스로 대체하는 오픈소스
 
 ![BIMserver — IFC 파일 교환을 데이터베이스로 대체하는 오픈소스](images/24.jpg)
 
@@ -366,9 +366,9 @@ LLM과의 상호작용에서 컨텍스트 윈도우라는 제한된 자원을 �
 
 *GitHub*
 
-### OfficeCLI — AI 에이전트를 위한 오피스 자동화 도구
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### OfficeCLI — AI 에이전트를 위한 오피스 자동화 도구
 
 ![OfficeCLI — AI 에이전트를 위한 오피스 자동화 도구](images/28.jpg)
 
@@ -383,9 +383,9 @@ AI 에이전트가 Microsoft Office 파일을 직접 조작하기 어려운 문�
 
 ## ENGINEERING
 
-### Flash
-
 <!-- badge:28 -->
+
+### Flash
 
 ![Flash](images/06.jpg)
 
@@ -398,9 +398,9 @@ AI 에이전트가 Microsoft Office 파일을 직접 조작하기 어려운 문�
 
 ## PRODUCT & INDUSTRY
 
-### Cerebras Knowledge — 흩어진 회사 지식을 AI 브레인으로 통합
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Cerebras Knowledge — 흩어진 회사 지식을 AI 브레인으로 통합
 
 ![Cerebras Knowledge — 흩어진 회사 지식을 AI 브레인으로 통합](images/14.jpg)
 
@@ -412,9 +412,9 @@ AI 에이전트가 Microsoft Office 파일을 직접 조작하기 어려운 문�
 
 *기타 (Others)*
 
-### DeskSquat — 책상 업무 중 자동 스쿼트 코칭 데스크탑 앱
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### DeskSquat — 책상 업무 중 자동 스쿼트 코칭 데스크탑 앱
 
 장시간 책상 앞에서 일하는 사무직 종사자들의 건강 악화 문제를 해결하는 데스크탑 애플리케이션. 45분마다 자동으로 사용자를 깨우고 웹캠으로 스쿼트 횟수를 인식하여 카운트해주며, 회의 중에는 자동으로 알림을 중단하고 모든 데이터를 로컬에만 저장하여 개인정보를 보호한다. 앉은 시간, 휴식, 스쿼트 기록을 타임라인으로 시각화하고 하루 100개 목표 달성을 추적하는 기능을 제공한다.
 

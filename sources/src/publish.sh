@@ -58,7 +58,8 @@ cp "$SITE/.quartz/plugins/table-of-contents/dist/components/index.js" "$SRCDIR/s
 # 검색 한글 bigram 패치 (플러그인 업데이트 시 재적용 필요)
 cp "$SITE/.quartz/plugins/search/dist/index.js" "$SRCDIR/site/search-dist-patch/"
 cp "$SITE/.quartz/plugins/search/dist/components/index.js" "$SRCDIR/site/search-dist-patch/components/"
-for f in render_newspaper_md.py sync_stickers.py badge_server.py compress_pdf.py compress_img.py split_search_index.py serve.sh publish.sh; do
+for f in render_newspaper_md.py sync_stickers.py badge_server.py compress_pdf.py compress_img.py split_search_index.py serve.sh publish.sh \
+         migrate_eyebrow.py migrate_pdf_stamps.py; do
   cp "$PROJECT/src/$f" "$SRCDIR/src/"
 done
 cp "$PROJECT/newspaper/index.md" "$SRCDIR/newspaper/"

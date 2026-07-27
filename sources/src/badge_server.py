@@ -22,19 +22,50 @@ from pathlib import Path
 PROJECT = Path(__file__).resolve().parent.parent
 NEWS = PROJECT / "newspaper"
 WIKI_RESEARCH = Path.home() / "Documents" / "04_Wiki" / "research"
-STICKER_PNG = {
-    "claude": NEWS / "assets" / "badges" / "claude-pick.png",
-    "editors": NEWS / "assets" / "badges" / "editors-pick.png",
-    "s7c": NEWS / "assets" / "badges" / "s7c-pick.png",
-}
-BADGE_IMG = {
-    "claude": '<img src="../assets/badges/claude-pick.png" class="badge" alt="Claude\'s Pick">',
-    "editors": '<img src="../assets/badges/editors-pick.png" class="badge" alt="Editor\'s Pick">',
-    "s7c": '<img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick">',
-}
+BADGES = NEWS / "assets" / "badges"
+
+# 픽 종류와 등급. 중요도는 개수 반복이 아니라 에셋 색 변형(기본/강조) 2단계로 표현한다.
+# claude 는 강조본이 없다 (19호 전수에서 98%가 1개 = 중요도 축이 없음).
+KINDS = ("claude", "editors", "s7c")
+HAS_KEY = {"claude": False, "editors": True, "s7c": True}
+ALT = {"claude": "Claude's Pick", "editors": "Editor's Pick",
+       "s7c": "Recommended for searchdoc"}
+
+
+def _suffix(kind: str, level: str) -> str:
+    return "-key" if (level == "key" and HAS_KEY[kind]) else ""
+
+
+def sticker_png(kind: str, level: str = "base") -> Path:
+    """PDF 스탬프용 정사각 로고. 정사각이라 edit_pdf의 정사각 CTM을 그대로 쓴다."""
+    return BADGES / f"logo-{kind}{_suffix(kind, level)}.png"
+
+
+def eyebrow_html(picks: dict[str, str]) -> str:
+    """{kind: level} → 아이브로우 줄 HTML.
+
+    가로 pill과 정사각 로고를 둘 다 심는다. 좁은 컬럼(288~444px)에서는 pill 3개가
+    한 줄에 안 들어가므로 CSS 컨테이너 쿼리가 정사각으로 교체한다.
+    """
+    parts = []
+    for k in KINDS:
+        lv = picks.get(k)
+        if lv is None:
+            continue
+        sfx = _suffix(k, lv)
+        key_cls = " is-key" if sfx else ""
+        alt = ALT[k] + (" (강조)" if sfx else "")
+        parts.append(f'<img src="../assets/badges/pick-{k}{sfx}.png" '
+                     f'class="pick pick-wide {k}{key_cls}" alt="{alt}">')
+        parts.append(f'<img src="../assets/badges/logo-{k}{sfx}.png" '
+                     f'class="pick pick-sq {k}{key_cls}" alt="{alt}">')
+    return '<div class="eyebrow">' + " ".join(parts) + "</div>"
+
+
 KIND_MARK = {"claude": "⟨C⟩", "editors": "⟨E⟩", "s7c": "⟨S⟩"}
-IMG_KIND_RE = re.compile(r'<img src="\.\./assets/badges/(claude|editors|s7c)-pick\.png"[^>]*>')
-BADGE_LINE_RE = re.compile(r'^(?:<!-- badge:\d+ -->|<div class="badges">.*</div>)\s*$')
+# 아이브로우 줄에서 (종류, 강조여부) 추출 — pick-* 만 본다 (logo-* 는 같은 정보의 중복)
+IMG_KIND_RE = re.compile(r'badges/pick-(claude|editors|s7c)(-key)?\.png')
+EYEBROW_LINE_RE = re.compile(r'^(?:<!-- badge:\d+ -->|<div class="eyebrow">.*</div>)\s*$')
 HEADLINE_RE = re.compile(r"^### ")
 
 
@@ -44,12 +75,19 @@ def norm(s: str) -> str:
 
 # ---------- md 편집 ----------
 
-def edit_md(week: str, n: int, kind: str, op: str) -> str:
-    """n번째(1-based) 기사 배지 줄에 kind 추가/제거. 반환: 기사 제목."""
+def edit_md(week: str, n: int, kind: str, level: str) -> str:
+    """n번째(1-based) 기사의 아이브로우에서 kind 를 level 로 설정. 반환: 기사 제목.
+
+    level: "none"(제거) / "base"(기본) / "key"(강조)
+
+    아이브로우 줄은 헤드라인 **위**에 있다. 그래서 헤드라인에서 위로 거슬러
+    올라가며 찾는다. 그리고 자리표시/아이브로우와 '### ' 사이에는 빈 줄이
+    반드시 있어야 한다 — CommonMark HTML 블록은 빈 줄에서만 끝나므로 빈 줄이
+    없으면 헤드라인이 raw 텍스트로 흡수돼 h3가 사라진다.
+    """
     p = NEWS / week / "index.md"
     lines = p.read_text().splitlines()
     counter = 0
-    title = ""
     for i, line in enumerate(lines):
         if not HEADLINE_RE.match(line):
             continue
@@ -57,32 +95,52 @@ def edit_md(week: str, n: int, kind: str, op: str) -> str:
         if counter != n:
             continue
         title = line[4:].strip()
-        # 헤드라인 다음의 배지 줄 탐색 (빈 줄 하나 허용)
-        j = i + 1
-        if j < len(lines) and lines[j].strip() == "":
-            j += 1
-        if j < len(lines) and BADGE_LINE_RE.match(lines[j].strip()):
-            kinds = IMG_KIND_RE.findall(lines[j])
+
+        # 헤드라인 위로 거슬러 올라가 아이브로우/자리표시 줄을 찾는다 (빈 줄 건너뜀)
+        j = i - 1
+        while j >= 0 and not lines[j].strip():
+            j -= 1
+        if j >= 0 and EYEBROW_LINE_RE.match(lines[j].strip()):
+            picks = {m.group(1): ("key" if m.group(2) else "base")
+                     for m in IMG_KIND_RE.finditer(lines[j])}
         else:
-            # 배지 줄이 없으면 새로 만든다
-            lines.insert(i + 1, "")
-            j = i + 2
-            lines.insert(j, "")
-            kinds = []
-        if op == "add":
-            kinds.append(kind)
-        elif op == "remove" and kind in kinds:
-            kinds.remove(kind)
-        if kinds:
-            lines[j] = '<div class="badges">' + " ".join(BADGE_IMG[k] for k in sorted(kinds)) + "</div>"
+            # 없으면 헤드라인 바로 위에 새로 만든다 (+ 빈 줄 한 줄)
+            lines.insert(i, "")
+            lines.insert(i, "")
+            j = i
+            picks = {}
+
+        if level == "none":
+            picks.pop(kind, None)
         else:
-            lines[j] = f"<!-- badge:{n} -->"
-        # HTML 블록이 다음 줄(이미지/본문)을 삼키지 않도록 빈 줄 보장
-        if j + 1 < len(lines) and lines[j + 1].strip():
+            picks[kind] = level
+
+        lines[j] = eyebrow_html(picks) if picks else f"<!-- badge:{n} -->"
+
+        # ⚠️ 아이브로우 다음 줄은 반드시 빈 줄 (없으면 헤드라인이 흡수된다)
+        if j + 1 >= len(lines) or lines[j + 1].strip():
             lines.insert(j + 1, "")
         p.write_text("\n".join(lines) + "\n")
         return title
     raise ValueError(f"기사 {n} 없음 (총 {counter})")
+
+
+def read_md_picks(week: str) -> dict[int, dict[str, str]]:
+    """현재 md의 기사별 {kind: level}. badge.js 초기 상태 표시에 쓴다."""
+    lines = (NEWS / week / "index.md").read_text().splitlines()
+    out: dict[int, dict[str, str]] = {}
+    n = 0
+    pending: dict[str, str] = {}
+    for line in lines:
+        if line.strip().startswith('<div class="eyebrow">'):
+            pending = {m.group(1): ("key" if m.group(2) else "base")
+                       for m in IMG_KIND_RE.finditer(line)}
+        elif HEADLINE_RE.match(line):
+            n += 1
+            if pending:
+                out[n] = pending
+            pending = {}
+    return out
 
 
 # ---------- 위키 색인 마커 ----------
@@ -186,7 +244,13 @@ def _find_anchor(pdf_path: Path, title: str):
                 all_lines.extend(l for l in el if isinstance(l, LTTextLine))
         pages.append(all_lines)
         for line in all_lines:
-            if norm(line.get_text())[: klen + 2].startswith(key[:klen]):
+            nt = norm(line.get_text())
+            # ① 보통은 줄 앞부분이 제목 앞 klen자로 시작한다.
+            # ② 제목이 짧게 끊긴 줄(예: 'PIKE-RAG:' 9자, 'ClaudeCode:' 11자)은
+            #    줄 자체가 klen보다 짧아 ①이 실패한다. 그 경우 반대 방향으로 —
+            #    줄 전체가 제목의 접두인지 — 확인한다. 아래 while 루프가 이어지는
+            #    줄을 따라가므로 첫 줄만 잡히면 된다.
+            if nt[: klen + 2].startswith(key[:klen]) or (len(nt) >= 6 and key.startswith(nt)):
                 cands.append((pidx, line))
     if not cands:
         return None
@@ -214,7 +278,12 @@ def _find_anchor(pdf_path: Path, title: str):
             last.x0, last.x1, last.y0, last.y1, max(l.x1 for l in tls), len(tls))
 
 
-def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
+def edit_pdf(week: str, n: int, title: str, kind: str, level: str) -> bool:
+    """(kind, n) 스탬프를 level 로 설정. level: "none" / "base" / "key".
+
+    종류당 스탬프는 항상 최대 1개다 (등급은 색 변형으로 표현하므로 반복이 없다).
+    등급만 바뀌는 경우 기존 좌표를 그대로 재사용해 손으로 맞춘 위치를 잃지 않는다.
+    """
     from pypdf import PdfReader, PdfWriter
     from pypdf.generic import (ArrayObject, DictionaryObject, FloatObject,
                                NameObject, NumberObject, StreamObject, TextStringObject)
@@ -231,29 +300,45 @@ def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
     writer = PdfWriter()
     writer.append(reader)
 
-    if op == "remove":
-        removed = False
-        for page in writer.pages:
-            annots = page.get("/Annots")
-            if not annots:
+    # 같은 (kind, n) 스탬프가 이미 있으면 (쪽, 좌표)를 챙겨두고 제거한다.
+    # 등급 변경 = 제거 후 '같은 자리'에 다시 붙이기 → 손으로 맞춘 위치를 잃지 않는다.
+    prev = None                      # (pidx, rect)
+    for pi, page in enumerate(writer.pages):
+        annots = page.get("/Annots")
+        if not annots:
+            continue
+        keep = ArrayObject()
+        for a in annots:
+            o = a.get_object()
+            if str(o.get("/NM", "")) == nm:
+                if prev is None:
+                    prev = (pi, [float(v) for v in o["/Rect"]])
                 continue
-            keep = ArrayObject()
-            for a in annots:
-                o = a.get_object()
-                if not removed and str(o.get("/NM", "")) == nm:
-                    removed = True
-                    continue
-                keep.append(a)
-            page[NameObject("/Annots")] = keep
-        if not removed:
-            return False
+            keep.append(a)
+        page[NameObject("/Annots")] = keep
+
+    def _save() -> bool:
+        tmp = pdf_path.with_suffix(".tmp.pdf")
+        with tmp.open("wb") as f:
+            writer.write(f)
+        PdfReader(tmp)               # 검증: 깨졌으면 예외 → 원본 보존
+        tmp.replace(pdf_path)
+        return True
+
+    if level == "none":
+        return _save() if prev is not None else False
+
+    size = 34.0
+    if prev is not None:
+        pidx, rect = prev
+        page = writer.pages[pidx]
     else:
         anchor = _find_anchor(pdf_path, title)
         if not anchor:
             return False
         pidx, fx0, fx1, fy0, fy1, lx0, lx1, ly0, ly1, col_right, nlines = anchor
         page = writer.pages[pidx]
-        # 같은 기사의 기존 스탬프 실제 x좌표들 — 개수 대신 좌표 기준으로 다음 슬롯 배정
+        # 같은 기사의 다른 종류 스탬프 x좌표 — 좌표 기준으로 다음 슬롯 배정
         # (뗐다 다시 붙여도 남은 스탬프와 안 겹침)
         xs = []
         for a in page.get("/Annots") or []:
@@ -261,7 +346,6 @@ def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
             nm_ = str(o_.get("/NM", ""))
             if nm_.startswith("dybadge:") and nm_.split(":")[-1] == str(n):
                 xs.append(float(o_["/Rect"][0]))
-        size = 34.0
         step = size * 0.55
         if n == 1:
             # 헤드라인: 마지막 줄 끝 오른쪽 (한 줄이면 제목 끝 아래)
@@ -279,55 +363,49 @@ def edit_pdf(week: str, n: int, title: str, kind: str, op: str) -> bool:
         x0 = max(8.0, min(x0, float(page.mediabox.width) - size - 4))
         rect = [x0, y0, x0 + size, y0 + size]
 
-        img = Image.open(STICKER_PNG[kind]).convert("RGBA")
-        img.thumbnail((160, 160))
-        w, h = img.size
-        rgb = zlib.compress(img.convert("RGB").tobytes())
-        alpha = zlib.compress(img.getchannel("A").tobytes())
+    img = Image.open(sticker_png(kind, level)).convert("RGBA")
+    img.thumbnail((160, 160))
+    w, h = img.size
+    rgb = zlib.compress(img.convert("RGB").tobytes())
+    alpha = zlib.compress(img.getchannel("A").tobytes())
 
-        smask = StreamObject()
-        smask._data = alpha
-        smask.update({NameObject("/Type"): NameObject("/XObject"), NameObject("/Subtype"): NameObject("/Image"),
-                      NameObject("/Width"): NumberObject(w), NameObject("/Height"): NumberObject(h),
-                      NameObject("/ColorSpace"): NameObject("/DeviceGray"), NameObject("/BitsPerComponent"): NumberObject(8),
-                      NameObject("/Filter"): NameObject("/FlateDecode")})
-        smask_ref = writer._add_object(smask)
+    smask = StreamObject()
+    smask._data = alpha
+    smask.update({NameObject("/Type"): NameObject("/XObject"), NameObject("/Subtype"): NameObject("/Image"),
+                  NameObject("/Width"): NumberObject(w), NameObject("/Height"): NumberObject(h),
+                  NameObject("/ColorSpace"): NameObject("/DeviceGray"), NameObject("/BitsPerComponent"): NumberObject(8),
+                  NameObject("/Filter"): NameObject("/FlateDecode")})
+    smask_ref = writer._add_object(smask)
 
-        imx = StreamObject()
-        imx._data = rgb
-        imx.update({NameObject("/Type"): NameObject("/XObject"), NameObject("/Subtype"): NameObject("/Image"),
-                    NameObject("/Width"): NumberObject(w), NameObject("/Height"): NumberObject(h),
-                    NameObject("/ColorSpace"): NameObject("/DeviceRGB"), NameObject("/BitsPerComponent"): NumberObject(8),
-                    NameObject("/Filter"): NameObject("/FlateDecode"), NameObject("/SMask"): smask_ref})
-        imx_ref = writer._add_object(imx)
+    imx = StreamObject()
+    imx._data = rgb
+    imx.update({NameObject("/Type"): NameObject("/XObject"), NameObject("/Subtype"): NameObject("/Image"),
+                NameObject("/Width"): NumberObject(w), NameObject("/Height"): NumberObject(h),
+                NameObject("/ColorSpace"): NameObject("/DeviceRGB"), NameObject("/BitsPerComponent"): NumberObject(8),
+                NameObject("/Filter"): NameObject("/FlateDecode"), NameObject("/SMask"): smask_ref})
+    imx_ref = writer._add_object(imx)
 
-        form = StreamObject()
-        form._data = f"q {size} 0 0 {size} 0 0 cm /Im0 Do Q".encode()
-        form.update({NameObject("/Type"): NameObject("/XObject"), NameObject("/Subtype"): NameObject("/Form"),
-                     NameObject("/BBox"): ArrayObject([NumberObject(0), NumberObject(0), FloatObject(size), FloatObject(size)]),
-                     NameObject("/Resources"): DictionaryObject({NameObject("/XObject"): DictionaryObject({NameObject("/Im0"): imx_ref})})})
-        form_ref = writer._add_object(form)
+    form = StreamObject()
+    form._data = f"q {size} 0 0 {size} 0 0 cm /Im0 Do Q".encode()
+    form.update({NameObject("/Type"): NameObject("/XObject"), NameObject("/Subtype"): NameObject("/Form"),
+                 NameObject("/BBox"): ArrayObject([NumberObject(0), NumberObject(0), FloatObject(size), FloatObject(size)]),
+                 NameObject("/Resources"): DictionaryObject({NameObject("/XObject"): DictionaryObject({NameObject("/Im0"): imx_ref})})})
+    form_ref = writer._add_object(form)
 
-        annot = DictionaryObject({
-            NameObject("/Type"): NameObject("/Annot"), NameObject("/Subtype"): NameObject("/Stamp"),
-            NameObject("/Rect"): ArrayObject([FloatObject(v) for v in rect]),
-            NameObject("/AP"): DictionaryObject({NameObject("/N"): form_ref}),
-            NameObject("/NM"): TextStringObject(nm), NameObject("/F"): NumberObject(4),
-        })
-        annot_ref = writer._add_object(annot)
-        annots = page.get("/Annots")
-        if annots is None:
-            page[NameObject("/Annots")] = ArrayObject([annot_ref])
-        else:
-            annots.append(annot_ref)
+    annot = DictionaryObject({
+        NameObject("/Type"): NameObject("/Annot"), NameObject("/Subtype"): NameObject("/Stamp"),
+        NameObject("/Rect"): ArrayObject([FloatObject(v) for v in rect]),
+        NameObject("/AP"): DictionaryObject({NameObject("/N"): form_ref}),
+        NameObject("/NM"): TextStringObject(nm), NameObject("/F"): NumberObject(4),
+    })
+    annot_ref = writer._add_object(annot)
+    annots = page.get("/Annots")
+    if annots is None:
+        page[NameObject("/Annots")] = ArrayObject([annot_ref])
+    else:
+        annots.append(annot_ref)
 
-    tmp = pdf_path.with_suffix(".tmp.pdf")
-    with tmp.open("wb") as f:
-        writer.write(f)
-    PdfReader(tmp)  # 검증: 깨졌으면 예외 → 원본 보존
-    tmp.replace(pdf_path)
-    return True
-
+    return _save()
 
 # ---------- 클라이언트 스크립트 ----------
 
@@ -402,68 +480,123 @@ BADGE_JS = r"""
   var m = slug.match(/^(\d{4}-\d{2}-\d{2}_\d{2}-\d{2})/);
   if (!m) return;
   var week = m[1];
-  var KINDS = ["claude", "editors", "s7c"];
-  var SRC = { claude: "/assets/badges/claude-pick.png", editors: "/assets/badges/editors-pick.png", s7c: "/assets/badges/s7c-pick.png" };
-
-  function post(n, kind, op, cb) {
-    fetch("http://127.0.0.1:8099/api/badge", {
-      method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ week: week, n: n, kind: kind, op: op }),
-    }).then(function (r) { return r.json(); }).then(cb).catch(function () { alert("배지 서버가 꺼져 있습니다"); });
+  var ALT = { claude: "Claude's Pick", editors: "Editor's Pick", s7c: "Recommended for searchdoc" };
+  // 컨트롤 5개: 기본/강조를 각각 따로 둔다 (숨은 순환 없이 한 번에 고르기)
+  var VARIANTS = [
+    { kind: "claude",  level: "base" },
+    { kind: "editors", level: "base" },
+    { kind: "editors", level: "key"  },
+    { kind: "s7c",     level: "base" },
+    { kind: "s7c",     level: "key"  }
+  ];
+  function sfx(level) { return level === "key" ? "-key" : ""; }
+  function pathOf(prefix, kind, level) {
+    return "../assets/badges/" + prefix + "-" + kind + sfx(level) + ".png";
   }
 
-  function badgesDivFor(h3) {
-    var el = h3.nextElementSibling;
+  function post(n, kind, level, cb) {
+    fetch("http://127.0.0.1:8099/api/badge", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ week: week, n: n, kind: kind, level: level }),
+    }).then(function (r) { return r.json(); })
+      .then(function (res) { if (res && res.ok) cb(res); else alert("실패: " + (res && res.error)); })
+      .catch(function () { alert("배지 서버가 꺼져 있습니다"); });
+  }
+
+  // 아이브로우 줄은 헤드라인 '앞'에 있다 → 이전 형제로 거슬러 찾는다.
+  // (구버전은 앞으로 훑어서, 줄이 위로 옮겨간 뒤로는 본문 <p>를 만나 null을
+  //  반환하고 헤드라인 뒤에 빈 줄을 새로 만드는 버그가 있었다)
+  function eyebrowFor(h3) {
+    var el = h3.previousElementSibling;
     for (var i = 0; i < 3 && el; i++) {
-      if (el.classList && el.classList.contains("badges")) return el;
+      if (el.classList && el.classList.contains("eyebrow")) return el;
       if (["H2", "H3"].indexOf(el.tagName) >= 0) break;
-      el = el.nextElementSibling;
+      el = el.previousElementSibling;
     }
     return null;
   }
-
-  function wireRemove(img, n) {
-    img.style.cursor = "pointer";
-    img.title = "클릭하면 이 스티커 제거";
-    img.addEventListener("click", function () {
-      var kind = (img.src.match(/(claude|editors|s7c)-pick/) || [])[1];
-      if (!kind) return;
-      post(n, kind, "remove", function () { img.remove(); });
+  function ensureEyebrow(h3) {
+    var div = eyebrowFor(h3);
+    if (!div) {
+      div = document.createElement("div");
+      div.className = "eyebrow";
+      h3.insertAdjacentElement("beforebegin", div);
+    }
+    return div;
+  }
+  function readLevels(h3) {
+    var out = {}, div = eyebrowFor(h3);
+    if (!div) return out;
+    Array.from(div.querySelectorAll("img.pick-wide")).forEach(function (img) {
+      var mm = img.getAttribute("src").match(/pick-(claude|editors|s7c)(-key)?\.png/);
+      if (mm) out[mm[1]] = mm[2] ? "key" : "base";
     });
+    return out;
+  }
+
+  function build(h3, n, levels, paint) {
+    var div = ensureEyebrow(h3);
+    div.innerHTML = "";
+    ["claude", "editors", "s7c"].forEach(function (kind) {
+      var lv = levels[kind];
+      if (!lv) return;
+      [["pick", "pick-wide"], ["logo", "pick-sq"]].forEach(function (pair) {
+        var img = document.createElement("img");
+        img.src = pathOf(pair[0], kind, lv);
+        img.className = "pick " + pair[1] + " " + kind + (lv === "key" ? " is-key" : "");
+        img.alt = ALT[kind];
+        // 기존 동작: 붙은 스티커를 클릭하면 뗀다
+        img.dataset.removable = "1";
+        img.title = ALT[kind] + " — 클릭하면 뗍니다";
+        img.addEventListener("click", function () {
+          post(n, kind, "none", function () {
+            delete levels[kind];
+            build(h3, n, levels, paint);
+            paint();
+          });
+        });
+        div.appendChild(img);
+        div.appendChild(document.createTextNode(" "));
+      });
+    });
+    if (!Object.keys(levels).length) div.remove();
   }
 
   var article = document.querySelector(".center article");
   if (!article) return;
-  var h3s = Array.from(article.querySelectorAll("h3"));
-  h3s.forEach(function (h3, idx) {
+  Array.from(article.querySelectorAll("h3")).forEach(function (h3, idx) {
     var n = idx + 1;
+    var levels = readLevels(h3);
     var ctrl = document.createElement("span");
     ctrl.className = "badge-controls";
-    KINDS.forEach(function (kind) {
+    var imgs = [];
+    function paint() {
+      imgs.forEach(function (o) {
+        var on = levels[o.v.kind] === o.v.level;
+        o.el.dataset.active = on ? "1" : "0";
+        o.el.title = ALT[o.v.kind] + (o.v.level === "key" ? " (강조)" : "")
+                   + (on ? " — 적용됨" : " 붙이기");
+      });
+    }
+    VARIANTS.forEach(function (v) {
       var b = document.createElement("img");
-      b.src = SRC[kind];
-      b.title = kind + " 스티커 붙이기";
+      b.src = pathOf("logo", v.kind, v.level);     // 컨트롤은 정사각 로고 (작아도 알아보기 쉬움)
       b.addEventListener("click", function (e) {
         e.stopPropagation();
-        post(n, kind, "add", function () {
-          var div = badgesDivFor(h3);
-          if (!div) {
-            div = document.createElement("div");
-            div.className = "badges";
-            h3.insertAdjacentElement("afterend", div);
-          }
-          var img = document.createElement("img");
-          img.src = SRC[kind].replace(/^\//, "../");
-          img.className = "badge";
-          div.appendChild(img);
-          wireRemove(img, n);
+        if (levels[v.kind] === v.level) return;    // 이미 그 등급이면 아무것도 안 함
+        post(n, v.kind, v.level, function () {
+          levels[v.kind] = v.level;
+          build(h3, n, levels, paint);
+          paint();
         });
       });
+      imgs.push({ el: b, v: v });
       ctrl.appendChild(b);
     });
     h3.appendChild(ctrl);
-    var div = badgesDivFor(h3);
-    if (div) Array.from(div.querySelectorAll("img.badge")).forEach(function (img) { wireRemove(img, n); });
+    paint();
+    // 이미 붙어 있는 스티커에도 떼기 동작을 걸어준다
+    build(h3, n, levels, paint);
   });
 })();
 """
@@ -511,15 +644,19 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(404, '{"error":"not found"}')
         try:
             req = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
-            week, n, kind, op = req["week"], int(req["n"]), req["kind"], req["op"]
-            assert kind in BADGE_IMG and op in ("add", "remove") and re.fullmatch(r"\d{4}-\d{2}-\d{2}_\d{2}-\d{2}", week)
-            title = edit_md(week, n, kind, op)
-            wiki_ok = edit_wiki(week, title, kind, op)
+            week, n, kind = req["week"], int(req["n"]), req["kind"]
+            # level: none/base/key (3단계 토글). 구버전 클라이언트의 op=add/remove 도 받는다.
+            level = req.get("level") or {"add": "base", "remove": "none"}.get(req.get("op"))
+            assert kind in KINDS and level in ("none", "base", "key")
+            assert re.fullmatch(r"\d{4}-\d{2}-\d{2}_\d{2}-\d{2}", week)
+            title = edit_md(week, n, kind, level)
+            wiki_ok = edit_wiki(week, title, kind, "remove" if level == "none" else "add")
             try:
-                pdf_ok = edit_pdf(week, n, title, kind, op)
+                pdf_ok = edit_pdf(week, n, title, kind, level)
             except Exception as e:
                 pdf_ok = f"error: {e}"
-            self._send(200, json.dumps({"ok": True, "title": title, "wiki": wiki_ok, "pdf": pdf_ok}, ensure_ascii=False))
+            self._send(200, json.dumps({"ok": True, "title": title, "level": level,
+                                        "wiki": wiki_ok, "pdf": pdf_ok}, ensure_ascii=False))
         except Exception as e:
             self._send(500, json.dumps({"ok": False, "error": str(e)}, ensure_ascii=False))
 

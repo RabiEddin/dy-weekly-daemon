@@ -7,10 +7,12 @@
     ... --week 2026-06-18_06-25 [--apply]                                           # 특정 주차만
 
 원리:
-- 스탬프 rect 비율로 스티커 종류 판별 (claude≈4.7 가로형 / editors≈0.63 세로형 / s7c≈1.17 정방형)
+- 스탬프 종류는 **appearance XObject의 md5 앞 10자리**로 판별한다 (HASH_KIND).
+  (예전 주석에 'rect 비율로 판별'이라 적혀 있었으나 실제 구현과 다른 낡은 설명이었다.
+   비율 판별은 새 로고 도장 5종이 모두 정사각이라 애초에 성립하지 않는다.)
 - pdfminer로 페이지 텍스트 라인 bbox 추출 → md 헤드라인과 대조해 기사 앵커 좌표 확보
 - 스탬프 중심이 속한 (컬럼, 헤드라인 아래 구간)의 기사로 귀속
-- md의 <!-- badge:N --> 자리표시를 <img class="badge">로 치환
+- md의 <!-- badge:N --> 자리표시를 아이브로우 줄로 치환
 """
 import argparse
 import re
@@ -33,12 +35,27 @@ BADGE_IMG = {
 
 
 # 스탬프 XObject md5 앞 10자리 → 종류 (PDF에 붙일 때 동일 원본이 재사용됨)
+# ⚠️ 종류만 담는다. 등급(기본/강조)은 아래 HASH_LEVEL 에서 따로 본다.
 HASH_KIND = {
+    # 옛 원형 도장 (Vol.1~18)
     "6e76f686b2": "editors",  # Editor's Pick (일반)
     "60e6888776": "editors",  # Editor's Pick (고해상)
     "4ee11a5924": "s7c",      # Recommended for Searchdoc
     "b56fd2bf9a": "claude",   # Claude Pick (일반)
     "c4da362d60": "claude",   # Claude Pick (고해상)
+    # 새 정사각 로고 도장 (Vol.19~) — src/migrate_pdf_stamps.py 가 출력한 값
+    "cebb034d9b": "claude",   # logo-claude
+    "ac6a03aa9a": "editors",  # logo-editors
+    "1ce46681a5": "editors",  # logo-editors-key
+    "a4df991731": "s7c",      # logo-s7c
+    "2835ec734f": "s7c",      # logo-s7c-key
+}
+
+# 강조 등급 해시 — 개수 반복이 아니라 에셋 색 변형으로 등급을 표현하므로
+# 되읽을 때도 해시로 등급을 알아야 한다.
+HASH_LEVEL = {
+    "1ce46681a5": "key",      # logo-editors-key
+    "2835ec734f": "key",      # logo-s7c-key
 }
 
 

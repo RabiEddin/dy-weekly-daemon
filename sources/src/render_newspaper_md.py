@@ -113,9 +113,15 @@ def copy_image(item: dict, images_out: Path) -> str | None:
 def render_item(n: int, item: dict, images_out: Path, lead: bool = False) -> str:
     lines: list[str] = []
     headline = (item.get("headline") or "(제목 없음)").strip()
-    lines.append(f"### {headline}")
-    lines.append("")
+    # 픽 라벨 자리표시는 헤드라인 '위'에 온다 (아이브로우 줄).
+    # ⚠️ 자리표시와 '### ' 사이에 빈 줄이 반드시 있어야 한다. CommonMark HTML 블록
+    #    (type 6, <div…>)은 빈 줄에서만 끝나므로, 빈 줄이 없으면 헤드라인이 raw
+    #    텍스트로 흡수돼 h3·앵커·TOC 항목이 전부 사라진다. 지금은 주석 자리표시라
+    #    괜찮지만 badge_server가 <div class="eyebrow">로 치환하는 순간 문제가 되므로
+    #    처음부터 빈 줄을 넣어 둔다.
     lines.append(f"<!-- badge:{n} -->")
+    lines.append("")
+    lines.append(f"### {headline}")
     lines.append("")
 
     img = copy_image(item, images_out)
