@@ -25,7 +25,10 @@ python3 "$PROJECT/src/split_search_index.py" "$BUILD"
 
 # 2) 사이트 → docs/ (PDF·기사 이미지 제외 동기화, GitHub Pages가 이 폴더를 서빙)
 mkdir -p "$DOCS"
-rsync -a --delete --exclude='vol-*.pdf' --exclude='/20*/images/' "$BUILD/" "$DOCS/"
+# --exclude='*.bak*': 롤백용 백업(index.md.bak-*, vol-NN.pdf.bak-*)이 newspaper/ 안에 있으면
+#   Quartz가 정적 파일로 복사해 공개 repo까지 따라 올라간다 (2026-07-27에 5MB PDF 백업이
+#   실제로 배포됨). 백업은 content 트리 밖에 두는 게 원칙이지만 이중으로 막는다.
+rsync -a --delete --exclude='vol-*.pdf' --exclude='/20*/images/' --exclude='*.bak*' "$BUILD/" "$DOCS/"
 echo "weekly-daemon.searchdoc.ai" > "$DOCS/CNAME"   # 커스텀 도메인 (Pages가 이 파일로 도메인 등록 유지)
 touch "$DOCS/.nojekyll"
 
