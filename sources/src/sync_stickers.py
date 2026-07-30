@@ -27,13 +27,6 @@ PROJECT = Path(__file__).resolve().parent.parent
 OUT = PROJECT / "newspaper"
 OUTPUT = PROJECT / "output"
 
-BADGE_IMG = {
-    "claude": '<img src="../assets/badges/claude-pick.png" class="badge" alt="Claude\'s Pick">',
-    "editors": '<img src="../assets/badges/editors-pick.png" class="badge" alt="Editor\'s Pick">',
-    "s7c": '<img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick">',
-}
-
-
 # 스탬프 XObject md5 앞 10자리 → 종류 (PDF에 붙일 때 동일 원본이 재사용됨)
 # ⚠️ 종류만 담는다. 등급(기본/강조)은 아래 HASH_LEVEL 에서 따로 본다.
 HASH_KIND = {
@@ -87,8 +80,20 @@ def md_headlines(week: str) -> list[tuple[int, str]]:
     return out
 
 
-def stamps_of(pdf: Path) -> list[tuple[int, float, float, str]]:
-    """(page_idx, cx, cy, kind) — 종류 판별된 스탬프만."""
+def stamp_level(annot) -> str:
+    """appearance XObject 해시로 등급 판별. 강조본 해시가 아니면 기본."""
+    import hashlib
+    try:
+        xo = annot["/AP"]["/N"].get_object().get("/Resources", {}).get("/XObject", {})
+        for _, v in xo.items():
+            return HASH_LEVEL.get(hashlib.md5(v.get_object().get_data()).hexdigest()[:10], "base")
+    except Exception:
+        pass
+    return "base"
+
+
+def stamps_of(pdf: Path) -> list[tuple[int, float, float, str, str]]:
+    """(page_idx, cx, cy, kind, level) — 종류 판별된 스탬프만."""
     r = PdfReader(pdf)
     out = []
     for i, page in enumerate(r.pages):
@@ -100,7 +105,7 @@ def stamps_of(pdf: Path) -> list[tuple[int, float, float, str]]:
             if not kind:
                 continue
             x0, y0, x1, y1 = (float(v) for v in o["/Rect"])
-            out.append((i, (x0 + x1) / 2, (y0 + y1) / 2, kind))
+            out.append((i, (x0 + x1) / 2, (y0 + y1) / 2, kind, stamp_level(o)))
     return out
 
 
@@ -138,13 +143,19 @@ def headline_anchors(pdf: Path, titles: list[tuple[int, str]]):
 
 
 def assign(stamps, anchors, mid_x=297.6):
-    """스탬프 → 기사번호. 반환: {n: set(kinds)}, skipped 수."""
+    """스탬프 → 기사번호. 반환: {n: {kind: level}}, skipped 수.
+
+    옛 방식은 같은 종류를 반복해 중요도를 표현했으므로 리스트에 중복을 보존했다.
+    이제는 등급을 에셋 색 변형으로 표현하니 종류당 하나만 남기고, 같은 종류가
+    여러 개면 강조가 하나라도 있으면 강조로 본다 (옛 PDF와의 호환).
+    """
     by_page: dict[int, list] = {}
     for n, (p, x0, y_top) in anchors.items():
         by_page.setdefault(p, []).append((n, x0, y_top))
-    result: dict[int, list] = {}
+    result: dict[int, dict[str, str]] = {}
     skipped = 0
-    for p, cx, cy, kind in stamps:
+    repeats: dict[tuple[int, str], int] = {}
+    for p, cx, cy, kind, level in stamps:
         cands = by_page.get(p, [])
         col = "L" if cx < mid_x else "R"
         best = None
@@ -159,7 +170,13 @@ def assign(stamps, anchors, mid_x=297.6):
                 if best is None or d < best[0]:
                     best = (d, n)
         if best:
-            result.setdefault(best[1], []).append(kind)  # 중복 스티커 보존
+            n = best[1]
+            slot = result.setdefault(n, {})
+            repeats[(n, kind)] = repeats.get((n, kind), 0) + 1
+            # 옛 PDF 호환: 같은 종류가 3개 이상 반복이면 강조로 승격
+            promote = repeats[(n, kind)] >= 3
+            if slot.get(kind) != "key":
+                slot[kind] = "key" if (level == "key" or promote) else "base"
         else:
             skipped += 1
     return result, skipped
@@ -169,49 +186,70 @@ BADGE_STRIP = re.compile(r'\s*(?:<!-- badge:\d+ -->|<img src="(?:\.\./|/)assets/
 HEADLINE_RE = re.compile(r"^### ")
 
 
-BADGE_LINE_RE = re.compile(r'^(?:<!-- badge:\d+ -->|<div class="badges">.*</div>)\s*$')
+EYEBROW_LINE_RE = re.compile(r'^(?:<!-- badge:\d+ -->|<div class="(?:eyebrow|badges)">.*</div>)\s*$')
+
+KINDS_ORDER = ("claude", "editors", "s7c")
+HAS_KEY = {"claude": False, "editors": True, "s7c": True}
+ALT = {"claude": "Claude's Pick", "editors": "Editor's Pick",
+       "s7c": "Recommended for searchdoc"}
 
 
-def apply_md(week: str, mapping: dict[int, list]) -> int:
-    """헤드라인은 깨끗하게 유지, 배지는 바로 다음 줄의 <div class="badges">에 부착. 멱등."""
+def eyebrow_html(picks: dict[str, str]) -> str:
+    """{kind: level} → 아이브로우 줄. 가로 pill과 정사각 로고를 둘 다 심는다
+    (좁은 컬럼에서 CSS 컨테이너 쿼리가 정사각으로 교체)."""
+    parts = []
+    for k in KINDS_ORDER:
+        lv = picks.get(k)
+        if lv is None:
+            continue
+        sfx = "-key" if (lv == "key" and HAS_KEY[k]) else ""
+        key_cls = " is-key" if sfx else ""
+        alt = ALT[k] + (" (강조)" if sfx else "")
+        parts.append(f'<img src="../assets/badges/pick-{k}{sfx}.png" '
+                     f'class="pick pick-wide {k}{key_cls}" alt="{alt}">')
+        parts.append(f'<img src="../assets/badges/logo-{k}{sfx}.png" '
+                     f'class="pick pick-sq {k}{key_cls}" alt="{alt}">')
+    return '<div class="eyebrow">' + " ".join(parts) + "</div>"
+
+
+def apply_md(week: str, mapping: dict[int, dict[str, str]]) -> int:
+    """아이브로우 줄을 헤드라인 **위**에 쓴다. 멱등.
+
+    ⚠️ '### ' 바로 위는 반드시 빈 줄이어야 한다 — CommonMark HTML 블록은 빈 줄에서만
+       끝나므로 빈 줄이 없으면 헤드라인이 raw 텍스트로 흡수돼 h3·앵커·TOC가 사라진다.
+    """
     p = OUT / week / "index.md"
     lines = p.read_text().splitlines()
     out: list[str] = []
     applied = 0
-    i = 0
     counter = 0
-    while i < len(lines):
-        line = lines[i]
-        m = HEADLINE_RE.match(line)
-        if not m:
+    for i, line in enumerate(lines):
+        if EYEBROW_LINE_RE.match(line.strip()):
+            continue                      # 기존 아이브로우/자리표시 줄은 버리고 새로 쓴다
+        if not HEADLINE_RE.match(line):
             out.append(line)
-            i += 1
             continue
         counter += 1
         n = counter
-        out.append(BADGE_STRIP.sub("", line).rstrip())  # 헤드라인 정리 (인라인 배지 제거)
-        # 헤드라인 뒤 기존 배지/자리표시 줄 제거 (빈 줄 하나 건너뛰며 탐색)
-        j = i + 1
-        pending_blank = False
-        if j < len(lines) and lines[j].strip() == "":
-            pending_blank = True
-            j += 1
-        if j < len(lines) and BADGE_LINE_RE.match(lines[j].strip()):
-            j += 1  # 기존 배지 줄 소비
-        else:
-            j = i + 1  # 배지 줄 없음 — 원래 위치로
-            pending_blank = False
-        # 새 배지 줄 삽입
+        while out and not out[-1].strip():   # 헤드라인 앞 빈 줄 정리
+            out.pop()
         out.append("")
-        kinds = mapping.get(n)
-        if kinds:
-            imgs = " ".join(BADGE_IMG[k] for k in sorted(kinds))
-            out.append(f'<div class="badges">{imgs}</div>')
+        picks = mapping.get(n)
+        if picks:
+            out.append(eyebrow_html(picks))
             applied += 1
         else:
             out.append(f"<!-- badge:{n} -->")
-        i = j
-    p.write_text("\n".join(out) + "\n")
+        out.append("")                       # ⚠️ 필수
+        out.append(BADGE_STRIP.sub("", line).rstrip())   # 헤드라인 (인라인 배지 제거)
+    text = "\n".join(out) + "\n"
+    # 자체 검증: 헤드라인이 흡수될 구조면 쓰지 않는다
+    ls = text.splitlines()
+    bad = [k + 1 for k, l in enumerate(ls)
+           if l.startswith("### ") and (k == 0 or ls[k - 1].strip() != "")]
+    if bad:
+        raise SystemExit(f"구조 오류 — '### ' 위 빈 줄 누락 {bad[:5]} · 쓰지 않았다")
+    p.write_text(text)
     return applied
 
 
@@ -219,6 +257,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--week")
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--force", action="store_true",
+                    help="md의 픽이 줄어드는 반영도 강행 (기본은 거부)")
     args = ap.parse_args()
 
     weeks = [args.week] if args.week else sorted(
@@ -236,10 +276,24 @@ def main():
             continue
         anchors = headline_anchors(pdf, titles)
         mapping, skipped = assign(stamps, anchors)
-        tmap = dict(titles)
-        summary = ", ".join(f"{n}({'+'.join(sorted(ks))})" for n, ks in sorted(mapping.items()))
+        summary = ", ".join(
+            f"{n}(" + "+".join(f"{k}{'!' if v == 'key' else ''}" for k, v in sorted(ks.items())) + ")"
+            for n, ks in sorted(mapping.items()))
         print(f"{week}: 스탬프 {len(stamps)}개 → 기사 {len(mapping)}건 매핑 [{summary}] / 미귀속 {skipped}"
-              f" / 앵커 {len(anchors)}/{len(titles)}")
+              f" / 앵커 {len(anchors)}/{len(titles)}   (! = 강조)")
+
+        # 안전장치: PDF가 부분적으로만 스탬프돼 있으면 반영이 md의 픽을 지운다.
+        # 픽 관리를 웹(badge_server)에서 하게 된 뒤로는 md가 더 최신인 경우가 많다.
+        cur = 0
+        md_lines = (OUT / week / "index.md").read_text().splitlines()
+        for line in md_lines:
+            if '<div class="eyebrow">' in line or '<div class="badges">' in line:
+                cur += len(re.findall(r"badges/(?:pick|logo|claude|editors|s7c)", line))
+        new_cnt = sum(len(v) for v in mapping.values())
+        if args.apply and cur and new_cnt < cur and not args.force:
+            print(f"  ⚠️ 거부: 반영하면 픽이 줄어든다 (md 참조 {cur} → 새 매핑 {new_cnt}). "
+                  f"PDF가 md보다 오래됐을 수 있다. 정말 덮으려면 --force")
+            continue
         if args.apply:
             n_applied = apply_md(week, mapping)
             print(f"  ↳ md 반영 {n_applied}건")

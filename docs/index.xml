@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF Vol.13 (6/4-6/11) · PDF Vol.12 (5/28-6/4) · PDF Vol.11 (5/21-5/28) · PDF Vol.10 (5/14-5/21) · PDF Vol.9 (5/7-5/14) · PDF Vol.8 (4/30-5/7) · PDF Vo... ]]></description>
-    <pubDate>Thu, 23 Jul 2026 01:09:32 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.20 (7/23-7/30) · PDF Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF Vol.13 (6/4-6/11) · PDF Vol.12 (5/28-6/4) · PDF Vol.11 (5/21-5/28) · PDF Vol.10 (5/14-5/21) · PDF Vol.9 (5/7-5/14) · PDF ... ]]></description>
+    <pubDate>Thu, 30 Jul 2026 04:44:04 GMT</pubDate>
+  </item><item>
+    <title>Vol.20 (7/23-7/30)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-07-23_07-30/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-07-23_07-30/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.20 7/23 - 7/30WEEKLY TECH &amp; AI DIGEST40 Articles This Week CLAUDE’S PICK RAG 시스템의 청킹 전략 최적화 가이드 대용량 문서를 AI 검색에 활용할 때 잘못된 청킹 방식은 관련 없는 검색 결과, 비효율성, 비즈니스 가치 감소를 초래한다. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.19 (7/16-7/23)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-07-16_07-23/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-05-28_06-04/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.12 2026.5/28 – 6/4WEEKLY TECH &amp; AI DIGEST27 Articles This Week CLAUDE’S PICK OmniRetrieval: 이질적 지식 소스 통합 검색 프레임워크 기존 RAG 시스템은 모든 지식을 벡터로 변환하여 단일 벡터 공간에 저장하므로 텍스트, 테이블, 지식 그래프 등 구조적으로 다양한 지식 소스의 특성을 손실한다. ]]></description>
     <pubDate>Wed, 03 Jun 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.11 (5/21-5/28)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-05-21_05-28/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-05-21_05-28/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.11 2026.5/21 – 5/28WEEKLY TECH &amp; AI DIGEST40 Articles This Week CLAUDE’S PICK Gemini 3.5: 프론티어 지능과 에이전트 기능을 결합한 최신 AI 모델 Google I/O 2026에서 공개된 Gemini 3.5는 최고 성능의 AI 모델들과 경쟁하면서도 Flash 시리즈의 빠른 속도를 유지하는 문제를 해결한다. ]]></description>
-    <pubDate>Wed, 27 May 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
