@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.21 (7/30-8/6) · PDF Vol.20 (7/23-7/30) · PDF Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF Vol.13 (6/4-6/11) · PDF Vol.12 (5/28-6/4) · PDF Vol.11 (5/21-5/28) · PDF Vol.10 (5/14-5/21) · PDF... ]]></description>
-    <pubDate>Thu, 06 Aug 2026 01:10:25 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6) · PDF Vol.20 (7/23-7/30) · PDF Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF Vol.13 (6/4-6/11) · PDF Vol.12 (5/28-6/4) · PDF Vol.11 (5/21-5/28) · PDF ... ]]></description>
+    <pubDate>Thu, 13 Aug 2026 01:06:36 GMT</pubDate>
+  </item><item>
+    <title>Vol.22 (8/6-8/13)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-08-06_08-13/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-08-06_08-13/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.22 8/6 - 8/13WEEKLY TECH &amp; AI DIGEST12 Articles This Week CLAUDE’S PICK AlphaEvolve — Gemini 기반 고급 알고리즘 설계 AI 에이전트 대규모 언어모델이 수학 및 컴퓨팅의 복잡한 문제를 해결할 때 환각 문제와 창의성 제한이 발생한다. ]]></description>
+    <pubDate>Wed, 12 Aug 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.21 (7/30-8/6)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-07-30_08-06/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-06-11_06-18/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.14 2026.6/11 – 6/18WEEKLY TECH &amp; AI DIGEST19 Articles This Week CLAUDE’S PICK Amazon Aurora MCP 서버 — LLM 에이전트와 데이터베이스 연결 표준화 LLM 기반 에이전트가 SQL을 직접 작성하지 않고도 자연어 명령으로 데이터베이스를 조작할 수 없는 문제를 해결하기 위해 AWS가 제공하는 MCP 서버 솔루션. ]]></description>
     <pubDate>Wed, 17 Jun 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.13 (6/4-6/11)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-06-04_06-11/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-06-04_06-11/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.13 2026.6/4 – 6/11WEEKLY TECH &amp; AI DIGEST24 Articles This Week CLAUDE’S PICK PaddleOCR-VL-1.6: 문서 파싱을 위한 멀티모달 OCR 모델 문서 이미지에서 텍스트, 레이아웃, 표, 수식 등을 정확히 추출하는 멀티모달 OCR 모델. ]]></description>
-    <pubDate>Wed, 10 Jun 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
