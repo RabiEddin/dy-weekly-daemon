@@ -4,6 +4,7 @@ title: THE WEEKLY DAEMON
 
 ## ARCHIVE
 
+- [**Vol.23** (8/13-8/20)](2026-08-13_08-20) · <a href="2026-08-13_08-20/vol-23.pdf" target="_blank" rel="noopener">PDF</a>
 - [**Vol.22** (8/6-8/13)](2026-08-06_08-13) · <a href="2026-08-06_08-13/vol-22.pdf" target="_blank" rel="noopener">PDF</a>
 - [**Vol.21** (7/30-8/6)](2026-07-30_08-06) · <a href="2026-07-30_08-06/vol-21.pdf" target="_blank" rel="noopener">PDF</a>
 - [**Vol.20** (7/23-7/30)](2026-07-23_07-30) · <a href="2026-07-23_07-30/vol-20.pdf" target="_blank" rel="noopener">PDF</a>
