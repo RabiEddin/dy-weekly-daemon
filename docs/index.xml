@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6) · PDF Vol.20 (7/23-7/30) · PDF Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF Vol.14 (6/11-6/18) · PDF... ]]></description>
-    <pubDate>Sun, 06 Sep 2026 07:36:06 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6) · PDF Vol.20 (7/23-7/30) · PDF Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF ... ]]></description>
+    <pubDate>Thu, 10 Sep 2026 04:33:44 GMT</pubDate>
+  </item><item>
+    <title>Vol.26 (9/3-9/10)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-09-03_09-10/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-09-03_09-10/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.26 9/3 - 9/10WEEKLY TECH &amp; AI DIGEST23 Articles This Week CLAUDE’S PICK Dragon Hatchling: 뇌에서 영감을 받은 트랜스포머 대체 아키텍처 트랜스포머 기반 대형언어모델들은 긴 시간에 걸친 일관된 추론과 지식 보유에 한계를 보인다. ]]></description>
+    <pubDate>Wed, 09 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.25 (8/27-9/3)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-08-27_09-03/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-07-09_07-16/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.18 7/9 - 7/16WEEKLY TECH &amp; AI DIGEST26 Articles This Week CLAUDE’S PICK Obsidian Second Brain — AI 우선 크로스 CLI 기반 자동갱신 노트 시스템 사용자의 Obsidian 볼트가 시간이 지남에 따라 자동으로 진부화되거나 모순되는 문제를 해결하는 시스템. ]]></description>
     <pubDate>Wed, 15 Jul 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.17 (7/2-7/9)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-07-02_07-09/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-07-02_07-09/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.17 7/2 - 7/9WEEKLY TECH &amp; AI DIGEST25 Articles This Week CLAUDE’S PICK OCRmyPDF — 스캔 PDF에 검색 가능한 텍스트 레이어 자동 추가 스캐너로 읽은 PDF는 이미지 기반이라 텍스트 검색과 복사가 불가능한 문제가 있다. ]]></description>
-    <pubDate>Wed, 08 Jul 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
