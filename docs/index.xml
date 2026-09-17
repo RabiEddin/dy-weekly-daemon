@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6) · PDF Vol.20 (7/23-7/30) · PDF Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF Vol.15 (6/18-6/25) · PDF ... ]]></description>
-    <pubDate>Thu, 10 Sep 2026 04:33:44 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6) · PDF Vol.20 (7/23-7/30) · PDF Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · PDF Vol.17 (7/2-7/9) · PDF Vol.16 (6/25-7/2) · PDF ... ]]></description>
+    <pubDate>Thu, 17 Sep 2026 01:07:56 GMT</pubDate>
+  </item><item>
+    <title>Vol.27 (9/10-9/17)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-09-10_09-17/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-09-10_09-17/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.27 9/10 - 9/17WEEKLY TECH &amp; AI DIGEST25 Articles This Week CLAUDE’S PICK LLM 테이블 데이터 참조 오류 측정 및 개선 연구 LLM이 테이블 구조는 이해하면서도 잘못된 셀값을 인용하거나 누락하는 데이터 참조 오류(DRE)를 체계적으로 분석한 연구다. ]]></description>
+    <pubDate>Wed, 16 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.26 (9/3-9/10)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-09-03_09-10/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-07-16_07-23/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.19 7/16 - 7/23WEEKLY TECH &amp; AI DIGEST30 Articles This Week CLAUDE’S PICK ColGraphRAG: 다중모드 그래프 기반 질문 답변의 시각 증거 검색 개선 그래프 기반 다중모드 질문 답변에서 텍스트, 표, 이미지를 구조화된 증거 그래프로 조직하지만, 단일 벡터 기반 인코더는 미세한 정렬에 필요한 패치 및 토큰 수준의 구조를 손실시키는 문제가 있다. ]]></description>
     <pubDate>Wed, 22 Jul 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.18 (7/9-7/16)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-07-09_07-16/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-07-09_07-16/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.18 7/9 - 7/16WEEKLY TECH &amp; AI DIGEST26 Articles This Week CLAUDE’S PICK Obsidian Second Brain — AI 우선 크로스 CLI 기반 자동갱신 노트 시스템 사용자의 Obsidian 볼트가 시간이 지남에 따라 자동으로 진부화되거나 모순되는 문제를 해결하는 시스템. ]]></description>
-    <pubDate>Wed, 15 Jul 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
