@@ -70,21 +70,20 @@ class ArticleExtractor(HTMLParser):
             self.cur = None
 
 
-def main(outdir):
-    idx_path = Path(outdir) / "static" / "contentIndex.json"
-    data = json.loads(idx_path.read_text(encoding="utf-8"))
-
+def split_index(data: dict, html_for) -> tuple[dict, int, int]:
+    """호 단위 색인 → 기사 단위 엔트리 추가. html_for(key) 는 그 호 페이지의 HTML(없으면 None)을 돌려준다.
+    반환: (새 색인, 추가된 기사 수, 분해한 호 수). 파일을 읽지 않으므로 로컬 프록시(ai_search_server)도 같은 규칙을 쓴다."""
     # 멱등성: 이전 실행이 만든 #앵커 엔트리 제거 후 다시 생성
     data = {k: v for k, v in data.items() if "#" not in k}
 
     vols = [k for k in data if re.match(r"20\d\d-.*/index$", k)]
     added = 0
     for key in vols:
-        html_path = Path(outdir) / key.replace("/index", "") / "index.html"
-        if not html_path.exists():
+        html = html_for(key)
+        if not html:
             continue
         p = ArticleExtractor()
-        p.feed(html_path.read_text(encoding="utf-8"))
+        p.feed(html)
         if not p.articles:
             continue
         vol_title = data[key].get("title", "")
@@ -103,9 +102,20 @@ def main(outdir):
             added += 1
         # 호 엔트리는 제목 검색용으로만 유지 (본문은 기사 엔트리가 담당 — 중복 히트 방지)
         data[key]["content"] = ""
+    return data, added, len(vols)
 
+
+def main(outdir):
+    idx_path = Path(outdir) / "static" / "contentIndex.json"
+    data = json.loads(idx_path.read_text(encoding="utf-8"))
+
+    def html_for(key: str):
+        html_path = Path(outdir) / key.replace("/index", "") / "index.html"
+        return html_path.read_text(encoding="utf-8") if html_path.exists() else None
+
+    data, added, nvols = split_index(data, html_for)
     idx_path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
-    print(f"기사 엔트리 {added}개 생성 (호 {len(vols)}개 분해, 총 {len(data)}개)")
+    print(f"기사 엔트리 {added}개 생성 (호 {nvols}개 분해, 총 {len(data)}개)")
 
 
 if __name__ == "__main__":
