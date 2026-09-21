@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### 법률 AI 검색: Query Rewriting의 한계와 실전 벤치마크
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### 법률 AI 검색: Query Rewriting의 한계와 실전 벤치마크
 
 ![법률 AI 검색: Query Rewriting의 한계와 실전 벤치마크](images/21.jpg)
 
@@ -23,9 +23,9 @@ RAG 기반 법률 검색 시스템에서 쿼리 리라이팅 기법의 실제 �
 
 *블로그 (Blog)*
 
-### Taste Skill — AI 프론트엔드의 밋밋함을 프로페셔널한 디자인으로
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Taste Skill — AI 프론트엔드의 밋밋함을 프로페셔널한 디자인으로
 
 ![Taste Skill — AI 프론트엔드의 밋밋함을 프로페셔널한 디자인으로](images/26.jpg)
 
@@ -37,9 +37,9 @@ Claude Code의 frontend-design 스킬이 기능적이지만 AI 티가 나는 밋
 
 *기타 (Others)*
 
-### MarkItDown — 마이크로소프트 LLM용 문서 변환기 10만 스타 달성
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### MarkItDown — 마이크로소프트 LLM용 문서 변환기 10만 스타 달성
 
 ![MarkItDown — 마이크로소프트 LLM용 문서 변환기 10만 스타 달성](images/11.jpg)
 
@@ -54,9 +54,10 @@ LLM 파이프라인에 입력되는 문서의 맥락이 파괴되는 문제를 �
 
 ## AI & RESEARCH
 
+<!-- badge:4 -->
+
 ### PaperOrchestra: 다중 에이전트 기반 학술논문 자동 생성 시스템
 
-<!-- badge:4 -->
 학술 논문 작성에서 문헌 조사의 얕은 깊이, 인용의 부족, 개념도 생성 불가 등의 문제를 해결하기 위해 Google이 개발한 다중 에이전트 시스템. PaperOrchestra는 사전 작성 자료와 실험 로그를 제출 가능한 LaTeX 원고로 변환하며, 전문화된 에이전트들이 심층 문헌 종합, 플롯 생성, 개념도 작성, 반복 개선을 담당한다. 200개 상위권 학술지 논문으로 역엔지니어링한 PaperWritingBench 벤치마크도 함께 공개했다.
 
 **핵심 포인트:** 핵심 성과: 인간 평가에서 문헌 리뷰 품질 50~68%, 전체 원고 품질 14~38%의 절대 우위를 달성했으며, 최초로 LaTeX 생성, 표적 문헌 조사, 개념도를 통합하는 논문 작성 시스템을 구현했다.
@@ -65,9 +66,10 @@ LLM 파이프라인에 입력되는 문서의 맥락이 파괴되는 문제를 �
 
 *기타 (Others)*
 
+<!-- badge:5 -->
+
 ### Unsloth — 9GB VRAM으로 로컬에서 Gemma 4 강화학습 실습
 
-<!-- badge:5 -->
 대규모 클라우드 인프라 없이 개인 PC 환경에서 LLM 강화학습을 실험하기 어려운 문제를 해결한다. Unsloth에서 공개한 무료 노트북은 GRPO 알고리즘을 적용하여 Gemma 4 모델이 스도쿠 문제를 자동으로 푸는 방법을 학습하도록 구성했다. 9GB VRAM만으로 로컬 환경에서 완전한 RL 사이클을 직접 실행할 수 있으며, 강화학습의 동작 원리를 직관적으로 이해하고 실습할 수 있는 자료를 제공한다.
 
 **핵심 포인트:** 핵심 성과: 9GB VRAM 제약 조건 하에서 로컬 PC에서 Gemma 4 모델의 완전한 강화학습 사이클 실행 가능, GRPO 알고리즘을 통한 실제 문제 해결(스도쿠) 학습 구현으로 RL 개념의 실용적 이해 제공
@@ -76,9 +78,9 @@ LLM 파이프라인에 입력되는 문서의 맥락이 파괴되는 문제를 �
 
 *기타 (Others)*
 
-### ParseBench — 에이전트 시대를 위한 OCR 벤치마크
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### ParseBench — 에이전트 시대를 위한 OCR 벤치마크
 
 ![ParseBench — 에이전트 시대를 위한 OCR 벤치마크](images/05.jpg)
 
@@ -90,9 +92,9 @@ LLM 파이프라인에 입력되는 문서의 맥락이 파괴되는 문제를 �
 
 *기타 (Others)*
 
-### 야기엘론스키 대학교 — 단일 연산자로 모든 수학함수 표현
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### 야기엘론스키 대학교 — 단일 연산자로 모든 수학함수 표현
 
 복잡한 수학 함수 계산을 위해 하드웨어에 다양한 연산 블록이 필요한 것이 문제다. 폴란드 야기엘론스키 대학교 연구진은 E(x, y) = exp(x) - ln(y) 연산자와 숫자 1만으로 사인, 코사인, 파이 등 모든 기본 수학 함수를 표현할 수 있음을 보였다. 순수 수학자들은 수렴 속도와 수식 복잡도를 지적하지만, 컴퓨터 공학 분야에서는 칩 설계 단순화와 하드웨어 비용 절감, 처리 속도 개선의 실마리로 평가하고 있다.
 
@@ -102,9 +104,9 @@ LLM 파이프라인에 입력되는 문서의 맥락이 파괴되는 문제를 �
 
 *기타 (Others)*
 
-### LLM-as-a-Verifier — 확률분포 기반 연속 보상으로 SOTA 달성
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### LLM-as-a-Verifier — 확률분포 기반 연속 보상으로 SOTA 달성
 
 ![LLM-as-a-Verifier — 확률분포 기반 연속 보상으로 SOTA 달성](images/08.jpg)
 
@@ -116,9 +118,10 @@ LLM 파이프라인에 입력되는 문서의 맥락이 파괴되는 문제를 �
 
 *기타 (Others)*
 
+<!-- badge:9 -->
+
 ### 하네스 엔지니어링 — 산업공학과 컴퓨터공학 방법론의 융합
 
-<!-- badge:9 -->
 ![하네스 엔지니어링 — 산업공학과 컴퓨터공학 방법론의 융합](images/10.jpg)
 
 현대 하네스 엔지니어링이 직면한 문제는 교과서 수준의 최적화 기법들이 실무에 10% 미만으로만 적용되고 있다는 점이다. 이 콘텐츠는 하네스 엔지니어링을 산업공학의 DMAIC 루프와 컴퓨터공학의 그래프 탐색, 비동기 노드 통신 같은 고급 기법들로 분류하고, 프로세스 최적화와 멀티에이전트 협력 설계를 통해 토큰 낭비를 최소화하면서 성공적인 결과를 도출하는 방법론을 제시한다.
@@ -129,9 +132,10 @@ LLM 파이프라인에 입력되는 문서의 맥락이 파괴되는 문제를 �
 
 *기타 (Others)*
 
+<!-- badge:10 -->
+
 ### 다익스트라 알고리즘 — 41년 만에 시간복잡도 개선 달성
 
-<!-- badge:10 -->
 1984년 Fredman-Tarjan이 피보나치 힙으로 O(m + n log n)의 시간복잡도를 증명한 이후 41년간 최적으로 여겨진 다익스트라 알고리즘의 벽이 깨졌다. 칭화대와 스탠포드 연구진이 방향 그래프의 최단경로 문제에서 O(m log²/³ n)의 시간복잡도를 달성했다. 핵심은 최단경로 계산이 정렬과 동치라는 기존 통념을 뒤집고, 비교-덧셈 모델에서 정렬 장벽을 우회하는 결정론적 알고리즘을 제시한 것이다.
 
 **핵심 포인트:** 핵심 성과: 41년간 최적 알고리즘으로 여겨진 다익스트라를 개선하여 O(m log²/³ n) 시간복잡도 달성, 정렬 장벽 우회를 통해 이론 전산학의 새로운 가능성 제시
@@ -140,9 +144,9 @@ LLM 파이프라인에 입력되는 문서의 맥락이 파괴되는 문제를 �
 
 *논문 (Papers)*
 
-### Supergemma4-26b-multimodal — 한국 개발자의 완벽한 Gemma4 파인튜닝 모델
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Supergemma4-26b-multimodal — 한국 개발자의 완벽한 Gemma4 파인튜닝 모델
 
 ![Supergemma4-26b-multimodal — 한국 개발자의 완벽한 Gemma4 파인튜닝 모델](images/13.jpg)
 
@@ -154,9 +158,10 @@ Gemma4-26b 모델의 기존 한계점들을 해결하기 위해 한국 개발자
 
 *기타 (Others)*
 
+<!-- badge:12 -->
+
 ### AI Index 2026: AI 성능 폭발적 성장, 안전·일자리는 낙오
 
-<!-- badge:12 -->
 스탠포드 HAI 연구소가 발표한 AI Index 2026 보고서에 따르면 AI 성능이 인간의 평가 지표를 완전히 압도하고 있다는 것이 드러났다. 자율 소프트웨어 엔지니어링 능력은 1년 만에 60%에서 거의 100%에 도달했으며, 중국이 미국을 따라잡아 기술 패권 경쟁이 치열해지고 있다. 반면 AI 안전성, 일자리 영향, 교육 대응은 발전 속도를 전혀 따라가지 못하고 있으며, 미국의 압도적 인프라 우위(데이터센터 5,427개)에도 불구하고 핵심 칩 생산은 대만 TSMC에 집중되어 있다.
 
 **핵심 포인트:** 핵심 성과: SWE-bench Verified에서 성능이 1년 만에 60%에서 100% 근처로 수직 상승했으며, 중국과 미국의 최고 모델 격차는 2.7%로 사실상 동등 수준에 도달. 한국은 인구당 AI 특허 1위를 기록하며 혁신 밀도 1위를 달성했다.
@@ -165,9 +170,9 @@ Gemma4-26b 모델의 기존 한계점들을 해결하기 위해 한국 개발자
 
 *기타 (Others)*
 
-### MSA Context: 1억 토큰 처리로 RAG의 한계를 극복한 새로운 모델 구조
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### MSA Context: 1억 토큰 처리로 RAG의 한계를 극복한 새로운 모델 구조
 
 기존에는 1억 토큰 처리를 위해 외부 데이터베이스 기반 RAG나 선형 어텐션 구조를 사용했으나 성능 저하와 정확도 문제가 발생했다. MSA는 모델의 뇌 구조 자체를 개조하여 RAG 없이 1억 토큰을 직접 처리할 수 있는 새로운 접근 방식을 제시한다.
 
@@ -177,9 +182,10 @@ Gemma4-26b 모델의 기존 한계점들을 해결하기 위해 한국 개발자
 
 *기타 (Others)*
 
+<!-- badge:14 -->
+
 ### BridgeBench — Claude Opus 4.6 성능 저하 논란 분석
 
-<!-- badge:14 -->
 ![BridgeBench — Claude Opus 4.6 성능 저하 논란 분석](images/18.jpg)
 
 Claude Opus 4.6이 환각 벤치마크에서 급격한 성능 하락을 보였다는 주장이 제기되었다. BridgeBench에서 지난주 83.3% 정확도로 2위를 기록했으나 이번주 68.3% 정확도로 10위로 하락했다는 것이다. 그러나 배경 정보에 따르면 두 테스트의 범위가 다르다. 초기 테스트는 6개 작업, 최신 테스트는 30개 작업 기준으로, 공통 작업 6개만 비교하면 87.6% 대 85.4%로 유사한 성능을 보여 실질적 변화가 없을 가능성이 높다.
@@ -190,9 +196,9 @@ Claude Opus 4.6이 환각 벤치마크에서 급격한 성능 하락을 보였�
 
 *기타 (Others)*
 
-### ColBERT: 검색 성능 99% 유지하며 토큰 강조 표시 실현
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### ColBERT: 검색 성능 99% 유지하며 토큰 강조 표시 실현
 
 문서 검색 시 쿼리와 관련된 토큰을 실시간으로 강조 표시할 수 있는 기능의 필요성을 해결하기 위해 수정된 ColBERT 모델을 개발했다. 이 접근 방식은 원래의 검색 성능 99%를 유지하면서도 Gemma 2 같은 245배 더 큰 모델 수준의 토큰 수준 강조 표시 품질을 달성한다.
 
@@ -202,9 +208,10 @@ Claude Opus 4.6이 환각 벤치마크에서 급격한 성능 하락을 보였�
 
 *기타 (Others)*
 
+<!-- badge:16 -->
+
 ### Claude: 어드바이저 전략으로 비용 11.9% 절감
 
-<!-- badge:16 -->
 ![Claude: 어드바이저 전략으로 비용 11.9% 절감](images/29.jpg)
 
 앤트로픽의 Claude 플랫폼은 가볍고 빠른 Sonnet, Haiku 모델이 일상적인 작업을 처리하고, 복잡한 판단이 필요한 순간에만 최고 성능의 Opus 4.6 모델에게 조언을 구하는 어드바이저 전략 기능을 공개했다. 이 협업 구조를 통해 코딩 벤치마크에서 Sonnet 단독 작업 대비 성능은 향상되면서도 전체 작업 비용을 11.9% 줄일 수 있음을 입증했다.
@@ -215,9 +222,10 @@ Claude Opus 4.6이 환각 벤치마크에서 급격한 성능 하락을 보였�
 
 *기타 (Others)*
 
+<!-- badge:17 -->
+
 ### Boxer — 2D 객체를 실시간 3D 공간 좌표로 변환
 
-<!-- badge:17 -->
 ![Boxer — 2D 객체를 실시간 3D 공간 좌표로 변환](images/30.jpg)
 
 2D 비전 모델이 감지한 객체를 3D 공간 좌표로 변환하는 과정에서 높은 연산량이 필요한 문제를 해결한다. Meta의 Boxer 모델은 RTX 4090에서 30개 객체를 20ms 내에 동시 처리하여 실시간 3D 변환을 가능하게 한다. 오픈소스로 공개되어 스마트 글래스 등 AR/VR 기기의 3D 공간 인식 능력을 대중화하는 기반을 마련한다.
@@ -231,9 +239,9 @@ Claude Opus 4.6이 환각 벤치마크에서 급격한 성능 하락을 보였�
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Fire-PDF — Rust 기반 PDF 파싱 엔진으로 처리 속도 5배 향상
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Fire-PDF — Rust 기반 PDF 파싱 엔진으로 처리 속도 5배 향상
 
 ![Fire-PDF — Rust 기반 PDF 파싱 엔진으로 처리 속도 5배 향상](images/07.jpg)
 
@@ -245,9 +253,10 @@ Claude Opus 4.6이 환각 벤치마크에서 급격한 성능 하락을 보였�
 
 *기타 (Others)*
 
+<!-- badge:19 -->
+
 ### claude-dashboard — Claude Code 컨텍스트 사용률을 상태바에서 실시간 모니터링
 
-<!-- badge:19 -->
 ![claude-dashboard — Claude Code 컨텍스트 사용률을 상태바에서 실시간 모니터링](images/09.jpg)
 
 Claude Code 사용 중 컨텍스트 한도와 요금 상태를 확인하기 위해 명령어를 입력하거나 웹 콘솔을 열어야 하는 불편함으로 인해 작업 흐름이 단절되고 예기치 않게 한도에 도달하는 문제가 발생한다. claude-dashboard는 상태바 플러그인으로 컨텍스트 사용률, 세션 비용, 요금제 잔여량을 항상 표시해 이 문제를 해결한다. Compact, Normal, Detailed 세 가지 모드와 색상 기반 인지 부하 감소 기능, 커스텀 레이아웃 설정으로 사용자 맞춤형 모니터링을 제공한다.
@@ -258,9 +267,10 @@ Claude Code 사용 중 컨텍스트 한도와 요금 상태를 확인하기 위�
 
 *기타 (Others)*
 
+<!-- badge:20 -->
+
 ### OpenHarness — LLM에 도구와 기억을 더한 오픈소스 에이전트 환경
 
-<!-- badge:20 -->
 LLM만으로는 실제 업무 적용에 부족하다는 문제를 해결하기 위해 OpenHarness가 공개되었다. 이 파이썬 기반 100% 오픈소스 에이전트 환경은 LLM에 웹 검색, 파일 제어, MCP 등 43가지 도구와 세션을 넘나드는 영구 메모리, 멀티 에이전트 협업 기능을 통합제공한다. Cursor와 CLI 환경에서 즉시 연동되어 에이전트 직접 구축의 복잡성을 크게 단축시킨다.
 
 **핵심 포인트:** 핵심 기여: 43가지 내장 도구, 영구 메모리 시스템, 멀티 에이전트 기능을 갖춘 완전한 오픈소스 에이전트 플랫폼 제공으로 개발자들의 에이전트 구축 시간을 대폭 단축.
@@ -269,9 +279,10 @@ LLM만으로는 실제 업무 적용에 부족하다는 문제를 해결하기 �
 
 *GitHub*
 
+<!-- badge:21 -->
+
 ### Claude Code — 웹 기반 계획 수립으로 AI 코드 생성 워크플로우 혁신
 
-<!-- badge:21 -->
 ![Claude Code — 웹 기반 계획 수립으로 AI 코드 생성 워크플로우 혁신](images/22.jpg)
 
 AI 에이전트의 자율성이 높아지면서 복잡한 코드를 터미널 창만으로는 파악하기 어려워지는 문제를 해결하기 위해 앤트로픽이 Claude Code에 '/ultraplan' 기능을 출시했다. 클라우드 기반 웹 브라우저에서 전체 구현 계획서를 시각화하여 사용자가 구조를 파악하고 수정한 뒤, 로컬 터미널에서 실제 코드를 실행하는 투트랙 방식을 도입했다. 이는 인간의 인지 흐름에 맞춘 UI와 워크플로우 재설계를 보여주는 변화다.
@@ -282,9 +293,9 @@ AI 에이전트의 자율성이 높아지면서 복잡한 코드를 터미널 �
 
 *기타 (Others)*
 
-### Hermes Agent — 텔레그램에 10분 안에 연동하는 LLM 에이전트
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Hermes Agent — 텔레그램에 10분 안에 연동하는 LLM 에이전트
 
 ![Hermes Agent — 텔레그램에 10분 안에 연동하는 LLM 에이전트](images/23.jpg)
 
@@ -296,9 +307,10 @@ OpenClaw보다 강력한 LLM 에이전트인 Hermes Agent를 텔레그램에 연
 
 *기타 (Others)*
 
+<!-- badge:23 -->
+
 ### Claude Code 2.1.101 — 팀 온보딩과 엔터프라이즈 안정성 대폭 개선
 
-<!-- badge:23 -->
 ![Claude Code 2.1.101 — 팀 온보딩과 엔터프라이즈 안정성 대폭 개선](images/24.jpg)
 
 Claude Code 사용자들이 새 팀원에게 사용법을 설명할 때의 번거로움을 해결하기 위해 /team-onboarding 명령어를 추가했다. 이 명령어는 사용자의 Claude Code 사용 패턴을 분석해 팀원용 온보딩 가이드를 자동으로 생성한다. 동시에 기업 환경의 TLS 프록시 설정 복잡성을 제거하고, --resume 옵션의 대형 세션 복구 안정성을 대폭 개선했으며, 메모리 누수 및 보안 취약점을 다수 수정했다.
@@ -309,9 +321,9 @@ Claude Code 사용자들이 새 팀원에게 사용법을 설명할 때의 번�
 
 *기타 (Others)*
 
-### Conductor — Claude Code를 병렬 실행하는 Mac 네이티브 앱
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Conductor — Claude Code를 병렬 실행하는 Mac 네이티브 앱
 
 ![Conductor — Claude Code를 병렬 실행하는 Mac 네이티브 앱](images/25.jpg)
 
@@ -323,9 +335,10 @@ Claude Code 사용자들이 새 팀원에게 사용법을 설명할 때의 번�
 
 *기타 (Others)*
 
+<!-- badge:25 -->
+
 ### Mesurer — 디자인 픽셀 완벽도를 위한 웹 측정 도구
 
-<!-- badge:25 -->
 웹사이트나 앱 개발 시 디자이너의 의도한 간격과 위치를 정확히 구현하기 어려운 문제를 해결하는 도구다. 복잡한 개발자 도구나 코드 분석 없이 마우스를 올려 요소 간 간격과 크기를 직관적으로 측정할 수 있으며, 무료이고 단 한 줄의 명령어로 설치 가능해 개발 중인 로컬호스트 환경에서 즉시 활용할 수 있다.
 
 **핵심 포인트:** 핵심 기여: 개발자 도구 없이 마우스 호버만으로 1픽셀 단위의 정확한 요소 측정이 가능하며, 무료 서비스로 한 줄 설치 명령어로 빠르게 도입할 수 있다.
@@ -334,9 +347,10 @@ Claude Code 사용자들이 새 팀원에게 사용법을 설명할 때의 번�
 
 *기타 (Others)*
 
+<!-- badge:26 -->
+
 ### Multica — 앤트로픽의 Claude Managed Agents를 오픈소스로 구현
 
-<!-- badge:26 -->
 앤트로픽이 에이전트 구축 및 배포 전용 인프라인 Claude Managed Agents를 공개한 지 몇 시간 만에 동일한 기능을 구현한 오픈소스 프레임워크 Multica가 깃허브에 공개되었다. 기존에 에이전트를 프로덕션 환경에 배포하려면 수개월의 인프라 작업이 필요했으나, 이제는 작업과 도구만 설정하면 며칠 내에 배포가 가능해졌다. 이는 AI 시대 기업이 새로운 플랫폼 장벽을 세우면 오픈소스 진영이 실시간으로 이를 허무는 패턴이 가속화되고 있음을 보여준다.
 
 **핵심 포인트:** 핵심 기여: Notion, Asana, Rakuten, Sentry 등이 Claude Managed Agents를 통해 단 몇 주 만에 실무 에이전트를 완성했으며, 오픈소스 Multica를 통해 동일한 기능을 누구나 접근 가능하게 제공한다.
@@ -348,9 +362,10 @@ Claude Code 사용자들이 새 팀원에게 사용법을 설명할 때의 번�
 
 ## ENGINEERING
 
+<!-- badge:27 -->
+
 ### Anthropic Managed Agents — 모델 진화에 따른 '죽은 무게' 문제 해결
 
-<!-- badge:27 -->
 ![Anthropic Managed Agents — 모델 진화에 따른 '죽은 무게' 문제 해결](images/32.jpg)
 
 AI 모델이 업그레이드될 때마다 이전 모델의 한계를 보정하던 패치 코드들이 족쇄가 되는 문제가 발생한다. Anthropic의 Managed Agents는 OS의 추상화 원칙을 차용하여 세션, 하네스, 샌드박스를 완벽히 분리하고, 인터페이스에만 엄격하면서 구현에는 중립적인 구조로 이 반복적 고통을 해결한다. 모델의 성장이 기존 코드를 무효화하는 악순환을 끊고 장기적으로 지속 가능한 에이전트 아키텍처를 제시한다.
@@ -364,9 +379,9 @@ AI 모델이 업그레이드될 때마다 이전 모델의 한계를 보정하�
 
 ## PRODUCT & INDUSTRY
 
-### Agent Skill System — 상담원의 복잡한 작업 수행 능력 향상
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Agent Skill System — 상담원의 복잡한 작업 수행 능력 향상
 
 현대 상담원 시스템에서 상담원이 다양한 애플리케이션, 웹 브라우저, 인터페이스를 모니터링하고 상호 작용해야 하는 실제 환경에서의 효율성 문제가 발생한다. 스킬 사용을 통해 상담원 시스템의 핵심 구성 요소를 강화하고 복잡한 작업 완료 능력을 크게 향상시킨다.
 
@@ -376,9 +391,10 @@ AI 모델이 업그레이드될 때마다 이전 모델의 한계를 보정하�
 
 *논문 (Papers)*
 
+<!-- badge:29 -->
+
 ### Gemini — macOS 정식 앱 출시로 단축키 지원
 
-<!-- badge:29 -->
 ![Gemini — macOS 정식 앱 출시로 단축키 지원](images/02.jpg)
 
 Google Gemini의 macOS 네이티브 앱이 정식 출시되었다. 기존 웹 기반 서비스의 접근성 문제를 해결하기 위해 macOS 데스크톱 앱을 제공하며, 단축키 지원으로 맥 사용자의 작업 효율성을 크게 향상시킨다. 윈도우 버전은 아직 미출시 상태이며, 맥북 사용자들은 더욱 편리한 작업 환경에서 Gemini AI 기능을 활용할 수 있게 되었다.
@@ -389,9 +405,10 @@ Google Gemini의 macOS 네이티브 앱이 정식 출시되었다. 기존 웹 �
 
 *기타 (Others)*
 
+<!-- badge:30 -->
+
 ### Claude Opus 4.7 — 앤트로픽의 AI 디자인 도구로 판도 바뀐다
 
-<!-- badge:30 -->
 디자인 업계가 직면한 문제는 전문적인 웹사이트와 프레젠테이션 제작에 코딩이나 디자인 지식이 필수라는 것이다. 앤트로픽이 Claude Opus 4.7 모델과 함께 새로운 AI 디자인 도구를 출시함으로써 자연어 프롬프트만으로 랜딩 페이지와 프레젠테이션을 완성할 수 있게 된다. 이 발표 소식만으로도 Adobe, Wix, Figma 등 기존 디자인 플랫폼의 주가가 하락했으며, Gamma나 Google Stitch와 같은 경쟁 서비스들도 강력한 경쟁자를 맞이하게 되었다.
 
 **핵심 포인트:** 핵심 성과: 비전문가도 프롬프트 하나로 시각적 디자인 작업을 완성하는 워크플로우 구현, 보안 특화 모델인 Claude Mythos 테스트에 이어 시각적 작업 영역까지 플랫폼 확장으로 디자인 툴 시장의 경쟁 구도 재편성.
@@ -400,9 +417,9 @@ Google Gemini의 macOS 네이티브 앱이 정식 출시되었다. 기존 웹 �
 
 *기타 (Others)*
 
-### Claude Code Meetup — 판교에서 만나는 AI 개발자 커뮤니티
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Code Meetup — 판교에서 만나는 AI 개발자 커뮤니티
 
 ![Claude Code Meetup — 판교에서 만나는 AI 개발자 커뮤니티](images/15.jpg)
 
@@ -414,9 +431,10 @@ Google Gemini의 macOS 네이티브 앱이 정식 출시되었다. 기존 웹 �
 
 *기타 (Others)*
 
+<!-- badge:32 -->
+
 ### Claude Code: Epitaxy 환경으로 멀티 에이전트 협업 개발 플랫폼 공개
 
-<!-- badge:32 -->
 ![Claude Code: Epitaxy 환경으로 멀티 에이전트 협업 개발 플랫폼 공개](images/17.jpg)
 
 기존 AI 코드 에디터는 단일 컨텍스트 창에서만 작업 관리가 가능해 복잡한 풀스택 개발에 제약이 있었다. 앤트로픽의 Claude Code 데스크톱 앱에 공개될 Epitaxy 환경은 파워 유저를 위한 직관적 UI와 멀티 저장소 협업 레이아웃을 제공하며, 코드 프리뷰, 작업 계획, 서브 에이전트 실행, 변경사항을 통합 관리할 수 있다. Coordinator Mode를 통해 맞춤형 에이전트를 생성하고 병렬 에이전트에게 작업을 위임하는 기능을 추가해 완벽한 개발팀처럼 작동하는 AI 워크스페이스를 실현한다.
@@ -427,20 +445,25 @@ Google Gemini의 macOS 네이티브 앱이 정식 출시되었다. 기존 웹 �
 
 *기타 (Others)*
 
-### Codex
+<!-- badge:33 -->
 
 <!-- badge:33 -->
-![Codex](images/19.jpg)
 
-큰 거 온다... 오픈AI의 'Codex'가 채팅과 개인용 에이전트를 하나로 합친 슈퍼앱으로 진화할 전망입니다. 가장 눈에 띄는 것은 새롭게 도입되는 'Heartbeat' 시스템과 에이전트 생성 기능인데요.
+### OpenAI Codex — 채팅과 AI 에이전트를 통합한 슈퍼앱으로 진화
+
+![OpenAI Codex — 채팅과 AI 에이전트를 통합한 슈퍼앱으로 진화](images/19.jpg)
+
+OpenAI의 Codex가 채팅과 개인용 에이전트를 하나로 통합한 슈퍼앱으로 진화한다. 새로운 Heartbeat 시스템은 사용자의 명시적 지시 없이도 백그라운드에서 Slack이나 업무 기록을 자동으로 스캔하여 다음 작업을 파악하고 제안하며, 맞춤형 에이전트를 생성할 수 있다. Scratchpad 기능으로 여러 에이전트가 TODO 리스트를 동시에 실행하고, Chat 시스템과 통합되어 생산성 향상을 실현한다.
+
+**핵심 포인트:** 핵심 기여: Heartbeat 시스템과 에이전트 생성 기능으로 자동화된 작업 파악 및 제안, Scratchpad를 통한 다중 에이전트 병렬 실행으로 업무 효율성을 대폭 향상.
 
 🔗 [link.naver.com/bridge?url=https://www.dat…](https://link.naver.com/bridge?url=https%3A%2F%2Fwww.datanet.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D210850&dst=naversearchapp%3A%2F%2Finappbrowser%3Furl%3Dhttps%253A%252F%252Fwww.datanet.co.kr%252Fnews%252FarticleView.html%253Fidxno%253D210850%26version%3D10%26sourceReferer%3Dshare)
 
 *기타 (Others)*
 
-### Claude Managed Agents — 에이전트 배포 시간 10배 단축
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude Managed Agents — 에이전트 배포 시간 10배 단축
 
 ![Claude Managed Agents — 에이전트 배포 시간 10배 단축](images/33.jpg)
 

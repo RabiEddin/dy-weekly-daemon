@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### OmniRetrieval: 이질적 지식 소스 통합 검색 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### OmniRetrieval: 이질적 지식 소스 통합 검색 프레임워크
 
 기존 RAG 시스템은 모든 지식을 벡터로 변환하여 단일 벡터 공간에 저장하므로 텍스트, 테이블, 지식 그래프 등 구조적으로 다양한 지식 소스의 특성을 손실한다. OmniRetrieval은 자연어 쿼리를 받아 적절한 지식 소스를 식별하고 각 소스의 네이티브 쿼리 언어로 변환하여 원본 실행 엔진에 전달함으로써 각 소스의 구조적 특성을 보존하면서도 통합 검색 인터페이스를 제공한다.
 
@@ -21,9 +21,9 @@ draft: false
 
 *논문 (Papers)*
 
-### BeliefTrack: 대규모언어모델의 문맥적 신념 관리 벤치마크
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### BeliefTrack: 대규모언어모델의 문맥적 신념 관리 벤치마크
 
 장거리 상호작용에서 언어모델이 누적 정보를 언제 업데이트하고 언제 유지할지, 무엇을 무시할지 결정하는 문제를 다룬다. 이 논문은 형식적 증거와 일치하는 신념 상태를 유지하면서 작업 무관한 노이즈를 격리하는 문맥적 신념 관리(CBM) 과제를 정의하고, BeliefTrack이라는 폐쇄형 벤치마크를 제시한다. 강화학습 기반 신념상태 보상을 통해 실패율을 평균 70.9% 감소시키고, 표현 수준 조정으로 46.1% 추가 개선을 달성했다.
 
@@ -33,9 +33,10 @@ draft: false
 
 *논문 (Papers)*
 
+<!-- badge:3 -->
+
 ### Claude Opus 4.8 — 동적 워크플로우로 대규모 코드 분석 가능
 
-<!-- badge:3 -->
 ![Claude Opus 4.8 — 동적 워크플로우로 대규모 코드 분석 가능](images/25.jpg)
 
 대규모 레거시 마이그레이션이나 코드베이스 전체 분석 시 수십에서 수백 개의 병렬 에이전트를 수동으로 관리해야 하는 문제를 해결한다. Claude Opus 4.8은 동적 워크플로우 기능을 통해 모델이 직접 오케스트레이션 스크립트를 작성하고 다수의 서브에이전트를 자동으로 생성하여 대규모 작업을 역할 분담으로 처리한 뒤 결과를 상호 검증한다. 코딩, 에이전트 작업, 전문 작업 전반에 걸쳐 이전 버전 대비 향상된 성능과 장기 실행 작업 처리 능력을 제공한다.
@@ -49,9 +50,9 @@ draft: false
 
 ## AI & RESEARCH
 
-### COSMO-Agent: CAD-CAE 의미론적 격차를 메우는 폐루프 최적화 에이전트
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### COSMO-Agent: CAD-CAE 의미론적 격차를 메우는 폐루프 최적화 에이전트
 
 산업 설계 최적화에서 시뮬레이션 피드백을 유효한 기하학적 편집으로 변환하는 CAD-CAE 의미론적 격차가 병목 현상을 야기한다. 이를 해결하기 위해 COSMO-Agent는 강화학습 기반 도구 증강 에이전트 프레임워크를 제안한다. LLM이 CAD 생성, CAE 계산, 결과 파싱, 기하학 수정을 반복적으로 오케스트레이션하면서 복합 제약 조건을 만족할 때까지 매개변수 기하학을 개선한다. 산업 맞춤형 데이터셋과 다중 제약 보상 설계로 학습 안정성과 실용성을 확보했다.
 
@@ -61,9 +62,10 @@ draft: false
 
 *논문 (Papers)*
 
+<!-- badge:5 -->
+
 ### ERM: RAG 시스템의 지속적 학습을 위한 진화형 검색 메모리
 
-<!-- badge:5 -->
 기존 RAG 시스템은 쿼리 확장과 반복 검색으로 견고성을 개선하지만 각 쿼리마다 재계산하는 비효율성을 갖고 있다. ERM은 훈련 없이 일시적인 쿼리 시간 개선을 지속적인 검색 개선으로 변환하는 프레임워크로, 정확성 기반 피드백으로 인덱스를 업데이트하고 원자적 확장 신호를 문서 키에 선택적으로 할당한 후 안정적인 업데이트로 키를 점진적으로 진화시킨다. 쿼리와 키 확장의 이론적 동등성을 증명하고 추론 시간 오버헤드 없이 최적 쿼리 확장을 안정적 인덱스에 고정시킨다.
 
 **핵심 포인트:** 핵심 성과: BEIR와 BRIGHT 벤치마크의 13개 도메인에서 일관된 검색 및 생성 성능 향상을 달성했으며, 특히 추론 집약적 작업에서 우수한 성과를 보이면서 기본 검색 속도를 유지한다.
@@ -72,9 +74,9 @@ draft: false
 
 *논문 (Papers)*
 
-### Xetrieval: 밀집 검색의 메커니즘 해석 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Xetrieval: 밀집 검색의 메커니즘 해석 프레임워크
 
 밀집 검색기가 높은 관련성 점수를 할당하는 이유를 설명하기 어려운 문제를 해결하는 임베딩 수준의 메커니즘 해석 프레임워크. 체인-오브-소트 추론을 임베딩 공간에 직접 근사화하여 추론 지향 정보로 문장 임베딩을 강화한 후, 이를 인간이 해석 가능한 희소 특성으로 분해하여 개별 검색 결정에 대한 특성 수준의 설명을 제공한다.
 
@@ -84,9 +86,9 @@ draft: false
 
 *논문 (Papers)*
 
-### Kapa.ai: 기술 문서의 이미지를 RAG 파이프라인에 효율적으로 인덱싱하는 방법
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Kapa.ai: 기술 문서의 이미지를 RAG 파이프라인에 효율적으로 인덱싱하는 방법
 
 ![Kapa.ai: 기술 문서의 이미지를 RAG 파이프라인에 효율적으로 인덱싱하는 방법](images/05.jpg)
 
@@ -98,9 +100,9 @@ draft: false
 
 *기타 (Others)*
 
-### Gemma 4 12B — 구글의 통합 멀티모달 경량 AI 모델 공개
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Gemma 4 12B — 구글의 통합 멀티모달 경량 AI 모델 공개
 
 ![Gemma 4 12B — 구글의 통합 멀티모달 경량 AI 모델 공개](images/06.jpg)
 
@@ -112,9 +114,10 @@ draft: false
 
 *블로그 (Blog)*
 
+<!-- badge:9 -->
+
 ### Production-Agentic-RAG-Course: 프로덕션급 검색증강 생성 시스템 구축 코스
 
-<!-- badge:9 -->
 ![Production-Agentic-RAG-Course: 프로덕션급 검색증강 생성 시스템 구축 코스](images/07.jpg)
 
 대부분의 RAG 코스가 벡터 데이터베이스부터 시작하는 것과 달리, 이 코스는 BM25 키워드 검색을 먼저 구현한 후 하이브리드 검색으로 진행하는 실무 중심 교육이다. 프로덕션 환경에서 벡터만으로는 정밀도가 떨어지는 문제를 해결하기 위해 7주에 걸쳐 Airflow 자동 수집, OpenSearch BM25, RRF 하이브리드 검색, 로컬 LLM, Redis 캐시, LangGraph 에이전트를 통합한 완전한 arXiv 논문 수집 및 검색 시스템을 구축한다.
@@ -125,9 +128,9 @@ draft: false
 
 *GitHub*
 
-### Surya: 90개 언어 지원하는 문서 OCR 및 레이아웃 분석 모델
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Surya: 90개 언어 지원하는 문서 OCR 및 레이아웃 분석 모델
 
 ![Surya: 90개 언어 지원하는 문서 OCR 및 레이아웃 분석 모델](images/14.jpg)
 
@@ -139,9 +142,10 @@ PDF와 스캔 이미지에서 단순 텍스트뿐 아니라 제목, 표, 수식,
 
 *GitHub*
 
+<!-- badge:11 -->
+
 ### DeepLearning.AI: LLM 애플리케이션 레드 티밍 완벽 가이드
 
-<!-- badge:11 -->
 ![DeepLearning.AI: LLM 애플리케이션 레드 티밍 완벽 가이드](images/15.jpg)
 
 LLM 서비스 배포 시 프롬프트 인젝션, 탈옥 등 보안 취약점으로 인한 서비스 신뢰도 붕괴 문제를 해결하기 위한 레드 티밍 교육 과정. DeepLearning.AI, Microsoft, Hugging Face 등 빅테크 전문가들이 정리한 체계적인 레드 티밍 방법론과 오픈소스 도구(Giskard)를 활용한 자동화된 취약점 검증 기법을 제공한다.
@@ -152,9 +156,9 @@ LLM 서비스 배포 시 프롬프트 인젝션, 탈옥 등 보안 취약점으�
 
 *기타 (Others)*
 
-### AutoTTS: LLM 추론 시점 전략을 자동 발견하는 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### AutoTTS: LLM 추론 시점 전략을 자동 발견하는 프레임워크
 
 ![AutoTTS: LLM 추론 시점 전략을 자동 발견하는 프레임워크](images/17.jpg)
 
@@ -166,9 +170,10 @@ LLM의 추론 시점 확장(TTS) 전략을 사람이 수작업으로 설계하�
 
 *기타 (Others)*
 
+<!-- badge:13 -->
+
 ### Hermes Agent — AI 에이전트 컨텍스트 오버플로우 문제를 해결하는 Tool Search
 
-<!-- badge:13 -->
 ![Hermes Agent — AI 에이전트 컨텍스트 오버플로우 문제를 해결하는 Tool Search](images/19.jpg)
 
 AI 에이전트에 MCP 서버와 플러그인을 추가할 때 도구 스키마가 컨텍스트 창을 과도하게 차지하는 문제가 발생한다. Nous Research의 Hermes Agent는 Tool Search 기능으로 이를 해결하며, 수많은 도구를 모두 로드하는 대신 검색, 서술, 호출 3개의 브릿지 도구만 로드한 후 사용자 질문에 맞춰 필요한 도구 스키마를 온디맨드로 불러온다. 컨텍스트 10% 이상을 도구 스키마가 차지할 때만 자동 활성화되어 불필요한 오버헤드를 줄인다.
@@ -179,9 +184,9 @@ AI 에이전트에 MCP 서버와 플러그인을 추가할 때 도구 스키마�
 
 *기타 (Others)*
 
-### Claude Code v2.1.142-143 — 프롬프트 캐싱 최소 토큰 기준 반으로 단축
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude Code v2.1.142-143 — 프롬프트 캐싱 최소 토큰 기준 반으로 단축
 
 ![Claude Code v2.1.142-143 — 프롬프트 캐싱 최소 토큰 기준 반으로 단축](images/20.jpg)
 
@@ -193,9 +198,9 @@ Claude Opus 4.8에서 프롬프트 캐싱 기능이 대폭 개선됐다. 기존�
 
 *기타 (Others)*
 
-### AutoScientists — 자율 협업하는 AI 연구팀 시스템
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### AutoScientists — 자율 협업하는 AI 연구팀 시스템
 
 ![AutoScientists — 자율 협업하는 AI 연구팀 시스템](images/21.jpg)
 
@@ -207,9 +212,10 @@ Claude Opus 4.8에서 프롬프트 캐싱 기능이 대폭 개선됐다. 기존�
 
 *기타 (Others)*
 
+<!-- badge:16 -->
+
 ### Claude Opus 4.8 — 코딩 성능 우수하나 실무 평가는 엇갈려
 
-<!-- badge:16 -->
 ![Claude Opus 4.8 — 코딩 성능 우수하나 실무 평가는 엇갈려](images/22.jpg)
 
 Claude Opus 4.8 출시 후 공식 벤치마크와 외부 평가 결과가 상이한 양상을 보이고 있다. FrontierSWE와 APEX-SWE에서는 고난도 코딩 및 디버깅 작업에서 강한 성능을 보였으나, CursorBench에서는 이전 세대인 Opus 4.7 Max를 넘기지 못했다. CodeRabbit의 코드 리뷰 평가와 Andon Labs의 비즈니스 테스트에서는 기대에 미치지 못하는 결과를 기록했다. 종합 분석 결과 Opus 4.8은 주어진 규칙을 충실히 따르며 긴 작업을 안정적으로 수행하는 특성을 보인다.
@@ -220,9 +226,9 @@ Claude Opus 4.8 출시 후 공식 벤치마크와 외부 평가 결과가 상이
 
 *기타 (Others)*
 
-### Claude Opus 4.8 — 정확한 지시 실행으로 프롬프트 전략 전환 필요
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Opus 4.8 — 정확한 지시 실행으로 프롬프트 전략 전환 필요
 
 ![Claude Opus 4.8 — 정확한 지시 실행으로 프롬프트 전략 전환 필요](images/24.jpg)
 
@@ -234,9 +240,9 @@ Claude Opus 4.8은 이전 모델보다 지시를 더 정확히 따르는 특성�
 
 *기타 (Others)*
 
-### Claude Code — 병렬 에이전트 기반 초대형 프로젝트 자동화
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Code — 병렬 에이전트 기반 초대형 프로젝트 자동화
 
 ![Claude Code — 병렬 에이전트 기반 초대형 프로젝트 자동화](images/26.jpg)
 
@@ -248,9 +254,10 @@ Claude Opus 4.8은 이전 모델보다 지시를 더 정확히 따르는 특성�
 
 *기타 (Others)*
 
+<!-- badge:19 -->
+
 ### Claude Dynamic Workflows — 수백 개 서브에이전트 병렬 실행
 
-<!-- badge:19 -->
 ![Claude Dynamic Workflows — 수백 개 서브에이전트 병렬 실행](images/27.jpg)
 
 복잡한 작업을 단일 에이전트가 순차적으로 처리할 때의 비효율을 해결하기 위해 Claude가 동적 워크플로우를 도입했다. 사용자 요청에 따라 실시간으로 계획을 수립하고 작업을 수십에서 수백 개의 서브태스크로 분해한 후 여러 보조 에이전트가 병렬로 처리하도록 오케스트레이션한다. 최종 결과 제출 전 검증 단계를 거쳐 정확성을 보장하며, 분기 단위 작업을 며칠 내에 완료할 수 있다.
@@ -264,9 +271,9 @@ Claude Opus 4.8은 이전 모델보다 지시를 더 정확히 따르는 특성�
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Hermes Desktop — Nous Research의 AI 에이전트 공식 데스크톱 앱 출시
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Hermes Desktop — Nous Research의 AI 에이전트 공식 데스크톱 앱 출시
 
 기존에 터미널, 디스코드, 텔레그램 등 다양한 플랫폼을 통해서만 사용 가능했던 Hermes Agent를 이제 윈도우, 맥, 리눅스의 네이티브 데스크톱 앱으로 사용할 수 있게 되었다. 기존 에이전트의 메모리와 설정을 동기화하며, 원격 서버에 구축한 Hermes Agent와도 연결 가능하다. 자동 스킬 생성, 자연어 스케줄링, 멀티 백엔드 지원 등 에이전트 기능을 통합 환경에서 활용할 수 있다.
 
@@ -276,9 +283,10 @@ Claude Opus 4.8은 이전 모델보다 지시를 더 정확히 따르는 특성�
 
 *기타 (Others)*
 
+<!-- badge:21 -->
+
 ### Claude Code — AI가 스스로 멀티에이전트 워크플로우를 동적 설계
 
-<!-- badge:21 -->
 ![Claude Code — AI가 스스로 멀티에이전트 워크플로우를 동적 설계](images/09.jpg)
 
 복잡한 작업을 AI에게 맡길 때 발생하는 성능 저하와 품질 문제를 해결하기 위해 Anthropic이 Claude Code에 도입한 동적 워크플로우 기능. Claude가 작업 특성에 맞춰 자바스크립트 기반의 커스텀 하네스를 직접 작성하고, 여러 서브에이전트를 생성해 협업하도록 조율한다. 이를 통해 채용, 사업 검토, 디버깅 등 다양한 분야에서 프로젝트 매니저처럼 작업 방식을 자동으로 설계하고 실행할 수 있다.
@@ -289,9 +297,9 @@ Claude Opus 4.8은 이전 모델보다 지시를 더 정확히 따르는 특성�
 
 *기타 (Others)*
 
-### Headroom — AI 에이전트 토큰 소비량 최대 95% 압축
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Headroom — AI 에이전트 토큰 소비량 최대 95% 압축
 
 ![Headroom — AI 에이전트 토큰 소비량 최대 95% 압축](images/11.jpg)
 
@@ -303,9 +311,9 @@ AI 에이전트가 RAG 결과, 시스템 로그, 코드 베이스를 처리할 �
 
 *GitHub*
 
-### LangSmith on AWS — LLM 에이전트 평가와 디버깅 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### LangSmith on AWS — LLM 에이전트 평가와 디버깅 프레임워크
 
 ![LangSmith on AWS — LLM 에이전트 평가와 디버깅 프레임워크](images/12.jpg)
 
@@ -317,9 +325,9 @@ LLM 에이전트의 비결정적 다단계 실행에서 조기 오류가 후속 
 
 *기타 (Others)*
 
-### Claude Code Security Guidance — AI 코드 생성의 보안 위험을 실시간으로 검사
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Code Security Guidance — AI 코드 생성의 보안 위험을 실시간으로 검사
 
 ![Claude Code Security Guidance — AI 코드 생성의 보안 위험을 실시간으로 검사](images/23.jpg)
 
@@ -334,9 +342,10 @@ AI 코드 생성이 보편화되면서 보안 취약점 노출 위험이 증가�
 
 ## ENGINEERING
 
+<!-- badge:25 -->
+
 ### Claude Code Harness — 멀티 에이전트 오케스트레이션 시스템 아키텍처
 
-<!-- badge:25 -->
 ![Claude Code Harness — 멀티 에이전트 오케스트레이션 시스템 아키텍처](images/13.jpg)
 
 Claude Code를 학습하는 개발자들이 복잡한 AI 에이전트 구축 개념을 이해하기 어려워하는 문제를 해결하기 위해 Hugh Kim이 공개한 해체 강연. 5개월간 진화한 멀티 에이전트 오케스트레이션 시스템으로, 13종의 에이전트, 50개 이상의 스킬, 21개의 플러그인으로 구성된 자율 프로젝트 빌더를 구현했다. Claude Code harness를 Codex/OMX로 이식하고 31개의 HARD hooks를 통한 견고한 아키텍처로 설계하여 실무적 AI 운영체제 구축 방법론을 제시한다.
@@ -350,9 +359,10 @@ Claude Code를 학습하는 개발자들이 복잡한 AI 에이전트 구축 개
 
 ## PRODUCT & INDUSTRY
 
+<!-- badge:26 -->
+
 ### Claude 메모리 시스템: 협업 효율을 위한 세션 관리와 개인화
 
-<!-- badge:26 -->
 ![Claude 메모리 시스템: 협업 효율을 위한 세션 관리와 개인화](images/10.jpg)
 
 Claude와의 협업에서 세션 간 문맥 단절 문제를 CLAUDE.md 메모리 파일과 프로젝트 지침으로 해결한다. 사용자는 지침으로 저장된 작업 가이드라인을 매번 반복 설명 없이 적용받으며, 메모리와 대화 기록을 통해 다른 세션에서도 일관된 개인화 답변을 얻을 수 있다. Claude 프로젝트 기능은 파일을 프로젝트 단위로 관리하여 협업 효율성을 극대화한다.
@@ -363,9 +373,10 @@ Claude와의 협업에서 세션 간 문맥 단절 문제를 CLAUDE.md 메모리
 
 *기타 (Others)*
 
+<!-- badge:27 -->
+
 ### a16z: AI 앱 스타트업의 생존 전략, 고객 업무 시스템 통합이 핵심
 
-<!-- badge:27 -->
 ![a16z: AI 앱 스타트업의 생존 전략, 고객 업무 시스템 통합이 핵심](images/18.jpg)
 
 AI 모델 회사가 자연스럽게 진출할 수 있는 글쓰기, 이미지 생성, 검색 같은 기본 기능만으로는 스타트업이 경쟁력을 잃는 문제를 지적한 분석. 보험심사, 법무검토, 병원운영 같은 복잡한 실무 영역에 진입해야 생존한다는 전략을 제시하며, 이는 답변 능력뿐 아니라 예외처리, 승인, 감사, 레거시시스템 연결 같은 업무 인프라 통합이 필수라고 강조한다.

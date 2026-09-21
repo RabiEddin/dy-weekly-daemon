@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### OpenDocuments — 흩어진 조직 문서를 자연어로 검색하는 셀프호스팅 RAG 플랫폼
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### OpenDocuments — 흩어진 조직 문서를 자연어로 검색하는 셀프호스팅 RAG 플랫폼
 
 ![OpenDocuments — 흩어진 조직 문서를 자연어로 검색하는 셀프호스팅 RAG 플랫폼](images/12.jpg)
 
@@ -23,9 +23,9 @@ draft: false
 
 *기타 (Others)*
 
-### Claude Code 소스 유출 후 멀티 모델 클론 프로젝트들의 기술적 차이점
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Claude Code 소스 유출 후 멀티 모델 클론 프로젝트들의 기술적 차이점
 
 ![Claude Code 소스 유출 후 멀티 모델 클론 프로젝트들의 기술적 차이점](images/00.jpg)
 
@@ -37,9 +37,9 @@ Claude Code 소스코드 유출 이후 OpenClaude, Claw Dev 등 클론 프로젝
 
 *GitHub*
 
-### The Karpathy Loop — AI 에이전트의 자동 연구 개선 루프
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### The Karpathy Loop — AI 에이전트의 자동 연구 개선 루프
 
 ![The Karpathy Loop — AI 에이전트의 자동 연구 개선 루프](images/39.jpg)
 
@@ -54,9 +54,9 @@ ML 연구 최적화 과정에서 사람의 개입 없이 AI 에이전트가 자�
 
 ## AI & RESEARCH
 
-### GLM-5.1: 미국 칩 없이 Claude 수준 성능 달성한 중국 AI
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### GLM-5.1: 미국 칩 없이 Claude 수준 성능 달성한 중국 AI
 
 Claude의 소스코드 유출 논란 속에서 중국 AI 3위 업체 Zhipu AI의 GLM 시리즈가 급속도로 성능을 개선하고 있다. GLM-5.1은 코딩 벤치마크에서 Claude Opus 4.6의 94.6% 수준(45.3점)에 도달했으며, NVIDIA 칩 없이 화웨이 Ascend 910B 칩만으로 훈련되었다. API 가격은 Claude의 5~8배 저렴하며, 4월 중 MIT 라이선스 오픈소스로 공개될 예정이다. 다만 초당 44.3토큰의 낮은 추론 속도와 벤치마크 자체 발표로 인한 검증 부족 등 개선 과제가 남아있다.
 
@@ -66,9 +66,10 @@ Claude의 소스코드 유출 논란 속에서 중국 AI 3위 업체 Zhipu AI의
 
 *기타 (Others)*
 
+<!-- badge:5 -->
+
 ### Granite 4.0-3B Vision — 경량 VLM으로 엔터프라이즈 문서 이해 구현
 
-<!-- badge:5 -->
 ![Granite 4.0-3B Vision — 경량 VLM으로 엔터프라이즈 문서 이해 구현](images/03.jpg)
 
 복잡한 실무 문서, 다단 표, 차트 데이터 추출이 어려운 현업의 문제를 해결하기 위해 IBM이 공개한 경량 VLM 모델. 3B 파라미터 규모로 DeepStack 아키텍처를 적용하여 시각적 디테일을 강화했으며, 차트 요약 및 표 구조화 벤치마크에서 기타 모델을 압도하는 성능을 달성했다. 온프레미스 환경에서 부담 없이 배포 가능한 크기로 문서 자동화와 정보 추출 고도화에 즉시 활용 가능하다.
@@ -79,9 +80,10 @@ Claude의 소스코드 유출 논란 속에서 중국 AI 3위 업체 Zhipu AI의
 
 *기타 (Others)*
 
+<!-- badge:6 -->
+
 ### Claude Code — 유출된 소스코드로 드러난 에이전트 아키텍처
 
-<!-- badge:6 -->
 ![Claude Code — 유출된 소스코드로 드러난 에이전트 아키텍처](images/09.jpg)
 
 Claude Code의 소스 코드 유출로 에이전트의 파이프라인 구조, 컨텍스트 처리, 메모리 관리 등 핵심 작동 원리가 공개되었다. 개발자 커뮤니티는 유출된 정보를 수 시간 내에 분석하여 전용 문서로 정리했으며, 이는 Anthropic이 숨기려던 아키텍처가 전 세계 에이전트 개발자들의 교과서가 되는 결과로 이어졌다. 코드 보안 침해보다는 집단 지성이 정보를 신속하게 해체하고 흡수하는 커뮤니티의 힘이 강조되고 있다.
@@ -92,9 +94,9 @@ Claude Code의 소스 코드 유출로 에이전트의 파이프라인 구조, �
 
 *기타 (Others)*
 
-### Microsoft Harrier: 27B 다국어 임베딩 모델 SOTA 달성
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Microsoft Harrier: 27B 다국어 임베딩 모델 SOTA 달성
 
 ![Microsoft Harrier: 27B 다국어 임베딩 모델 SOTA 달성](images/15.jpg)
 
@@ -106,9 +108,9 @@ RAG 시스템 구축 시 다국어 임베딩 모델의 성능과 호환성 문�
 
 *기타 (Others)*
 
-### Codex — Qwen3-VL OCR 성능 33배 향상의 자동 최적화 사례
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Codex — Qwen3-VL OCR 성능 33배 향상의 자동 최적화 사례
 
 ![Codex — Qwen3-VL OCR 성능 33배 향상의 자동 최적화 사례](images/16.jpg)
 
@@ -120,9 +122,10 @@ Qwen3-VL OCR 모델의 처리 속도가 33초에서 1초대로 단축되어야 �
 
 *기타 (Others)*
 
+<!-- badge:9 -->
+
 ### CRAG: RAG 검색 결과를 자동 평가하고 보정하는 프레임워크
 
-<!-- badge:9 -->
 ![CRAG: RAG 검색 결과를 자동 평가하고 보정하는 프레임워크](images/18.jpg)
 
 일반적인 RAG 시스템은 검색 결과가 부족해도 그대로 답변을 생성하여 정보 결손이나 부정확한 응답을 야기한다. CRAG는 검색 결과를 답변에 사용하기 전에 충분성을 평가하는 단계를 추가하고, 부족하면 다른 소스로 자동 재검색하여 보강한다. 저자는 논문의 T5 기반 관련도 평가를 건수 기반으로 단순화하여 조건문 하나만으로도 답변 품질을 크게 개선할 수 있음을 입증했다.
@@ -133,9 +136,10 @@ Qwen3-VL OCR 모델의 처리 속도가 33초에서 1초대로 단축되어야 �
 
 *기타 (Others)*
 
+<!-- badge:10 -->
+
 ### AI 온톨로지 기반 문서 검색: 2-3초를 10ms로 단축
 
-<!-- badge:10 -->
 ![AI 온톨로지 기반 문서 검색: 2-3초를 10ms로 단축](images/21.jpg)
 
 벡터 검색 기반 RAG 시스템의 한계를 극복하기 위해 온톨로지를 도입한 사례. 기존 방식은 유사 문서만 검색 가능하고 의존관계 같은 구조적 질문에 취약했으며, 사용자마다 다른 표현에 대응하지 못했다. RDF 트리플스토어를 통해 AI가 자동으로 마크다운 문서에서 트리플을 생성하면서 수작업으로 구축하는 것보다 더 촘촘한 관계 그래프를 형성하고, 검색 속도를 획기적으로 단축했다.
@@ -146,9 +150,9 @@ Qwen3-VL OCR 모델의 처리 속도가 33초에서 1초대로 단축되어야 �
 
 *기타 (Others)*
 
-### DEO: 학습 없이 RAG의 부정 쿼리 처리를 개선하는 임베딩 최적화
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### DEO: 학습 없이 RAG의 부정 쿼리 처리를 개선하는 임베딩 최적화
 
 RAG 시스템에서 부정 표현이 포함된 쿼리가 검색 결과에 부정 키워드를 더 자주 반환하는 문제가 발생한다. DEO는 모델 파라미터를 수정하지 않고 LLM으로 쿼리를 긍정/부정으로 분해한 뒤 추론 시점에 contrastive loss로 쿼리 임베딩 벡터를 직접 최적화한다. 기존 임베딩 모델 위에 바로 적용 가능하며 BGE, E5, CLIP 등 다양한 모델에서 nDCG@10 0.71에서 0.79로, MAP 0.63에서 0.73으로 일관된 개선을 달성했다.
 
@@ -158,9 +162,9 @@ RAG 시스템에서 부정 표현이 포함된 쿼리가 검색 결과에 부정
 
 *기타 (Others)*
 
-### MSA: 1억 토큰 컨텍스트 확장 논문의 기술적 실체와 한계
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### MSA: 1억 토큰 컨텍스트 확장 논문의 기술적 실체와 한계
 
 LLM의 긴 문맥 처리 문제를 해결하기 위해 EverMind가 제시한 Memory Sparse Attention 논문이 AI 커뮤니티에서 화제가 되었다. 이 기술은 문서를 오프라인으로 사전 인코딩한 후 쿼리 시점에 관련 청크를 검색해 어텐션을 수행하는 구조로, 본질적으로는 RAG를 모델 내부에 내장한 형태다. Qwen3-4B 기반 평가에서 성능 열화 8.8%, NIAH 1M 토큰에서 94.84% 정확도를 유지했으나, 컨텍스트 확장 기술은 RAG를 대체하기보다 필요 임계값을 높일 뿐이다.
 
@@ -170,9 +174,10 @@ LLM의 긴 문맥 처리 문제를 해결하기 위해 EverMind가 제시한 Mem
 
 *논문 (Papers)*
 
+<!-- badge:13 -->
+
 ### AI 시대 프롬프트 전략: 4가지 컨텍스트 프레임워크
 
-<!-- badge:13 -->
 LLM 에이전트 성능 향상을 위해 대량의 데이터를 무분별하게 입력하는 것이 오히려 성능을 저하시키는 문제를 해결한다. General Knowledge, Environment Context, Verified Skills, Intent와 Taste 4가지 컨텍스트 분류를 통해 모델에 제공할 정보의 종류를 구분하고 최적화하는 방법론을 제시한다. 각 컨텍스트별 실제 사례와 구체적 구현 전략을 통해 같은 모델을 사용해도 결과가 갈리는 이유를 설명한다.
 
 **핵심 포인트:** 핵심 기여: LLM 성능은 입력 정보의 양이 아닌 종류에 따라 결정되며, 모델이 이미 알고 있는 정보의 중복 입력은 context window 낭비로 이어진다. 프로젝트 고유 정보와 실행 순서, 개인의 의도와 취향이 결과의 차별화를 만드는 핵심 요소다.
@@ -181,9 +186,9 @@ LLM 에이전트 성능 향상을 위해 대량의 데이터를 무분별하게 
 
 *기타 (Others)*
 
-### Context-1 — Chroma의 20B 파라미터 검색 전용 AI 에이전트
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Context-1 — Chroma의 20B 파라미터 검색 전용 AI 에이전트
 
 ![Context-1 — Chroma의 20B 파라미터 검색 전용 AI 에이전트](images/34.jpg)
 
@@ -195,9 +200,9 @@ LLM 에이전트 성능 향상을 위해 대량의 데이터를 무분별하게 
 
 *GitHub*
 
-### PicoSpec: 엣지-클라우드 LLM 추론의 네트워크 병목 해결
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### PicoSpec: 엣지-클라우드 LLM 추론의 네트워크 병목 해결
 
 엣지-클라우드 협력 LLM 추론 환경에서 발생하는 네트워크 대역폭 병목 현상을 해결하는 파이프라인 협력형 추측 디코딩 프레임워크. 엣지 장치와 클라우드 간 대기 시간을 제거하고 핵심 확률 정보만 전송하여 통신 대역폭을 500KB에서 50바이트 이하로 1만 배 감축하며, 모델 수정 없이 추론 속도를 최대 2.9배 향상시킨다.
 
@@ -207,9 +212,9 @@ LLM 에이전트 성능 향상을 위해 대량의 데이터를 무분별하게 
 
 *논문 (Papers)*
 
-### TurboQuant — LLM 메모리를 6분의 1로 줄이면서 정확도 유지
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### TurboQuant — LLM 메모리를 6분의 1로 줄이면서 정확도 유지
 
 ![TurboQuant — LLM 메모리를 6분의 1로 줄이면서 정확도 유지](images/42.jpg)
 
@@ -224,9 +229,9 @@ LLM 에이전트 성능 향상을 위해 대량의 데이터를 무분별하게 
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Mercury Edit 2 — 디퓨전 구조로 221ms 초저지연 코드 예측
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Mercury Edit 2 — 디퓨전 구조로 221ms 초저지연 코드 예측
 
 ![Mercury Edit 2 — 디퓨전 구조로 221ms 초저지연 코드 예측](images/04.jpg)
 
@@ -238,9 +243,10 @@ AI 코딩 어시스턴트의 반응 속도가 개발 워크플로우의 병목�
 
 *기타 (Others)*
 
+<!-- badge:18 -->
+
 ### agentOS — 크롬 V8 격리 기술로 AI 에이전트를 탭처럼 실행
 
-<!-- badge:18 -->
 ![agentOS — 크롬 V8 격리 기술로 AI 에이전트를 탭처럼 실행](images/05.jpg)
 
 AI 에이전트 실행에 기존에는 가상 서버나 컨테이너가 필요했고, 이로 인해 무겁고 느리고 비용이 높았다. agentOS는 구글 크롬의 V8 격리 기술을 활용해 에이전트 하나를 6밀리초 내에 실행하고, 메모리 사용량을 8분의 1로 줄이며, 비용을 32분의 1 수준으로 낮춘다. 기존 가장 빠른 방식 대비 516배 빠르며, npm 한 줄 설치로 어디서든 동작한다.
@@ -251,9 +257,9 @@ AI 에이전트 실행에 기존에는 가상 서버나 컨테이너가 필요�
 
 *GitHub*
 
-### Chandra OCR 2 — 손글씨·테이블·체크박스를 지원하는 멀티언어 OCR 모델
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Chandra OCR 2 — 손글씨·테이블·체크박스를 지원하는 멀티언어 OCR 모델
 
 ![Chandra OCR 2 — 손글씨·테이블·체크박스를 지원하는 멀티언어 OCR 모델](images/07.jpg)
 
@@ -265,9 +271,10 @@ AI 에이전트 실행에 기존에는 가상 서버나 컨테이너가 필요�
 
 *GitHub*
 
+<!-- badge:20 -->
+
 ### OpenAI Codex — 터미널에서 실행되는 경량 코딩 에이전트 오픈소스
 
-<!-- badge:20 -->
 ![OpenAI Codex — 터미널에서 실행되는 경량 코딩 에이전트 오픈소스](images/08.jpg)
 
 OpenAI가 공개한 Codex 에이전트는 터미널 환경에서 실행 가능한 경량 코딩 도구이다. 초기 유출 우려는 만우절 장난이었으며, 실제로는 GitHub에서 공식 오픈소스로 공개된 프로젝트다. 개발자가 터미널에서 직접 활용할 수 있는 코딩 에이전트로 설계되었으며, 소스코드는 GitHub의 openai/codex 저장소에서 확인할 수 있다.
@@ -278,9 +285,10 @@ OpenAI가 공개한 Codex 에이전트는 터미널 환경에서 실행 가능�
 
 *GitHub*
 
+<!-- badge:21 -->
+
 ### Anthropic Claude 소스코드 유출, 24시간 내 오픈소스로 재현
 
-<!-- badge:21 -->
 ![Anthropic Claude 소스코드 유출, 24시간 내 오픈소스로 재현](images/10.jpg)
 
 Anthropic의 npm 패키지에 포함된 소스맵 파일이 원본 소스코드를 노출시키는 보안 사고 발생. 보안 연구자가 발견 후 공개하자 Anthropic은 신속하게 대응했지만 이미 여러 미러 저장소가 생성됨. 한국의 개발자 Sigrid Jin은 유출된 코드를 참고하여 Python으로 클린룸 리라이트를 수행해 claw-code 프로젝트를 발표하였고, 이는 GitHub 역사상 가장 빠르게 10만 스타를 돌파한 저장소가 됨.
@@ -291,9 +299,10 @@ Anthropic의 npm 패키지에 포함된 소스맵 파일이 원본 소스코드�
 
 *GitHub*
 
+<!-- badge:22 -->
+
 ### Claude Code — 소스코드 분석으로 밝혀낸 9가지 숨겨진 기능
 
-<!-- badge:22 -->
 ![Claude Code — 소스코드 분석으로 밝혀낸 9가지 숨겨진 기능](images/11.jpg)
 
 Claude Code 사용자 대부분이 기본적인 프롬프트 반복만 하며 도구의 잠재력을 활용하지 못하고 있다. 유출된 51만 줄의 소스코드를 분석한 결과, CLAUDE.md 파일의 4단계 계층 구조(글로벌, 프로젝트, 모듈별, 로컬)와 매 턴마다 새로 읽히는 메커니즘을 통해 아키텍처 결정, 파일 규칙, 테스트 패턴을 지속적으로 반영할 수 있음이 드러났다. 이는 고급 사용자가 Claude Code의 성능을 극대화하는 핵심 전략이다.
@@ -304,9 +313,9 @@ Claude Code 사용자 대부분이 기본적인 프롬프트 반복만 하며 �
 
 *기타 (Others)*
 
-### Harness — AI 에이전트 팀 자동 구성 Claude Code 플러그인
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Harness — AI 에이전트 팀 자동 구성 Claude Code 플러그인
 
 ![Harness — AI 에이전트 팀 자동 구성 Claude Code 플러그인](images/14.jpg)
 
@@ -318,9 +327,9 @@ Claude Code 사용자 대부분이 기본적인 프롬프트 반복만 하며 �
 
 *GitHub*
 
-### claude-health — Claude Code 설정 진단 및 최적화 도구
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### claude-health — Claude Code 설정 진단 및 최적화 도구
 
 ![claude-health — Claude Code 설정 진단 및 최적화 도구](images/19.jpg)
 
@@ -332,9 +341,9 @@ Claude Code를 사용할 때 컨텍스트 누적, 도구 과다 추가, 규칙 �
 
 *GitHub*
 
-### Pretext — AI로 웹의 텍스트 측정 성능 문제 해결
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Pretext — AI로 웹의 텍스트 측정 성능 문제 해결
 
 ![Pretext — AI로 웹의 텍스트 측정 성능 문제 해결](images/20.jpg)
 
@@ -346,9 +355,10 @@ Claude Code를 사용할 때 컨텍스트 누적, 도구 과다 추가, 규칙 �
 
 *기타 (Others)*
 
+<!-- badge:26 -->
+
 ### kordoc — HWP/HWPX/PDF를 마크다운으로 변환하는 파서
 
-<!-- badge:26 -->
 ![kordoc — HWP/HWPX/PDF를 마크다운으로 변환하는 파서](images/22.jpg)
 
 한국 공무원들이 겪는 HWP 문서 처리의 어려움을 해결하기 위해 개발된 오픈소스 도구. 한컴오피스 설치 없이 순수 JavaScript로 HWP 5.x 레거시, HWPX 2020+, PDF 형식을 마크다운으로 변환한다. 중첩 표, 병합셀, 깨진 ZIP 복구까지 지원하며 CLI, 라이브러리, MCP 서버 3가지 인터페이스를 제공한다. Windows, Mac, Linux 전 플랫폼에서 동작하며 실제 공문서로 검증되었다.
@@ -359,9 +369,10 @@ Claude Code를 사용할 때 컨텍스트 누적, 도구 과다 추가, 규칙 �
 
 *GitHub*
 
+<!-- badge:27 -->
+
 ### .claude/ 폴더 구조 — Claude와 협업을 위한 체계적 프로젝트 관리법
 
-<!-- badge:27 -->
 ![.claude/ 폴더 구조 — Claude와 협업을 위한 체계적 프로젝트 관리법](images/23.jpg)
 
 Claude와의 협업 효율성을 극대화하기 위해 프로젝트에 .claude/ 폴더를 구조화하는 방법론. 팀 공유 설정(CLAUDE.md, settings.json)과 개인 설정(CLAUDE.local.md, settings.local.json)을 Git 커밋 여부로 분리하여 관리함으로써 Claude의 프로젝트 이해도를 높이고, 보안을 강화하며, 개인화된 작업 환경을 유지한다. 이 컨트롤 센터 방식으로 공유와 개별 관리를 명확히 구분하여 코드 품질과 작업 효율성을 동시에 개선한다.
@@ -372,9 +383,10 @@ Claude와의 협업 효율성을 극대화하기 위해 프로젝트에 .claude/
 
 *기타 (Others)*
 
+<!-- badge:28 -->
+
 ### smux — AI 에이전트 간 터미널 기반 직접 통신 도구
 
-<!-- badge:28 -->
 ![smux — AI 에이전트 간 터미널 기반 직접 통신 도구](images/27.jpg)
 
 여러 AI 비서를 동시에 실행할 때 API나 별도 프로토콜 없이 통신하는 문제를 해결한다. smux는 tmux 위에 추상화 계층을 올려 각 패인의 AI 에이전트가 다른 패인을 읽고, 타이핑하고, 키를 보낼 수 있게 한다. 터미널을 공유 인터페이스로 활용하여 Claude, Codex 등 서로 다른 AI 모델 간의 에이전트-투-에이전트 통신을 구현한다.
@@ -385,9 +397,10 @@ Claude와의 협업 효율성을 극대화하기 위해 프로젝트에 .claude/
 
 *GitHub*
 
+<!-- badge:29 -->
+
 ### Anthropic Claude Code — iMessage 플러그인으로 문자 기반 AI 코딩
 
-<!-- badge:29 -->
 ![Anthropic Claude Code — iMessage 플러그인으로 문자 기반 AI 코딩](images/28.jpg)
 
 개발자가 노트북을 열지 않고도 원격으로 코드 작업을 처리할 수 없는 문제를 해결하는 서비스. 앤트로픽의 공식 iMessage 플러그인은 Mac에 로컬 설치되어 외부 서버 없이 작동하며, 스마트폰에서 메시지나 사진을 전송하면 컴퓨터의 파일을 읽고 코드를 수정한 후 결과를 문자로 반환한다. 이를 통해 개발자는 언제 어디서나 AI 보조를 받으며 백그라운드에서 실무를 처리하는 새로운 워크플로우를 경험할 수 있다.
@@ -398,9 +411,10 @@ Claude와의 협업 효율성을 극대화하기 위해 프로젝트에 .claude/
 
 *기타 (Others)*
 
+<!-- badge:30 -->
+
 ### Lightpanda — AI 자동화용 초경량 헤드리스 브라우저
 
-<!-- badge:30 -->
 ![Lightpanda — AI 자동화용 초경량 헤드리스 브라우저](images/29.jpg)
 
 대규모 웹 자동화 작업 시 Chrome의 높은 리소스 소비가 문제가 되는 상황에서 Lightpanda는 AI 에이전트와 자동화용으로 설계된 초경량 헤드리스 브라우저를 제시한다. Chrome 대비 메모리 사용량 9배 감소, 실행 속도 11배 증가라는 성능 개선으로 대량 병렬 작업에서 효율성을 극대화하며, Playwright와 결합하여 로그인 등 호환성이 필요한 작업은 Chrome으로, 자동화와 리소스 절감이 중요한 작업은 Lightpanda로 선별 사용하는 실용적 활용 전략을 제시한다.
@@ -411,9 +425,10 @@ Claude와의 협업 효율성을 극대화하기 위해 프로젝트에 .claude/
 
 *기타 (Others)*
 
+<!-- badge:31 -->
+
 ### GitHub 트렌딩 TOP 8 — 개발자 사이에서 난리 난 오픈소스 프로젝트
 
-<!-- badge:31 -->
 ![GitHub 트렌딩 TOP 8 — 개발자 사이에서 난리 난 오픈소스 프로젝트](images/30.jpg)
 
 개발자들이 실시간으로 주목하는 GitHub 트렌딩 오픈소스 프로젝트 8개를 정리한 콘텐츠. last30days-skill의 트렌드 리서치 기능, oh-my-claudecode의 Claude Code 강화 도구, dexter의 AI 기반 데이터 분석 자동화, RuView의 영상 편집과 데이터 뷰어 결합, deer-flow의 워크플로우 엔진, insanely-fast-whisper의 고속 음성 인식, agentscope의 멀티 에이전트 프레임워크, twenty의 오픈소스 CRM 등 AI와 개발자 생산성 향상에 중점을 둔 프로젝트들을 소개한다.
@@ -424,9 +439,9 @@ Claude와의 협업 효율성을 극대화하기 위해 프로젝트에 .claude/
 
 *기타 (Others)*
 
-### Cline Kanban — AI 에이전트를 칸반 보드로 통합 관리
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Cline Kanban — AI 에이전트를 칸반 보드로 통합 관리
 
 ![Cline Kanban — AI 에이전트를 칸반 보드로 통합 관리](images/33.jpg)
 
@@ -438,9 +453,10 @@ Claude와의 협업 효율성을 극대화하기 위해 프로젝트에 .claude/
 
 *기타 (Others)*
 
+<!-- badge:33 -->
+
 ### Claude Code — AI가 GitHub PR 자동 수정하는 auto-fix 기능 추가
 
-<!-- badge:33 -->
 ![Claude Code — AI가 GitHub PR 자동 수정하는 auto-fix 기능 추가](images/35.jpg)
 
 개발자가 코드 작성 후 CI 테스트 실패나 코드 리뷰 댓글이 발생할 때 수동으로 에러를 수정해야 하는 문제를 해결한다. 앤트로픽의 Claude Code에 추가된 자동 수정 기능은 클라우드 환경에서 GitHub PR을 지속 모니터링하며, 테스트 실패 시 AI가 백그라운드에서 자동으로 코드를 수정해 최종 통과 상태로 만든다. 이를 통해 개발자는 에러 로그 분석 시간을 절약하고 구조 설계와 최종 검토에 집중할 수 있다.
@@ -451,9 +467,10 @@ Claude와의 협업 효율성을 극대화하기 위해 프로젝트에 .claude/
 
 *기타 (Others)*
 
+<!-- badge:34 -->
+
 ### Claude Code 2.1.85 — 터미널 안정성과 외부 도구 연결 개선
 
-<!-- badge:34 -->
 ![Claude Code 2.1.85 — 터미널 안정성과 외부 도구 연결 개선](images/38.jpg)
 
 Claude Code 사용 중 터미널 종료 후 키보드 입력이 먹통되는 문제와 외부 도구 연결 시 인증 스크립트 중복 작성 문제를 해결했다. 환경변수 추가로 단일 스크립트로 여러 도구 구분 가능하게 개선하고, 훅 기능에 조건 설정으로 불필요한 자동화 작업 제거, 긴 대화 압축 실패 문제 및 기업 보안 강화로 차단된 플러그인 설치 방지를 구현했다.
@@ -464,9 +481,9 @@ Claude Code 사용 중 터미널 종료 후 키보드 입력이 먹통되는 문
 
 *GitHub*
 
-### LiteParse — AI 에이전트용 고속 무료 문서 파서
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### LiteParse — AI 에이전트용 고속 무료 문서 파서
 
 기존 문서 파서들이 VLM을 사용하거나 느리거나 비용이 높은 문제를 해결하기 위해 LiteParse는 빠르고 무료이며 VLM 기반이 아닌 문서 파서를 제시한다. 공간적 구조 표현 추출, 스크린샷 기반 하이브리드 파싱(빠른 텍스트 파싱 후 필요시 상세 분석), PaddleOCR 등 도구와의 통합을 지원하여 AI 에이전트에 최고 품질의 문맥을 제공한다.
 
@@ -476,9 +493,10 @@ Claude Code 사용 중 터미널 종료 후 키보드 입력이 먹통되는 문
 
 *기타 (Others)*
 
+<!-- badge:36 -->
+
 ### Claude Code 2.1.83 — 대화 검색, 팀 정책 관리, 보안 강화
 
-<!-- badge:36 -->
 ![Claude Code 2.1.83 — 대화 검색, 팀 정책 관리, 보안 강화](images/41.jpg)
 
 Claude Code 사용 중 긴 세션에서 이전 대화를 찾기 위해 끝없이 스크롤해야 하는 불편함과 팀별 정책 관리의 복잡성, 플러그인 API 키 보안 부족 문제를 해결한다. Ctrl+O 단축키로 트랜스크립트 검색 기능을 제공하고, managed-settings.d 디렉토리에 팀별 JSON을 배치하면 자동 병합되며, macOS Keychain을 통한 안전한 API 키 저장, CwdChanged/FileChanged 훅을 통한 자동 환경 설정, 세션 재개 성능 개선, 중단 시 입력 자동 복원 등 다양한 기능을 추가했다.
@@ -489,9 +507,10 @@ Claude Code 사용 중 긴 세션에서 이전 대화를 찾기 위해 끝없이
 
 *기타 (Others)*
 
+<!-- badge:37 -->
+
 ### Claude Code — AI 코딩 도구 시장 선도, 고급 패턴 공개
 
-<!-- badge:37 -->
 ![Claude Code — AI 코딩 도구 시장 선도, 고급 패턴 공개](images/43.jpg)
 
 AI 코딩 도구 시장에서 Claude Code가 46% 선호도로 1위를 차지했으나, 개발자들이 효과적으로 활용하지 못하는 문제가 있었다. Anthropic은 3월 24일 웨비나에서 CLAUDE.md, Hooks, Subagents 등 고급 패턴을 공개했다. CLAUDE.md는 코드베이스 규칙을 200줄 이하로 정의하면 Claude가 이를 준수하도록 강제하는 설명서 역할을 하며, 중첩 구조와 주제별 분할로 대규모 프로젝트 관리를 단순화한다. Hooks는 라이프사이클 이벤트에 연결되는 자동 실행 규칙으로, 프롬프트 입력 여부와 관계없이 특정 행동을 보장한다.
@@ -502,9 +521,10 @@ AI 코딩 도구 시장에서 Claude Code가 46% 선호도로 1위를 차지했�
 
 *기타 (Others)*
 
+<!-- badge:38 -->
+
 ### HyperLearn — AI 에이전트를 위한 자동 스킬 트리 생성 시스템
 
-<!-- badge:38 -->
 ![HyperLearn — AI 에이전트를 위한 자동 스킬 트리 생성 시스템](images/44.jpg)
 
 AI 에이전트가 기술 문서를 직접 읽고 작업 규칙을 학습하는 과정에서 효율성이 떨어지는 문제를 해결한다. Hyperbrowser의 HyperLearn은 브라우저 에이전트가 문서를 실시간으로 분석하여 스킬 트리를 자동 생성하고, 이를 다른 코딩 에이전트의 학습 자료로 활용하도록 한다. 예를 들어 특정 프레임워크 문서에서 추출한 작업 규칙을 다른 에이전트에 제공하여 코딩 정확도와 속도를 향상시킨다.
@@ -515,9 +535,10 @@ AI 에이전트가 기술 문서를 직접 읽고 작업 규칙을 학습하는 
 
 *GitHub*
 
+<!-- badge:39 -->
+
 ### Claude Code: 65개 슬래시 명령어 중 핵심 6개만 마스터하기
 
-<!-- badge:39 -->
 ![Claude Code: 65개 슬래시 명령어 중 핵심 6개만 마스터하기](images/45.jpg)
 
 Claude Code의 슬래시 명령어가 65개로 늘어나면서 사용자들이 혼란을 겪고 있다. 이 콘텐츠는 Anthropic 공식 문서를 전수조사하여 85개의 모든 명령어를 분류하고, 일상 업무의 90%를 커버하는 6가지 핵심 명령어를 우선순위로 제시한다. clear, compact, cost, model, plan, resume 등 자주 사용되는 명령어와 업무 흐름을 끊지 않는 추가 명령어들을 구체적인 사용 사례와 함께 설명한다.
@@ -528,9 +549,10 @@ Claude Code의 슬래시 명령어가 65개로 늘어나면서 사용자들이 �
 
 *기타 (Others)*
 
+<!-- badge:40 -->
+
 ### Taste Skill — AI 프론트엔드의 밋밋한 디자인을 전문적으로 개선하는 스킬
 
-<!-- badge:40 -->
 ![Taste Skill — AI 프론트엔드의 밋밋한 디자인을 전문적으로 개선하는 스킬](images/46.jpg)
 
 AI 코딩 도구가 생성한 프론트엔드는 기능은 하지만 AI가 만든 티가 나는 밋밋한 디자인이 특징이다. Taste Skill은 4개의 구성 요소로 이 문제를 해결한다. 메인 디자인 스킬을 중심으로 레이아웃, 타이포그래피, 색상, 여백, 모션을 개선하며, 사용자가 세 가지 파라미터(Design Variance, Motion Intensity, Visual Density)를 1~10 사이의 숫자로 조절하여 같은 프로젝트도 완전히 다른 느낌의 디자인을 생성할 수 있다.
@@ -541,9 +563,10 @@ AI 코딩 도구가 생성한 프론트엔드는 기능은 하지만 AI가 만�
 
 *기타 (Others)*
 
+<!-- badge:41 -->
+
 ### Feynman: Claude Code 기반 AI 연구 에이전트
 
-<!-- badge:41 -->
 ![Feynman: Claude Code 기반 AI 연구 에이전트](images/48.jpg)
 
 논문 분석 시 출처 추적, 실험 검증, 감사(audit) 과정을 자동화하는 데 어려움이 있다. Feynman은 MIT 라이선스 오픈소스 에이전트로, 사용자의 질문에 따라 논문을 자동 검색 및 분석하고 메타 분석 리포트를 생성하며, RunPod에서 GPU를 활용하여 실제 실험을 복제하고 피어 리뷰를 수행한다. 모든 결과물에 직접 링크된 출처가 포함되어 환각 가능성을 원천 차단한다.
@@ -557,9 +580,10 @@ AI 코딩 도구가 생성한 프론트엔드는 기능은 하지만 AI가 만�
 
 ## ENGINEERING
 
+<!-- badge:42 -->
+
 ### Claude Code: AI 에이전트 설계의 8가지 핵심 원칙
 
-<!-- badge:42 -->
 ![Claude Code: AI 에이전트 설계의 8가지 핵심 원칙](images/02.jpg)
 
 Claude Code 유출 사건을 통해 공개된 내부 아키텍처 분석. AI 에이전트 시대의 핵심 설계 원칙으로 비용 최적화(4단계 자동 압축), 직원 전용 도구 분리(USERTYPE 조건), 안전장치(AI 심판 시스템), 병렬 실행 최적화, 8단계 설정 우선순위, 원격 기능 제어(GrowthBook 킬스위치) 등을 제시한다. 응답 생성 중 읽기 도구는 병렬 실행하고 쓰기 도구는 순차 실행하는 설계로 체감 속도를 향상시킨다.
@@ -570,9 +594,10 @@ Claude Code 유출 사건을 통해 공개된 내부 아키텍처 분석. AI 에
 
 *기타 (Others)*
 
+<!-- badge:43 -->
+
 ### Claude Code — 토큰 소모 버그 원인 규명 및 패치
 
-<!-- badge:43 -->
 ![Claude Code — 토큰 소모 버그 원인 규명 및 패치](images/06.jpg)
 
 Claude Code 사용자들이 세션을 이어갈 때 토큰이 비정상적으로 소모되는 문제를 경험했다. Reddit 사용자 Rangizingo가 유출된 소스코드를 분석해 원인을 발견했다. db8 함수에서 attachment 타입 메시지를 삭제할 때 deferredtoolsdelta 기록도 함께 제거되어, 매 세션마다 전체 도구 목록을 처음부터 안내하게 되고 이로 인해 메시지 배열 구조가 변경되어 캐시가 작동하지 않는 문제였다. 2줄짜리 패치 적용 후 캐시 적중률이 26%에서 99%로 향상되었다.
@@ -583,9 +608,10 @@ Claude Code 사용자들이 세션을 이어갈 때 토큰이 비정상적으로
 
 *GitHub*
 
+<!-- badge:44 -->
+
 ### Harness Engineering — AI 에이전트의 반복적 개선을 위한 운영 레이어 설계
 
-<!-- badge:44 -->
 ![Harness Engineering — AI 에이전트의 반복적 개선을 위한 운영 레이어 설계](images/26.jpg)
 
 AI 코딩 에이전트가 같은 실수를 반복하고 장시간 작업에서 맥락을 잃는 문제를 해결하기 위해 모델 외부에 운영 구조를 구축하는 Harness 엔지니어링 방법론을 제시한다. 시스템 지침, 상황별 실행 문서, 자동 강제 장치, 기억과 학습 문서의 4개 레이어로 분리하여 사람과 에이전트가 협력하는 저장소에서 개발 품질을 일관되게 유지하고 새 프로젝트에 빠르게 적용할 수 있도록 한다.
@@ -599,9 +625,9 @@ AI 코딩 에이전트가 같은 실수를 반복하고 장시간 작업에서 �
 
 ## PRODUCT & INDUSTRY
 
-### Everything — 문서 내용 기반 오프라인 검색 엔진
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Everything — 문서 내용 기반 오프라인 검색 엔진
 
 기존 파일명 기반 검색의 한계를 벗어나 문서 내용과 맥락을 이해하는 검색 솔루션. 한글, 워드, 엑셀, PDF, TXT 등 다양한 문서 형식을 지원하며 100% 오프라인 환경에서 작동하여 보안 우려를 제거한다. 사용자의 인덱싱 시간을 고려한 성능 최적화로 실무 환경에 즉시 적용 가능한 문서 검색 도구이다.
 
@@ -611,9 +637,10 @@ AI 코딩 에이전트가 같은 실수를 반복하고 장시간 작업에서 �
 
 *기타 (Others)*
 
+<!-- badge:46 -->
+
 ### OpenAI — Codex를 Claude Code에 통합하는 공식 플러그인 공개
 
-<!-- badge:46 -->
 ![OpenAI — Codex를 Claude Code에 통합하는 공식 플러그인 공개](images/17.jpg)
 
 개발자들 사이에서 Claude로 코드 구조를 작성하고 GPT-5.4 기반 Codex로 오류 검증 및 복잡한 연산을 수행하는 멀티 모델 교차 검증 워크플로우가 확산되고 있다. OpenAI가 이 작업 흐름을 공식적으로 지원하기 위해 Anthropic의 Claude Code 내에서 Codex를 직접 호출할 수 있는 플러그인을 개발 및 공개함으로써, 각 AI 모델의 강점을 활용한 멀티 모델 워크플로우가 새로운 표준으로 정착되는 추세를 나타낸다.
@@ -624,9 +651,9 @@ AI 코딩 에이전트가 같은 실수를 반복하고 장시간 작업에서 �
 
 *기타 (Others)*
 
-### Claude Code — iMessage 플러그인으로 문자메시지로 AI 작업 지시
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Code — iMessage 플러그인으로 문자메시지로 AI 작업 지시
 
 ![Claude Code — iMessage 플러그인으로 문자메시지로 AI 작업 지시](images/32.jpg)
 
@@ -638,9 +665,9 @@ Mac과 iPhone 사용자가 기존의 메시지 앱을 통해 Claude에게 직접
 
 *기타 (Others)*
 
-### Claude Code Auto Mode — AI 승인 피로 해결하는 자동 권한 관리
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Code Auto Mode — AI 승인 피로 해결하는 자동 권한 관리
 
 ![Claude Code Auto Mode — AI 승인 피로 해결하는 자동 권한 관리](images/37.jpg)
 
@@ -652,9 +679,10 @@ Claude Code 사용자가 권한 요청의 93%를 무심코 승인하는 승인 �
 
 *기타 (Others)*
 
+<!-- badge:49 -->
+
 ### Anthropic Economic Index: AI 사용자 격차 심화와 사용 패턴 변화
 
-<!-- badge:49 -->
 AI 도구 사용 경험에 따라 사용자 간 성과 격차가 벌어지고 있다는 문제를 앤트로픽의 경제 지수 보고서가 제시한다. 오래 사용한 사용자는 더 어려운 고부가가치 작업에 AI를 활용하며 높은 성공률을 달성하는 반면, 대중화에 따라 기술 채택 곡선을 따르며 일상적 용도로의 활용이 증가하고 있다. 코딩 작업의 API 이동, 개인 용도 증가(35%→42%), 자동화보다 증강 중심의 협업 패턴 확산 등 사용 행태 다양화를 보여준다.
 
 **핵심 포인트:** 핵심 성과: 2월 2026년 조사에서 작업 다양성 증가(상위 10개 작업 집중도 24%→19%), AI 증강 협업 패턴 소폭 상승, 초기 수용자와 대중 사용자 간 작업 가치 격차 확대(시급 기준 49.3달러→47.9달러).

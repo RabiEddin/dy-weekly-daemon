@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### PaddleOCR-VL-1.6: 문서 파싱을 위한 멀티모달 OCR 모델
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### PaddleOCR-VL-1.6: 문서 파싱을 위한 멀티모달 OCR 모델
 
 ![PaddleOCR-VL-1.6: 문서 파싱을 위한 멀티모달 OCR 모델](images/08.jpg)
 
@@ -23,9 +23,9 @@ draft: false
 
 *기타 (Others)*
 
-### Unstructured — 비정형 문서를 구조화된 데이터로 변환하는 오픈소스 ETL
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Unstructured — 비정형 문서를 구조화된 데이터로 변환하는 오픈소스 ETL
 
 ![Unstructured — 비정형 문서를 구조화된 데이터로 변환하는 오픈소스 ETL](images/00.jpg)
 
@@ -37,9 +37,9 @@ LLM 학습과 데이터 파이프라인 구축 시 PDF, HTML, Word 등 다양한
 
 *기타 (Others)*
 
-### Agentic RAG: 구글의 차세대 기업용 검색·추론 기술
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Agentic RAG: 구글의 차세대 기업용 검색·추론 기술
 
 ![Agentic RAG: 구글의 차세대 기업용 검색·추론 기술](images/11.jpg)
 
@@ -54,9 +54,9 @@ LLM 학습과 데이터 파이프라인 구축 시 PDF, HTML, Word 등 다양한
 
 ## AI & RESEARCH
 
-### DiffusionGemma — 구글 딥마인드의 오픈소스 텍스트 디퓨전 모델
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### DiffusionGemma — 구글 딥마인드의 오픈소스 텍스트 디퓨전 모델
 
 ![DiffusionGemma — 구글 딥마인드의 오픈소스 텍스트 디퓨전 모델](images/02.jpg)
 
@@ -68,9 +68,10 @@ LLM 학습과 데이터 파이프라인 구축 시 PDF, HTML, Word 등 다양한
 
 *기타 (Others)*
 
+<!-- badge:5 -->
+
 ### Claude Fable 5 — Anthropic 신규 Mythos 클래스 모델 시스템 프롬프트 유출
 
-<!-- badge:5 -->
 ![Claude Fable 5 — Anthropic 신규 Mythos 클래스 모델 시스템 프롬프트 유출](images/04.jpg)
 
 Anthropic의 새로운 Claude 모델 계층인 Fable 5와 Mythos 5의 시스템 프롬프트가 공개되었다. 유출된 자료에 따르면 Claude Fable 5는 기존 Opus보다 상위의 Mythos 클래스 모델 계층에 속하며, 일반 공개 모델인 Fable 5는 이중용도 기능에 대한 추가 안전 조치를 포함하고 있다. Mythos 5는 승인된 조직에만 제공되는 버전으로 이러한 제약이 없다.
@@ -81,9 +82,10 @@ Anthropic의 새로운 Claude 모델 계층인 Fable 5와 Mythos 5의 시스템 
 
 *GitHub*
 
+<!-- badge:6 -->
+
 ### Claude Fable 5 — 기존 프롬프트 제거하고 복잡한 문제에 집중하라
 
-<!-- badge:6 -->
 ![Claude Fable 5 — 기존 프롬프트 제거하고 복잡한 문제에 집중하라](images/05.jpg)
 
 Claude Fable 5는 이전 모델보다 강력해져서 기존 프롬프트가 오히려 성능을 저하시키는 문제가 발생한다. Anthropic은 공식 가이드에서 복잡한 미해결 문제부터 시작할 것, 과도한 지시를 제거할 것, 모호한 상황에서 계획보다 행동을 우선할 것을 권장한다. 또한 결론부터 명시하고 정말 필요할 때만 멈추는 방식으로 프롬프트를 간결하게 재설계할 것을 제안한다. 이는 지시를 더하는 대신 줄여야 한다는 역발상적 가이드다.
@@ -94,9 +96,9 @@ Claude Fable 5는 이전 모델보다 강력해져서 기존 프롬프트가 오
 
 *기타 (Others)*
 
-### Anthropic Fable 5 — AI 개발 관련 질문에 몰래 성능 저하
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Anthropic Fable 5 — AI 개발 관련 질문에 몰래 성능 저하
 
 Anthropic이 출시한 Fable 5 모델이 프리트레이닝, 분산 학습, ML 가속기 설계 등 AI 개발 관련 질문에 대해 사용자에게 알리지 않고 프롬프트 수정, 스티어링 벡터, PEFT 등의 방식으로 답변 품질을 의도적으로 저하시키고 있는 것으로 드러났다. 공개 폴백과 달리 이 안전장치는 투명하지 않아 사용자가 모델의 개입을 감지할 수 없으며, 연구자들은 실패 원인이 자신의 아이디어인지 모델의 조작인지 구분할 수 없다는 점이 문제로 지적되고 있다.
 
@@ -106,9 +108,9 @@ Anthropic이 출시한 Fable 5 모델이 프리트레이닝, 분산 학습, ML �
 
 *기타 (Others)*
 
-### Anthropic: Claude Fable 5와 Mythos 5 동시 출시
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Anthropic: Claude Fable 5와 Mythos 5 동시 출시
 
 ![Anthropic: Claude Fable 5와 Mythos 5 동시 출시](images/09.jpg)
 
@@ -120,9 +122,10 @@ Anthropic이 Claude Fable 5와 Mythos 5를 동시에 출시했다. SWE-bench Ver
 
 *기타 (Others)*
 
+<!-- badge:9 -->
+
 ### Sakana AI: 진정한 재귀적 자기개선(RSI)으로 AI 자율진화 구현
 
-<!-- badge:9 -->
 ![Sakana AI: 진정한 재귀적 자기개선(RSI)으로 AI 자율진화 구현](images/14.jpg)
 
 AI가 스스로 진화한다는 표현이 업계에서 남용되고 있는 문제를 지적한다. 약한 단계는 AI가 개발을 보조하는 수준, 중간 단계는 에이전트가 자율 연구를 수행하는 수준이지만, 진정한 재귀적 자기개선은 시스템이 경험을 통해 자신의 학습 구조 자체를 영구적으로 개선하는 것을 의미한다. 도쿄의 Sakana AI 팀이 이 진정한 RSI를 구현하는 데 주력하고 있으며, 이는 1966년 수학자 어빙 굿이 예측한 지능 폭발의 개념을 현실화하는 시도다.
@@ -133,9 +136,9 @@ AI가 스스로 진화한다는 표현이 업계에서 남용되고 있는 문�
 
 *기타 (Others)*
 
-### LEAP — 범용 LLM으로 정형 수학 증명 SOTA 달성
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### LEAP — 범용 LLM으로 정형 수학 증명 SOTA 달성
 
 LLM은 비형식 수학 추론에는 강하지만 Lean 같은 정형 언어로 기계 검증 가능한 증명을 생성하는 데 어려움을 겪는다. Google의 LEAP은 인간 수학자의 작업 흐름을 에이전트로 모델링하여 이를 해결한다. 자연어 청사진 작성, DAG 기반 문제 분해, Lean 컴파일러 피드백을 통한 반복 정제, LLM 리뷰 기반 분해 필터링 등을 조합해 전문 미세조정 모델 없이도 기존 IMO 금메달급 시스템을 뛰어넘는다.
 
@@ -145,9 +148,9 @@ LLM은 비형식 수학 추론에는 강하지만 Lean 같은 정형 언어로 �
 
 *기타 (Others)*
 
-### SkillOpt: 고정 언어 에이전트를 위한 자연어 스킬 최적화
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### SkillOpt: 고정 언어 에이전트를 위한 자연어 스킬 최적화
 
 언어 에이전트의 성능 향상을 위해 모델 미세조정이나 수동 프롬프트 유지보수 대신, 고정된 에이전트를 채점된 배치에서 실행하고 별도의 최적화 모델이 구조화된 편집을 제안하며 검증 성능 개선 시에만 후보를 수락하는 텍스트 공간 최적화 접근 방식을 제시한다. 이를 통해 외부 상태로서의 스킬을 효율적으로 훈련시켜 재사용 가능한 자연어 기술을 개발한다.
 
@@ -157,9 +160,9 @@ LLM은 비형식 수학 추론에는 강하지만 Lean 같은 정형 언어로 �
 
 *기타 (Others)*
 
-### LEAP — LLM의 형식 수학 증명을 위한 에이전트 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### LEAP — LLM의 형식 수학 증명을 위한 에이전트 프레임워크
 
 LLM이 형식 언어 증명 생성에 어려움을 겪는 문제를 해결하기 위해 구글이 LEAP 프레임워크를 제시했다. 일반 LLM 위에 커스텀 에이전트 하네스를 얹어 AI가 문제를 풀고 Lean 검증기로 결과를 확인한 후 틀리면 반복적으로 수정하는 구조를 설계했다. 2025년 Putnam 수학 경시대회 문제 12개를 모두 해결했으며 Lean-IMO-Bench에서 정답률을 10% 미만에서 70%까지 향상시켰다.
 
@@ -169,9 +172,10 @@ LLM이 형식 언어 증명 생성에 어려움을 겪는 문제를 해결하기
 
 *논문 (Papers)*
 
+<!-- badge:13 -->
+
 ### Claude Code Dynamic Workflows — 6대 활용 패턴으로 AI 에이전트 자동 조율
 
-<!-- badge:13 -->
 ![Claude Code Dynamic Workflows — 6대 활용 패턴으로 AI 에이전트 자동 조율](images/22.jpg)
 
 단일 Claude 모델이 모든 작업을 처리할 때 작업 미완료, 자기 검증 편향, 컨텍스트 표류 등의 문제가 발생한다. Dynamic Workflows는 Claude가 직접 멀티에이전트 하네스를 작성하고 분류·라우팅, 팬아웃·종합, 적대적 검증, 생성·필터, 토너먼트, 반복 실행 등 6가지 패턴으로 작업을 코드 레벨에서 분리 실행해 이를 해결한다. Bun 팀은 75만 줄 포팅을 11일 만에 완료하고 테스트 99.8% 통과율을 달성했다.
@@ -185,9 +189,9 @@ LLM이 형식 언어 증명 생성에 어려움을 겪는 문제를 해결하기
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Kordoc 3.0 — AI 공문서 자동화의 서식 보존 솔루션
+<div class="eyebrow"><img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Kordoc 3.0 — AI 공문서 자동화의 서식 보존 솔루션
 
 ![Kordoc 3.0 — AI 공문서 자동화의 서식 보존 솔루션](images/01.jpg)
 
@@ -199,9 +203,10 @@ LLM이 형식 언어 증명 생성에 어려움을 겪는 문제를 해결하기
 
 *GitHub*
 
+<!-- badge:15 -->
+
 ### DocLang — AI 기반 문서 이해를 위한 새로운 표준 포맷
 
-<!-- badge:15 -->
 ![DocLang — AI 기반 문서 이해를 위한 새로운 표준 포맷](images/03.jpg)
 
 기존 OCR 엔진들은 PDF, DOCX 등 인쇄/편집용으로 설계된 문서 형식에서 레이아웃 복잡성으로 인해 정확도가 급락하는 문제를 겪었다. DocLang은 엔비디아, IBM, 레드햇이 함께 개발한 AI 네이티브 마크업 포맷으로, 문서의 의미 단위(제목, 본문, 표, 그림)를 읽기 순서대로 구조화하고 좌표 정보를 첨부하여 LLM과 VLM이 신뢰할 수 있는 기계 가독 표준을 제공한다.
@@ -212,9 +217,10 @@ LLM이 형식 언어 증명 생성에 어려움을 겪는 문제를 해결하기
 
 *기타 (Others)*
 
+<!-- badge:16 -->
+
 ### DocLang — AI 네이티브 문서 표준 포맷 오픈소스 공개
 
-<!-- badge:16 -->
 ![DocLang — AI 네이티브 문서 표준 포맷 오픈소스 공개](images/07.jpg)
 
 PDF와 Word 문서로 RAG를 구축할 때 데이터 파싱 과정에서 발생하는 문제를 해결하기 위해 IBM Docling 팀과 엔비디아, 레드햇 등이 DocLang을 오픈소스로 발표했다. 기존 문서 형식은 렌더링을 위해 설계되어 머신러닝 모델이 정확하게 이해하기 어려웠으나, DocLang은 구조, 의미론, 레이아웃, 기하학 정보를 단일 포맷으로 보존하면서 LLM 토큰으로 깔끔하게 매핑된다. 멀티모달과 AI 에이전트 환경까지 고려한 표준으로, LLM 데이터 전처리 패러다임의 변화를 가져올 것으로 기대된다.
@@ -225,9 +231,10 @@ PDF와 Word 문서로 RAG를 구축할 때 데이터 파싱 과정에서 발생�
 
 *기타 (Others)*
 
+<!-- badge:17 -->
+
 ### PaperBanana: 논문 다이어그램 자동 생성 오픈소스
 
-<!-- badge:17 -->
 ![PaperBanana: 논문 다이어그램 자동 생성 오픈소스](images/10.jpg)
 
 학술 논문 작성 시 다이어그램을 일러스트레이터나 TikZ로 수작업으로 그려야 하는 번거로움을 해결하는 오픈소스 프로젝트. 텍스트나 PDF 입력만으로 멀티 에이전트 시스템이 자동으로 구조를 분석하고 학회 제출 수준의 고품질 다이어그램을 생성한다. Cursor, Claude Code 등 최신 AI 에디터와 연동되며, Gemini 무료 티어로도 사용 가능해 연구자의 문서 작업 워크플로우를 대폭 단축할 수 있다.
@@ -238,9 +245,9 @@ PDF와 Word 문서로 RAG를 구축할 때 데이터 파싱 과정에서 발생�
 
 *GitHub*
 
-### Loops — AI 에이전트를 위한 자동화 루프 레시피 모음
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Loops — AI 에이전트를 위한 자동화 루프 레시피 모음
 
 ![Loops — AI 에이전트를 위한 자동화 루프 레시피 모음](images/13.jpg)
 
@@ -252,20 +259,25 @@ AI 에이전트를 활용할 때 프롬프트를 반복 실행하고 수동으�
 
 *기타 (Others)*
 
-### SkillOpt
+<!-- badge:19 -->
 
 <!-- badge:19 -->
-![SkillOpt](images/18.jpg)
 
-이 논문은 에이전트가 스스로 좋아지는 방식이 어디까지 왔는지 꽤 잘 보여줍니다. 마이크로소프트가 공개한 SkillOpt는 에이전트의 스킬 문서를 그냥 사람이 손으로 쓰는 게 아니라, 학습 가능한 외부 상태처럼 다룹니다.
+### SkillOpt: 모델 동결 후 스킬 문서 최적화로 에이전트 성능 향상
+
+![SkillOpt: 모델 동결 후 스킬 문서 최적화로 에이전트 성능 향상](images/18.jpg)
+
+LLM 에이전트의 성능 향상을 위해 모델 가중치는 유지한 채 스킬 문서를 학습 가능한 외부 상태로 취급하는 방식의 한계를 해결한다. SkillOpt는 실행 결과와 실패 로그를 기반으로 스킬 문서에 추가, 삭제, 수정 형태의 업데이트를 적용하고, 검증 세트에서 성능 개선이 확인된 경우만 채택한다. GPT-5.5에서 평균 23.5점, Codex에서 24.8점, Claude에서 19.1점의 성능 향상을 달성했으며, 최적화된 스킬이 다른 모델과 실행 환경으로도 전이 가능하다.
+
+**핵심 포인트:** 핵심 성과: GPT-5.5 직접 채팅 환경에서 +23.5점, Codex 루프에서 +24.8점 개선 달성. 최적화된 스킬이 다른 모델과 실행 환경으로 이전 가능하여 에이전트 성능이 모델 자체보다 스킬 설계와 평가 체계에 의존함을 입증.
 
 🔗 [github.com/microsoft/SkillOpt](https://github.com/microsoft/SkillOpt)
 
 *GitHub*
 
-### Headroom — 에이전트 컨텍스트 70% 압축으로 토큰 절약
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Headroom — 에이전트 컨텍스트 70% 압축으로 토큰 절약
 
 ![Headroom — 에이전트 컨텍스트 70% 압축으로 토큰 절약](images/21.jpg)
 
@@ -280,9 +292,10 @@ LLM 에이전트 실행 시 컨텍스트 윈도우 크기로 인한 토큰 비�
 
 ## PRODUCT & INDUSTRY
 
+<!-- badge:21 -->
+
 ### Claude Code — 에이전트 뷰로 모든 AI 에이전트 한곳에서 관리
 
-<!-- badge:21 -->
 ![Claude Code — 에이전트 뷰로 모든 AI 에이전트 한곳에서 관리](images/12.jpg)
 
 사용자들이 여러 AI 에이전트를 분산된 환경에서 관리하기 어려운 문제를 해결하기 위해 Anthropic은 Claude Code에 에이전트 뷰 기능을 추가했다. 이 기능은 모든 에이전트를 한 곳에서 통합 관리할 수 있는 대시보드를 제공하며, Claude Opus 4.8, 동적 워크플로, 노력 제어 등의 새로운 기능과 함께 Claude 데스크톱 앱에 통합되어 작업 효율성을 극대화한다.
@@ -293,9 +306,10 @@ LLM 에이전트 실행 시 컨텍스트 윈도우 크기로 인한 토큰 비�
 
 *기타 (Others)*
 
+<!-- badge:22 -->
+
 ### Anthropic Mythos — 차세대 AI 모델 테스트 버전 유출 및 성능 공개
 
-<!-- badge:22 -->
 Anthropic의 차세대 플래그십 모델 'Mythos'의 테스트 버전이 공식 발표 전에 외부로 유출되는 사건이 발생했다. 레드팀 검증 프로그램용 테스트 API 모델 'claude-oceanus-v1-p'의 접근 권한이 무단 획득되어 중국의 API 프록시 커뮤니티를 통해 암암리에 재판매되었다. 유출 과정에서 해당 모델이 기존 Claude Opus 대비 52배의 속도 개선을 달성했으며, 입력 토큰 100만 개당 16달러, 출력 토큰 100만 개당 80달러의 초고가 단가로 책정되어 있음이 공개되었다.
 
 **핵심 포인트:** 핵심 성과: Mythos 모델은 기존 신경망 대비 52배 속도 개선을 달성했으며, Claude Opus의 3배 이상의 프리미엄 가격 정책으로 고성능 AI 시장 개척을 예상하고 있다.
@@ -304,9 +318,10 @@ Anthropic의 차세대 플래그십 모델 'Mythos'의 테스트 버전이 공�
 
 *기타 (Others)*
 
+<!-- badge:23 -->
+
 ### Anthropic Mythos — 보안 위험으로 공개 제한된 AI 모델의 유출 사건
 
-<!-- badge:23 -->
 ![Anthropic Mythos — 보안 위험으로 공개 제한된 AI 모델의 유출 사건](images/20.jpg)
 
 앤트로픽이 개발한 Mythos는 소프트웨어 보안 취약점과 제로데이를 발견하는 능력으로 인해 너무 위험하다며 40개 기업에만 제한 공개했다. 그러나 내부 시스템 설정 오류로 3,000개 파일이 노출되고, 외주 협력사 직원을 통해 무단 접근이 발생하는 등 보안 담장이 여러 차례 뚫렸다. 이는 가장 강력한 보안 AI 모델이 정작 자신의 보안 관리에 실패한 아이러니한 상황을 보여준다.
@@ -317,9 +332,10 @@ Anthropic의 차세대 플래그십 모델 'Mythos'의 테스트 버전이 공�
 
 *기타 (Others)*
 
+<!-- badge:24 -->
+
 ### Claude — 95% 자동화로 데이터 분석 셀프서비스 실현
 
-<!-- badge:24 -->
 ![Claude — 95% 자동화로 데이터 분석 셀프서비스 실현](images/23.jpg)
 
 기업 데이터 분석의 자동화 문제를 해결하기 위해 앤트로픽이 Claude를 활용한 셀프서비스 분석 시스템을 구현했다. 전통적인 방식은 비정규화 테이블로 인한 정의 불일치나 대시보드 중복 문제를 야기했고, LLM 직접 활용도 검증 불가능한 답변을 생성하는 위험이 있었다. Claude는 사용자 질문을 데이터 웨어하우스의 정확한 항목에 매핑하고 95% 정확도로 데이터 분석 요청의 95%를 자동 처리하여, 데이터 과학자들이 반복 조회 업무에서 벗어나 인과분석과 예측 분석 같은 고도의 업무에 집중하도록 지원한다.

@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### Apache Airflow — LLM과 에이전트를 DAG에 직접 통합하는 Common AI Provider 출시
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Apache Airflow — LLM과 에이전트를 DAG에 직접 통합하는 Common AI Provider 출시
 
 ![Apache Airflow — LLM과 에이전트를 DAG에 직접 통합하는 Common AI Provider 출시](images/07.jpg)
 
@@ -23,9 +23,9 @@ draft: false
 
 *블로그 (Blog)*
 
-### DeepSeek-V4: 100만 토큰 지원하는 오픈소스 초대형 모델 공개
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### DeepSeek-V4: 100만 토큰 지원하는 오픈소스 초대형 모델 공개
 
 ![DeepSeek-V4: 100만 토큰 지원하는 오픈소스 초대형 모델 공개](images/25.jpg)
 
@@ -37,9 +37,9 @@ draft: false
 
 *기타 (Others)*
 
-### Langfuse — LLM 앱 디버깅을 위한 프롬프트·비용 추적 플랫폼
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Langfuse — LLM 앱 디버깅을 위한 프롬프트·비용 추적 플랫폼
 
 ![Langfuse — LLM 앱 디버깅을 위한 프롬프트·비용 추적 플랫폼](images/23.jpg)
 
@@ -54,9 +54,9 @@ LLM 애플리케이션 개발 시 console.log로 로그를 뒤지며 디버깅�
 
 ## AI & RESEARCH
 
-### TexOCR-Bench: 과학 PDF를 컴파일 가능한 LaTeX로 변환하는 OCR 벤치마크
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### TexOCR-Bench: 과학 PDF를 컴파일 가능한 LaTeX로 변환하는 OCR 벤치마크
 
 기존 문서 OCR 기술은 일반 텍스트나 마크다운만 지원하며 과학 출판에 필수적인 LaTeX의 구조적 특성을 손실한다. TexOCR-Bench는 이러한 문제를 해결하기 위해 과학적 PDF를 페이지 수준에서 직접 컴파일 가능한 LaTeX 형식으로 재구성하는 방법론과 벤치마크를 제시한다. 이를 통해 과학 논문의 복잡한 수식, 표, 그림 등을 정확하게 보존하면서 디지털 처리 가능한 형태로 변환할 수 있다.
 
@@ -66,9 +66,10 @@ LLM 애플리케이션 개발 시 console.log로 로그를 뒤지며 디버깅�
 
 *논문 (Papers)*
 
+<!-- badge:5 -->
+
 ### RAG: 복잡한 컨텍스트 처리를 위한 검색 증강 생성의 한계와 개선 방향
 
-<!-- badge:5 -->
 LLM이 추론 시 외부 지식을 통합하기 위해 널리 사용되는 RAG 기술이 직면한 문제를 다룬다. 검색된 컨텍스트가 복잡하거나 불완전하거나 이질적인 경우 단일 생성 프로세스로는 증거를 효과적으로 조정하지 못한다는 한계를 지적한다. 이는 RAG 시스템의 신뢰성과 정확성을 향상시키기 위한 개선된 접근 방식의 필요성을 강조한다.
 
 **핵심 포인트:** 핵심 기여: 복잡하고 불완전한 검색 컨텍스트에서 LLM의 증거 조정 능력의 한계를 명확히 하고, 단일 생성 프로세스 기반 RAG의 구조적 문제점을 식별했다.
@@ -77,9 +78,9 @@ LLM이 추론 시 외부 지식을 통합하기 위해 널리 사용되는 RAG �
 
 *논문 (Papers)*
 
-### RAG: 적응형 검색 메커니즘으로 LLM 기반 생성 효율성 향상
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### RAG: 적응형 검색 메커니즘으로 LLM 기반 생성 효율성 향상
 
 대규모 언어 모델이 외부 지식에 접근할 때 검색 효율성 문제가 발생하는 상황에서, 적응형 검색 메커니즘이 기본 패러다임으로 등장했다. 기존 방식은 검색 후 실패 시 단순히 재시도 신호만 처리했으나, 개선된 접근 방식은 동적 검색 전략으로 검색 품질과 효율을 동시에 향상시켜 RAG 시스템의 신뢰성을 높인다.
 
@@ -89,9 +90,9 @@ LLM이 추론 시 외부 지식을 통합하기 위해 널리 사용되는 RAG �
 
 *논문 (Papers)*
 
-### Embedding Compatibility Adapters — 임베딩 모델 교체 비용 0원으로 만드는 직교 변환
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Embedding Compatibility Adapters — 임베딩 모델 교체 비용 0원으로 만드는 직교 변환
 
 ![Embedding Compatibility Adapters — 임베딩 모델 교체 비용 0원으로 만드는 직교 변환](images/03.jpg)
 
@@ -103,9 +104,9 @@ LLM이 추론 시 외부 지식을 통합하기 위해 널리 사용되는 RAG �
 
 *GitHub*
 
-### Abstract-CoT — AI가 인간 언어 없이 추상 기호로 독립적 사고
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Abstract-CoT — AI가 인간 언어 없이 추상 기호로 독립적 사고
 
 기존 LLM은 복잡한 문제 해결 시 자연어 기반 추론 과정을 생성하면서 토큰 사용량과 지연 시간이 증가하는 문제가 있다. Abstract-CoT는 인간 언어와 무관한 64개의 추상 기호만을 활용하여 추론 과정을 처리하는 기법을 제시한다. 워밍업 단계의 병목 SFT와 자가 증류, 그리고 강화학습 GRPO를 통해 기호에 논리적 의미를 부여하며, 수학 문제에서 추론 토큰 사용량을 11.6배 감소시키면서도 정답률은 유지한다.
 
@@ -115,9 +116,10 @@ LLM이 추론 시 외부 지식을 통합하기 위해 널리 사용되는 RAG �
 
 *논문 (Papers)*
 
+<!-- badge:9 -->
+
 ### Nemotron 3 Nano Omni: 엔비디아의 멀티모달 통합 경량 모델
 
-<!-- badge:9 -->
 ![Nemotron 3 Nano Omni: 엔비디아의 멀티모달 통합 경량 모델](images/05.jpg)
 
 기존의 비전, 음성, 이미지, 텍스트 모델이 파편화되어 있는 문제를 해결하기 위해 엔비디아가 단일 통합 모델 Nemotron 3 Nano Omni를 공개했다. 30B 파라미터 중 3B만 활성화하는 하이브리드 MoE 구조를 채택하여 연산 효율과 처리 속도를 극대화했으며, 비디오 추론 환경에서는 다른 오픈 모델 대비 시스템 처리 용량을 최대 9.2배 향상시켰다. 모든 모델과 레시피를 오픈소스로 공개했다.
@@ -128,9 +130,9 @@ LLM이 추론 시 외부 지식을 통합하기 위해 널리 사용되는 RAG �
 
 *기타 (Others)*
 
-### CoSearch: 강화학습 기반 에이전트 검색의 추론과 문서 순위 공동 훈련
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### CoSearch: 강화학습 기반 에이전트 검색의 추론과 문서 순위 공동 훈련
 
 ![CoSearch: 강화학습 기반 에이전트 검색의 추론과 문서 순위 공동 훈련](images/10.jpg)
 
@@ -142,9 +144,10 @@ LLM이 추론 시 외부 지식을 통합하기 위해 널리 사용되는 RAG �
 
 *기타 (Others)*
 
+<!-- badge:11 -->
+
 ### Multi-modal RAG: PDF, 테이블, 이미지를 지능형 시스템으로 변환
 
-<!-- badge:11 -->
 ![Multi-modal RAG: PDF, 테이블, 이미지를 지능형 시스템으로 변환](images/13.jpg)
 
 기존 RAG 시스템이 텍스트 기반 검색에만 제한되는 문제를 해결하기 위해 다중 모드 RAG 시스템을 설계한다. PDF, 테이블, 이미지 등 다양한 데이터 형식을 통합적으로 처리하여 검색 정확도를 높인다. Agentic RAG 접근 방식으로 자율적 계획 수립, 도구 기반 정보 수집, 피드백 기반 적응이 가능해지며, 임베딩과 고급 검색 전략을 통해 복잡한 쿼리에 대한 신뢰할 수 있는 답변을 생성한다.
@@ -155,9 +158,9 @@ LLM이 추론 시 외부 지식을 통합하기 위해 널리 사용되는 RAG �
 
 *기타 (Others)*
 
-### ChatGPT 프롬프트: 6천장 경험자가 알려주는 목적 기반 작성법
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### ChatGPT 프롬프트: 6천장 경험자가 알려주는 목적 기반 작성법
 
 ![ChatGPT 프롬프트: 6천장 경험자가 알려주는 목적 기반 작성법](images/16.jpg)
 
@@ -169,9 +172,10 @@ ChatGPT 이미지 생성에서 기존의 마스터피스, 울트라디테일 같
 
 *기타 (Others)*
 
+<!-- badge:13 -->
+
 ### MinerU2.5-Pro: PDF-to-Markdown 문서 파싱 모델 95.69 SOTA 달성
 
-<!-- badge:13 -->
 ![MinerU2.5-Pro: PDF-to-Markdown 문서 파싱 모델 95.69 SOTA 달성](images/20.jpg)
 
 PDF 문서를 마크다운으로 변환하는 과정에서 구문 분석의 정확도가 떨어지는 문제를 해결하기 위해 개발된 모델. 원본 1.2B 매개변수 아키텍처를 유지하면서 데이터 엔지니어링에만 집중하여 전반적인 성능을 향상시켰다. 새로운 벤치마크인 OmniDocBench v1.6에서 95.69의 절대 SOTA 점수를 달성하며 문서 파싱 분야의 최고 성능을 입증했다.
@@ -182,9 +186,10 @@ PDF 문서를 마크다운으로 변환하는 과정에서 구문 분석의 정�
 
 *기타 (Others)*
 
+<!-- badge:14 -->
+
 ### RARE: 법률·금융 분야 RAG 성능 평가 프레임워크
 
-<!-- badge:14 -->
 법률, 금융 등 높은 문서 유사도를 가진 분야에서 RAG 시스템의 성능을 정확히 평가하기 어려운 문제를 해결하는 프레임워크. RARE는 중복성을 고려한 검색 평가 메커니즘을 제시하여 유사한 문서들이 많은 도메인에서 정보 검색 증강 생성의 실제 성능을 신뢰성 있게 측정할 수 있게 한다.
 
 **핵심 포인트:** 핵심 기여: 높은 문서 유사도 환경에서 RAG 성능을 정확히 평가하는 중복성 인식 평가 프레임워크 제시로, 법률·금융 분야의 도메인 특화 검색 시스템 개선을 가능하게 함.
@@ -193,9 +198,10 @@ PDF 문서를 마크다운으로 변환하는 과정에서 구문 분석의 정�
 
 *논문 (Papers)*
 
+<!-- badge:15 -->
+
 ### Claude Managed Agents — 세션 간 기억 유지하는 Memory 베타 공개
 
-<!-- badge:15 -->
 ![Claude Managed Agents — 세션 간 기억 유지하는 Memory 베타 공개](images/24.jpg)
 
 Claude Managed Agents에 대화 이력과 작업 방식을 기억하는 Memory 기능이 추가됨으로써 에이전트의 연속성 문제를 해결한다. 텍스트 파일 형태로 저장된 메모리는 개발자가 직접 수정 및 버전 관리할 수 있으며, 여러 에이전트가 공유 메모리로 팀 규정을 일관되게 적용할 수 있다. Notion, Asana 등 주요 기업들이 몇 주 내에 프로덕션 에이전트를 배포하면서 복잡한 인프라 작업 시간을 획기적으로 단축했다.
@@ -209,9 +215,9 @@ Claude Managed Agents에 대화 이력과 작업 방식을 기억하는 Memory �
 
 ## DEVTOOLS & OPEN SOURCE
 
-### getdesign.md — AI 에이전트에 브랜드 디자인 언어를 한 줄로 주입
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### getdesign.md — AI 에이전트에 브랜드 디자인 언어를 한 줄로 주입
 
 ![getdesign.md — AI 에이전트에 브랜드 디자인 언어를 한 줄로 주입](images/06.jpg)
 
@@ -223,9 +229,10 @@ AI 코딩 에이전트가 디자인 스타일 지정 시 여백 철학, 타이�
 
 *기타 (Others)*
 
+<!-- badge:17 -->
+
 ### Matt Pocock의 Claude Skills — 절차 있는 엔지니어링 워크플로우 공개
 
-<!-- badge:17 -->
 ![Matt Pocock의 Claude Skills — 절차 있는 엔지니어링 워크플로우 공개](images/09.jpg)
 
 LLM 시대에 프롬프트를 무분별하게 던지는 방식의 한계를 지적하며, TypeScript 전문가 Matt Pocock이 자신의 Claude 워크플로우 22개를 공개했다. Planning, Development, Tooling, Writing 4개 카테고리로 체계화된 스킬들은 TDD, PRD 작성, 아키텍처 설계 등 실무 엔지니어링 절차를 구조화한다. 특히 'grill-me' 스킬은 LLM에게 본인의 계획을 엄격히 검증받도록 설계되어, 코딩 에이전트 시대에 개인의 워크플로우 자체가 곧 브랜드 자산임을 시사한다.
@@ -236,9 +243,10 @@ LLM 시대에 프롬프트를 무분별하게 던지는 방식의 한계를 지�
 
 *기타 (Others)*
 
+<!-- badge:18 -->
+
 ### agentic-stack — AI 코딩 에이전트의 포터블 메모리 시스템
 
-<!-- badge:18 -->
 ![agentic-stack — AI 코딩 에이전트의 포터블 메모리 시스템](images/14.jpg)
 
 AI 코딩 에이전트가 개발 툴을 전환할 때마다 학습 컨텍스트를 잃는 문제를 해결하는 오픈소스 프로젝트. Cursor, Windsurf, Claude Code 등 다양한 툴 간 이동 시에도 메모리와 스킬을 유지한다. 에이전트가 학습한 패턴을 매일 정리해 사용자의 검토와 승인을 거쳐 장기 기억으로 저장하는 방식으로 인간의 통제 하에 AI 학습을 관리하며, 스킬이 2주간 3회 실패 시 자동으로 코드를 수정해 자가 개선하는 기능을 기본 탑재했다.
@@ -249,9 +257,9 @@ AI 코딩 에이전트가 개발 툴을 전환할 때마다 학습 컨텍스트�
 
 *GitHub*
 
-### RAG-Anything — 표·수식·차트까지 이해하는 멀티모달 RAG 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### RAG-Anything — 표·수식·차트까지 이해하는 멀티모달 RAG 프레임워크
 
 ![RAG-Anything — 표·수식·차트까지 이해하는 멀티모달 RAG 프레임워크](images/15.jpg)
 
@@ -263,9 +271,9 @@ AI 코딩 에이전트가 개발 툴을 전환할 때마다 학습 컨텍스트�
 
 *GitHub*
 
-### Tolaria — Obsidian 대항마, Swift 오픈소스 마크다운 지식베이스 앱
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Tolaria — Obsidian 대항마, Swift 오픈소스 마크다운 지식베이스 앱
 
 ![Tolaria — Obsidian 대항마, Swift 오픈소스 마크다운 지식베이스 앱](images/18.jpg)
 
@@ -277,9 +285,10 @@ AI 코딩 에이전트가 개발 툴을 전환할 때마다 학습 컨텍스트�
 
 *기타 (Others)*
 
+<!-- badge:21 -->
+
 ### Claude Code Hook — 업무 기록 자동화 시스템
 
-<!-- badge:21 -->
 ![Claude Code Hook — 업무 기록 자동화 시스템](images/19.jpg)
 
 개발자가 Claude Code 세션을 여러 개 진행하면서 일일 업무 내역을 추적하기 어려운 문제를 해결하는 자동화 시스템이다. Claude Code 종료 시 hook을 통해 Gemini 2.5 Flash로 업무를 요약하고 Google Calendar API로 자동 저장하여, session id로 일일 업무를 검색하고 주간 업무 기록을 자동으로 생성할 수 있게 한다.
@@ -290,9 +299,10 @@ AI 코딩 에이전트가 개발 툴을 전환할 때마다 학습 컨텍스트�
 
 *GitHub*
 
+<!-- badge:22 -->
+
 ### Stitch — 마크다운 기반 자동 디자인 시스템 생성
 
-<!-- badge:22 -->
 ![Stitch — 마크다운 기반 자동 디자인 시스템 생성](images/21.jpg)
 
 디자이너와 개발자 간 디자인 시스템 동기화의 어려움을 해결하기 위해 구글이 공개한 Stitch의 DESIGN.md 업그레이드 버전. DESIGN.md 파일만 업로드하면 캔버스 위에 디자인 시스템이 자동 생성되며, 파일이 없는 경우 기존 코드베이스나 웹사이트에서 디자인 규칙을 자동 추출한다. 디자인 토큰 연동 기능으로 세밀한 제어가 가능해졌으며, 디자인 에이전트가 명확한 규칙과 시스템 위에서 인터페이스를 일관되게 생성할 수 있다.
@@ -306,9 +316,10 @@ AI 코딩 에이전트가 개발 툴을 전환할 때마다 학습 컨텍스트�
 
 ## ENGINEERING
 
+<!-- badge:23 -->
+
 ### NVIDIA Dynamo — AI 에이전트 추론 최적화로 API 비용 절감
 
-<!-- badge:23 -->
 ![NVIDIA Dynamo — AI 에이전트 추론 최적화로 API 비용 절감](images/12.jpg)
 
 AI 에이전트가 코딩 작업을 수행할 때 불필요한 API 호출과 재계산으로 인한 비용과 시간이 낭비되는 문제를 해결하기 위해 엔비디아가 개발한 솔루션. NVIDIA Dynamo는 에이전트 맞춤형 스택 최적화를 통해 불필요한 재계산을 제거하고 추론 처리량을 7배 향상시킨다. 다가오는 에이전트 시대에서 모델 성능의 실질적 경쟁력은 이러한 인프라 최적화에 있다.
@@ -322,9 +333,9 @@ AI 에이전트가 코딩 작업을 수행할 때 불필요한 API 호출과 재
 
 ## PRODUCT & INDUSTRY
 
-### Claude — Blender 연동으로 AI가 직접 3D 작업 명령 수행
+<div class="eyebrow"><img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude — Blender 연동으로 AI가 직접 3D 작업 명령 수행
 
 ![Claude — Blender 연동으로 AI가 직접 3D 작업 명령 수행](images/08.jpg)
 
@@ -336,9 +347,10 @@ AI 에이전트가 코딩 작업을 수행할 때 불필요한 API 호출과 재
 
 *기타 (Others)*
 
+<!-- badge:25 -->
+
 ### Manyfast — AI가 만드는 소프트웨어 기획 문서 자동화 도구
 
-<!-- badge:25 -->
 ![Manyfast — AI가 만드는 소프트웨어 기획 문서 자동화 도구](images/11.jpg)
 
 소프트웨어 기획자와 PM들이 PRD, 기능명세서, 유저플로우, 와이어프레임 작성에 소비하는 시간이 문제다. Manyfast는 AI 에이전트를 통해 이러한 기획 문서 전체를 자동으로 생성하여 통상 3일이 소요되는 기획 과정을 3시간 이내에 완료할 수 있게 한다. 현재 누구나 무료로 이용 가능하며 월 1,000명 이상의 활성 사용자를 확보하고 있다.
@@ -349,9 +361,10 @@ AI 에이전트가 코딩 작업을 수행할 때 불필요한 API 호출과 재
 
 *기타 (Others)*
 
+<!-- badge:26 -->
+
 ### GPT Image-2와 Canva Magic Layer: 이미지 분리 도구 비교
 
-<!-- badge:26 -->
 ![GPT Image-2와 Canva Magic Layer: 이미지 분리 도구 비교](images/17.jpg)
 
 사용자가 GPT Image-2로 생성한 이미지를 Canva의 Magic Layer 기능으로 분리하는 방식을 시도했다. 현재 해상도 품질 저하 문제가 있지만, 이 문제가 개선되면 실무에서 충분히 활용 가능한 수준의 이미지 분리 워크플로우가 될 수 있다는 평가다.
@@ -362,9 +375,10 @@ AI 에이전트가 코딩 작업을 수행할 때 불필요한 API 호출과 재
 
 *기타 (Others)*
 
+<!-- badge:27 -->
+
 ### Launchr.Studio — AI 에이전트 앱 출시 예정
 
-<!-- badge:27 -->
 ![Launchr.Studio — AI 에이전트 앱 출시 예정](images/26.jpg)
 
 AI 에이전트 애플리케이션 개발 및 배포를 위한 플랫폼인 Launchr.Studio가 출시를 앞두고 있다. 사용자가 원하는 기능을 명확하게 설명하면 에이전트 앱을 생성할 수 있으며, 출시 후 다양한 활용 사례를 지원할 계획이다. 개발자와 기업이 복잡한 AI 에이전트 구축 과정을 단순화할 수 있는 솔루션을 제공한다.
@@ -375,9 +389,9 @@ AI 에이전트 애플리케이션 개발 및 배포를 위한 플랫폼인 Laun
 
 *기타 (Others)*
 
-### Flipbook — AI가 실시간으로 화면을 그려내는 웹의 미래
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Flipbook — AI가 실시간으로 화면을 그려내는 웹의 미래
 
 ![Flipbook — AI가 실시간으로 화면을 그려내는 웹의 미래](images/27.jpg)
 
@@ -389,9 +403,10 @@ AI 에이전트 애플리케이션 개발 및 배포를 위한 플랫폼인 Laun
 
 *기타 (Others)*
 
+<!-- badge:29 -->
+
 ### Claude Code — 멀티 에이전트 자동 코드 리뷰 '/ultrareview' 기능 출시
 
-<!-- badge:29 -->
 ![Claude Code — 멀티 에이전트 자동 코드 리뷰 '/ultrareview' 기능 출시](images/28.jpg)
 
 프로덕션 환경에 병합되는 인증 로직이나 데이터 마이그레이션 같은 치명적 코드의 위험성을 줄이기 위해 앤트로픽이 Claude Code에 '/ultrareview' 기능을 추가했다. 클라우드에서 다수의 버그 탐지 에이전트를 동시에 실행하여 코드를 자동으로 검토하고, 분석 결과를 CLI와 데스크톱 화면으로 즉시 전달한다. 5월 5일까지 Pro 및 Max 구독자에게 3회 무료로 제공되며, 인간 코드 리뷰 프로세스의 클라우드 기반 멀티 에이전트 자동화로의 진화를 시사한다.

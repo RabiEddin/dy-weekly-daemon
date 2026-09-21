@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### kordoc — HWP/HWPX/PDF를 마크다운으로 변환하는 파서
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### kordoc — HWP/HWPX/PDF를 마크다운으로 변환하는 파서
 
 ![kordoc — HWP/HWPX/PDF를 마크다운으로 변환하는 파서](images/25.jpg)
 
@@ -23,9 +23,9 @@ draft: false
 
 *GitHub*
 
-### pyturboquant: RAG 인덱스를 31GB에서 4GB로 압축
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### pyturboquant: RAG 인덱스를 31GB에서 4GB로 압축
 
 ![pyturboquant: RAG 인덱스를 31GB에서 4GB로 압축](images/24.jpg)
 
@@ -37,9 +37,10 @@ draft: false
 
 *GitHub*
 
+<!-- badge:3 -->
+
 ### Claude Design — 스케치에서 실시간 디자인 생성 AI
 
-<!-- badge:3 -->
 ![Claude Design — 스케치에서 실시간 디자인 생성 AI](images/23.jpg)
 
 기존에는 학술논문을 발표 슬라이드로 변환하거나 블로그 썸네일을 제작할 때 AI 도구를 사용해도 품질이 낮아 수작업으로 다시 편집해야 했다. Claude Design은 단순 스케치나 텍스트 입력만으로 PPT, 랜딩페이지, 인터랙티브 UI, 뉴스레터, 이메일 템플릿 등을 한 번에 생성하며, 생성 후 편집 기능까지 제공하여 커뮤니티에서 학술 슬라이드, 맛집 블로그 썸네일, 윈도우98 디자인 등 다양한 활용 사례가 출시 직후부터 쏟아지고 있다.
@@ -53,9 +54,10 @@ draft: false
 
 ## AI & RESEARCH
 
+<!-- badge:4 -->
+
 ### Qwen3.6-27B — 15배 작은 모델이 초대형 모델을 능가하다
 
-<!-- badge:4 -->
 ![Qwen3.6-27B — 15배 작은 모델이 초대형 모델을 능가하다](images/00.jpg)
 
 대규모 언어 모델의 효율성 문제를 해결하기 위해 알리바바가 공개한 오픈소스 모델. 27B 파라미터 규모로 397B 초대형 모델보다 15배 작지만 에이전트 코딩 능력 벤치마크에서 더 높은 성능을 기록했다. 멀티모달 기능과 Thinking 모드를 지원하며 Apache 2.0 라이선스로 완전 무료 제공되어 개인 PC 환경에서도 고성능 활용이 가능하다.
@@ -66,9 +68,10 @@ draft: false
 
 *기타 (Others)*
 
+<!-- badge:5 -->
+
 ### OpenAI: 내부 모델 엔드포인트 명 대량 유출
 
-<!-- badge:5 -->
 ![OpenAI: 내부 모델 엔드포인트 명 대량 유출](images/02.jpg)
 
 OpenAI의 연구 중인 내부 모델들의 엔드포인트 명이 유출되었다. 유출된 목록에는 GPT-5, GPT-5 Codex 등 알려진 모델 외에도 Heisenberg라는 불명의 모델명이 포함되어 있어 업계의 관심을 모으고 있다. 현재까지 실질적인 보안 피해나 민감 정보 노출은 보고되지 않은 상태이다.
@@ -79,9 +82,10 @@ OpenAI의 연구 중인 내부 모델들의 엔드포인트 명이 유출되었�
 
 *기타 (Others)*
 
+<!-- badge:6 -->
+
 ### SSoT — LLM의 확률적 편향성을 극복하는 프롬프트 기법
 
-<!-- badge:6 -->
 ![SSoT — LLM의 확률적 편향성을 극복하는 프롬프트 기법](images/03.jpg)
 
 LLM은 확률 개념을 이해하지만 완벽한 무작위 생성에 치명적 편향성을 가져 창의적 작업에서 반복적이고 단조로운 답변을 생성하는 문제가 있다. Sakana AI가 ICLR 2026에서 발표한 SSoT 기법은 프롬프트에 무작위 문자열 생성과 ASCII 값 기반 확률 결정 지시를 추가하여 실제 확률 분포에 훨씬 가까운 결과를 도출한다. 이를 통해 게임 이론이나 창의적 글쓰기처럼 다양성이 필수적인 영역에서 모델의 근본적 한계를 극복할 수 있다.
@@ -92,9 +96,10 @@ LLM은 확률 개념을 이해하지만 완벽한 무작위 생성에 치명적 
 
 *기타 (Others)*
 
+<!-- badge:7 -->
+
 ### Deep Research Max: 자율 리서치 에이전트의 새로운 기준
 
-<!-- badge:7 -->
 ![Deep Research Max: 자율 리서치 에이전트의 새로운 기준](images/04.jpg)
 
 정보 수집과 분석에 소요되는 시간이 증가하고 있는 가운데, 구글 딥마인드는 Gemini 3.1 Pro 기반의 자율 리서치 에이전트 Deep Research와 Deep Research Max를 출시했다. 기본 버전은 빠른 응답이 필요한 앱에, Max 버전은 방대한 정보 수집과 깊은 추론이 필요한 경우에 활용된다. MCP 지원으로 기업 내부 문서와 전문 금융 데이터 연결 분석, 출처 명시 보고서 및 시각 자료 자동 생성 기능을 제공한다.
@@ -105,9 +110,10 @@ LLM은 확률 개념을 이해하지만 완벽한 무작위 생성에 치명적 
 
 *블로그 (Blog)*
 
+<!-- badge:8 -->
+
 ### OpenMythos — Claude 아키텍처를 공개 논문으로 역추적한 오픈소스
 
-<!-- badge:8 -->
 ![OpenMythos — Claude 아키텍처를 공개 논문으로 역추적한 오픈소스](images/07.jpg)
 
 Claude의 내부 구조가 공개 문헌만으로 어떻게 구성되었을 수 있는지 규명하는 이론적 재구성 프로젝트다. 저자는 Claude의 Mythos 아키텍처가 같은 레이어를 반복 실행하는 Looped Transformer라고 가설하며, 한 번의 forward pass 내에서 잠재 공간에서 조용히 반복 추론이 일어난다고 제안한다. Prelude-Recurrent Block-Coda 구조로 깊이는 루핑으로, 넓이는 MoE로 확보하는 방식이며, PyTorch 구현과 함께 안정성 증명, 스케일링 법칙, 보조 아이디어들이 정리되어 있다.
@@ -118,9 +124,10 @@ Claude의 내부 구조가 공개 문헌만으로 어떻게 구성되었을 수 
 
 *기타 (Others)*
 
+<!-- badge:9 -->
+
 ### Claude Design — Anthropic의 시스템 프롬프트 설계 전략 공개
 
-<!-- badge:9 -->
 ![Claude Design — Anthropic의 시스템 프롬프트 설계 전략 공개](images/20.jpg)
 
 Anthropic의 Claude 설계 시스템 프롬프트가 유출되면서 AI 모델의 우수한 결과물이 어떻게 만들어지는지 드러났다. 유출된 프롬프트에서는 디자인 맥락을 깊이 있게 파악하고, 다양한 대안 탐색을 장려하며, 기계적인 AI 느낌을 제거하기 위한 세밀한 규칙들이 사전에 촘촘하게 설정되어 있음을 확인할 수 있다. 이는 자연스럽고 뛰어난 결과물이 철저하게 기획된 통제와 규칙에서 비롯된다는 점을 보여준다.
@@ -131,9 +138,9 @@ Anthropic의 Claude 설계 시스템 프롬프트가 유출되면서 AI 모델�
 
 *GitHub*
 
-### ParseBench — Opus 4.7의 문서 이해 능력을 종합 벤치마킹
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### ParseBench — Opus 4.7의 문서 이해 능력을 종합 벤치마킹
 
 엔터프라이즈 문서의 OCR 성능 평가에서 표, 텍스트, 차트, 시각적 기반을 종합적으로 측정하는 벤치마크가 필요하다. ParseBench는 이러한 요구를 해결하기 위해 Opus 4.7을 평가한 결과, 차트 인식이 크게 개선되었고 콘텐츠 충실도에서 우수한 성과를 보였다. 다만 페이지당 약 7센트의 높은 비용 대비 더 저렴한 대안들(에이전트 모드 1.25센트, 비용 효율 모드 0.4센트)과의 경제성 차이를 드러냈다.
 
@@ -143,9 +150,10 @@ Anthropic의 Claude 설계 시스템 프롬프트가 유출되면서 AI 모델�
 
 *기타 (Others)*
 
+<!-- badge:11 -->
+
 ### RAGFlow — 문서 레이아웃 보존형 차세대 RAG 아키텍처
 
-<!-- badge:11 -->
 ![RAGFlow — 문서 레이아웃 보존형 차세대 RAG 아키텍처](images/32.jpg)
 
 기존 RAG 시스템에서 문서를 단순 텍스트로 쪼갤 때 테이블, 표, 레이아웃 정보가 손실되어 검색 품질이 저하되는 문제를 해결한다. RAGFlow는 문서의 원본 구조와 레이아웃을 그대로 보존하면서 파싱함으로써 테이블 데이터 손실을 방지하고, 더 정확한 문맥 이해와 검색 결과를 제공하는 차세대 RAG 아키텍처다.
@@ -156,9 +164,10 @@ Anthropic의 Claude 설계 시스템 프롬프트가 유출되면서 AI 모델�
 
 *기타 (Others)*
 
+<!-- badge:12 -->
+
 ### ARR: 생성형 순위 모델로 검색 효율성과 정확성의 균형 달성
 
-<!-- badge:12 -->
 기존 정보검색 시스템은 효율성과 정확성 사이의 근본적 트레이드오프를 마주한다. 이 논문은 자동회귀 순위 모델을 제안하여 인과 트랜스포머로 관련도 높은 문서를 토큰 단위로 생성하는 방식으로 문제를 해결한다. 고정 차원의 ARR 모델이 이론적으로 무제한의 문서를 순위매길 수 있음을 증명했으며, SToICaL 손실함수를 통해 문서와 토큰 수준의 순위 인식을 학습시킨다. 실험 결과 제약 위반률이 거의 0에 수렴하면서 회수율이 크게 향상되었다.
 
 **핵심 포인트:** 핵심 기여: 고정 차원 ARR 모델이 선형적 차원 증가가 필요한 듀얼 인코더와 달리 제약 없이 문서 순위매김 가능하며, WordNet과 ESCI 데이터셋에서 제약 위반률 거의 0 달성과 상위-1 검색 이상의 회수율 향상을 입증했다.
@@ -167,9 +176,10 @@ Anthropic의 Claude 설계 시스템 프롬프트가 유출되면서 AI 모델�
 
 *기타 (Others)*
 
+<!-- badge:13 -->
+
 ### GPT-Rosalind — 신약 개발 초기 발견 시간을 극적으로 단축하는 생명과학 특화 AI
 
-<!-- badge:13 -->
 ![GPT-Rosalind — 신약 개발 초기 발견 시간을 극적으로 단축하는 생명과학 특화 AI](images/35.jpg)
 
 신약 개발에는 통상 10년 이상이 소요되는데, 오픈AI가 공개한 GPT-Rosalind는 단백질 구조 분석, 유전체 분석, 화학 반응 추론 등 생명과학 분야에 특화되어 있다. 50개 이상의 연구 도구를 직접 다루는 전문가 모델으로, 가설 설정부터 실험 설계까지 초기 발견 단계를 획기적으로 단축한다. RNA 예측 평가에서 인간 전문가 상위 5% 이상의 성능을 기록했으며, 모더나, 암젠 등 글로벌 제약사들이 이미 연구에 도입을 시작했다.
@@ -180,9 +190,10 @@ Anthropic의 Claude 설계 시스템 프롬프트가 유출되면서 AI 모델�
 
 *기타 (Others)*
 
+<!-- badge:14 -->
+
 ### Claude Opus 4.7 — 자율성과 시각 지능 대폭 강화
 
-<!-- badge:14 -->
 ![Claude Opus 4.7 — 자율성과 시각 지능 대폭 강화](images/36.jpg)
 
 Claude Opus 4.7은 복잡한 작업을 자동으로 검증하며 완수하는 자율성과 해상도 인식 능력 3배 이상 향상된 시각 지능을 갖춰 출시되었다. 개발 도구 Claude Code에 코드 검토 기능이 추가되었으며, API에서는 추론 속도와 비용을 세밀하게 제어할 수 있는 옵션이 제공된다. 다만 이전 버전 성능을 낮추고 신모델 성능차를 극대화하는 전략이라는 우려도 제기되고 있다.
@@ -193,9 +204,10 @@ Claude Opus 4.7은 복잡한 작업을 자동으로 검증하며 완수하는 �
 
 *기타 (Others)*
 
+<!-- badge:15 -->
+
 ### Claude Code — AI 컨텍스트 관리로 성능 100% 끌어내기
 
-<!-- badge:15 -->
 Claude Code 사용 시 단일 채팅창에서만 작업하면 컨텍스트 부패(Context rot)로 인해 AI 성능이 저하되는 문제가 발생한다. 이를 해결하기 위해 되감기(/rewind)로 실패 기록 제거, 정리하기(/compact, /clear)로 대화 초기화, 서브 에이전트로 보조 작업 분리 등 3가지 세션 관리 기법을 적용하면 된다. 프롬프트 작성보다 AI 머릿속 상태를 통제하는 것이 실제 성능 향상의 핵심이다.
 
 **핵심 포인트:** 핵심 기여: 되감기, 정리하기, 서브 에이전트 3가지 세션 관리 기법으로 컨텍스트 부패를 방지하고 AI 작업 성능을 최적화한다.
@@ -207,9 +219,9 @@ Claude Code 사용 시 단일 채팅창에서만 작업하면 컨텍스트 부�
 
 ## DEVTOOLS & OPEN SOURCE
 
-### 한/글 뷰어: HWP/HWPX 문서 편집 오픈소스 데스크톱 앱
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### 한/글 뷰어: HWP/HWPX 문서 편집 오픈소스 데스크톱 앱
 
 한글 워드프로세서 문서 포맷인 HWP와 HWPX 파일을 전용 프로그램 없이 열고 편집할 수 없다는 문제가 있다. 이 오픈소스 데스크톱 애플리케이션은 한글 문서 포맷을 자유롭게 조회하고 편집할 수 있는 크로스플랫폼 솔루션을 제공하여, 사용자가 독점 소프트웨어에 의존하지 않고 한글 문서에 접근할 수 있게 한다.
 
@@ -219,9 +231,10 @@ Claude Code 사용 시 단일 채팅창에서만 작업하면 컨텍스트 부�
 
 *기타 (Others)*
 
+<!-- badge:17 -->
+
 ### DESIGN.md Style Extractor — 웹사이트 디자인을 AI 코딩에 자동 추출
 
-<!-- badge:17 -->
 ![DESIGN.md Style Extractor — 웹사이트 디자인을 AI 코딩에 자동 추출](images/11.jpg)
 
 웹사이트 디자인을 수동으로 분석하여 AI에 전달하는 과정이 비효율적인 문제를 해결한다. DESIGN.md Style Extractor 크롬 확장 프로그램은 한 번의 클릭으로 웹페이지의 색상, 폰트, 여백, 그림자 등 모든 스타일 구조를 자동 추출하여 파일로 변환한다. 추출된 파일을 AI 코딩 에이전트나 Google Stitch에 입력하면 동일한 디자인의 결과물을 생성할 수 있으며, 로그인 필수 페이지나 사내 시스템의 디자인도 가져올 수 있어 디자인 시스템 구축이 용이하다.
@@ -232,9 +245,10 @@ Claude Code 사용 시 단일 채팅창에서만 작업하면 컨텍스트 부�
 
 *기타 (Others)*
 
+<!-- badge:18 -->
+
 ### DESIGN.md — AI 에이전트를 위한 디자인 시스템 마크다운 포맷
 
-<!-- badge:18 -->
 ![DESIGN.md — AI 에이전트를 위한 디자인 시스템 마크다운 포맷](images/12.jpg)
 
 AI 에이전트에게 UI 디자인을 지시할 때 스크린샷은 모호하지만, 마크다운 형식의 디자인 시스템 파일(DESIGN.md)은 정확한 CSS 값과 디자인 토큰을 명확하게 전달한다. designmd.ai와 getdesign.md 같은 커뮤니티 플랫폼에서는 100개 이상의 DESIGN.md 파일을 수집하고 검색할 수 있으며, MCP 서버와 CLI를 통해 Claude나 Cursor에 직접 통합하여 일관된 UI 생성을 지원한다.
@@ -245,9 +259,9 @@ AI 에이전트에게 UI 디자인을 지시할 때 스크린샷은 모호하지
 
 *기타 (Others)*
 
-### OpenMythos — Claude Mythos 아키텍처 오픈소스 재구성
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### OpenMythos — Claude Mythos 아키텍처 오픈소스 재구성
 
 Anthropic의 Claude Mythos 모델 아키텍처가 역공학을 통해 오픈소스 프로젝트로 공개되었다. OpenMythos는 공개된 연구 자료를 기반으로 Mythos 모델의 강력한 추론 능력을 설명할 수 있는 이론적 재구성을 목표로 하는 커뮤니티 주도 프로젝트다. 특정 기업의 상용 모델과 직접적인 연관이 없으며, 순수 교육과 실험 목적의 구현체로서 공개 연구문헌만을 기반으로 구성되었다.
 
@@ -257,9 +271,9 @@ Anthropic의 Claude Mythos 모델 아키텍처가 역공학을 통해 오픈소�
 
 *GitHub*
 
-### LangSmith: LLM 자동 평가로 인간 평가와 85% 일치율 달성
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### LangSmith: LLM 자동 평가로 인간 평가와 85% 일치율 달성
 
 AI 서비스 개발 시 LLM 성능 평가를 자동화하는 과정에서 평가 기준의 일관성 문제가 발생한다. LangSmith의 LLM-as-Judge 기능과 Align Evals를 활용하면 LLM이 스스로 평가 기준을 보정하면서 대규모 평가 환경을 실제로 구축할 수 있으며, 인간 평가자와의 일치율을 85%까지 달성할 수 있다. 이는 모델 프롬프트 최적화와 성능 평가 자동화를 동시에 해결하는 실무 중심의 솔루션이다.
 
@@ -269,9 +283,10 @@ AI 서비스 개발 시 LLM 성능 평가를 자동화하는 과정에서 평가
 
 *블로그 (Blog)*
 
+<!-- badge:21 -->
+
 ### Plane — Jira를 대체하는 오픈소스 프로젝트 관리 플랫폼
 
-<!-- badge:21 -->
 ![Plane — Jira를 대체하는 오픈소스 프로젝트 관리 플랫폼](images/17.jpg)
 
 Jira, Linear, Monday, ClickUp 등 상용 프로젝트 관리 도구의 높은 라이선스 비용이 부담스러운 팀들을 위해 Plane은 이슈, 스프린트, 문서, 트리아지를 통합한 오픈소스 플랫폼을 제공한다. 셀프호스팅을 지원하므로 소프트웨어 라이선스 비용을 절감할 수 있으며, 필요에 따라 소스 코드를 직접 수정하여 워크플로우를 커스터마이징할 수 있다. GitHub 스타 31K+, Docker 이미지 50만 다운로드 이상으로 프로덕션 환경에서 실제 운영 중인 팀들이 다수 존재한다.
@@ -282,9 +297,9 @@ Jira, Linear, Monday, ClickUp 등 상용 프로젝트 관리 도구의 높은 �
 
 *GitHub*
 
-### Diagram Design — 텍스트로 13가지 전문가 수준의 다이어그램 생성
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Diagram Design — 텍스트로 13가지 전문가 수준의 다이어그램 생성
 
 ![Diagram Design — 텍스트로 13가지 전문가 수준의 다이어그램 생성](images/19.jpg)
 
@@ -296,9 +311,9 @@ Jira, Linear, Monday, ClickUp 등 상용 프로젝트 관리 도구의 높은 �
 
 *GitHub*
 
-### DuckDB — 설치 없이 노트북을 고성능 데이터 웨어하우스로 만드는 도구
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### DuckDB — 설치 없이 노트북을 고성능 데이터 웨어하우스로 만드는 도구
 
 ![DuckDB — 설치 없이 노트북을 고성능 데이터 웨어하우스로 만드는 도구](images/22.jpg)
 
@@ -310,9 +325,9 @@ Jira, Linear, Monday, ClickUp 등 상용 프로젝트 관리 도구의 높은 �
 
 *기타 (Others)*
 
-### OMD — 58개 디자인 시스템에서 맞춤 DESIGN.md를 즉시 생성
+<div class="eyebrow"><img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### OMD — 58개 디자인 시스템에서 맞춤 DESIGN.md를 즉시 생성
 
 ![OMD — 58개 디자인 시스템에서 맞춤 DESIGN.md를 즉시 생성](images/26.jpg)
 
@@ -324,9 +339,10 @@ Jira, Linear, Monday, ClickUp 등 상용 프로젝트 관리 도구의 높은 �
 
 *기타 (Others)*
 
+<!-- badge:25 -->
+
 ### ai-testing-rules — AI가 생성한 테스트 코드 품질 개선 가이드
 
-<!-- badge:25 -->
 ![ai-testing-rules — AI가 생성한 테스트 코드 품질 개선 가이드](images/27.jpg)
 
 AI가 생성한 테스트 코드는 과도한 내부 모킹으로 인해 실제 환경에서 쉽게 실패하는 문제가 있다. OpenAI의 코드 분석 결과 내부 모킹이 0건인 반면, AI는 불필요한 모킹을 남발해 깨지기 쉬운 테스트를 만든다. 이 문제를 해결하기 위해 AGENTS.md 가이드라인을 제공하여 AI에게 정확한 테스트 코드 작성 방식을 학습시키고, 모킹은 외부 의존성(DB, API)에만 제한하고 결과 검증에 집중하도록 지도한다.
@@ -337,9 +353,9 @@ AI가 생성한 테스트 코드는 과도한 내부 모킹으로 인해 실제 
 
 *GitHub*
 
-### Agent Browser — Playwright MCP의 토큰 소비를 1/10로 줄인 Vercel 브라우저 자동화 도구
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Agent Browser — Playwright MCP의 토큰 소비를 1/10로 줄인 Vercel 브라우저 자동화 도구
 
 Playwright MCP는 페이지의 모든 요소를 AI에게 전달하면서 과도한 토큰을 소비하는 문제가 있다. Vercel에서 개발한 Agent Browser는 페이지 요소를 요약하여 전송함으로써 토큰 사용량을 10분의 1로 감소시킨다. 단순 브라우징 작업에는 Agent Browser를, 다중 탭 관리나 API 가로채기 같은 복잡한 자동화에는 Playwright MCP를 선택적으로 사용할 수 있다.
 
@@ -349,9 +365,10 @@ Playwright MCP는 페이지의 모든 요소를 AI에게 전달하면서 과도�
 
 *GitHub*
 
+<!-- badge:27 -->
+
 ### Clawd on Desk — Claude Code 작업 상태를 보여주는 귀여운 데스크톱 펫
 
-<!-- badge:27 -->
 ![Clawd on Desk — Claude Code 작업 상태를 보여주는 귀여운 데스크톱 펫](images/37.jpg)
 
 개발자가 Claude Code 작업 상태를 시각적으로 확인하기 어려운 문제를 해결하는 데스크톱 펫 애플리케이션. 12가지 애니메이션으로 사고 중, 코딩 중, 대기 중 등 다양한 작업 상태를 표현하며, 더블클릭 시 반응 애니메이션도 포함한다. GitHub에서 무료로 제공되는 오픈소스 프로젝트로, 코딩 경험을 게임화하여 사용자의 참여도를 높인다.
@@ -365,9 +382,10 @@ Playwright MCP는 페이지의 모든 요소를 AI에게 전달하면서 과도�
 
 ## ENGINEERING
 
+<!-- badge:28 -->
+
 ### MixLM: LinkedIn의 저지연 LLM 재순위 시스템
 
-<!-- badge:28 -->
 ![MixLM: LinkedIn의 저지연 LLM 재순위 시스템](images/09.jpg)
 
 LLM을 검색 재순위에 활용할 때 긴 컨텍스트 처리로 인한 지연 시간 증가와 모델 성능 간의 트레이드오프가 발생하는 문제를 해결한다. LinkedIn의 MixLM은 극단적 컨텍스트 압축과 임베딩 주입 기법을 통해 LLM 랭킹을 작업 검색 트래픽 100%에 배포할 수 있는 저지연 시스템을 제공한다.
@@ -378,9 +396,9 @@ LLM을 검색 재순위에 활용할 때 긴 컨텍스트 처리로 인한 지�
 
 *기타 (Others)*
 
-### RAG 챗봇 아키텍처 최적화 — LLM 비용 90% 절감 및 응답 속도 82% 개선
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### RAG 챗봇 아키텍처 최적화 — LLM 비용 90% 절감 및 응답 속도 82% 개선
 
 ![RAG 챗봇 아키텍처 최적화 — LLM 비용 90% 절감 및 응답 속도 82% 개선](images/15.jpg)
 
@@ -392,9 +410,10 @@ LLM 서비스 운영에서 API 비용이 주요 부담이 되는 문제를 해�
 
 *기타 (Others)*
 
+<!-- badge:30 -->
+
 ### Vercel: 대규모 보안 침해 사고 발생
 
-<!-- badge:30 -->
 ![Vercel: 대규모 보안 침해 사고 발생](images/16.jpg)
 
 Vercel의 내부 시스템이 ShinyHunters 해커 그룹에 의해 침해되어 핵심 소스코드와 내부 데이터베이스 접근 권한이 200만 달러에 판매되는 사건이 발생했다. 침해는 Google Workspace OAuth 앱이 탈취되면서 시작되었으며, Sensitive 옵션이 미적용된 환경 변수에 저장된 API 키와 비밀번호가 노출될 수 있다. Vercel을 통해 배포하는 개발자들은 즉각적인 토큰 교체와 보안 점검이 필요하며, 연동된 AI 도구를 사용하는 다른 기업들도 연쇄 해킹의 위험에 처할 수 있다.
@@ -408,9 +427,9 @@ Vercel의 내부 시스템이 ShinyHunters 해커 그룹에 의해 침해되어 
 
 ## PRODUCT & INDUSTRY
 
-### ChatGPT Images 2.0 — 한글 텍스트 렌더링 정식 지원
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### ChatGPT Images 2.0 — 한글 텍스트 렌더링 정식 지원
 
 ![ChatGPT Images 2.0 — 한글 텍스트 렌더링 정식 지원](images/01.jpg)
 
@@ -422,9 +441,10 @@ AI 이미지 생성의 고질적 문제인 텍스트 렌더링 오류, 특히 �
 
 *기타 (Others)*
 
+<!-- badge:32 -->
+
 ### Gemini in Chrome — 구글의 AI 브라우저 혁신이 한국 출시
 
-<!-- badge:32 -->
 ![Gemini in Chrome — 구글의 AI 브라우저 혁신이 한국 출시](images/06.jpg)
 
 사용자들이 여러 탭을 전환하며 정보를 수집하고 정리하는 번거로움을 겪고 있다. Gemini in Chrome은 브라우저 측면 패널을 통해 현재 페이지를 즉시 요약하고, 여러 탭의 정보를 교차 검증하여 표로 정리하며, YouTube 영상 요약과 이미지 편집 기능을 제공한다. Gemini 3.1 기반으로 작동하며 Gmail, Google Maps, Google Calendar 등 구글 서비스와 유기적으로 통합되어 웹 서핑의 효율성을 극대화한다.
@@ -435,9 +455,10 @@ AI 이미지 생성의 고질적 문제인 텍스트 렌더링 오류, 특히 �
 
 *기타 (Others)*
 
+<!-- badge:33 -->
+
 ### 엔터프라이즈 온톨로지 + 벡터검색 — 실무 운영 경험담 공유
 
-<!-- badge:33 -->
 ![엔터프라이즈 온톨로지 + 벡터검색 — 실무 운영 경험담 공유](images/08.jpg)
 
 엔터프라이즈 환경에서 온톨로지와 벡터검색을 함께 운영할 때 단순한 PoC 수준을 넘어 권한관리, 메타데이터/스키마 관리, 검색 정확도, 운영성/확장성까지 실현하기 위한 실무 경험과 교훈을 수집하는 커뮤니티 논의. Knowledge Graph 활용 시 governance 측면의 가치가 모델링만큼 중요한지에 대한 실무자 의견을 중심으로 성공사례와 실패 교훈을 나누고 있으며, 특히 노이즈 제어와 포기해야 할 trade-off에 대한 실경험이 공유되고 있다.
@@ -448,9 +469,9 @@ AI 이미지 생성의 고질적 문제인 텍스트 렌더링 오류, 특히 �
 
 *기타 (Others)*
 
-### 스미카 CAD — AI 어시스턴트로 지적도 자동 분석
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### 스미카 CAD — AI 어시스턴트로 지적도 자동 분석
 
 ![스미카 CAD — AI 어시스턴트로 지적도 자동 분석](images/10.jpg)
 
@@ -462,9 +483,10 @@ AI 이미지 생성의 고질적 문제인 텍스트 렌더링 오류, 특히 �
 
 *기타 (Others)*
 
+<!-- badge:35 -->
+
 ### Claude Opus 4.7 + Onshape — AI 기반 자동 CAD 모델링 33초 완성
 
-<!-- badge:35 -->
 ![Claude Opus 4.7 + Onshape — AI 기반 자동 CAD 모델링 33초 완성](images/18.jpg)
 
 제조 업계에서 설계자들이 반복적으로 수행하는 CAD 모델링 작업이 AI로 자동화되고 있다. Claude Opus 4.7을 Onshape 플랫폼의 플러그인으로 통합하면, 자연어 명령어만으로 정확한 치수 계산, 도면 작성, 압출, 타공, 모서리 마감 등 전체 모델링 프로세스를 33초 내에 완료할 수 있다. 시각적 피드백과 자기 수정 능력을 통해 3D 모델을 검증하고 오류를 자동으로 수정하면서, 기술자의 역할이 도구 조작에서 기획과 검수로 전환되는 산업 변화를 시사한다.
@@ -475,9 +497,9 @@ AI 이미지 생성의 고질적 문제인 텍스트 렌더링 오류, 특히 �
 
 *기타 (Others)*
 
-### 플랜트·조선 업계의 AX 전환: AI 기반 설계 자동화가 산업 생존을 결정
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### 플랜트·조선 업계의 AX 전환: AI 기반 설계 자동화가 산업 생존을 결정
 
 ![플랜트·조선 업계의 AX 전환: AI 기반 설계 자동화가 산업 생존을 결정](images/21.jpg)
 
@@ -489,9 +511,10 @@ AI 이미지 생성의 고질적 문제인 텍스트 렌더링 오류, 특히 �
 
 *기타 (Others)*
 
+<!-- badge:37 -->
+
 ### Claude Design — AI 기반 프롬프트 투 프로토타입 시각 작업 도구
 
-<!-- badge:37 -->
 디자인 기획부터 개발까지의 협업 과정에서 발생하는 지루함과 비효율성을 해결하기 위해 Anthropic Labs가 Claude Opus 4.7 기반의 Claude Design을 공개했다. 프롬프트 입력만으로 프로토타입과 프레젠테이션 슬라이드를 생성하고, 채팅 및 직접 수정, 슬라이더 조작으로 세밀한 디자인 조정이 가능하다. 기존 코드베이스 학습을 통한 브랜드 가이드 자동 유지와 Canva, PDF, Claude Code로의 직접 내보내기로 단일 환경에서 기획부터 개발까지의 전체 워크플로우를 통합한다.
 
 **핵심 포인트:** 핵심 기여: 프롬프트 기반 프로토타입 생성과 브랜드 가이드 자동 학습 기능으로 디자인-개발 협업 프로세스를 단일 환경에서 통합하여 실무 작업 속도와 생산성을 획기적으로 향상시킨다.
@@ -500,9 +523,9 @@ AI 이미지 생성의 고질적 문제인 텍스트 렌더링 오류, 특히 �
 
 *기타 (Others)*
 
-### Claude Design — AI로 블로그 텍스트만으로 30초 애니메이션 영상 생성
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Claude Design — AI로 블로그 텍스트만으로 30초 애니메이션 영상 생성
 
 디자이너들이 픽셀 단위로 화면을 일일이 그리는 업무의 가치가 낮아지고 있다. Anthropic Labs의 Claude Design은 블로그 게시글과 트윗 같은 텍스트 입력만으로 브랜드에 맞춘 완성도 높은 애니메이션 영상을 자동 생성한다. 이로 인해 디자이너의 역할은 개별 화면 제작에서 디자인 시스템 설계, AI 컨텍스트 주입, 전략적 방향 제시 등 고차원 판단으로 이동하며, 동시에 마케터와 창업자 등 비전문가도 직접 고품질 디자인 산출물을 생산할 수 있는 시대가 열리고 있다.
 
@@ -512,9 +535,9 @@ AI 이미지 생성의 고질적 문제인 텍스트 렌더링 오류, 특히 �
 
 *기타 (Others)*
 
-### X-Pilot — 문서를 정확한 강의 영상으로 변환하는 AI 도구
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### X-Pilot — 문서를 정확한 강의 영상으로 변환하는 AI 도구
 
 ![X-Pilot — 문서를 정확한 강의 영상으로 변환하는 AI 도구](images/31.jpg)
 

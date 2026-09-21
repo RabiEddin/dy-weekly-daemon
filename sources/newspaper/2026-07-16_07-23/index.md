@@ -385,11 +385,13 @@ AI 에이전트가 Microsoft Office 파일을 직접 조작하기 어려운 문�
 
 <!-- badge:28 -->
 
-### Flash
+### Gemini 3.6 Flash — 코딩은 뒤지지만 업무 자동화는 1등
 
-![Flash](images/06.jpg)
+![Gemini 3.6 Flash — 코딩은 뒤지지만 업무 자동화는 1등](images/06.jpg)
 
-구글이 Gemini 3.6 Flash를 공개했습니다. 코딩 점수는 GPT-5.6과 Grok 4.5에 밀리는데, 컴퓨터 사용과 차트 해석, 롱컨텍스트는 전부 1등입니다. 제 눈에는 구글이 승부처를 아예 옮긴 걸로 보입니다.
+구글이 발표한 Gemini 3.6 Flash는 코딩 벤치마크에서는 GPT-5.6, Grok 4.5에 뒤지지만, 컴퓨터 사용 83.0%, 차트 해석, 100만 토큰 롱컨텍스트에서 모두 1위를 차지했다. 이전 모델 대비 처리 시간을 절반으로 단축하면서 가격을 인하해, 이미 우위를 가진 사무 자동화 분야에서 경쟁력을 강화하는 전략적 선택으로 평가된다. 함께 공개된 3.5 Flash-Lite는 속도와 저가를 겨냥한 라인으로 검색에 적용 중이며, 3.5 Flash Cyber는 보안 특화 모델이다.
+
+**핵심 포인트:** 핵심 성과: 컴퓨터 사용과 롱컨텍스트 처리에서 최고 성능을 달성하며 실무 자동화 분야에서 우위 확보. Gemini 4 사전학습 착수로 차세대 역량 강화 중.
 
 🔗 [blog.google/innovation-and-ai/models-and…](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/)
 

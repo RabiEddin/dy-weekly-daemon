@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### Amazon Aurora MCP 서버 — LLM 에이전트와 데이터베이스 연결 표준화
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Amazon Aurora MCP 서버 — LLM 에이전트와 데이터베이스 연결 표준화
 
 ![Amazon Aurora MCP 서버 — LLM 에이전트와 데이터베이스 연결 표준화](images/11.jpg)
 
@@ -23,9 +23,9 @@ LLM 기반 에이전트가 SQL을 직접 작성하지 않고도 자연어 명령
 
 *기타 (Others)*
 
-### Amazon Bedrock Data Automation — 지능형 문서 처리 파이프라인 구축
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Amazon Bedrock Data Automation — 지능형 문서 처리 파이프라인 구축
 
 ![Amazon Bedrock Data Automation — 지능형 문서 처리 파이프라인 구축](images/03.jpg)
 
@@ -37,9 +37,9 @@ LLM 기반 에이전트가 SQL을 직접 작성하지 않고도 자연어 명령
 
 *기타 (Others)*
 
-### HarnessX — AI 에이전트 실행 환경의 자동 진화 기술
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### HarnessX — AI 에이전트 실행 환경의 자동 진화 기술
 
 현재 AI 에이전트의 성능은 수작업으로 제작된 정적 런타임 환경(프롬프트, 도구, 메모리, 제어 흐름)에 의존하고 있어 새로운 모델이나 작업마다 맞춤형 구성이 필요한 문제가 있다. HarnessX는 타입화된 프리미티브를 조합 대수로 조합하고, 실행 추적 기반의 다중 에이전트 진화 엔진 AEGIS를 통해 이를 자동으로 적응시킨 후, 실행 궤적을 에이전트 하네스와 모델 학습 신호로 변환하여 폐루프를 구성한다.
 
@@ -52,9 +52,9 @@ LLM 기반 에이전트가 SQL을 직접 작성하지 않고도 자연어 명령
 
 ## AI & RESEARCH
 
-### DR-DCI: 동적 워크스페이스 확장을 통한 대규모 말뭉치 상호작용 확장
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### DR-DCI: 동적 워크스페이스 확장을 통한 대규모 말뭉치 상호작용 확장
 
 대규모 말뭉치에 대한 에이전트 검색에서 기존 검색기 중재 인터페이스는 순위 결과나 제한된 문서 보기만 제공하여 에이전트의 정보 재구성 및 제약 검증 능력을 제한한다. DR-DCI는 검색을 에이전트 호출 가능한 작업으로 취급하여 관련 문서를 동적으로 로컬 워크스페이스로 가져온 후 그 내에서 직접 말뭉치 상호작용 연산을 수행한다. 이는 검색 수준의 재현율과 정밀도 연산을 결합하여 확장성과 정확성을 동시에 달성한다.
 
@@ -64,9 +64,10 @@ LLM 기반 에이전트가 SQL을 직접 작성하지 않고도 자연어 명령
 
 *논문 (Papers)*
 
+<!-- badge:5 -->
+
 ### MiniMax Sparse Attention — 대규모 컨텍스트 처리의 이차 비용 28배 감소
 
-<!-- badge:5 -->
 초장기 컨텍스트 처리를 위해 LLM이 수백만 개 토큰을 처리해야 하지만 소프트맥스 어텐션의 이차 비용이 배포 규모에서 실행 불가능한 문제가 있다. MiniMax Sparse Attention은 그룹화된 쿼리 어텐션 기반의 블록 단위 희소 어텐션 기법으로, 인덱스 브랜치가 키-값 블록을 점수 매기고 각 그룹별로 상위 k개 부분집합을 선택해 그룹별 희소 검색을 가능하게 한다. 메인 브랜치는 선택된 블록에 대해서만 정확한 블록-희소 어텐션을 수행한다.
 
 **핵심 포인트:** 핵심 성과: 109B 파라미터 모델에서 1M 컨텍스트 시 토큰당 어텐션 연산 28.4배 감소, H800에서 프리필 14.2배, 디코딩 7.6배 벽시계 속도 향상
@@ -75,9 +76,9 @@ LLM 기반 에이전트가 SQL을 직접 작성하지 않고도 자연어 명령
 
 *논문 (Papers)*
 
-### OKF: Google의 Open Knowledge Format 기반 연구 Wiki 구축
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### OKF: Google의 Open Knowledge Format 기반 연구 Wiki 구축
 
 ![OKF: Google의 Open Knowledge Format 기반 연구 Wiki 구축](images/06.jpg)
 
@@ -89,9 +90,9 @@ LLM 기반 Wiki 제작 시 각자 다른 포맷을 사용하던 문제를 해결
 
 *기타 (Others)*
 
-### AI 에이전트 패턴 7가지: 데이터 과학자가 알아야 할 에이전트 아키텍처
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### AI 에이전트 패턴 7가지: 데이터 과학자가 알아야 할 에이전트 아키텍처
 
 데이터 과학자 80%가 AI 에이전트 구축을 원하지만 적절한 패턴 선택 방법을 모르는 문제를 다룬다. 병렬 실행, 순차 실행, 루프, 라우터, 애그리게이터 등 7가지 에이전트 패턴을 소개하며, 각 패턴의 사용 시점과 특성을 설명한다. 작업의 독립성, 의존성, 입력 다양성, 출력 통합 필요성에 따라 올바른 패턴을 선택하면 에이전트 워크플로우 전체를 최적화할 수 있다.
 
@@ -101,9 +102,10 @@ LLM 기반 Wiki 제작 시 각자 다른 포맷을 사용하던 문제를 해결
 
 *기타 (Others)*
 
+<!-- badge:8 -->
+
 ### Google — 바이브 코딩 이후의 새로운 소프트웨어 개발 생명주기
 
-<!-- badge:8 -->
 ![Google — 바이브 코딩 이후의 새로운 소프트웨어 개발 생명주기](images/08.jpg)
 
 AI 코딩 도구의 등장으로 소프트웨어 개발 방식이 근본적으로 변화하고 있다. 구글이 공개한 51페이지 리포트는 바이브 코딩과 에이전틱 엔지니어링의 차이를 정리하고, 프롬프트 엔지니어링보다 컨텍스트 엔지니어링의 중요성을 강조한다. AI 코딩 에이전트를 실제 개발 프로세스에 통합하는 방법과 테스트, 리뷰, 배포까지 포함한 새로운 소프트웨어 개발 생명주기(SDLC) 구조를 제시하며, 개발자의 역할이 코더에서 오케스트레이터로 전환되는 흐름을 설명한다.
@@ -114,9 +116,10 @@ AI 코딩 도구의 등장으로 소프트웨어 개발 방식이 근본적으�
 
 *기타 (Others)*
 
+<!-- badge:9 -->
+
 ### SIA: 프롬프트와 가중치를 실시간 업데이트하는 자가 개선 AI
 
-<!-- badge:9 -->
 기존 AI 개선 방식은 프롬프트 최적화와 모델 가중치 학습을 독립적으로 진행하는 한계가 있었다. SIA는 피드백 에이전트가 상황을 판단하여 프롬프트 수정과 LoRA 기반 강화학습을 실시간으로 번갈아 수행함으로써 이 문제를 해결한다. 프롬프트는 외적 규칙과 도구를 개선하고 가중치 학습은 도메인 직관을 채우는 방식으로, 배포 후 실행 시마다 모델이 스스로 진화하며 인간의 개입이라는 병목을 제거한다.
 
 **핵심 포인트:** 핵심 기여: 프롬프트 스캐폴딩과 가중치 업데이트를 동적으로 결합하여 법률 벤치마크와 CUDA 최적화 등에서 눈에 띄는 효율 향상을 달성하며, 안드레이 카파시의 리서치 에이전트를 뛰어넘은 자동 개선 루프 구조 구현.
@@ -125,9 +128,9 @@ AI 코딩 도구의 등장으로 소프트웨어 개발 방식이 근본적으�
 
 *논문 (Papers)*
 
-### Memory Caching — RNN의 메모리 한계를 극복한 구글의 효율적 AI 아키텍처
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Memory Caching — RNN의 메모리 한계를 극복한 구글의 효율적 AI 아키텍처
 
 트랜스포머는 뛰어난 성능에도 불구하고 입력 길이에 따라 연산량이 기하급수적으로 증가하는 이차 복잡도 문제를 안고 있다. 구글 리서치와 코넬대학, USC 연구진은 메모리 캐싱 기법을 통해 기존 RNN의 건망증 문제를 해결했다. 모델이 텍스트 처리 과정에서 중요한 중간 상태들을 선택적으로 저장하고 필요할 때 참조하도록 만든 이 방식은 트랜스포머의 성능에 근접하면서도 선형 복잡도를 유지하는 획기적인 솔루션을 제시한다.
 
@@ -137,9 +140,10 @@ AI 코딩 도구의 등장으로 소프트웨어 개발 방식이 근본적으�
 
 *기타 (Others)*
 
+<!-- badge:11 -->
+
 ### MiniMax M3 — 오픈웨이트 코딩 모델 59% SWE-Bench Pro 달성
 
-<!-- badge:11 -->
 ![MiniMax M3 — 오픈웨이트 코딩 모델 59% SWE-Bench Pro 달성](images/15.jpg)
 
 장문 컨텍스트 처리 시 KV 캐시 병목 현상이 LLM 성능을 저하시키는 문제를 해결하기 위해 MiniMax가 개발한 오픈웨이트 모델 M3. Sparse Attention 아키텍처를 통해 경량 인덱스 브랜치로 필요한 블록을 선별 처리하여 100만 토큰 초장문 컨텍스트를 지원하면서도 네이티브 멀티모달 기능을 갖춤. SWE-Bench Pro에서 59% 성공률을 기록하며 프론티어급 폐쇄형 모델 수준의 코딩 성능을 달성했다.
@@ -153,9 +157,9 @@ AI 코딩 도구의 등장으로 소프트웨어 개발 방식이 근본적으�
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Hyper-Extract — 비정형 문서를 지식 그래프로 자동 구조화
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Hyper-Extract — 비정형 문서를 지식 그래프로 자동 구조화
 
 ![Hyper-Extract — 비정형 문서를 지식 그래프로 자동 구조화](images/04.jpg)
 
@@ -167,9 +171,10 @@ RAG 시스템의 성능 저하가 데이터 추출 단계의 부실한 전처리
 
 *GitHub*
 
+<!-- badge:13 -->
+
 ### Ponytail — AI 에이전트의 불필요한 코드 생성을 막는 오픈소스 룰셋
 
-<!-- badge:13 -->
 ![Ponytail — AI 에이전트의 불필요한 코드 생성을 막는 오픈소스 룰셋](images/10.jpg)
 
 AI 에이전트는 단순한 요청도 과도한 코드를 생성하는 경향이 있다. 예를 들어 날짜 입력칸 하나를 요청하면 외부 라이브러리 설치, 래퍼 컴포넌트 작성, 스타일시트 추가 등 불필요한 작업을 수행한다. Ponytail은 에이전트가 코드를 작성하기 전에 만들기 전에 안 만들어도 되는지, 이미 있는 기능을 사용할 수 있는지, 정말 필요한 기능인지를 먼저 묻도록 하는 규칙셋을 적용한다. 이를 통해 코드량 80~94% 감소, 비용 47~77% 절감을 달성한다.
@@ -180,9 +185,9 @@ AI 에이전트는 단순한 요청도 과도한 코드를 생성하는 경향�
 
 *GitHub*
 
-### Learn Harness Engineering — AI 에이전트 신뢰성을 위한 하네스 설계 가이드
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Learn Harness Engineering — AI 에이전트 신뢰성을 위한 하네스 설계 가이드
 
 ![Learn Harness Engineering — AI 에이전트 신뢰성을 위한 하네스 설계 가이드](images/12.jpg)
 
@@ -194,9 +199,10 @@ AI 에이전트가 작업을 완료하지 못하는 문제는 모델의 한계�
 
 *GitHub*
 
+<!-- badge:15 -->
+
 ### text-to-lottie — 텍스트 프롬프트로 Lottie 애니메이션 자동 생성
 
-<!-- badge:15 -->
 ![text-to-lottie — 텍스트 프롬프트로 Lottie 애니메이션 자동 생성](images/16.jpg)
 
 개발자가 After Effects 없이도 애니메이션을 제작하고, 디자이너와의 반복적인 커뮤니케이션 비용을 줄이기 어려운 문제를 해결하는 오픈소스 도구. Claude Code나 Codex 터미널에서 텍스트 프롬프트 하나로 프로덕션 수준의 Lottie JSON 파일을 생성하며, SVG 경로와 모션 디자인 용어를 함께 제공하면 TSLA 캔들스틱 차트, Spotify 로고 애니메이션, Apple 그래디언트 효과 등 고품질 결과물을 즉시 얻을 수 있다.
@@ -207,9 +213,10 @@ AI 에이전트가 작업을 완료하지 못하는 문제는 모델의 한계�
 
 *GitHub*
 
+<!-- badge:16 -->
+
 ### Peter Steinberger: AI 에이전트를 위한 오케스트레이터 루프 공개
 
-<!-- badge:16 -->
 ![Peter Steinberger: AI 에이전트를 위한 오케스트레이터 루프 공개](images/17.jpg)
 
 AI 에이전트에게 단순히 프롬프트를 지시하는 방식의 한계를 지적하고, 대신 에이전트가 따를 루프 구조를 설계해야 한다는 개념이 확산되고 있다. OpenAI 소속 개발자 Peter Steinberger가 자신의 에이전트 운영 방식을 문서화하여 공개했으며, 이는 공장장처럼 5분마다 작업 큐를 검사하고 워커 스레드에 작업을 배분하는 오케스트레이터 패턴을 제시한다. 문서의 절반은 금지사항으로 구성되어 있으며, 워커의 부하 제한, 과도한 재지시 방지, 자율 작업 존중 등의 원칙이 핵심이다.
@@ -223,9 +230,9 @@ AI 에이전트에게 단순히 프롬프트를 지시하는 방식의 한계를
 
 ## PRODUCT & INDUSTRY
 
-### ui-skills — AI 생성 디자인의 '싸구려 같은 느낌'을 규칙으로 정의해 해결
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### ui-skills — AI 생성 디자인의 '싸구려 같은 느낌'을 규칙으로 정의해 해결
 
 ![ui-skills — AI 생성 디자인의 '싸구려 같은 느낌'을 규칙으로 정의해 해결](images/05.jpg)
 
@@ -237,9 +244,10 @@ AI가 웹사이트를 생성할 때 평균적이고 밋밋한 결과물만 내�
 
 *기타 (Others)*
 
+<!-- badge:18 -->
+
 ### Claude Design — 데스크톱 앱에서 이용 가능
 
-<!-- badge:18 -->
 ![Claude Design — 데스크톱 앱에서 이용 가능](images/14.jpg)
 
 Anthropic의 Claude 디자인 기능이 이제 데스크톱 애플리케이션에서도 사용할 수 있게 되었다. 기존에 웹 기반으로만 제공되던 Claude의 디자인 기능이 데스크톱 플랫폼으로 확대되면서 사용자들이 더욱 편리하게 디자인 작업을 수행할 수 있게 된 것이다.
@@ -250,9 +258,10 @@ Anthropic의 Claude 디자인 기능이 이제 데스크톱 애플리케이션�
 
 *기타 (Others)*
 
+<!-- badge:19 -->
+
 ### Anthropic — Claude Fable 5의 비밀 성능 저하 정책 공식 사과
 
-<!-- badge:19 -->
 ![Anthropic — Claude Fable 5의 비밀 성능 저하 정책 공식 사과](images/18.jpg)
 
 앤트로픽이 Claude Fable 5에 적용한 특수 분류기가 AI 연구 관련 쿼리에서 사용자에게 알리지 않고 모델 성능을 은밀하게 저하시키는 문제가 발생했다. 외부 커뮤니티는 거부 응답 대신 낮은 품질의 답변을 생성하도록 유도하는 방식이 연구자들의 판단을 방해하고 투명성을 훼손한다고 지적했다. 이에 앤트로픽은 WIRED를 통해 잘못된 트레이드오프를 인정하고 가드레일 정책을 공식 철회했다.

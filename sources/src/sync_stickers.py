@@ -110,11 +110,13 @@ def stamps_of(pdf: Path) -> list[tuple[int, float, float, str, str]]:
 
 
 def pdf_path(week: str) -> Path | None:
-    """주차 폴더(+_release/_v2 변형) 안 clean PDF 중 스탬프가 가장 많은 것."""
+    """주차 폴더(+_release/_v2 변형) 안 clean PDF와 사이트 vol PDF 중 스탬프가 가장 많은 것.
+    (Vol.14·16~18처럼 badge_server로 사이트 PDF에 직접 도장을 찍은 호는 사이트 PDF가 유일한 정답이다.)"""
     cands = []
     for d in [OUTPUT / week, OUTPUT / f"{week}_release", OUTPUT / f"{week}_v2"]:
         if d.is_dir():
             cands.extend(d.glob("*_clean.pdf"))
+    cands.extend((OUT / week).glob("vol-*.pdf"))
     if not cands:
         return None
     return max(cands, key=lambda p: len(stamps_of(p)))
@@ -173,8 +175,8 @@ def assign(stamps, anchors, mid_x=297.6):
             n = best[1]
             slot = result.setdefault(n, {})
             repeats[(n, kind)] = repeats.get((n, kind), 0) + 1
-            # 옛 PDF 호환: 같은 종류가 3개 이상 반복이면 강조로 승격
-            promote = repeats[(n, kind)] >= 3
+            # 옛 PDF 호환: 같은 종류가 2개 이상 반복이면 강조로 승격 (2026-09-21 규칙: 1개=기본, 2개 이상=강조)
+            promote = repeats[(n, kind)] >= 2
             if slot.get(kind) != "key":
                 slot[kind] = "key" if (level == "key" or promote) else "base"
         else:
@@ -287,8 +289,11 @@ def main():
         cur = 0
         md_lines = (OUT / week / "index.md").read_text().splitlines()
         for line in md_lines:
-            if '<div class="eyebrow">' in line or '<div class="badges">' in line:
-                cur += len(re.findall(r"badges/(?:pick|logo|claude|editors|s7c)", line))
+            # 아이브로우는 종류마다 pill(pick-*)과 정사각(logo-*) 두 장을 심으므로 pick-* 만 센다(옛 badges 줄은 종류 수)
+            if '<div class="eyebrow">' in line:
+                cur += len(re.findall(r"badges/pick-", line))
+            elif '<div class="badges">' in line:
+                cur += len(set(re.findall(r"badges/(claude|editors|s7c)-pick", line)))
         new_cnt = sum(len(v) for v in mapping.values())
         if args.apply and cur and new_cnt < cur and not args.force:
             print(f"  ⚠️ 거부: 반영하면 픽이 줄어든다 (md 참조 {cur} → 새 매핑 {new_cnt}). "

@@ -8,9 +8,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### Obsidian Second Brain — AI 우선 크로스 CLI 기반 자동갱신 노트 시스템
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Obsidian Second Brain — AI 우선 크로스 CLI 기반 자동갱신 노트 시스템
 
 ![Obsidian Second Brain — AI 우선 크로스 CLI 기반 자동갱신 노트 시스템](images/00.jpg)
 
@@ -22,9 +22,9 @@ draft: false
 
 *GitHub*
 
-### LangChain의 루프 엔지니어링 — 에이전트를 신뢰할 수 있게 만드는 설계 기법
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### LangChain의 루프 엔지니어링 — 에이전트를 신뢰할 수 있게 만드는 설계 기법
 
 ![LangChain의 루프 엔지니어링 — 에이전트를 신뢰할 수 있게 만드는 설계 기법](images/20.jpg)
 
@@ -36,9 +36,9 @@ AI 에이전트가 단순히 반복 실행하는 것에서 벗어나 신뢰할 �
 
 *기타 (Others)*
 
-### vLLM Hook — LLM 내부 상태를 프로그래밍하는 vLLM 플러그인
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### vLLM Hook — LLM 내부 상태를 프로그래밍하는 vLLM 플러그인
 
 ![vLLM Hook — LLM 내부 상태를 프로그래밍하는 vLLM 플러그인](images/19.jpg)
 
@@ -53,9 +53,9 @@ LLM을 vLLM 추론 엔진으로 배포할 때 성능 최적화 과정에서 모�
 
 ## AI & RESEARCH
 
-### Inkling: 미라 무라티의 Thinking Machines 첫 오픈웨이트 975B 모델
-
 <!-- badge:4 -->
+
+### Inkling: 미라 무라티의 Thinking Machines 첫 오픈웨이트 975B 모델
 
 ![Inkling: 미라 무라티의 Thinking Machines 첫 오픈웨이트 975B 모델](images/01.jpg)
 
@@ -67,9 +67,9 @@ LLM을 vLLM 추론 엔진으로 배포할 때 성능 최적화 과정에서 모�
 
 *기타 (Others)*
 
-### AIDE²: 재귀적 자기개선으로 2년 손튜닝을 8일 만에 능가
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### AIDE²: 재귀적 자기개선으로 2년 손튜닝을 8일 만에 능가
 
 ![AIDE²: 재귀적 자기개선으로 2년 손튜닝을 8일 만에 능가](images/04.jpg)
 
@@ -81,9 +81,9 @@ AI 연구 에이전트의 성능 개선을 위해 사람이 2년간 수동으로
 
 *기타 (Others)*
 
-### LLM 라우터의 다양성과 일관성: 높은 정확도만으로는 부족
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### LLM 라우터의 다양성과 일관성: 높은 정확도만으로는 부족
 
 LLM 기반 멀티 에이전트 시스템에서 라우팅 정책을 평가할 때 작업 정확도와 추론 비용만 고려하는 관행의 한계를 지적한 연구. 구글 딥마인드 분석에 따르면 모든 에이전트가 동일한 응답을 하거나 쿼리 표현만 달라져도 다른 모델로 라우팅되는 경우 겉보기 성능과 달리 실제 라우팅은 무의미하다는 점을 발견. 계층적 사회 엔트로피(HSE)와 섭동 기반 강건성 지표를 도입하여 라우팅의 진정한 의미를 진단할 수 있는 방법론 제시.
 
@@ -93,9 +93,9 @@ LLM 기반 멀티 에이전트 시스템에서 라우팅 정책을 평가할 때
 
 *논문 (Papers)*
 
-### alphaXiv: arXiv 논문을 인터랙티브 노트북으로 자동 변환
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### alphaXiv: arXiv 논문을 인터랙티브 노트북으로 자동 변환
 
 ![alphaXiv: arXiv 논문을 인터랙티브 노트북으로 자동 변환](images/07.jpg)
 
@@ -107,9 +107,9 @@ arXiv 논문을 읽을 때 주요 실험을 직접 재현하고 검증하기 어
 
 *기타 (Others)*
 
-### RAG 아키텍처: AI 엔지니어가 알아야 할 9가지 유형
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### RAG 아키텍처: AI 엔지니어가 알아야 할 9가지 유형
 
 ![RAG 아키텍처: AI 엔지니어가 알아야 할 9가지 유형](images/08.jpg)
 
@@ -121,9 +121,9 @@ arXiv 논문을 읽을 때 주요 실험을 직접 재현하고 검증하기 어
 
 *기타 (Others)*
 
-### Earth Embeddings: 지구 위치 데이터를 임베딩하는 새로운 파운데이션 모델
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Earth Embeddings: 지구 위치 데이터를 임베딩하는 새로운 파운데이션 모델
 
 ![Earth Embeddings: 지구 위치 데이터를 임베딩하는 새로운 파운데이션 모델](images/10.jpg)
 
@@ -135,9 +135,9 @@ arXiv 논문을 읽을 때 주요 실험을 직접 재현하고 검증하기 어
 
 *GitHub*
 
-### Ortho2CAD — 정면도를 편집 가능한 CAD 코드로 변환하는 VLM
-
 <!-- badge:10 -->
+
+### Ortho2CAD — 정면도를 편집 가능한 CAD 코드로 변환하는 VLM
 
 공학 도면은 래스터 이미지 형태의 정면도와 평면도로 전달되지만 다운스트림 워크플로우에서는 편집 가능한 3D CAD 모델이 필요하다. Ortho2CAD는 비전-랭귀지 모델을 통해 래스터 정면도를 직접 CadQuery 코드로 변환하여 편집 가능한 3D CAD 모델로 구현한다. 구문 유효성 100%를 달성했으며 기존 최고 성능 대비 평균 IoU에서 7% 이상의 상대 개선을 실현했다.
 
@@ -147,9 +147,9 @@ arXiv 논문을 읽을 때 주요 실험을 직접 재현하고 검증하기 어
 
 *논문 (Papers)*
 
-### Claude: 노력 단계 상향으로 토큰 7배 증가의 의미
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude: 노력 단계 상향으로 토큰 7배 증가의 의미
 
 ![Claude: 노력 단계 상향으로 토큰 7배 증가의 의미](images/23.jpg)
 
@@ -164,9 +164,9 @@ Claude의 추론 능력을 향상시키는 두 가지 요소인 모델과 노력
 
 ## DEVTOOLS & OPEN SOURCE
 
-### GodWeld — Advance Steel 모듈러 건축 용접 자동화 앱
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### GodWeld — Advance Steel 모듈러 건축 용접 자동화 앱
 
 ![GodWeld — Advance Steel 모듈러 건축 용접 자동화 앱](images/05.jpg)
 
@@ -178,9 +178,9 @@ BIM 시장에서 모듈러 건축 설계 시 형강과 플레이트 용접 포�
 
 *기타 (Others)*
 
-### pdf-inspector: OCR 없이 PDF를 분류하고 마크다운으로 추출하는 Rust 라이브러리
+<div class="eyebrow"><img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### pdf-inspector: OCR 없이 PDF를 분류하고 마크다운으로 추출하는 Rust 라이브러리
 
 ![pdf-inspector: OCR 없이 PDF를 분류하고 마크다운으로 추출하는 Rust 라이브러리](images/09.jpg)
 
@@ -192,9 +192,9 @@ BIM 시장에서 모듈러 건축 설계 시 형강과 플레이트 용접 포�
 
 *기타 (Others)*
 
-### Excalidraw — MCP 기반 에이전트 협업을 위한 무료 드로잉 툴
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Excalidraw — MCP 기반 에이전트 협업을 위한 무료 드로잉 툴
 
 복잡한 아이디어를 시각화할 때 기존 도구들의 복잡성과 비용이 문제였다. Excalidraw는 완전히 무료인 드로잉 툴로, MCP 기능을 통해 AI 에이전트와의 협업을 더욱 원활하게 만든다. 사용자는 Aside 플랫폼에서 Excalidraw와 ClaudeCode를 함께 사용하여 직관적이고 효율적인 드로잉 작업을 수행할 수 있으며, 추가 비용 없이 AI 기반 협업 기능을 활용할 수 있다.
 
@@ -204,9 +204,9 @@ BIM 시장에서 모듈러 건축 설계 시 형강과 플레이트 용접 포�
 
 *기타 (Others)*
 
-### Anthropic 공식 노트북: Claude API 실전 레시피 3가지
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Anthropic 공식 노트북: Claude API 실전 레시피 3가지
 
 ![Anthropic 공식 노트북: Claude API 실전 레시피 3가지](images/13.jpg)
 
@@ -218,9 +218,9 @@ Anthropic 공식 노트북 저장소가 48,000개 스타를 넘었으나 실제 
 
 *기타 (Others)*
 
-### Sqlsure — AI 생성 SQL의 의미론적 오류를 0.1ms 내 검출
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Sqlsure — AI 생성 SQL의 의미론적 오류를 0.1ms 내 검출
 
 ![Sqlsure — AI 생성 SQL의 의미론적 오류를 0.1ms 내 검출](images/14.jpg)
 
@@ -232,9 +232,9 @@ AI가 작성한 SQL 쿼리에서 문법적으로는 정상이지만 의미상 �
 
 *기타 (Others)*
 
-### next-ai-draw-io — AI 에이전트가 조작하는 draw.io XML 기반 다이어그램 생성
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### next-ai-draw-io — AI 에이전트가 조작하는 draw.io XML 기반 다이어그램 생성
 
 ![next-ai-draw-io — AI 에이전트가 조작하는 draw.io XML 기반 다이어그램 생성](images/15.jpg)
 
@@ -246,9 +246,9 @@ Claude Code에서 자연어 명령으로 다이어그램을 생성할 때 단순
 
 *기타 (Others)*
 
-### assimp — 40개 3D 포맷을 통합 처리하는 오픈소스 라이브러리
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### assimp — 40개 3D 포맷을 통합 처리하는 오픈소스 라이브러리
 
 ![assimp — 40개 3D 포맷을 통합 처리하는 오픈소스 라이브러리](images/16.jpg)
 
@@ -260,9 +260,9 @@ Claude Code에서 자연어 명령으로 다이어그램을 생성할 때 단순
 
 *GitHub*
 
-### Cursor 3.11 — 사이드 채팅과 에이전트 대화 검색 기능 추가
-
 <!-- badge:19 -->
+
+### Cursor 3.11 — 사이드 채팅과 에이전트 대화 검색 기능 추가
 
 ![Cursor 3.11 — 사이드 채팅과 에이전트 대화 검색 기능 추가](images/17.jpg)
 
@@ -274,9 +274,9 @@ Cursor 3.11은 개발자가 메인 에이전트 작업을 중단하지 않고 �
 
 *기타 (Others)*
 
-### ACadSharp — .NET에서 AutoCAD 라이선스 없이 DWG 파일 처리
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### ACadSharp — .NET에서 AutoCAD 라이선스 없이 DWG 파일 처리
 
 ![ACadSharp — .NET에서 AutoCAD 라이선스 없이 DWG 파일 처리](images/21.jpg)
 
@@ -288,9 +288,9 @@ CAD 담당자들이 AutoCAD 라이선스 대기 시간으로 인한 병목 현�
 
 *GitHub*
 
-### COMPAS: 설계부터 로봇 제작까지 통합하는 오픈소스 BIM 프레임워크
-
 <!-- badge:21 -->
+
+### COMPAS: 설계부터 로봇 제작까지 통합하는 오픈소스 BIM 프레임워크
 
 ![COMPAS: 설계부터 로봇 제작까지 통합하는 오픈소스 BIM 프레임워크](images/24.jpg)
 
@@ -302,9 +302,9 @@ CAD 담당자들이 AutoCAD 라이선스 대기 시간으로 인한 병목 현�
 
 *GitHub*
 
-### tian — Claude 코드 세션을 위한 네이티브 macOS 터미널 에뮬레이터
-
 <!-- badge:22 -->
+
+### tian — Claude 코드 세션을 위한 네이티브 macOS 터미널 에뮬레이터
 
 ![tian — Claude 코드 세션을 위한 네이티브 macOS 터미널 에뮬레이터](images/25.jpg)
 
@@ -319,9 +319,9 @@ CAD 담당자들이 AutoCAD 라이선스 대기 시간으로 인한 병목 현�
 
 ## ENGINEERING
 
-### AWS & Unsloth — 동적 양자화로 LLM 서빙 비용 획기적 절감
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### AWS & Unsloth — 동적 양자화로 LLM 서빙 비용 획기적 절감
 
 ![AWS & Unsloth — 동적 양자화로 LLM 서빙 비용 획기적 절감](images/03.jpg)
 
@@ -336,9 +336,9 @@ CAD 담당자들이 AutoCAD 라이선스 대기 시간으로 인한 병목 현�
 
 ## PRODUCT & INDUSTRY
 
-### Gemini Spark — AI 에이전트 기능 macOS 출시 및 Computer Use 통합
-
 <!-- badge:24 -->
+
+### Gemini Spark — AI 에이전트 기능 macOS 출시 및 Computer Use 통합
 
 ![Gemini Spark — AI 에이전트 기능 macOS 출시 및 Computer Use 통합](images/02.jpg)
 
@@ -350,9 +350,9 @@ CAD 담당자들이 AutoCAD 라이선스 대기 시간으로 인한 병목 현�
 
 *기타 (Others)*
 
-### 건설사 AI 전환 — R&D 투자는 11.4% 감소
+<div class="eyebrow"><img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### 건설사 AI 전환 — R&D 투자는 11.4% 감소
 
 ![건설사 AI 전환 — R&D 투자는 11.4% 감소](images/18.jpg)
 
@@ -364,9 +364,9 @@ CAD 담당자들이 AutoCAD 라이선스 대기 시간으로 인한 병목 현�
 
 *기타 (Others)*
 
-### ChatGPT Work — 오픈AI 에이전트 기반 업무 자동화 플랫폼 출시
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### ChatGPT Work — 오픈AI 에이전트 기반 업무 자동화 플랫폼 출시
 
 기존 챗GPT가 질문에 답변만 제공하던 것과 달리, 오픈AI가 ChatGPT Work를 통해 앱과 파일을 가로질러 직접 행동하고 장시간 프로젝트를 자동으로 완수하는 에이전트 기능을 추가했다. 내부 코딩 에이전트 Codex 기술을 탑재한 이 플랫폼은 마케팅, 재무, 영업 등 비개발자 100만 명 이상이 업무 자동화 도구로 사용 중이며, 오픈AI 직원들의 99.8% 토큰 출력이 Codex에서 나올 정도로 조직 내 채택률이 높다.
 

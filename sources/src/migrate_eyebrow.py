@@ -157,11 +157,15 @@ def verify(text: str) -> list[str]:
 
 
 def main() -> None:
+    global KEY_THRESHOLD
     ap = argparse.ArgumentParser()
     ap.add_argument("--week", required=True)
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--revert", action="store_true")
+    ap.add_argument("--threshold", type=int, default=KEY_THRESHOLD,
+                    help="같은 종류 반복 N개 이상이면 강조(노란색). 2026-09-21 사용자 규칙: 1개=기본(하양), 2개 이상=강조 → 2")
     a = ap.parse_args()
+    KEY_THRESHOLD = a.threshold
 
     md = NEWS / a.week / "index.md"
     bak = md.with_suffix(".md.bak-eyebrow")

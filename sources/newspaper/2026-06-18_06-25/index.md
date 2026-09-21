@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### Elasticsearch: 에이전트 메모리를 위한 3인덱스 하이브리드 검색 아키텍처
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Elasticsearch: 에이전트 메모리를 위한 3인덱스 하이브리드 검색 아키텍처
 
 ![Elasticsearch: 에이전트 메모리를 위한 3인덱스 하이브리드 검색 아키텍처](images/00.jpg)
 
@@ -23,9 +23,9 @@ LLM 에이전트는 컨텍스트 윈도우 제한과 lost-in-the-middle 효과�
 
 *기타 (Others)*
 
-### LLM Wiki — 문서를 자동으로 위키화하는 LLM 기반 지식 관리 앱
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### LLM Wiki — 문서를 자동으로 위키화하는 LLM 기반 지식 관리 앱
 
 ![LLM Wiki — 문서를 자동으로 위키화하는 LLM 기반 지식 관리 앱](images/24.jpg)
 
@@ -37,9 +37,9 @@ RAG 기반 지식 관리는 질문할 때마다 원본 문서에서 처음부터
 
 *GitHub*
 
-### Obsidian + LLM + Git + Quartz — 개인 지식을 공개 자산으로 변환하는 4+1 스택
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Obsidian + LLM + Git + Quartz — 개인 지식을 공개 자산으로 변환하는 4+1 스택
 
 ![Obsidian + LLM + Git + Quartz — 개인 지식을 공개 자산으로 변환하는 4+1 스택](images/14.jpg)
 
@@ -54,9 +54,9 @@ RAG 기반 지식 관리는 질문할 때마다 원본 문서에서 처음부터
 
 ## AI & RESEARCH
 
-### Qwen-AgentWorld: 가상 환경에서 훈련한 AI가 실제 인터넷보다 성능 우수
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Qwen-AgentWorld: 가상 환경에서 훈련한 AI가 실제 인터넷보다 성능 우수
 
 ![Qwen-AgentWorld: 가상 환경에서 훈련한 AI가 실제 인터넷보다 성능 우수](images/01.jpg)
 
@@ -68,9 +68,10 @@ AI 에이전트 훈련 시 실제 인터넷 환경의 느린 속도와 높은 �
 
 *기타 (Others)*
 
+<!-- badge:5 -->
+
 ### Mistral OCR 4 — 170개 언어 지원하는 로컬 배포형 고성능 OCR 모델
 
-<!-- badge:5 -->
 ![Mistral OCR 4 — 170개 언어 지원하는 로컬 배포형 고성능 OCR 모델](images/02.jpg)
 
 사내 문서 유출 우려로 인해 클라우드 기반 OCR 솔루션 사용을 꺼리는 기업들을 위해 미스트랄이 OCR 4를 출시했다. 단일 컨테이너에서 로컬 환경으로 구동되며 170개 언어를 지원하고, 바운딩 박스, 블록 분류, 신뢰도 점수를 함께 추출한다. 독립 검증자들이 600개 이상의 실제 문서로 테스트한 결과 기존 OCR 및 문서 AI 시스템 대비 평균 72% 선호도를 기록했으며, OlmOCRBench에서 85.20점의 최고 점수를 달성했다.
@@ -81,9 +82,9 @@ AI 에이전트 훈련 시 실제 인터넷 환경의 느린 속도와 높은 �
 
 *기타 (Others)*
 
-### PixelRAG — 웹페이지 텍스트 추출 대신 스크린샷으로 정보 검색
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### PixelRAG — 웹페이지 텍스트 추출 대신 스크린샷으로 정보 검색
 
 ![PixelRAG — 웹페이지 텍스트 추출 대신 스크린샷으로 정보 검색](images/12.jpg)
 
@@ -95,9 +96,9 @@ AI 에이전트 훈련 시 실제 인터넷 환경의 느린 속도와 높은 �
 
 *GitHub*
 
-### Inference-Free SPLADE — 신경망 검색을 13배 빠르게
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Inference-Free SPLADE — 신경망 검색을 13배 빠르게
 
 ![Inference-Free SPLADE — 신경망 검색을 13배 빠르게](images/15.jpg)
 
@@ -112,9 +113,9 @@ AI 에이전트 훈련 시 실제 인터넷 환경의 느린 속도와 높은 �
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Insane Search — AI 에이전트용 자동화 최적화 브라우저
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Insane Search — AI 에이전트용 자동화 최적화 브라우저
 
 ![Insane Search — AI 에이전트용 자동화 최적화 브라우저](images/03.jpg)
 
@@ -126,9 +127,10 @@ AI 에이전트 훈련 시 실제 인터넷 환경의 느린 속도와 높은 �
 
 *기타 (Others)*
 
+<!-- badge:9 -->
+
 ### cmux-iphone — Mac의 AI 코딩 세션을 iPhone에서 원격 제어
 
-<!-- badge:9 -->
 ![cmux-iphone — Mac의 AI 코딩 세션을 iPhone에서 원격 제어](images/04.jpg)
 
 개발자가 Claude Code, Codex 등의 AI 코딩 세션을 실행 중인 Mac에서 벗어나지 못하는 문제를 해결하는 오픈소스 앱. iPhone과 Apple Watch에서 실시간 터미널 출력을 확인하고 새로운 프롬프트를 전송하며 권한 요청에 응답할 수 있도록 지원한다. Tailscale 또는 LAN을 통해 연결되며, 클라우드 서버 없이 로컬 기기에서만 작동하므로 프라이버시를 보장한다.
@@ -139,9 +141,10 @@ AI 에이전트 훈련 시 실제 인터넷 환경의 느린 속도와 높은 �
 
 *기타 (Others)*
 
+<!-- badge:10 -->
+
 ### Leve — 디렉토리 기반 지속 가능한 에이전트 프레임워크
 
-<!-- badge:10 -->
 ![Leve — 디렉토리 기반 지속 가능한 에이전트 프레임워크](images/06.jpg)
 
 LLM 에이전트 구현 시 평가와 디버깅의 복잡성 문제를 해결하기 위해 설계된 프레임워크. 파일시스템 기반 구조로 에이전트를 디렉토리로 정의하고 LangGraph로 컴파일하여 LangSmith를 통해 검증하는 구조를 제공한다. 멀티턴 및 장기 태스크를 수행하는 프로덕션급 에이전트에 승인, 서브에이전트, 샌드박스 실행, 보안 제어 등의 기능을 기본 제공한다.
@@ -152,9 +155,10 @@ LLM 에이전트 구현 시 평가와 디버깅의 복잡성 문제를 해결하
 
 *기타 (Others)*
 
+<!-- badge:11 -->
+
 ### Loop Library — AI 에이전트 워크플로우용 50개 이상 실무 템플릿 오픈소스
 
-<!-- badge:11 -->
 ![Loop Library — AI 에이전트 워크플로우용 50개 이상 실무 템플릿 오픈소스](images/07.jpg)
 
 AI 에이전트 기반 워크플로우 구축 시 반복적으로 설계하는 Loop 구조를 매번 새로 만들어야 하는 문제를 해결하는 오픈소스. Loop Library는 엔지니어링, 운영, 평가, 설계, 콘텐츠 제작 등 실제 업무 시나리오를 위한 50개 이상의 검증된 Loop 템플릿을 제공하며, 각 Loop에는 피드백과 판단, 반복 과정이 구조화되어 있다. AI에게 작업을 설명하면 적절한 Loop를 추천받거나 기존 템플릿을 수정해 사용할 수 있으며, Skill 없이도 템플릿만 복사해 즉시 적용 가능하다.
@@ -165,9 +169,10 @@ AI 에이전트 기반 워크플로우 구축 시 반복적으로 설계하는 L
 
 *GitHub*
 
+<!-- badge:12 -->
+
 ### Loop Library — AI 에이전트 반복 작업을 위한 44개 루프 모음
 
-<!-- badge:12 -->
 ![Loop Library — AI 에이전트 반복 작업을 위한 44개 루프 모음](images/11.jpg)
 
 AI 에이전트에게 단순히 작업을 지시하면 대부분 실패하는 문제를 해결하기 위해 Forward Future가 공개한 Loop Library는 확인-수정-재검증-멈춤 조건의 반복 구조를 담은 프롬프트 모음집이다. 44개의 에이전트 루프는 Engineering, Evaluation, Operations, Content, Design 등 카테고리별로 정리되어 있으며, 각 루프는 checks와 stopping conditions를 포함해 에이전트가 '된 것 같음'에서 멈추지 않도록 설계되었다.
@@ -178,9 +183,10 @@ AI 에이전트에게 단순히 작업을 지시하면 대부분 실패하는 �
 
 *기타 (Others)*
 
+<!-- badge:13 -->
+
 ### Apify MCP 커넥터 — AI 에이전트 데이터를 Notion·Slack으로 안전 연결
 
-<!-- badge:13 -->
 ![Apify MCP 커넥터 — AI 에이전트 데이터를 Notion·Slack으로 안전 연결](images/13.jpg)
 
 AI 에이전트가 수집한 데이터를 외부 서비스로 전송할 때 자격 증명이 코드에 노출되는 보안 문제가 발생한다. Apify의 새로운 MCP 커넥터는 Model Context Protocol을 기반으로 Notion, Slack, GitHub, Sentry, Supabase 등 외부 서비스와의 연결을 중개하며, 사용자 자격 증명을 서버 측에서 관리하고 Actor는 Apify 런 토큰으로만 인증하도록 함으로써 보안을 보장한다. 이를 통해 데이터 수집부터 실제 업무 파이프라인까지 자동화 흐름을 완성할 수 있다.
@@ -191,9 +197,9 @@ AI 에이전트가 수집한 데이터를 외부 서비스로 전송할 때 자�
 
 *기타 (Others)*
 
-### token-router — 로컬 AI로 클라우드 LLM 토큰 비용 99% 절감
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### token-router — 로컬 AI로 클라우드 LLM 토큰 비용 99% 절감
 
 ![token-router — 로컬 AI로 클라우드 LLM 토큰 비용 99% 절감](images/17.jpg)
 
@@ -205,9 +211,9 @@ AI 에이전트가 수집한 데이터를 외부 서비스로 전송할 때 자�
 
 *GitHub*
 
-### Flashtype — AI 수정사항을 라인별로 검토하는 마크다운 에디터
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Flashtype — AI 수정사항을 라인별로 검토하는 마크다운 에디터
 
 ![Flashtype — AI 수정사항을 라인별로 검토하는 마크다운 에디터](images/18.jpg)
 
@@ -219,9 +225,9 @@ AI가 문서를 수정할 때 요청하지 않은 부분까지 변경하고 전�
 
 *GitHub*
 
-### Trellis — AI 코딩 도구 설정 통합 플랫폼
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Trellis — AI 코딩 도구 설정 통합 플랫폼
 
 ![Trellis — AI 코딩 도구 설정 통합 플랫폼](images/19.jpg)
 
@@ -233,9 +239,10 @@ AI 코딩 툴마다 서로 다른 설정 파일(.cursorrules, CLAUDE.md 등)을 
 
 *GitHub*
 
+<!-- badge:17 -->
+
 ### Claude Code — AI 지시 입력의 7가지 방법과 선택 기준
 
-<!-- badge:17 -->
 ![Claude Code — AI 지시 입력의 7가지 방법과 선택 기준](images/20.jpg)
 
 Claude Code 사용 시 AI에게 지시를 내리는 방식이 단순 부탁으로만 작동해 복잡한 작업에서 무시될 수 있다는 문제를 해결한다. Anthropic이 공식 문서를 통해 공개한 7가지 지시 입력 방법(CLAUDE.md, 규칙, 스킬, 서브에이전트, 훅, 출력 스타일, 시스템 프롬프트)을 소개하며, 각 방법이 로드 시점, 지속성, 권한 수준에서 다르다는 점을 설명한다. 토큰 비용과 강제력 여부의 두 기준으로 상황에 맞는 방법을 선택할 수 있다.
@@ -246,9 +253,9 @@ Claude Code 사용 시 AI에게 지시를 내리는 방식이 단순 부탁으�
 
 *기타 (Others)*
 
-### Loop Library — AI 에이전트용 재사용 가능한 루프 프롬프트 라이브러리
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Loop Library — AI 에이전트용 재사용 가능한 루프 프롬프트 라이브러리
 
 ![Loop Library — AI 에이전트용 재사용 가능한 루프 프롬프트 라이브러리](images/22.jpg)
 
@@ -260,9 +267,9 @@ AI 에이전트에게 자율적으로 작업을 완료하도록 하는 루프 �
 
 *기타 (Others)*
 
-### Superpowers 6 — AI 코딩 에이전트 워크플로우 최적화로 속도 50% 단축, 비용 60% 절감
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Superpowers 6 — AI 코딩 에이전트 워크플로우 최적화로 속도 50% 단축, 비용 60% 절감
 
 코딩 AI 에이전트가 더 강한 모델 없이도 결과 품질을 유지하면서 시간과 비용 효율성이 떨어지는 문제를 해결한 업데이트. Superpowers 6은 AI 에이전트들의 작업 방식을 재설계하여 검사 단계를 통합하고, 사전 정보 제공, 역할별 에이전트 배치 등을 통해 빌드 시간을 최대 50% 단축하고 토큰 소비를 최대 60% 감소시켰다. 모델 교체 없이 워크플로우 최적화만으로 성능 향상을 달성한 것이 핵심이다.
 
@@ -275,9 +282,9 @@ AI 에이전트에게 자율적으로 작업을 완료하도록 하는 루프 �
 
 ## PRODUCT & INDUSTRY
 
-### Claude Tag — Slack에서 AI를 팀원으로 활용하는 협업 기능
+<div class="eyebrow"><img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude Tag — Slack에서 AI를 팀원으로 활용하는 협업 기능
 
 ![Claude Tag — Slack에서 AI를 팀원으로 활용하는 협업 기능](images/05.jpg)
 
@@ -289,9 +296,10 @@ AI 에이전트에게 자율적으로 작업을 완료하도록 하는 루프 �
 
 *기타 (Others)*
 
+<!-- badge:21 -->
+
 ### Make Interfaces Feel Better — 인터페이스 완성도를 높이는 디자인 스킬
 
-<!-- badge:21 -->
 ![Make Interfaces Feel Better — 인터페이스 완성도를 높이는 디자인 스킬](images/08.jpg)
 
 사용자 인터페이스 디자인에서 세부 사항의 부재로 인한 어색함과 낮은 완성도 문제를 해결하는 스킬. 자연스럽고 직관적인 인터페이스를 만들기 위한 구체적인 팁과 기법들을 제공하여 현재 진행 중인 프로젝트의 UI를 개선할 수 있도록 돕는다. Claude Code 기반의 에이전트 스킬로 제공되어 실제 프로젝트에 즉시 적용 가능하다.
@@ -302,9 +310,9 @@ AI 에이전트에게 자율적으로 작업을 완료하도록 하는 루프 �
 
 *기타 (Others)*
 
-### OpenCrab: 건축 온톨로지 기반 설계 자동화 플랫폼
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### OpenCrab: 건축 온톨로지 기반 설계 자동화 플랫폼
 
 ![OpenCrab: 건축 온톨로지 기반 설계 자동화 플랫폼](images/09.jpg)
 
@@ -316,9 +324,10 @@ AI 에이전트에게 자율적으로 작업을 완료하도록 하는 루프 �
 
 *기타 (Others)*
 
+<!-- badge:23 -->
+
 ### ARD — AI 에이전트용 'DNS' 발표, 오픈 생태계 구축
 
-<!-- badge:23 -->
 ![ARD — AI 에이전트용 'DNS' 발표, 오픈 생태계 구축](images/10.jpg)
 
 AI 에이전트들이 MCP로 통신은 가능해졌지만 서로를 발견하고 신뢰할 수 있는 메커니즘이 없었던 문제를 구글이 해결했다. ARD(Agentic Resource Discovery)는 조직 간 AI 도구를 안전하게 검색하고 연결해주는 개방형 표준으로, 중앙 통제 없이 에이전트가 스스로 외부 리소스를 신뢰성 있게 발견할 수 있는 생태계를 가능하게 한다.
@@ -329,9 +338,9 @@ AI 에이전트들이 MCP로 통신은 가능해졌지만 서로를 발견하고
 
 *블로그 (Blog)*
 
-### HITL 에이전트 — 사출 수축률 추천의 RAG·가중 랭킹·학습 환류 패턴
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### HITL 에이전트 — 사출 수축률 추천의 RAG·가중 랭킹·학습 환류 패턴
 
 ![HITL 에이전트 — 사출 수축률 추천의 RAG·가중 랭킹·학습 환류 패턴](images/16.jpg)
 
@@ -343,9 +352,10 @@ AI 에이전트들이 MCP로 통신은 가능해졌지만 서로를 발견하고
 
 *기타 (Others)*
 
+<!-- badge:25 -->
+
 ### OpenAI Codex — 화면 녹화로 반복 작업을 AI 스킬로 자동화
 
-<!-- badge:25 -->
 AI 에이전트에게 작업을 시킬 때 복잡한 프롬프트 설명이 필요한 문제를 해결하기 위해 OpenAI가 Record & Replay 기능을 출시했다. 사용자가 Mac에서 작업을 한 번 시연하면 Codex가 그 과정을 관찰하여 재사용 가능한 스킬로 패키징한다. 이후 새로운 파일이나 날짜 범위만 지정하면 Codex가 학습한 스킬을 기반으로 동일한 작업을 자동으로 완료한다.
 
 **핵심 포인트:** 핵심 기여: 프롬프트 기반 명령에서 시각적 시연 기반 학습으로 전환하여 UI 작업, 파일 처리, 반복 업무의 자동화 복잡도를 대폭 단순화했다.
@@ -354,9 +364,9 @@ AI 에이전트에게 작업을 시킬 때 복잡한 프롬프트 설명이 필�
 
 *기타 (Others)*
 
-### Claude Code — 세션 작업을 실시간 공유 가능한 인터랙티브 페이지로 변환
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Code — 세션 작업을 실시간 공유 가능한 인터랙티브 페이지로 변환
 
 ![Claude Code — 세션 작업을 실시간 공유 가능한 인터랙티브 페이지로 변환](images/23.jpg)
 
@@ -368,9 +378,9 @@ Claude Code 세션에서 진행 중인 작업을 PR 워크스루, 대시보드, 
 
 *기타 (Others)*
 
-### Claude Design — 디자인 시스템 기반 AI 화면 생성
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude Design — 디자인 시스템 기반 AI 화면 생성
 
 ![Claude Design — 디자인 시스템 기반 AI 화면 생성](images/26.jpg)
 

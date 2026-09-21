@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### Gemini 3.5: 프론티어 지능과 에이전트 기능을 결합한 최신 AI 모델
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Gemini 3.5: 프론티어 지능과 에이전트 기능을 결합한 최신 AI 모델
 
 ![Gemini 3.5: 프론티어 지능과 에이전트 기능을 결합한 최신 AI 모델](images/03.jpg)
 
@@ -23,9 +23,9 @@ Google I/O 2026에서 공개된 Gemini 3.5는 최고 성능의 AI 모델들과 �
 
 *블로그 (Blog)*
 
-### n8n-workflows — GitHub에서 54,630개 별을 받은 자동화 템플릿 모음집
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### n8n-workflows — GitHub에서 54,630개 별을 받은 자동화 템플릿 모음집
 
 ![n8n-workflows — GitHub에서 54,630개 별을 받은 자동화 템플릿 모음집](images/24.jpg)
 
@@ -37,9 +37,9 @@ n8n 워크플로 자동화 템플릿을 찾기 어려운 문제를 해결하기 
 
 *GitHub*
 
-### DeepSeek Sparse Attention — 딥시크 핵심 기술 바닥부터 구현한 코드 공개
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### DeepSeek Sparse Attention — 딥시크 핵심 기술 바닥부터 구현한 코드 공개
 
 ![DeepSeek Sparse Attention — 딥시크 핵심 기술 바닥부터 구현한 코드 공개](images/17.jpg)
 
@@ -54,9 +54,9 @@ n8n 워크플로 자동화 템플릿을 찾기 어려운 문제를 해결하기 
 
 ## AI & RESEARCH
 
-### SelfCI: LLM의 맥락적 무결성을 위한 자기증류 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### SelfCI: LLM의 맥락적 무결성을 위한 자기증류 프레임워크
 
 대규모 언어모델이 민감한 정보를 다루는 개인 에이전트로 배포될 때 맥락적 무결성 준수의 중요성이 커지고 있으나, 기존 모델들은 정보 공개 결정에서 신뢰성이 떨어지고 개선 방안은 작업 성능을 저하시킨다. SelfCI는 정보 억제와 작업 해결을 분리하는 상호 보완적 자기증류 프레임워크로, 두 개의 독립적인 역방향 KL 발산을 최적화하여 유용성을 위한 작업 관련 정보 보존과 적절한 정보 공개 최소화를 동시에 달성한다.
 
@@ -66,9 +66,10 @@ n8n 워크플로 자동화 템플릿을 찾기 어려운 문제를 해결하기 
 
 *논문 (Papers)*
 
+<!-- badge:5 -->
+
 ### AssetOpsBench — 산업용 에이전트의 시간 기반 의미론적 캐싱과 워크플로우 최적화
 
-<!-- badge:5 -->
 산업용 자산 운영 워크플로우는 센서 데이터, 작업 주문, 오류 모드 등 여러 요소의 조정이 필요해 대기 시간에 민감한 문제를 겪고 있다. 이 논문은 AssetOpsBench 벤치마크에서 기존 LLM 캐싱 기법의 한계를 분석하고, 시간과 자산, 센서 파라미터에 따라 결과 유효성이 달라지는 산업용 쿼리에 특화된 시간 기반 의미론적 캐시와 MCP 워크플로우 최적화를 제안한다.
 
 **핵심 포인트:** 핵심 성과: MCP 워크플로우 최적화로 1.67배 속도 향상 및 중간 엔드-투-엔드 지연 40.0% 감소, 캐시 히트 시 중간 30.6배 속도 향상 달성. 파라미터 기반 산업용 쿼리에 대한 순수 의미론적 캐싱의 실패 사례를 구체적으로 분석하여 MCP 기반 에이전트 벤치마크의 평가 정확성 문제를 노출.
@@ -77,9 +78,10 @@ n8n 워크플로 자동화 템플릿을 찾기 어려운 문제를 해결하기 
 
 *논문 (Papers)*
 
+<!-- badge:6 -->
+
 ### Tax AI — 피드백 루프 기반 자가 개선 AI 에이전트
 
-<!-- badge:6 -->
 회계 업무 자동화에서 AI 모델의 정확도 저하 문제를 해결하기 위해 OpenAI와 Thrive Holdings가 개발한 Tax AI는 현업 전문가의 수정 행동을 자동으로 피드백 루프로 변환하는 자가 개선 구조를 도입했다. 회계사가 AI 결과를 수정하면 그 수정 과정이 평가 데이터와 테스트셋으로 자동 전환되어 Codex가 문제 원인을 추적하고 코드 작성부터 회귀 테스트까지 반복 수행하며 지속적으로 개선된다. 미국 30개 이상의 회계법인에서 7,000건 이상의 세금 신고를 처리하며 97% 정확도와 50% 처리량 향상을 달성했다.
 
 **핵심 포인트:** 핵심 성과: 실제 업무 환경에서 최대 97% 정확도와 약 50% 처리량 향상 기록, 피드백 루프 기반 재귀 개선으로 도메인 파인튜닝 방식을 넘어 자동 개선 인프라 구축
@@ -88,9 +90,10 @@ n8n 워크플로 자동화 템플릿을 찾기 어려운 문제를 해결하기 
 
 *기타 (Others)*
 
+<!-- badge:7 -->
+
 ### Anthropic Mythos — 에르되시 90번 문제 해결, AI 수학 추론 능력 검증
 
-<!-- badge:7 -->
 오픈AI의 추론 모델에 이어 앤트로픽의 Mythos 모델도 수학의 난제인 에르되시 unit distance 문제를 해결했다. 특히 Mythos는 오픈AI와는 완전히 다른 증명 구조로 수렴하면서 프론티어 모델들이 인간과는 별개의 독립적 수학적 사고경로를 탐색할 수 있음을 보여준다. 다만 외부 수학자의 검증과 더 강한 형태의 추측 해결 여부가 향후 과제로 남아있다.
 
 **핵심 포인트:** 핵심 성과: 프론티어 모델들이 서로 다른 수학적 아이디어를 조합해 인간 연구자와는 다른 증명 경로를 독립적으로 탐색하며, 기존 AI 패턴 모방 주장을 반박하고 창발적 능력의 존재 가능성을 강화한다.
@@ -99,9 +102,9 @@ n8n 워크플로 자동화 템플릿을 찾기 어려운 문제를 해결하기 
 
 *기타 (Others)*
 
-### DeepSWE — 실제 개발 환경 반영한 AI 코딩 벤치마크
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### DeepSWE — 실제 개발 환경 반영한 AI 코딩 벤치마크
 
 ![DeepSWE — 실제 개발 환경 반영한 AI 코딩 벤치마크](images/11.jpg)
 
@@ -113,9 +116,10 @@ n8n 워크플로 자동화 템플릿을 찾기 어려운 문제를 해결하기 
 
 *기타 (Others)*
 
+<!-- badge:9 -->
+
 ### Vision Banana: 이미지 생성 모델의 범용 시각 이해 능력 입증
 
-<!-- badge:9 -->
 이미지 생성 훈련을 받은 모델이 별도의 튜닝 없이도 2D/3D 시각 이해 작업을 수행할 수 있다는 한계가 지적되어 왔다. 구글 딥마인드의 Vision Banana는 이미지 생성 훈련이 LLM의 사전학습처럼 강력한 시각 표현을 학습하게 함을 입증한다. 가벼운 인스트럭션 튜닝만으로도 의미론적 분할, 깊이 측정, 인스턴스 분할 등 다양한 시각 작업에서 기존 전문 모델들을 능가하거나 대등한 SOTA 성능을 달성하며, 생성 능력을 유지하면서 멀티태스크 시각 이해를 실현한다.
 
 **핵심 포인트:** 핵심 성과: 생성 기반 사전학습이 2D/3D 비전 작업 전반에서 제로샷 전이 학습으로 SOTA 달성, 세그멘테이션과 깊이 측정 등 기존 전문 모델(SAM, Depth Anything)을 능가하는 범용 시각 학습 패러다임 제시.
@@ -124,9 +128,10 @@ n8n 워크플로 자동화 템플릿을 찾기 어려운 문제를 해결하기 
 
 *논문 (Papers)*
 
+<!-- badge:10 -->
+
 ### PRISM: 전문가 페르소나가 LLM 정확도를 떨어뜨리는 이유
 
-<!-- badge:10 -->
 LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태스크 종류에 따라 상반된 결과를 초래한다는 연구 결과. 검색, 수학, 코딩처럼 정확도가 중요한 작업에서는 모델이 페르소나 역할에 과도하게 정렬되면서 자신감 있는 오답을 제시하고, 사전학습 지식 접근을 방해한다. MMLU 벤치마크에서 기본 대비 최대 5.3%p 성능 저하를 보였으며, 페르소나는 새로운 지식을 추가하는 것이 아니라 기존 지식 검색 경로를 변조하는 메커니즘으로 작동한다.
 
 **핵심 포인트:** 핵심 기여: 전문가 페르소나 프롬프팅의 이중 효과를 규명하여, 정렬 의존 작업에서는 성능 향상, 지식 의존 작업에서는 MMLU 기준 3.6~5.3%p 성능 저하를 실증적으로 증명. 페르소나 상세도가 높을수록 부정적 영향이 커지는 역상관 관계 확인.
@@ -135,9 +140,9 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *기타 (Others)*
 
-### TencentDB Agent Memory — 계층형 메모리로 에이전트 토큰 61% 절감
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### TencentDB Agent Memory — 계층형 메모리로 에이전트 토큰 61% 절감
 
 ![TencentDB Agent Memory — 계층형 메모리로 에이전트 토큰 61% 절감](images/14.jpg)
 
@@ -149,9 +154,10 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *GitHub*
 
+<!-- badge:12 -->
+
 ### Codex — AI와 대화하며 반복 업무 자동화 기회 발굴
 
-<!-- badge:12 -->
 ![Codex — AI와 대화하며 반복 업무 자동화 기회 발굴](images/18.jpg)
 
 지난 30일간의 작업 패턴을 분석할 때 놓치고 있는 반복적 수동 워크플로우를 체계적으로 식별하기 어려운 문제를 해결한다. 이 프롬프트는 Codex 세션 기록, 메모리, 외부 작업 추적 데이터를 종합하여 패키징 가치가 있는 자동화 후보를 도출하고, 스킬, 커스텀 에이전트, 자동화 중 최적의 구현 방식을 추천한다. 코딩부터 개인 관리까지 전 업무 영역에서 속도, 품질, 일관성 개선 기회를 객관적 기준으로 우선순위화한다.
@@ -162,9 +168,10 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *기타 (Others)*
 
+<!-- badge:13 -->
+
 ### AlphaProof Nexus — AI가 56년 미해결 난제 2개 자동 증명
 
-<!-- badge:13 -->
 수학자들이 56년간 풀지 못한 에르되시 난제를 해결하기 위해 형식 증명 언어 Lean으로 정리된 353개 미해결 문제에 AI 에이전트를 적용하는 문제가 있었다. 구글 DeepMind의 AlphaProof Nexus는 Gemini 3.1 Pro 기반 LLM과 Lean 컴파일러 검증 루프를 결합하여 353개 중 9개 난제를 자동으로 풀었으며, 각 문제당 수백 달러 규모의 추론 비용으로 연구급 수학 문제 해결을 실현했다.
 
 **핵심 포인트:** 핵심 성과: 353개 에르되시 난제 중 9개 자동 증명 성공(2.5%), 문제당 수백 달러(한화 30~70만 원) 추론 비용으로 56년 미해결 난제 2개 포함 해결. LLM 기반 생성과 Lean 검증 루프만으로도 동일 결과 달성 가능 확인.
@@ -173,9 +180,10 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *논문 (Papers)*
 
+<!-- badge:14 -->
+
 ### AI 리뷰어 — Nature 논문 심사에서 인간 전문가 능력 통계적으로 초월
 
-<!-- badge:14 -->
 과학 논문 심사의 품질과 일관성 문제를 해결하기 위해 최신 AI 모델들을 인간 리뷰어와 비교 평가했다. GPT-5.2 기반 AI 리뷰어가 종합 점수 60.0%로 인간 최고 리뷰어의 48.2%를 통계적으로 앞섰으며, 코드 오류나 숨은 수치 오류 같은 인간이 놓친 문제를 더 정확히 지적했다. 다만 AI는 지적 내용이 유사한 한계를 보여 다양한 관점 확보에는 인간 전문가의 통찰력이 필수적이다.
 
 **핵심 포인트:** 핵심 성과: GPT-5.2가 인간 최고 리뷰어 대비 12.5%포인트 높은 심사 점수 획득, 모든 AI 모델이 최악의 인간 리뷰어보다 우수한 성과 달성. 25개 기관 45명 전문가가 469시간 투입해 2,960건 지적사항을 정확성, 중요도, 근거 충분성 기준으로 평가.
@@ -184,9 +192,9 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *논문 (Papers)*
 
-### MCP4IFC — 자연어로 BIM 모델을 직접 조작하는 LLM 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### MCP4IFC — 자연어로 BIM 모델을 직접 조작하는 LLM 프레임워크
 
 건축 설계 도면 분석 시 코딩 없이 자연어 질문만으로 BIM 데이터를 검색하고 검증해야 한다는 문제를 MCP4IFC 프레임워크가 해결한다. Claude Sonnet 4.5가 Model Context Protocol을 통해 IfcOpenShell API를 직접 조작하여 공간 위상 파악, 부재 속성 조회, 규정 준수 검증 등을 자동화한다. 평면도 해석, 단면도 확인, 규격 검증 같은 반복적 도면 작업이 한 문장의 질문으로 단순화되며, LLM 기반 전수 검사로 건축 기준 미달 항목을 자동으로 발견할 수 있다.
 
@@ -196,9 +204,9 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *기타 (Others)*
 
-### MTEB: 단계별 관련성 점수로 임베딩 모델 벤치마크 재평가
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### MTEB: 단계별 관련성 점수로 임베딩 모델 벤치마크 재평가
 
 기존 MTEB 벤치마크는 이진 관련성 점수만 사용해 실제 검색 품질을 정확히 측정하지 못하는 문제가 있었다. 이를 해결하기 위해 28개 MTEB 검색 데이터셋을 세 개의 LLM 판정자를 통한 단계별 관련성 점수로 재주석했다. 16개 임베딩 모델, 7개 리랭커, 112개 조합 전체를 평가한 결과 ZeroEntropy의 zembed-1과 zerank-2가 각각 1위를 차지했으며, 인터랙티브 대시보드를 통해 모든 모델 조합과 데이터셋을 확인할 수 있다.
 
@@ -208,9 +216,10 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *기타 (Others)*
 
+<!-- badge:17 -->
+
 ### Gated DeltaNet-2 — 선형 어텐션으로 KDA·Mamba-3 능가
 
-<!-- badge:17 -->
 ![Gated DeltaNet-2 — 선형 어텐션으로 KDA·Mamba-3 능가](images/28.jpg)
 
 선형 어텐션 기반 순환 아키텍처에서 무한한 KV 캐시를 고정 크기 상태로 압축할 때 기존 메모리 편집 방식이 제한적인 문제를 해결한 논문. Gated DeltaNet-2는 채널별 지우기 게이트와 쓰기 게이트를 분리하여 메모리의 읽기/제거 축과 값 커밋 축을 독립적으로 제어한다. 1.3B 모델 스케일에서 KDA와 Mamba-3을 상회하며, 특히 장문맥 retrieval에서 S-NIAH-3 63→90, 다중키 needle retrieval 28→38로 획기적 성능 향상을 달성했다.
@@ -221,9 +230,10 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *기타 (Others)*
 
+<!-- badge:18 -->
+
 ### Decision Context Graph — AI 에이전트의 맥락 손실 문제 해결
 
-<!-- badge:18 -->
 ![Decision Context Graph — AI 에이전트의 맥락 손실 문제 해결](images/30.jpg)
 
 기업용 AI 에이전트가 RAG 방식으로 문서는 잘 찾지만 현재 상황의 맥락을 파악하지 못해 잘못된 판단을 내리는 문제가 발생했다. 디시전 컨텍스트 그래프는 이전 결정들을 기록하고 축적하는 방식으로 에이전트가 학습한 지식을 유지하고 상황에 맞는 판단을 내릴 수 있도록 한다. 이를 통해 AI 에이전트의 안정성과 신뢰도를 향상시킨다.
@@ -234,9 +244,10 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *기타 (Others)*
 
+<!-- badge:19 -->
+
 ### Command A+ — 기업용 에이전트 AI의 효율성 경쟁 시작
 
-<!-- badge:19 -->
 ![Command A+ — 기업용 에이전트 AI의 효율성 경쟁 시작](images/36.jpg)
 
 오픈소스 AI 경쟁이 모델 크기 비교에서 배포 효율성으로 전환되고 있는 가운데, Cohere가 공개한 Command A+는 에이전트 작업과 추론 성능을 강화하면서도 H100 GPU 2장만으로 기업용 AI를 운영할 수 있도록 설계됐다. 기업들이 벤치마크 점수보다 자체 데이터센터나 폐쇄망에서 안정적으로 직접 운영 가능한 모델을 요구하는 상황에서, 다국어 지원과 Apache 2.0 라이선스를 갖춘 Command A+는 초거대 모델이 아니라 충분히 똑똑하면서 배포 가능한 모델의 수요 증가를 반영한다.
@@ -247,9 +258,10 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *기타 (Others)*
 
+<!-- badge:20 -->
+
 ### OpenAI: AI 모델이 80년 난제 평면 기하 문제 반박
 
-<!-- badge:20 -->
 80년 가까이 미해결 상태였던 Erdős의 평면 단위 거리 문제에 대해 OpenAI의 내부 추론 모델이 새로운 수학적 구조를 발견하여 기존 추측을 반박했다. 기존 평면 기하 접근 방식과 달리 AI는 대수적 수 이론의 급분체 탑과 Golod-Shafarevich 이론 같은 전혀 다른 분야의 도구를 독립적으로 활용하여 학계가 예상하지 못한 학문 간 연결을 구현했다.
 
 **핵심 포인트:** 핵심 성과: AI가 서로 다른 수학 분야 간의 연결을 스스로 발견하여 인간 연구자의 전공적 경계를 초월한 문제 해결 경로를 개척했으며, 이는 AI가 단순 계산을 넘어 새로운 연구 방향성 자체를 제시하는 단계로 진화하고 있음을 시사한다.
@@ -261,9 +273,9 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Hermes Agent — 오픈소스 에이전트 시장의 강자로 급부상
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Hermes Agent — 오픈소스 에이전트 시장의 강자로 급부상
 
 ![Hermes Agent — 오픈소스 에이전트 시장의 강자로 급부상](images/06.jpg)
 
@@ -275,9 +287,10 @@ LLM 프롬프팅에서 흔히 사용되는 전문가 페르소나 지시가 태�
 
 *기타 (Others)*
 
+<!-- badge:22 -->
+
 ### Claude Code — 컨텍스트 윈도우 토큰 사용량 분석
 
-<!-- badge:22 -->
 ![Claude Code — 컨텍스트 윈도우 토큰 사용량 분석](images/07.jpg)
 
 Claude Code 세션 시작 전 이미 36,700개 토큰이 소비되는 문제를 분석한 콘텐츠. 시스템 프롬프트, 내장 도구, 커스텀 에이전트, 메모리 파일, 스킬 설정 등으로 인해 실제 대화 내용은 전체 토큰의 6%에 불과하고 94%는 인프라에 할당된다. 프로젝트 규모에 따라 초기 오버헤드가 최소 7,850토큰부터 36,700토큰까지 5배 차이가 발생하며, MCP 서버와 커스텀 설정 추가 시 비용이 대폭 증가한다.
@@ -288,9 +301,10 @@ Claude Code 세션 시작 전 이미 36,700개 토큰이 소비되는 문제를 
 
 *기타 (Others)*
 
+<!-- badge:23 -->
+
 ### Claude Code v2.1.147 — 핀 고정 백그라운드 세션으로 메모리 효율화
 
-<!-- badge:23 -->
 ![Claude Code v2.1.147 — 핀 고정 백그라운드 세션으로 메모리 효율화](images/09.jpg)
 
 Claude Code의 백그라운드 세션이 유휴 상태에서 자동으로 종료되어 멀티 파이프라인 작업 흐름이 중단되는 문제를 해결한다. v2.1.147부터 Ctrl+T로 세션을 핀 고정하면 유휴 상태에서도 세션이 유지되며, 메모리 압박 발생 시 핀이 박혀있지 않은 세션부터 정리되어 리소스를 효율적으로 관리한다. JSON 덤프 기능, 코드 리뷰 자동화, Bash 회귀 핫픽스도 함께 포함되어 있다.
@@ -301,9 +315,9 @@ Claude Code의 백그라운드 세션이 유휴 상태에서 자동으로 종료
 
 *기타 (Others)*
 
-### Claude Code Hooks — AI 코드 작성 중 실시간 보안 감시 시스템
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude Code Hooks — AI 코드 작성 중 실시간 보안 감시 시스템
 
 ![Claude Code Hooks — AI 코드 작성 중 실시간 보안 감시 시스템](images/10.jpg)
 
@@ -315,9 +329,9 @@ AI 코딩 도구가 생산성을 높이면서 보안 위험이 증가하는 문�
 
 *기타 (Others)*
 
-### Claude-md-management — AI 코딩 세션의 컨텍스트 효율성을 높이는 플러그인
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude-md-management — AI 코딩 세션의 컨텍스트 효율성을 높이는 플러그인
 
 ![Claude-md-management — AI 코딩 세션의 컨텍스트 효율성을 높이는 플러그인](images/15.jpg)
 
@@ -329,9 +343,10 @@ Claude Code로 장기간 프로젝트를 진행하면서 CLAUDE.md 파일이 방
 
 *GitHub*
 
+<!-- badge:26 -->
+
 ### CIVIL AI Korea — 글로벌 토목건설 AI 오픈소스 83개 통합 아카이브
 
-<!-- badge:26 -->
 토목건설 분야의 AI 개발자와 실무자들이 흩어진 GitHub 저장소에서 필요한 도구를 찾기 위해 시간을 소비하는 문제를 해결하기 위해 개인 사이트에 글로벌 토목건설 AI 오픈소스 83개를 7개 카테고리로 분류하여 통합 아카이브화했다. BIM/IFC, CAD, 도면 OCR, 측량/GIS, 구조해석, 시각화, AI 에이전트 분야의 주요 오픈소스를 정리하고 각 도구별 한국 적용 시나리오를 제시함으로써 한국 토목 도메인 실무자들의 의사결정을 지원한다.
 
 **핵심 포인트:** 핵심 기여: IfcOpenShell, OpenSees, PDAL 등 글로벌 표준 도구 정리와 함께 지반 분야 기여 기회 제시, AI 에이전트 영역의 최신 도구(DDC Skills, MCP4IFC 등) 1년 내 신규 추적으로 한국 토목 AI 빌더 커뮤니티 연결 플랫폼 구축.
@@ -340,9 +355,9 @@ Claude Code로 장기간 프로젝트를 진행하면서 CLAUDE.md 파일이 방
 
 *기타 (Others)*
 
-### Claude Code — 대규모 모노레포에서 AI 코딩을 제대로 활용하는 방법
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude Code — 대규모 모노레포에서 AI 코딩을 제대로 활용하는 방법
 
 ![Claude Code — 대규모 모노레포에서 AI 코딩을 제대로 활용하는 방법](images/22.jpg)
 
@@ -354,9 +369,9 @@ Claude Code로 장기간 프로젝트를 진행하면서 CLAUDE.md 파일이 방
 
 *기타 (Others)*
 
-### DataDrivenConstruction — CAD-BIM 파일을 AI 에이전트 데이터로 변환
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### DataDrivenConstruction — CAD-BIM 파일을 AI 에이전트 데이터로 변환
 
 ![DataDrivenConstruction — CAD-BIM 파일을 AI 에이전트 데이터로 변환](images/23.jpg)
 
@@ -368,9 +383,9 @@ Claude Code로 장기간 프로젝트를 진행하면서 CLAUDE.md 파일이 방
 
 *기타 (Others)*
 
-### NVIDIA AI-Q — 엔터프라이즈급 딥리서치 스킬을 에이전트에 포함
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### NVIDIA AI-Q — 엔터프라이즈급 딥리서치 스킬을 에이전트에 포함
 
 ![NVIDIA AI-Q — 엔터프라이즈급 딥리서치 스킬을 에이전트에 포함](images/25.jpg)
 
@@ -382,9 +397,10 @@ AI 에이전트가 복잡한 리서치 작업을 수행할 때마다 딥리서�
 
 *기타 (Others)*
 
+<!-- badge:30 -->
+
 ### Agent Skills — AI 코딩 에이전트를 위한 엔지니어링 스킬 라이브러리
 
-<!-- badge:30 -->
 ![Agent Skills — AI 코딩 에이전트를 위한 엔지니어링 스킬 라이브러리](images/29.jpg)
 
 AI 코딩 에이전트는 강력하지만 편법을 선호하며 스펙 정의, 테스트, 보안 검토를 건너뛰는 경향이 있다. Agent Skills는 구글의 모범 사례를 기반으로 19가지 엔지니어링 스킬과 7가지 슬래시 명령어를 제공하여 AI 에이전트가 정의부터 배포까지 소프트웨어 개발 전체 라이프사이클을 따르도록 강제한다. 스펙 작성, 작은 단위 작업 계획, 점진적 구현, TDD 기반 검증, 코드 리뷰, 최적화, 배포 전 체크리스트 등 시니어 엔지니어들의 실제 워크플로우와 품질 검증 단계를 자동으로 활성화한다.
@@ -395,9 +411,9 @@ AI 코딩 에이전트는 강력하지만 편법을 선호하며 스펙 정의, 
 
 *GitHub*
 
-### Agent Safety OSS — 중소건설사를 위한 AI 기반 안전문서 자동화 도구
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Agent Safety OSS — 중소건설사를 위한 AI 기반 안전문서 자동화 도구
 
 ![Agent Safety OSS — 중소건설사를 위한 AI 기반 안전문서 자동화 도구](images/31.jpg)
 
@@ -409,9 +425,10 @@ AI 코딩 에이전트는 강력하지만 편법을 선호하며 스펙 정의, 
 
 *GitHub*
 
+<!-- badge:32 -->
+
 ### NVIDIA Verified Agent Skills — AI 에이전트용 신뢰 가능한 스킬 카탈로그
 
-<!-- badge:32 -->
 ![NVIDIA Verified Agent Skills — AI 에이전트용 신뢰 가능한 스킬 카탈로그](images/33.jpg)
 
 AI 에이전트가 파일 접근, API 호출, 코드 실행 등 실제 시스템 권한을 갖게 되면서 악의적이거나 결함 있는 스킬 하나가 데이터 유출이나 악성 명령 실행으로 이어질 수 있는 문제가 발생했다. NVIDIA는 Verified Agent Skills를 통해 스킬의 출처, 권한, 위험 요소, 수정 여부를 확인할 수 있는 검증 구조를 제공한다. 스킬 카드, 보안 스캔, 서명 검증을 포함하여 Claude Code, OpenAI Codex, Cursor 같은 에이전트에 안전하게 설치 가능한 포터블 스킬 생태계를 구축했다.
@@ -422,9 +439,9 @@ AI 에이전트가 파일 접근, API 호출, 코드 실행 등 실제 시스템
 
 *GitHub*
 
-### Claude Code — Deep Research 기능 통합으로 AI 코딩 에이전트 진화
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude Code — Deep Research 기능 통합으로 AI 코딩 에이전트 진화
 
 ![Claude Code — Deep Research 기능 통합으로 AI 코딩 에이전트 진화](images/38.jpg)
 
@@ -436,9 +453,10 @@ Claude Code가 단순 코딩 도구에서 벗어나 백그라운드 리서치 �
 
 *기타 (Others)*
 
+<!-- badge:34 -->
+
 ### FuzzyAI — LLM API 탈옥 취약점 자동 검출 도구
 
-<!-- badge:34 -->
 ![FuzzyAI — LLM API 탈옥 취약점 자동 검출 도구](images/39.jpg)
 
 LLM API 배포 전 보안 검증이 어려운 개발자와 보안 연구자의 문제를 해결하는 자동화 퍼징 도구. CyberArk의 FuzzyAI는 LLM API에 대한 체계적인 퍼징을 통해 잠재적 탈옥(Jailbreak) 취약점을 사전에 자동으로 식별하고 완화하는 기능을 제공한다. 오픈소스로 공개되어 있으며, 로컬 또는 클라우드 기반 LLM 모델을 지원하고 웹 UI를 통한 간편한 실행이 가능하다.
@@ -452,9 +470,10 @@ LLM API 배포 전 보안 검증이 어려운 개발자와 보안 연구자의 �
 
 ## ENGINEERING
 
+<!-- badge:35 -->
+
 ### Document AI 마이크로서비스: 프로덕션 규모 OCR/LLM 파이프라인 아키텍처
 
-<!-- badge:35 -->
 학술 연구는 새로운 문서 이해 모델 개발에 집중하면서 모델 정의와 프로덕션 규모 운영 사이의 큰 격차를 발생시켰다. 이 논문은 분류, OCR, 대형언어모델 기반 필드 추출을 통합하는 마이크로서비스 아키텍처를 제시하여 시간당 수천 개의 다중 페이지 문서 처리를 실현한다. GPU 바운드 추론과 CPU 바운드 오케스트레이션 분리, 비동기 처리, 수평 확장 전략을 통해 프로덕션 배포의 실제 문제를 해결한다.
 
 **핵심 포인트:** 핵심 기여: 프로덕션 환경에서 시간당 수천 개 문서 처리 가능한 확장 가능한 아키텍처를 구현했으며, OCR이 언어모델 파싱보다 지연 시간을 지배하고 GPU 추론 용량이 병목이 된다는 핵심 발견을 제시한다.
@@ -466,9 +485,9 @@ LLM API 배포 전 보안 검증이 어려운 개발자와 보안 연구자의 �
 
 ## PRODUCT & INDUSTRY
 
-### Amazon Bedrock AgentCore — 컨텍스트 윈도우 제한 극복하기
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Amazon Bedrock AgentCore — 컨텍스트 윈도우 제한 극복하기
 
 대규모 문서 분석 시 LLM의 컨텍스트 윈도우 제한으로 인해 입력 실패 또는 불완전한 정보 기반 답변이 발생하는 문제를 해결한다. Amazon Bedrock AgentCore의 Code Interpreter와 Strands Agents SDK를 활용하여 Recursive Language Models를 구현함으로써 컨텍스트 크기 상한 없이 수백만 자 규모의 문서를 처리할 수 있도록 한다. 샌드박스 Python 환경에서 반복적인 문서 분석을 위해 Code Interpreter를 지속적 작업 메모리로 활용하고, 특정 섹션 분석을 위해 sub-LLM 호출을 조율한다.
 
@@ -478,9 +497,10 @@ LLM API 배포 전 보안 검증이 어려운 개발자와 보안 연구자의 �
 
 *기타 (Others)*
 
+<!-- badge:37 -->
+
 ### AWS Summit Seoul 2026: AI-Ready 데이터 플랫폼을 위한 비정형 데이터 처리 기법 소개
 
-<!-- badge:37 -->
 기업들이 직면한 비정형 데이터 처리의 어려움을 해결하기 위해 AWS Summit Seoul 2026의 Data and Analytics 부스에서 Semantic Layer 기반 AI-Ready 데이터 플랫폼 데모를 진행했다. 오픈소스 OCR 모델과 프론티어 모델을 결합하여 문서 인식 성능을 향상시키고, NER/Clustering 등 전통적 자연어 처리 기법으로 맥락 파악과 도메인 용어 수집을 수행함으로써 정확한 비정형 데이터 추출을 실현했다.
 
 **핵심 포인트:** 핵심 성과: 이틀간 200명 이상의 고객이 방문하여 실제 OCR 모델 조합을 통한 문서 BBox 인식 및 추출 기법, 사용자 사전과 동의어 추출 방법론을 체험하고 데이터 플랫폼 구축의 구체적 사례를 습득했다.
@@ -489,9 +509,10 @@ LLM API 배포 전 보안 검증이 어려운 개발자와 보안 연구자의 �
 
 *기타 (Others)*
 
+<!-- badge:38 -->
+
 ### 건설기준 디지털화 사업: 3432개 기준을 AI 인식 가능한 API로
 
-<!-- badge:38 -->
 ![건설기준 디지털화 사업: 3432개 기준을 AI 인식 가능한 API로](images/32.jpg)
 
 건설 설계·시공 단계에서 기준 준수 여부를 검증하기 위해 고도의 숙련된 기술인이 필요했던 문제를 해결하기 위해 국토교통부가 추진 중인 사업이다. 2026년까지 3432개의 국가건설기준을 AI가 이해할 수 있는 구조화 데이터로 변환하고 API 형태로 무료 배포할 계획이다. BIM 모델에서 부재를 클릭하면 해당 기준이 자동으로 호출되고 충족 여부가 검증되므로 설계자의 수작업 부담이 대폭 감소한다.
@@ -502,9 +523,10 @@ LLM API 배포 전 보안 검증이 어려운 개발자와 보안 연구자의 �
 
 *기타 (Others)*
 
+<!-- badge:39 -->
+
 ### Gemini in Chrome: Skills 플래그로 AI 단축키 만들기
 
-<!-- badge:39 -->
 Chrome 브라우저에서 Gemini의 새로운 Skills 기능을 활성화하는 방법을 설명한 콘텐츠. chrome://flags/#skills에서 Skills를 'Enabled'로 변경하고 재시작한 후, 채팅창에서 '/'를 입력하면 스킬 생성 창이 나타난다. 글 요약, 이메일 초안 작성, 아이디어 브레인스토밍 등 반복 작업을 스킬로 만들어 개인 맞춤형 AI 도구 모음처럼 활용할 수 있다.
 
 **핵심 포인트:** 핵심 기여: 유튜브 요약, 이메일 작성 등 일상적 반복 작업을 커스텀 스킬로 자동화하여 생산성 향상, 실험적 단계의 기능을 개인 맞춤 AI 단축키로 활용 가능.
@@ -513,9 +535,9 @@ Chrome 브라우저에서 Gemini의 새로운 Skills 기능을 활성화하는 �
 
 *기타 (Others)*
 
-### OpenAI Codex — 맥 화면 잠금 상태에서 아이폰으로 원격 앱 제어
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### OpenAI Codex — 맥 화면 잠금 상태에서 아이폰으로 원격 앱 제어
 
 기존 GUI 자동화 도구들은 맥 화면이 꺼지거나 잠긴 상태에서는 작동하지 않는 문제가 있었다. OpenAI Codex의 Computer Use 기능은 이러한 제약을 극복하여 화면 상태와 관계없이 아이폰에서 원격으로 맥 앱을 조작할 수 있도록 지원한다. macOS에서 Screen Recording과 Accessibility 권한을 부여하면 데스크톱 앱 확인, 브라우저 조작, 앱 설정 변경 등 GUI 기반 작업을 원격에서 자동화할 수 있다.
 

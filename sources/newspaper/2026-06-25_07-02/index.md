@@ -9,9 +9,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### Paca — AI 에이전트와 인간이 동등하게 협력하는 오픈소스 프로젝트 관리 플랫폼
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Paca — AI 에이전트와 인간이 동등하게 협력하는 오픈소스 프로젝트 관리 플랫폼
 
 ![Paca — AI 에이전트와 인간이 동등하게 협력하는 오픈소스 프로젝트 관리 플랫폼](images/16.jpg)
 
@@ -23,9 +23,9 @@ Jira, Trello, ClickUp 등 기존 프로젝트 관리 도구에서는 AI가 부�
 
 *GitHub*
 
-### Cabinet — AI 팀을 위한 로컬 우선 지식 베이스 OS
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### Cabinet — AI 팀을 위한 로컬 우선 지식 베이스 OS
 
 ![Cabinet — AI 팀을 위한 로컬 우선 지식 베이스 OS](images/19.jpg)
 
@@ -37,9 +37,9 @@ AI 세션마다 이전 맥락이 사라지고 흩어진 문서로 인해 팀의 
 
 *기타 (Others)*
 
-### RL-Index: 강화학습으로 검색 인덱싱 추론을 최적화
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"></div>
+### RL-Index: 강화학습으로 검색 인덱싱 추론을 최적화
 
 쿼리와 관련 지식 간의 암시적이고 복잡한 추론이 필요한 경우 검색이 어려운 문제를 해결한다. 기존의 쿼리 시점 추론 방식 대신 RL-Index는 인덱싱 단계에서 추론을 수행하도록 전환하여, LLM이 생성한 근거(rationale)로 문서를 증강하고 Group Relative Policy Optimization을 통해 검색 유사성을 보상 신호로 삼아 인덱싱 결정을 직접 최적화한다.
 
@@ -52,9 +52,10 @@ AI 세션마다 이전 맥락이 사라지고 흩어진 문서로 인해 팀의 
 
 ## AI & RESEARCH
 
+<!-- badge:4 -->
+
 ### Multi-Step Tool-Use RL: 감독 신호로 붕괴 현상 해결
 
-<!-- badge:4 -->
 LLM의 도구 사용 작업에서 강화학습만으로는 제어 토큰의 예상치 못한 확률 급증으로 인한 구조적 붕괴 현상이 발생한다. 본 논문은 오프폴리시 감독, 힌트 기반 지도, 오류 예시 감독 등 다양한 감독 신호를 체계적으로 조사하여, 감독 미세조정과 강화학습을 인터리브하면 안정성을 대폭 개선할 수 있음을 보여준다. 이를 통해 복잡한 다단계 도구 사용 작업에서 견고한 LLM 훈련을 실현한다.
 
 **핵심 포인트:** 핵심 기여: 다단계 도구 사용 강화학습의 붕괴 원인을 제어 토큰의 확률 스파이크로 규명하고, 인터리브 감독 미세조정 기법으로 안정성을 극대화하면서 형식 및 내용 분포 외 평가에서의 성능 저하 문제를 분석했다.
@@ -63,9 +64,9 @@ LLM의 도구 사용 작업에서 강화학습만으로는 제어 토큰의 예�
 
 *논문 (Papers)*
 
-### TabFM: 표 데이터용 제로샷 파운데이션 모델
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### TabFM: 표 데이터용 제로샷 파운데이션 모델
 
 ![TabFM: 표 데이터용 제로샷 파운데이션 모델](images/02.jpg)
 
@@ -77,9 +78,9 @@ LLM의 도구 사용 작업에서 강화학습만으로는 제어 토큰의 예�
 
 *기타 (Others)*
 
-### AECV-Bench: 건축도면 AI 인식 벤치마크
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### AECV-Bench: 건축도면 AI 인식 벤치마크
 
 최신 멀티모달 AI 모델들이 건축·엔지니어링 도면을 얼마나 잘 이해하는지 평가하는 벤치마크. 도면의 제목이나 실명 같은 텍스트 읽기(OCR)는 잘 처리하지만, 도면 기호 해석과 공간 추론에서 성능이 크게 떨어진다. 특히 문과 창문 개수 세기 같은 기호 인식 작업에서 AI가 어려움을 겪으며, 연구진은 범용 모델만 사용하기보다 도메인 전문성과 인간의 검수를 결합한 워크플로우를 권장한다.
 
@@ -89,9 +90,10 @@ LLM의 도구 사용 작업에서 강화학습만으로는 제어 토큰의 예�
 
 *논문 (Papers)*
 
+<!-- badge:7 -->
+
 ### IFStruct — 구조화된 출력 준수를 측정하는 실전용 벤치마크
 
-<!-- badge:7 -->
 ![IFStruct — 구조화된 출력 준수를 측정하는 실전용 벤치마크](images/07.jpg)
 
 언어모델이 복잡한 스키마에서 유효한 JSON이나 YAML을 생성하지 못하는 문제를 해결하기 위해 Liquid AI가 공개한 벤치마크. 실제 프롬프트의 제약 조건을 반영한 구조화된 출력 작업을 평가하며, 모델 크기보다는 목적에 맞는 데이터와 학습 방법론의 중요성을 입증한다. 350M 파라미터 소형 모델도 전용 강화학습으로 높은 성능을 달성할 수 있음을 보여준다.
@@ -102,9 +104,10 @@ LLM의 도구 사용 작업에서 강화학습만으로는 제어 토큰의 예�
 
 *GitHub*
 
+<!-- badge:8 -->
+
 ### STORM — Stanford 딥 리서치를 Claude로 구현한 다중 관점 검증 시스템
 
-<!-- badge:8 -->
 ![STORM — Stanford 딥 리서치를 Claude로 구현한 다중 관점 검증 시스템](images/08.jpg)
 
 단일 프롬프트로는 자신의 맹점을 파악할 수 없다는 문제를 해결하기 위해, 실무자, 학자, 회의론자, 경제학자, 역사가 등 5가지 서로 다른 관점을 동시에 활성화하여 상호 검증하는 구조를 제시한다. Claude를 활용한 이 STORM 방법론은 충돌 매핑, 종합, 동료 검증의 4단계를 자동으로 실행하며, 6개의 에이전트를 투입해 인용과 수치를 원본 자료와 대조하여 검증 결과를 marked로 반환한다.
@@ -115,9 +118,9 @@ LLM의 도구 사용 작업에서 강화학습만으로는 제어 토큰의 예�
 
 *기타 (Others)*
 
-### Memora — 장기 에이전트 작업용 이층 메모리 시스템
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Memora — 장기 에이전트 작업용 이층 메모리 시스템
 
 AI 에이전트가 장기 프로젝트에서 과거 대화와 결정 과정을 안정적으로 유지하지 못하는 문제를 해결한다. 전체 대화 저장은 토큰 비용을 증가시키고, RAG 검색은 맥락을 분산시키며, 요약은 날짜와 제약사항 같은 디테일을 손실시킨다. Memora는 기억을 두 층으로 분리하여 6~8단어의 경량 추상화로 검색하면서 실제 내용은 풍부하게 보존하고, 여러 경로의 접근을 위해 단서 앵커를 붙인다. 같은 원본 기억으로 다양한 질문에 대응할 수 있다.
 
@@ -127,9 +130,10 @@ AI 에이전트가 장기 프로젝트에서 과거 대화와 결정 과정을 �
 
 *기타 (Others)*
 
+<!-- badge:10 -->
+
 ### Devin Fusion — 프런티어 모델 성능 유지하며 비용 35% 절감
 
-<!-- badge:10 -->
 ![Devin Fusion — 프런티어 모델 성능 유지하며 비용 35% 절감](images/13.jpg)
 
 기존 다중 모델 라우팅 방식은 벤치마크에는 우수하지만 실제 코드 병합 품질이 떨어지는 문제가 있다. Cognition의 Devin Fusion은 소형 모델이 병렬 작업을 처리하고 프런티어 모델이 계획과 검증을 담당하는 하이브리드 구조로 이를 해결한다. 작업 난이도에 따라 동적으로 모델을 전환하면서 Fable 수준의 성능을 유지하면서도 비용을 35% 감축했다.
@@ -140,9 +144,9 @@ AI 에이전트가 장기 프로젝트에서 과거 대화와 결정 과정을 �
 
 *기타 (Others)*
 
-### BINEVAL: 이진 질문 기반 투명한 LLM 평가 프레임워크
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### BINEVAL: 이진 질문 기반 투명한 LLM 평가 프레임워크
 
 LLM 판정자의 평가 점수가 불투명해 디버깅이 어려운 문제를 해결하는 프레임워크. BINEVAL은 복잡한 평가 기준을 원자적 이진 질문들로 분해하고 각 질문에 대한 답변을 독립적으로 수집한 후 집계하여 다차원의 해석 가능한 점수를 생성한다. 추가 학습 없이도 G-Eval 같은 기존 모델들을 능가하는 성능을 제공하며, 질문 수준의 피드백으로 프롬프트 개선을 즉시 실행할 수 있다.
 
@@ -152,9 +156,9 @@ LLM 판정자의 평가 점수가 불투명해 디버깅이 어려운 문제를 
 
 *논문 (Papers)*
 
-### OpenAI: GPT-5.6 시리즈 공개, 정부 승인 기업 한정 공개
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### OpenAI: GPT-5.6 시리즈 공개, 정부 승인 기업 한정 공개
 
 ![OpenAI: GPT-5.6 시리즈 공개, 정부 승인 기업 한정 공개](images/22.jpg)
 
@@ -166,9 +170,10 @@ OpenAI가 역대 최강 모델 GPT-5.6 세대를 공개했으나 미국 정부�
 
 *기타 (Others)*
 
+<!-- badge:13 -->
+
 ### Agent-Native Memory System — LLM 에이전트 메모리의 체계적 평가
 
-<!-- badge:13 -->
 LLM 에이전트의 메모리 시스템이 단순 검색을 넘어 복잡한 데이터 관리 체계로 진화했으나, 기존 평가는 F1, BLEU 같은 구식 지표로 종단 성능만 측정하고 있다. 이 논문은 에이전트 메모리를 4개의 핵심 모듈로 분해하여 운영 비용, 아키텍처 트레이드오프, 동적 지식 업데이트에 따른 견고성 등 시스템 수준의 문제를 체계적으로 분석한다. 블랙박스에 가려져 있던 메모리 시스템의 실제 제약과 성능 특성을 규명하여 실용적인 에이전트 메모리 설계를 위한 기초를 제공한다.
 
 **핵심 포인트:** 핵심 기여: 메모리 아키텍처의 4개 모듈 분해를 통해 기존 평가에서 간과된 운영 비용과 시스템적 한계를 정량적으로 규명하고, 에이전트 메모리의 실제 작동 특성에 기반한 설계 원칙 제시.
@@ -180,9 +185,9 @@ LLM 에이전트의 메모리 시스템이 단순 검색을 넘어 복잡한 데
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Drawing List — 모듈러 건축 설계 생산성 60% 향상
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Drawing List — 모듈러 건축 설계 생산성 60% 향상
 
 ![Drawing List — 모듈러 건축 설계 생산성 60% 향상](images/03.jpg)
 
@@ -194,9 +199,9 @@ Autodesk Advance Steel에서 모듈러 건축 설계 시 모든 객체가 BOM에
 
 *기타 (Others)*
 
-### kANNolo — Rust 기반 초고성능 벡터 검색 엔진
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### kANNolo — Rust 기반 초고성능 벡터 검색 엔진
 
 ![kANNolo — Rust 기반 초고성능 벡터 검색 엔진](images/04.jpg)
 
@@ -208,9 +213,9 @@ FAISS가 지배하는 벡터 검색 시장에서 극도로 모듈화된 새로�
 
 *GitHub*
 
-### CadQuery: 파라메트릭 3D 모델링을 코드로 구현
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### CadQuery: 파라메트릭 3D 모델링을 코드로 구현
 
 ![CadQuery: 파라메트릭 3D 모델링을 코드로 구현](images/05.jpg)
 
@@ -222,9 +227,9 @@ FAISS가 지배하는 벡터 검색 시장에서 극도로 모듈화된 새로�
 
 *GitHub*
 
-### IfcOpenShell — 라이선스 없이 BIM 데이터를 파이썬으로 분석하는 오픈소스
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### IfcOpenShell — 라이선스 없이 BIM 데이터를 파이썬으로 분석하는 오픈소스
 
 BIM 데이터 작업에는 상용 Revit이나 ArchiCAD 라이선스가 필수라고 여겨져 왔다. IfcOpenShell은 개방 표준인 IFC 파일을 파이썬으로 직접 다룰 수 있는 오픈소스 라이브러리다. 모델 내 벽, 보, 기둥 등 객체를 코드로 읽고 속성을 변경하며 지오메트리를 추출할 수 있어, 부재 수량 집계나 설계 변경 비교, 파일 형식 변환 같은 반복 작업을 스크립트 한 번으로 자동화한다.
 
@@ -234,9 +239,9 @@ BIM 데이터 작업에는 상용 Revit이나 ArchiCAD 라이선스가 필수라
 
 *GitHub*
 
-### ezdxf — Python으로 AutoCAD 라이선스 없이 DXF 도면 자동 생성
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### ezdxf — Python으로 AutoCAD 라이선스 없이 DXF 도면 자동 생성
 
 ![ezdxf — Python으로 AutoCAD 라이선스 없이 DXF 도면 자동 생성](images/12.jpg)
 
@@ -248,9 +253,9 @@ BIM 데이터 작업에는 상용 Revit이나 ArchiCAD 라이선스가 필수라
 
 *GitHub*
 
-### Frontend Slides — AI와 음성으로 HTML 슬라이드를 자동 생성
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Frontend Slides — AI와 음성으로 HTML 슬라이드를 자동 생성
 
 ![Frontend Slides — AI와 음성으로 HTML 슬라이드를 자동 생성](images/14.jpg)
 
@@ -262,9 +267,9 @@ BIM 데이터 작업에는 상용 Revit이나 ArchiCAD 라이선스가 필수라
 
 *GitHub*
 
-### Loop Engineering — AI가 자체 프롬프트를 작성하고 검증하는 자동화 파이프라인
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Loop Engineering — AI가 자체 프롬프트를 작성하고 검증하는 자동화 파이프라인
 
 ![Loop Engineering — AI가 자체 프롬프트를 작성하고 검증하는 자동화 파이프라인](images/17.jpg)
 
@@ -276,9 +281,9 @@ BIM 데이터 작업에는 상용 Revit이나 ArchiCAD 라이선스가 필수라
 
 *GitHub*
 
-### DeepSpec: 추측 디코딩으로 AI 추론 속도 85% 단축
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### DeepSpec: 추측 디코딩으로 AI 추론 속도 85% 단축
 
 ![DeepSpec: 추측 디코딩으로 AI 추론 속도 85% 단축](images/18.jpg)
 
@@ -290,9 +295,9 @@ AI 추론 비용이 증가하면서 동일한 성능을 더 낮은 비용으로 
 
 *GitHub*
 
-### SkillSpector — AI 에이전트 스킬의 악성 코드·권한 위험 자동 검사
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### SkillSpector — AI 에이전트 스킬의 악성 코드·권한 위험 자동 검사
 
 ![SkillSpector — AI 에이전트 스킬의 악성 코드·권한 위험 자동 검사](images/20.jpg)
 
@@ -304,9 +309,9 @@ Claude Code, Codex 같은 AI 비서에 설치되는 에이전트 스킬 중 26.1
 
 *GitHub*
 
-### Llama.cpp — 로컬 AI 에이전트를 위한 경량 최적화 워크플로우
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Llama.cpp — 로컬 AI 에이전트를 위한 경량 최적화 워크플로우
 
 ![Llama.cpp — 로컬 AI 에이전트를 위한 경량 최적화 워크플로우](images/23.jpg)
 
@@ -321,9 +326,9 @@ Claude Code, Codex 같은 AI 비서에 설치되는 에이전트 스킬 중 26.1
 
 ## ENGINEERING
 
-### VisualClaw: 온디바이스 필터링으로 실시간 비디오 AI 비용 98% 절감
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### VisualClaw: 온디바이스 필터링으로 실시간 비디오 AI 비용 98% 절감
 
 ![VisualClaw: 온디바이스 필터링으로 실시간 비디오 AI 비용 98% 절감](images/25.jpg)
 
@@ -338,9 +343,9 @@ Claude Code, Codex 같은 AI 비서에 설치되는 에이전트 스킬 중 26.1
 
 ## PRODUCT & INDUSTRY
 
-### 2026 스마트건설 챌린지 — AI·로봇 기술로 건설현장 혁신
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### 2026 스마트건설 챌린지 — AI·로봇 기술로 건설현장 혁신
 
 ![2026 스마트건설 챌린지 — AI·로봇 기술로 건설현장 혁신](images/11.jpg)
 
@@ -352,9 +357,10 @@ Claude Code, Codex 같은 AI 비서에 설치되는 에이전트 스킬 중 26.1
 
 *기타 (Others)*
 
+<!-- badge:26 -->
+
 ### Anthropic Claude Mythos 5 — 미국 정부 수출 규제 해제
 
-<!-- badge:26 -->
 ![Anthropic Claude Mythos 5 — 미국 정부 수출 규제 해제](images/21.jpg)
 
 미국 정부가 앤트로픽의 Claude Mythos 5 AI 모델에 부과했던 수출 규제를 해제했다. 이에 따라 100개 이상의 미국 주요 기반시설 운영 기관과 정부 기관이 해당 모델을 이용할 수 있게 되었다. 2주 전 트럼프 행정부가 악용 우려로 내렸던 규제 조치가 철회된 것으로, 앤트로픽은 정부와의 협력을 통해 Mythos 5의 이용 범위를 확대하고 약화된 버전인 Fable 5의 일반 공개도 추진할 계획이다.

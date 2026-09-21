@@ -168,7 +168,8 @@ def render_week(week: str, vol: int) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     images_out = out_dir / "images"
 
-    featured = featured_indices(items)
+    # 공유본 PDF에서 복원한 호는 json의 featured(인덱스 목록)로 1면을 고정한다 — 점수 재계산은 원본과 어긋날 수 있음
+    featured = [i for i in (data.get("featured") or []) if 0 <= i < len(items)] or featured_indices(items)
 
     end = week_end_date(week)
     fm = [

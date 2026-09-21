@@ -8,9 +8,9 @@ draft: false
 
 ## CLAUDE'S PICK
 
-### OCRmyPDF — 스캔 PDF에 검색 가능한 텍스트 레이어 자동 추가
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### OCRmyPDF — 스캔 PDF에 검색 가능한 텍스트 레이어 자동 추가
 
 ![OCRmyPDF — 스캔 PDF에 검색 가능한 텍스트 레이어 자동 추가](images/17.jpg)
 
@@ -22,9 +22,9 @@ draft: false
 
 *GitHub*
 
-### pxpipe — Claude 코드 요청 토큰을 이미지로 변환해 59~70% 비용 절감
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### pxpipe — Claude 코드 요청 토큰을 이미지로 변환해 59~70% 비용 절감
 
 ![pxpipe — Claude 코드 요청 토큰을 이미지로 변환해 59~70% 비용 절감](images/16.jpg)
 
@@ -36,9 +36,9 @@ Claude Code 사용 시 시스템 프롬프트, 도구 문서, 긴 히스토리 �
 
 *기타 (Others)*
 
-### DRE 측정 및 감소 — LLM의 테이블 데이터 참조 오류 체계적 평가
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/claude-pick.png" class="badge" alt="Claude's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### DRE 측정 및 감소 — LLM의 테이블 데이터 참조 오류 체계적 평가
 
 대형 언어 모델이 테이블 작업에서 테이블 구조를 이해하면서도 값을 잘못 인용하거나 생략하는 데이터 참조 오류(DRE)를 발생시키는 문제를 해결하는 연구다. 크리틱 기반 필터링과 거부 샘플링을 통해 답변 정확성을 최대 12.0% 향상시키며, 4B 파라미터 크리틱 모델은 분포 내외 DRE 탐지에서 78.2% F1 스코어를 달성하여 대규모 모델의 추론을 효과적으로 지원한다.
 
@@ -51,9 +51,9 @@ Claude Code 사용 시 시스템 프롬프트, 도구 문서, 긴 히스토리 �
 
 ## AI & RESEARCH
 
-### SGR-BIM — 그래프 기반 의미론적 추론으로 건설 규정 준수 자동화
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### SGR-BIM — 그래프 기반 의미론적 추론으로 건설 규정 준수 자동화
 
 건설정보모델링(BIM)에서 기하학적 규정 준수 확인은 고수준의 규제 논리와 구조화된 IFC 데이터 간 의미론적 불일치로 인해 자동화가 어려운 과제였다. SGR-BIM은 교차모달 지식그래프를 동적으로 구축하여 사용자 의도, 규제 의미론, BIM 기하학을 정렬하고 경직된 규칙 템플릿 없이도 해석 가능한 추론을 수행한다. 이를 통해 다단계 추론 체인 순회와 건물 엔티티 간 잠재적 공간 의존성 해결을 가능하게 한다.
 
@@ -63,9 +63,9 @@ Claude Code 사용 시 시스템 프롬프트, 도구 문서, 긴 히스토리 �
 
 *논문 (Papers)*
 
-### Grok 4.5 — SpaceXAI가 Cursor와 공동 개발한 범용 AI 모델 공개
-
 <!-- badge:5 -->
+
+### Grok 4.5 — SpaceXAI가 Cursor와 공동 개발한 범용 AI 모델 공개
 
 ![Grok 4.5 — SpaceXAI가 Cursor와 공동 개발한 범용 AI 모델 공개](images/03.jpg)
 
@@ -77,9 +77,9 @@ SpaceXAI가 Cursor와 협력하여 개발한 Grok 4.5를 공개했다. 이 모�
 
 *기타 (Others)*
 
-### Claude: 모델 업그레이드 vs Effort 증가, 언제 어떻게?
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude: 모델 업그레이드 vs Effort 증가, 언제 어떻게?
 
 ![Claude: 모델 업그레이드 vs Effort 증가, 언제 어떻게?](images/06.jpg)
 
@@ -91,9 +91,9 @@ Claude 코드 생성 결과가 만족스럽지 않을 때 모델을 올릴지 ef
 
 *기타 (Others)*
 
-### Anthropic: Claude 내부 '생각의 자리' J-공간 발견
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Anthropic: Claude 내부 '생각의 자리' J-공간 발견
 
 ![Anthropic: Claude 내부 '생각의 자리' J-공간 발견](images/08.jpg)
 
@@ -105,9 +105,9 @@ Claude 코드 생성 결과가 만족스럽지 않을 때 모델을 올릴지 ef
 
 *기타 (Others)*
 
-### Self-Harness — LLM 에이전트의 자동 하네스 최적화 루프
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Self-Harness — LLM 에이전트의 자동 하네스 최적화 루프
 
 LLM 에이전트의 성능은 모델 자체뿐 아니라 시스템 프롬프트, 도구 규칙, 실행 정책 등으로 구성된 하네스에 의해 결정되는데, 이 하네스 설계가 전적으로 인간의 몫이었다는 한계가 있다. Self-Harness는 에이전트가 자신의 실패 트레이스를 분석해 하네스를 스스로 개선하는 자동화 루프를 제안한다. 실패 패턴 추출, 수정안 생성, 회귀 테스트를 통한 검증 단계를 거쳐 외부 모델이나 인간 개입 없이 독립적으로 성능을 향상시킨다.
 
@@ -117,9 +117,9 @@ LLM 에이전트의 성능은 모델 자체뿐 아니라 시스템 프롬프트,
 
 *기타 (Others)*
 
-### NVIDIA ICML 2026: LLM 메모리 용량 3.6비트/파라미터 규명
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### NVIDIA ICML 2026: LLM 메모리 용량 3.6비트/파라미터 규명
 
 ![NVIDIA ICML 2026: LLM 메모리 용량 3.6비트/파라미터 규명](images/11.jpg)
 
@@ -131,9 +131,9 @@ LLM이 학습 데이터를 얼마나 암기할 수 있는지 측정하는 것이
 
 *기타 (Others)*
 
-### BIM Information Extraction Through LLM-based Adaptive Exploration — LLM 에이전트 기반 적응형 탐색
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### BIM Information Extraction Through LLM-based Adaptive Exploration — LLM 에이전트 기반 적응형 탐색
 
 BIM 모델에서 정보 추출 시 고정된 쿼리 방식의 한계를 해결하는 논문. 각 프로젝트마다 구조가 다른 BIM의 이질성 문제를 LLM 에이전트가 런타임 중에 모델 구조를 직접 파악하며 코드를 반복 실행하는 적응형 탐색 패러다임으로 극복한다. 37개 IFC 모델과 1,027개 질의로 구성된 벤치마크에서 정적 쿼리 생성 방식을 모든 조합에서 능가했다.
 
@@ -143,9 +143,9 @@ BIM 모델에서 정보 추출 시 고정된 쿼리 방식의 한계를 해결�
 
 *논문 (Papers)*
 
-### SkillWeaver — AI 에이전트의 다중 스킬 조합 문제를 분해-검색-조합으로 해결
-
 <!-- badge:11 -->
+
+### SkillWeaver — AI 에이전트의 다중 스킬 조합 문제를 분해-검색-조합으로 해결
 
 ![SkillWeaver — AI 에이전트의 다중 스킬 조합 문제를 분해-검색-조합으로 해결](images/14.jpg)
 
@@ -157,9 +157,9 @@ LLM 에이전트에 수많은 도구를 한 번에 제공하면 오히려 성능
 
 *논문 (Papers)*
 
-### Fable 5: 모델 성능보다 명확한 프롬프팅이 결과를 결정
-
 <!-- badge:12 -->
+
+### Fable 5: 모델 성능보다 명확한 프롬프팅이 결과를 결정
 
 ![Fable 5: 모델 성능보다 명확한 프롬프팅이 결과를 결정](images/19.jpg)
 
@@ -171,9 +171,9 @@ LLM 에이전트에 수많은 도구를 한 번에 제공하면 오히려 성능
 
 *기타 (Others)*
 
-### EdgeBench — AI 에이전트의 장기 학습 능력을 측정하는 벤치마크
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### EdgeBench — AI 에이전트의 장기 학습 능력을 측정하는 벤치마크
 
 ![EdgeBench — AI 에이전트의 장기 학습 능력을 측정하는 벤치마크](images/22.jpg)
 
@@ -188,9 +188,9 @@ LLM 에이전트에 수많은 도구를 한 번에 제공하면 오히려 성능
 
 ## DEVTOOLS & OPEN SOURCE
 
-### Graphify — AI 코딩 비용 71.5배 절감하는 지식그래프 기반 컨텍스트 압축
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Graphify — AI 코딩 비용 71.5배 절감하는 지식그래프 기반 컨텍스트 압축
 
 ![Graphify — AI 코딩 비용 71.5배 절감하는 지식그래프 기반 컨텍스트 압축](images/04.jpg)
 
@@ -202,9 +202,9 @@ AI 코딩 보조 도구 사용 시 실제 비용이 모델 성능이 아닌 반�
 
 *GitHub*
 
-### CodeIsland — 맥북 노치에서 AI 코딩 에이전트 상태를 실시간 모니터링
-
 <!-- badge:15 -->
+
+### CodeIsland — 맥북 노치에서 AI 코딩 에이전트 상태를 실시간 모니터링
 
 ![CodeIsland — 맥북 노치에서 AI 코딩 에이전트 상태를 실시간 모니터링](images/05.jpg)
 
@@ -216,9 +216,9 @@ AI 코딩 보조 도구 사용 시 실제 비용이 모델 성능이 아닌 반�
 
 *기타 (Others)*
 
-### Agent Skills — Meng To의 AI 코딩 에이전트용 75개 디자인 스킬 오픈소스 공개
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Agent Skills — Meng To의 AI 코딩 에이전트용 75개 디자인 스킬 오픈소스 공개
 
 ![Agent Skills — Meng To의 AI 코딩 에이전트용 75개 디자인 스킬 오픈소스 공개](images/07.jpg)
 
@@ -230,9 +230,9 @@ AI 코딩 보조 도구 사용 시 실제 비용이 모델 성능이 아닌 반�
 
 *GitHub*
 
-### PIDSymbolDetection: 범례 한 장으로 배관도 기호 자동 인식
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### PIDSymbolDetection: 범례 한 장으로 배관도 기호 자동 인식
 
 ![PIDSymbolDetection: 범례 한 장으로 배관도 기호 자동 인식](images/09.jpg)
 
@@ -244,9 +244,9 @@ AI 코딩 보조 도구 사용 시 실제 비용이 모델 성능이 아닌 반�
 
 *GitHub*
 
-### engineering-drawing-extractor: 도면 표제란 자동 추출 도구
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### engineering-drawing-extractor: 도면 표제란 자동 추출 도구
 
 ![engineering-drawing-extractor: 도면 표제란 자동 추출 도구](images/12.jpg)
 
@@ -258,9 +258,9 @@ AI 코딩 보조 도구 사용 시 실제 비용이 모델 성능이 아닌 반�
 
 *GitHub*
 
-### Hermes Agent Kanban — 다중 에이전트 협업 워크플로우 관리 시스템
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Hermes Agent Kanban — 다중 에이전트 협업 워크플로우 관리 시스템
 
 ![Hermes Agent Kanban — 다중 에이전트 협업 워크플로우 관리 시스템](images/15.jpg)
 
@@ -272,9 +272,9 @@ AI 코딩 보조 도구 사용 시 실제 비용이 모델 성능이 아닌 반�
 
 *기타 (Others)*
 
-### OpenWiki — GitHub 코드 변경 시 자동 갱신되는 오픈소스 위키 생성기
+<div class="eyebrow"><img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### OpenWiki — GitHub 코드 변경 시 자동 갱신되는 오픈소스 위키 생성기
 
 ![OpenWiki — GitHub 코드 변경 시 자동 갱신되는 오픈소스 위키 생성기](images/18.jpg)
 
@@ -286,9 +286,9 @@ AI 코딩 보조 도구 사용 시 실제 비용이 모델 성능이 아닌 반�
 
 *기타 (Others)*
 
-### Docling — 논문 기준 최고 성능의 PDF 파싱 솔루션
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Docling — 논문 기준 최고 성능의 PDF 파싱 솔루션
 
 ![Docling — 논문 기준 최고 성능의 PDF 파싱 솔루션](images/20.jpg)
 
@@ -300,9 +300,9 @@ PDF 파싱 도구들을 비교 평가한 결과 Docling이 논문 기준으로 �
 
 *GitHub*
 
-### Claude Code — 고가 모델은 계획만, 저가 모델이 코드 작성하는 하이브리드 프롬프트
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"> <img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Claude Code — 고가 모델은 계획만, 저가 모델이 코드 작성하는 하이브리드 프롬프트
 
 ![Claude Code — 고가 모델은 계획만, 저가 모델이 코드 작성하는 하이브리드 프롬프트](images/21.jpg)
 
@@ -314,9 +314,9 @@ Claude Fable 5는 비싸고 강력하지만 실제 코드 작성에는 비효율
 
 *기타 (Others)*
 
-### Astryx — Meta의 AI 에이전트 대응 디자인 시스템 공개
+<div class="eyebrow"><img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
-<div class="badges"><img src="../assets/badges/s7c-pick.png" class="badge" alt="S7C Pick"></div>
+### Astryx — Meta의 AI 에이전트 대응 디자인 시스템 공개
 
 ![Astryx — Meta의 AI 에이전트 대응 디자인 시스템 공개](images/23.jpg)
 
@@ -331,9 +331,9 @@ Meta가 8년간 내부에서만 사용해온 디자인 시스템 Astryx를 공�
 
 ## PRODUCT & INDUSTRY
 
-### Claude Checkup — 불필요한 스킬과 플러그인 정리 기능 출시
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Checkup — 불필요한 스킬과 플러그인 정리 기능 출시
 
 ![Claude Checkup — 불필요한 스킬과 플러그인 정리 기능 출시](images/02.jpg)
 
@@ -345,9 +345,9 @@ Claude Code에서 프로젝트에 불필요하게 쌓인 스킬과 플러그인�
 
 *기타 (Others)*
 
-### Claude Advisor — 멀티모델 라우팅을 설정 한 줄로 구현
+<div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
-<div class="badges"><img src="../assets/badges/editors-pick.png" class="badge" alt="Editor's Pick"></div>
+### Claude Advisor — 멀티모델 라우팅을 설정 한 줄로 구현
 
 ![Claude Advisor — 멀티모델 라우팅을 설정 한 줄로 구현](images/24.jpg)
 
