@@ -222,6 +222,38 @@ def start_publish() -> str | None:
 
 # ---------- PDF 스탬프 ----------
 
+class _Row:
+    """pdfminer가 한 행을 여러 조각으로 끊은 것을 이어 붙인 논리 줄 (LTTextLine과 같은 속성만)."""
+
+    def __init__(self, parts):
+        self.parts = parts
+        self.x0, self.x1 = parts[0].x0, parts[-1].x1
+        self.y0, self.y1 = min(p.y0 for p in parts), max(p.y1 for p in parts)
+        self.height = max(p.height for p in parts)
+
+    def get_text(self):
+        return "".join(p.get_text().rstrip("\n") for p in self.parts) + "\n"
+
+
+def _merge_row_fragments(lines, mid_x: float):
+    """양쪽 정렬 제목은 단어 간격이 넓어 pdfminer가 '건축 AI:' | '렌더링 도구에서…'처럼 끊는다.
+    같은 행·같은 칼럼(페이지 좌/우 절반)의 조각을 왼쪽부터 이어 붙인다. 조각 간격(최대 ~70pt)이
+    칼럼 사이 간격(최소 ~18pt)보다 커서 간격 기준으로는 못 가르므로 칼럼으로 가른다."""
+    out, used = [], set()
+    for l in sorted(lines, key=lambda l: l.x0):
+        if id(l) in used:
+            continue
+        parts = [l]
+        used.add(id(l))
+        for m in sorted(lines, key=lambda m: m.x0):
+            if (id(m) not in used and abs(m.y0 - l.y0) < 1.5 and abs(m.height - l.height) < l.height * 0.2
+                    and m.x0 >= parts[-1].x1 and (m.x0 < mid_x) == (l.x0 < mid_x)):
+                parts.append(m)
+                used.add(id(m))
+        out.append(parts[0] if len(parts) == 1 else _Row(parts))
+    return out
+
+
 def _find_anchor(pdf_path: Path, title: str):
     """제목의 마지막 줄 기준 앵커 탐색.
 
@@ -242,6 +274,7 @@ def _find_anchor(pdf_path: Path, title: str):
         for el in layout:
             if isinstance(el, LTTextContainer):
                 all_lines.extend(l for l in el if isinstance(l, LTTextLine))
+        all_lines = _merge_row_fragments(all_lines, layout.width / 2)
         pages.append(all_lines)
         for line in all_lines:
             nt = norm(line.get_text())
@@ -499,7 +532,12 @@ BADGE_JS = r"""
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ week: week, n: n, kind: kind, level: level }),
     }).then(function (r) { return r.json(); })
-      .then(function (res) { if (res && res.ok) cb(res); else alert("실패: " + (res && res.error)); })
+      .then(function (res) {
+        if (!(res && res.ok)) { alert("실패: " + (res && res.error)); return; }
+        // md는 됐는데 PDF 앵커를 못 찾으면 조용히 웹에만 붙는다(2026-09-27 Vol.28 '건축 AI') → 알린다
+        if (level !== "none" && res.pdf !== true) alert("PDF에는 도장이 안 붙었습니다(웹만 반영): " + res.title + " — " + res.pdf);
+        cb(res);
+      })
       .catch(function () { alert("배지 서버가 꺼져 있습니다"); });
   }
 
