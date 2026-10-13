@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6) · PDF Vol.20 (7/23-7/30) · PDF Vol.19 (7/16-7/23) · PDF Vol.18 (7/9-7/16) · P... ]]></description>
-    <pubDate>Thu, 01 Oct 2026 01:25:29 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6) · PDF Vol.20 (7/23-7/30) · PDF Vol.19 (7/16-7/23) · ... ]]></description>
+    <pubDate>Thu, 08 Oct 2026 04:26:20 GMT</pubDate>
+  </item><item>
+    <title>Vol.30 (10/1-10/8)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-10-01_10-08/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-10-01_10-08/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.30 10/1 - 10/8WEEKLY TECH &amp; AI DIGEST23 Articles This Week CLAUDE’S PICK Claude Code Mods — 커스텀 플러그인으로 인터페이스 확장하기 Claude Code의 기능을 제한적으로 확장하는 훅(Hook)과 달리, mod는 JavaScript 또는 TypeScript 이벤트 핸들러로 구성되어 Claude Code 내부에서 직접 실행된다. ]]></description>
+    <pubDate>Wed, 07 Oct 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.29 (9/24-10/1)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-09-24_10-01/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-08-06_08-13/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.22 8/6 - 8/13WEEKLY TECH &amp; AI DIGEST12 Articles This Week CLAUDE’S PICK AlphaEvolve — Gemini 기반 고급 알고리즘 설계 AI 에이전트 대규모 언어모델이 수학 및 컴퓨팅의 복잡한 문제를 해결할 때 환각 문제와 창의성 제한이 발생한다. ]]></description>
     <pubDate>Wed, 12 Aug 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.21 (7/30-8/6)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-07-30_08-06/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-07-30_08-06/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.21 7/30 - 8/6WEEKLY TECH &amp; AI DIGEST26 Articles This Week CLAUDE’S PICK BM25 Wins at Scale: RAG 패러다임 대규모 비교 연구 검색 증강 생성(RAG) 기술의 여러 패러다임을 공정하게 비교할 수 없다는 문제를 해결하기 위해, 본 논문은 28개의 중첩된 계층에서 약 450배 규모로 확장하는 통제된 실험을 수행했다. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
