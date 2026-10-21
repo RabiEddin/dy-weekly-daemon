@@ -88,6 +88,8 @@ def featured_indices(items: list[dict]) -> list[int]:
         kp = it.get("key_points") or ""
         img = it.get("image") or ""
         has_img = bool(img) and not img.startswith("http") and Path(img).is_file()
+        if it.get("image_kind") == "stat":  # 수치 카드는 1면 가산점 없음 (weekly_newspaper와 동일)
+            has_img = False
         score = (1 + len(rl)) * (1 + len(kp) // 25)
         if has_img:
             score *= 2

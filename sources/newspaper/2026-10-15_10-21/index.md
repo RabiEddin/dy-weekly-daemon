@@ -24,6 +24,20 @@ draft: false
 
 <div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
 
+### WRRF — 하이브리드 검색에서 최적 융합 가중치는 점이 아닌 구간
+
+![WRRF — 하이브리드 검색에서 최적 융합 가중치는 점이 아닌 구간](images/00.jpg)
+
+하이브리드 정보 검색에서 널리 사용되는 RRF(Reciprocal Rank Fusion)는 쿼리에 관계없이 각 검색기에 균등한 고정 가중치를 할당하는 한계가 있다. 본 연구는 동적 융합 가중치 예측 전략 8가지를 4개 데이터셋과 4개 검색기 조합으로 평가한 결과, 쿼리별 최적 융합 가중치가 단일 값이 아닌 구간 형태임을 발견했다. 128개 동적 융합 방법 중 74개가 표준 RRF보다 유의미하게 우수했으며, 지연 시간과 성능을 고려한 의사결정 프레임워크를 제시한다.
+
+**핵심 포인트:** 핵심 기여: 쿼리별 최적 융합 가중치가 단일 점이 아닌 다양한 형태의 구간임을 실증 연구로 입증했으며, 128개 방법 중 74개(58%)가 표준 RRF를 초과 성능했고, 실무 제약 조건에 따라 최적 융합 방법을 선택하는 계층적 의사결정 프레임워크를 제공한다.
+
+🔗 [arxiv.org/abs/2610.24341](https://arxiv.org/abs/2610.24341)
+
+*논문 (Papers)*
+
+<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
+
 ### TypeSafe AI — 시스템 요청에서 이미지 활용하기
 
 ![TypeSafe AI — 시스템 요청에서 이미지 활용하기](images/02.jpg)
@@ -36,24 +50,14 @@ TypeSafe AI의 이미지 기능을 활용할 때 시스템 상태, 질문 지시
 
 *기타 (Others)*
 
-<div class="eyebrow"><img src="../assets/badges/pick-claude.png" class="pick pick-wide claude" alt="Claude's Pick"> <img src="../assets/badges/logo-claude.png" class="pick pick-sq claude" alt="Claude's Pick"> <img src="../assets/badges/pick-editors-key.png" class="pick pick-wide editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/logo-editors-key.png" class="pick pick-sq editors is-key" alt="Editor's Pick (강조)"> <img src="../assets/badges/pick-s7c.png" class="pick pick-wide s7c" alt="Recommended for searchdoc"> <img src="../assets/badges/logo-s7c.png" class="pick pick-sq s7c" alt="Recommended for searchdoc"></div>
-
-### WRRF — 하이브리드 검색에서 최적 융합 가중치는 점이 아닌 구간
-
-하이브리드 정보 검색에서 널리 사용되는 RRF(Reciprocal Rank Fusion)는 쿼리에 관계없이 각 검색기에 균등한 고정 가중치를 할당하는 한계가 있다. 본 연구는 동적 융합 가중치 예측 전략 8가지를 4개 데이터셋과 4개 검색기 조합으로 평가한 결과, 쿼리별 최적 융합 가중치가 단일 값이 아닌 구간 형태임을 발견했다. 128개 동적 융합 방법 중 74개가 표준 RRF보다 유의미하게 우수했으며, 지연 시간과 성능을 고려한 의사결정 프레임워크를 제시한다.
-
-**핵심 포인트:** 핵심 기여: 쿼리별 최적 융합 가중치가 단일 점이 아닌 다양한 형태의 구간임을 실증 연구로 입증했으며, 128개 방법 중 74개(58%)가 표준 RRF를 초과 성능했고, 실무 제약 조건에 따라 최적 융합 방법을 선택하는 계층적 의사결정 프레임워크를 제공한다.
-
-🔗 [arxiv.org/abs/2610.24341](https://arxiv.org/abs/2610.24341)
-
-*논문 (Papers)*
-
 
 ## AI & RESEARCH
 
 <div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
 ### RCER: 반복형 RAG를 위한 교차 증거 관계 재구성
+
+![RCER: 반복형 RAG를 위한 교차 증거 관계 재구성](images/01.jpg)
 
 반복형 검색 증강 생성(RAG)에서 새로운 정보가 나타날 때 검색된 여러 문서 간의 개체 대응과 추론 의존성을 재구성하기 어려운 문제를 해결한다. RCER은 누적된 원본 문서로부터 교차 증거 관계를 직접 재구성하며, 라운드 간 관계 증거 수집, 추론 맥락 재구성, 교차 증거 합성 추론의 세 단계로 동적 문제 분해와 반복 검색을 수행한다. 세 개의 다중 홉 질의응답 벤치마크에서 평균 2.83 EM, 3.06 F1 포인트의 성능 향상을 달성했다.
 
@@ -112,8 +116,6 @@ TypeSafe AI가 공개한 Jev 1.14는 기존 텍스트 기반 모델에서 이미
 
 ### PentAGI: 자율형 AI 에이전트 침투테스트 시스템
 
-![PentAGI: 자율형 AI 에이전트 침투테스트 시스템](images/04.jpg)
-
 복잡한 침투 테스트 작업을 수행할 때 수동 개입이 많이 필요한 문제를 해결하기 위해 개발된 완전 자율형 AI 에이전트 시스템. PentAGI는 보안 전문가의 개입 없이 독립적으로 침투테스트 작업을 수행할 수 있으며, 복잡한 공격 시나리오를 자동으로 계획하고 실행하는 능력을 갖추고 있다.
 
 **핵심 포인트:** 핵심 기여: 엔드투엔드 자율형 침투테스트 자동화 시스템으로, 보안 전문가의 개입 최소화와 복잡한 보안 평가 작업의 효율성 향상을 실현했다.
@@ -137,8 +139,6 @@ TypeSafe AI가 공개한 Jev 1.14는 기존 텍스트 기반 모델에서 이미
 <div class="eyebrow"><img src="../assets/badges/pick-editors.png" class="pick pick-wide editors" alt="Editor's Pick"> <img src="../assets/badges/logo-editors.png" class="pick pick-sq editors" alt="Editor's Pick"></div>
 
 ### Superlite: Claude Code 플러그인으로 AI 코딩 52% 단축
-
-![Superlite: Claude Code 플러그인으로 AI 코딩 52% 단축](images/06.jpg)
 
 AI 코딩 에이전트가 계획 없이 진행되다가 뒤엎어지는 문제를 해결하기 위해 Superpowers 기반의 Superlite 플러그인을 개발했다. 명세를 넘기면 계획부터 병렬 구현, 테스트, 리뷰까지 자동으로 진행되며, 반복 승인을 제거하고 독립 작업을 병렬 실행하도록 설계했다. Opus가 조율과 최종 리뷰를, Sonnet이 주된 구현을 담당하여 이전 방식 대비 실행 시간을 52% 단축했다.
 
@@ -224,8 +224,6 @@ Claude 에이전트 개발 시 모델 호출, 도구 사용, MCP 서버 호출 �
 <!-- badge:16 -->
 
 ### PyMuPDF Pro — CPU 기반 문서 파싱으로 RAG 인프라 비용 대폭 절감
-
-![PyMuPDF Pro — CPU 기반 문서 파싱으로 RAG 인프라 비용 대폭 절감](images/09.jpg)
 
 RAG 파이프라인 구축 시 VLM 기반 문서 파서는 고가의 GPU와 막대한 API 비용이 필요하다는 문제를 해결하기 위해 PyMuPDF Pro는 파일 내부 구조를 직접 읽는 CPU 기반 파싱 방식을 제시한다. 텍스트 레이어가 있는 일반 디지털 문서(PDF, HWP, Office)에 최적화되어 있으며, 300MB 미만의 메모리만으로 동작하므로 기존 서버에 함께 설치 가능하다. 300인 규모 기업의 연 200만 페이지 처리 기준 비용을 GPU 파서 4,350만 원에서 6,400원으로 단축할 수 있다.
 
