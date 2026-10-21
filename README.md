@@ -1,6 +1,6 @@
 # THE WEEKLY DAEMON
 
-개인 큐레이션 주간 AI·개발 신문. 매주 목요일 발행.
+개인 큐레이션 주간 AI·개발 신문. 매주 수요일 발행.
 
 - **사이트**: https://rabieddin.github.io/dy-weekly-daemon/
 - `docs/` — 빌드된 사이트 (GitHub Pages가 서빙, [Quartz](https://quartz.jzhao.xyz) 기반)

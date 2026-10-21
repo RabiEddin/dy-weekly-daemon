@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6) · PDF Vol.20 (7/23-7/30) ·... ]]></description>
-    <pubDate>Thu, 15 Oct 2026 01:22:17 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.32 (10/15-10/21) · PDF Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6)... ]]></description>
+    <pubDate>Wed, 21 Oct 2026 01:49:11 GMT</pubDate>
+  </item><item>
+    <title>Vol.32 (10/15-10/21)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-10-15_10-21/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-10-15_10-21/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.32 10/15 - 10/21WEEKLY TECH &amp; AI DIGEST17 Articles This Week CLAUDE’S PICK Helix Foundry — 로컬 기반 데이터 워크스페이스 기업 데이터가 여러 소스에 산재되어 통합 분석이 어려운 문제를 해결하는 로컬 우선 데이터 워크스페이스. ]]></description>
+    <pubDate>Tue, 20 Oct 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.31 (10/8-10/15)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-10-08_10-15/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-08-20_08-27/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.24 8/20 - 8/27WEEKLY TECH &amp; AI DIGEST31 Articles This Week CLAUDE’S PICK KVBoost — LLM 추론의 청크 단위 KV 캐시 재사용으로 4.49배 속도 향상 트랜스포머 기반 LLM의 프리필 단계에서 매 요청마다 키-값 텐서를 재계산해야 하는 병목 현상이 발생한다. ]]></description>
     <pubDate>Wed, 26 Aug 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.23 (8/13-8/20)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-08-13_08-20/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-08-13_08-20/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.23 8/13 - 8/20WEEKLY TECH &amp; AI DIGEST24 Articles This Week CLAUDE’S PICK X Algorithm: For You 피드 알고리즘 오픈소스 공개 X의 For You 피드 추천 알고리즘이 GitHub에서 공개되어 개발자들의 검증과 기여를 받을 수 있게 되었다. ]]></description>
-    <pubDate>Wed, 19 Aug 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
