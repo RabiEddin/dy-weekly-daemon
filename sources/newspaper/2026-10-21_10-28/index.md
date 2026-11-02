@@ -4,7 +4,7 @@ date: 2026-10-28
 draft: false
 ---
 
-<div class="masthead"><div class="mast-title">THE WEEKLY DAEMON</div><div class="mast-meta"><span>Vol.33 10/21 - 10/28</span><span>WEEKLY TECH &amp; AI DIGEST</span><span>44 Articles This Week</span></div></div>
+<div class="masthead"><div class="mast-title">THE WEEKLY DAEMON</div><div class="mast-meta"><span>Vol.33 10/21 - 10/28</span><span>WEEKLY TECH &amp; AI DIGEST</span><span>43 Articles This Week</span></div></div>
 
 ## CLAUDE'S PICK
 
@@ -340,20 +340,6 @@ AI 에이전트가 과거 작업 기록을 바탕으로 생성한 메모리의 �
 
 *기타 (Others)*
 
-<!-- badge:26 -->
-
-### Compass — 옵시디언 하나로 인생 전체 관리하는 통합 템플릿
-
-![Compass — 옵시디언 하나로 인생 전체 관리하는 통합 템플릿](images/15.jpg)
-
-계획, 일기, 습관, 할 일 등을 여러 앱으로 분산 관리하는 비효율을 해결하는 옵시디언 보관함 템플릿. 매일 밤 질문에 답하는 일기, 분기별 개인 회고, 장단기 계획, 습관 추적, 할 일, 글쓰기 보드를 하나의 대시보드로 통합하고, AI 비서가 승인 기반 프롬프트를 실행하여 라이프 OS를 구현한다. 깃허브에서 1,009개의 별을 받으며 연말 계획 수립 전 활용하기 좋은 완성된 템플릿으로 평가받고 있다.
-
-**핵심 포인트:** 핵심 성과: 10개 커뮤니티 플러그인과 자체 Life OS 플러그인을 포함한 완전한 옵시디언 보관함으로 모든 라이프 관리 요소를 마크다운 기반으로 통합하며, 1,009개의 깃허브 별을 획득해 커뮤니티에서 높은 수요를 입증했다.
-
-🔗 [github.com/AgriciDaniel/compass](https://github.com/AgriciDaniel/compass)
-
-*GitHub*
-
 <div class="eyebrow"><img src="../assets/badges/pick-s7c-key.png" class="pick pick-wide s7c is-key" alt="Recommended for searchdoc (강조)"> <img src="../assets/badges/logo-s7c-key.png" class="pick pick-sq s7c is-key" alt="Recommended for searchdoc (강조)"></div>
 
 ### AX — 구글의 자율 에이전트 대규모 관리 오픈소스 런타임
@@ -392,7 +378,7 @@ LLM 기반 의사결정 시스템에서 긴 텍스트 생성으로 인한 비효
 
 *GitHub*
 
-<!-- badge:30 -->
+<!-- badge:29 -->
 
 ### Pixel — 터미널에서 그래픽 UI를 구현하는 라이브러리
 
@@ -432,7 +418,7 @@ AI에게 조사를 요청할 때 일반적으로 검색 상위 결과를 요약�
 
 *GitHub*
 
-<!-- badge:33 -->
+<!-- badge:32 -->
 
 ### AbyssBeacon — 6개 모델 저장소를 한곳에서 관리하는 오픈소스 도구
 
@@ -527,7 +513,7 @@ PHP 기반 웹사이트를 노린 대규모 보안 공격이 발생하면서 전
 
 ## PRODUCT & INDUSTRY
 
-<!-- badge:40 -->
+<!-- badge:39 -->
 
 ### ARTEX — 중국 해킹 조직의 AI 자동 침투 도구, 국내 금융사 대규모 공격
 
@@ -563,7 +549,7 @@ RAG 시스템 구축 시 문서 수집부터 답변 생성까지 여러 단계�
 
 *기타 (Others)*
 
-<!-- badge:43 -->
+<!-- badge:42 -->
 
 ### Exa 3.0 — AI 검색 토큰 95% 절감하는 차세대 검색 엔진
 
