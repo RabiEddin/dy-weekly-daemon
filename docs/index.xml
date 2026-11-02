@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.32 (10/15-10/21) · PDF Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/13) · PDF Vol.21 (7/30-8/6)... ]]></description>
-    <pubDate>Wed, 21 Oct 2026 16:40:55 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.33 (10/21-10/28) · PDF Vol.32 (10/15-10/21) · PDF Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/... ]]></description>
+    <pubDate>Wed, 28 Oct 2026 01:25:47 GMT</pubDate>
+  </item><item>
+    <title>Vol.33 (10/21-10/28)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-10-21_10-28/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-10-21_10-28/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.33 10/21 - 10/28WEEKLY TECH &amp; AI DIGEST44 Articles This Week CLAUDE’S PICK MMEnterprise-Bench: 진화하는 직장 기록에 대한 엔터프라이즈 에이전트 평가 팀 협업을 통해 지속적으로 변하는 직장 기록에서 신뢰할 수 있는 질의응답을 수행하는 엔터프라이즈 에이전트 개발 시 발생하는 문제를 해결하기 위해 MMEnterprise-Bench를 소개한다. ]]></description>
+    <pubDate>Tue, 27 Oct 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.32 (10/15-10/21)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-10-15_10-21/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-08-27_09-03/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.25 8/27 - 9/3WEEKLY TECH &amp; AI DIGEST45 Articles This Week CLAUDE’S PICK Claude Code 토큰 비용 최적화 — 비용 구조와 세션 습관 관리 Claude Code 도입 시 짧은 질문에도 높은 토큰 사용량이 발생하는 문제를 해결하는 가이드. ]]></description>
     <pubDate>Wed, 02 Sep 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.24 (8/20-8/27)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-08-20_08-27/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-08-20_08-27/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.24 8/20 - 8/27WEEKLY TECH &amp; AI DIGEST31 Articles This Week CLAUDE’S PICK KVBoost — LLM 추론의 청크 단위 KV 캐시 재사용으로 4.49배 속도 향상 트랜스포머 기반 LLM의 프리필 단계에서 매 요청마다 키-값 텐서를 재계산해야 하는 병목 현상이 발생한다. ]]></description>
-    <pubDate>Wed, 26 Aug 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
