@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.33 (10/21-10/28) · PDF Vol.32 (10/15-10/21) · PDF Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-8/20) · PDF Vol.22 (8/6-8/... ]]></description>
-    <pubDate>Wed, 28 Oct 2026 01:25:47 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.34 (10/28-11/4) · PDF Vol.33 (10/21-10/28) · PDF Vol.32 (10/15-10/21) · PDF Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20-8/27) · PDF Vol.23 (8/13-... ]]></description>
+    <pubDate>Wed, 04 Nov 2026 01:28:28 GMT</pubDate>
+  </item><item>
+    <title>Vol.34 (10/28-11/4)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-10-28_11-04/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-10-28_11-04/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.34 10/28 - 11/4WEEKLY TECH &amp; AI DIGEST38 Articles This Week CLAUDE’S PICK MemoryAgentBench: 에이전트 메모리의 구식 정보 문제 메모리 에이전트 벤치마크가 검색과 답변 생성을 단일 점수로 계산하면서 실패 원인을 파악하기 어려운 문제를 지적한 연구. ]]></description>
+    <pubDate>Tue, 03 Nov 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.33 (10/21-10/28)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-10-21_10-28/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-09-03_09-10/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.26 9/3 - 9/10WEEKLY TECH &amp; AI DIGEST23 Articles This Week CLAUDE’S PICK Dragon Hatchling: 뇌에서 영감을 받은 트랜스포머 대체 아키텍처 트랜스포머 기반 대형언어모델들은 긴 시간에 걸친 일관된 추론과 지식 보유에 한계를 보인다. ]]></description>
     <pubDate>Wed, 09 Sep 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.25 (8/27-9/3)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-08-27_09-03/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-08-27_09-03/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.25 8/27 - 9/3WEEKLY TECH &amp; AI DIGEST45 Articles This Week CLAUDE’S PICK Claude Code 토큰 비용 최적화 — 비용 구조와 세션 습관 관리 Claude Code 도입 시 짧은 질문에도 높은 토큰 사용량이 발생하는 문제를 해결하는 가이드. ]]></description>
-    <pubDate>Wed, 02 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

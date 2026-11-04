@@ -4,6 +4,7 @@ title: THE WEEKLY DAEMON
 
 ## ARCHIVE
 
+- [**Vol.34** (10/28-11/4)](2026-10-28_11-04) · <a href="2026-10-28_11-04/vol-34.pdf" target="_blank" rel="noopener">PDF</a>
 - [**Vol.33** (10/21-10/28)](2026-10-21_10-28) · <a href="2026-10-21_10-28/vol-33.pdf" target="_blank" rel="noopener">PDF</a>
 - [**Vol.32** (10/15-10/21)](2026-10-15_10-21) · <a href="2026-10-15_10-21/vol-32.pdf" target="_blank" rel="noopener">PDF</a>
 - [**Vol.31** (10/8-10/15)](2026-10-08_10-15) · <a href="2026-10-08_10-15/vol-31.pdf" target="_blank" rel="noopener">PDF</a>
