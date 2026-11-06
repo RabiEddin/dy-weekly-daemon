@@ -42,6 +42,13 @@ done
 # 2.6) 이미지 lazy loading 부여 (스크롤로 보일 때만 다운로드 — 빌드 HTML 후처리)
 find "$DOCS" -name '*.html' -exec perl -pi -e 's/<img (?![^>]*loading=)/<img loading="lazy" /g' {} +
 
+# 2.7) 기사 짧은 앵커(#34-07) + 제목 클릭 링크 복사 — 호 페이지(/<주차>/index.html, 깊이 1)에만 주입.
+#   rsync --delete가 매번 지우므로 여기서 다시 복사. 이미 태그가 있으면 건너뜀(멱등).
+cp "$PROJECT/src/article_anchors.js" "$DOCS/static/article-anchors.js"
+for f in "$DOCS"/20*/index.html; do
+  perl -0pi -e 's#</body>#<script src="../static/article-anchors.js" defer></script></body># unless /article-anchors\.js/' "$f"
+done
+
 # 3) PDF 경량화 (원본이 갱신된 것만 — AAPL 사설키 제거 + 스탬프 dedup + 이미지 재압축)
 for src in "$PROJECT"/newspaper/*/vol-*.pdf; do
   week="$(basename "$(dirname "$src")")"
@@ -62,7 +69,7 @@ cp "$SITE/.quartz/plugins/table-of-contents/dist/components/index.js" "$SRCDIR/s
 cp "$SITE/.quartz/plugins/search/dist/index.js" "$SRCDIR/site/search-dist-patch/"
 cp "$SITE/.quartz/plugins/search/dist/components/index.js" "$SRCDIR/site/search-dist-patch/components/"
 for f in render_newspaper_md.py sync_stickers.py badge_server.py compress_pdf.py compress_img.py split_search_index.py serve.sh publish.sh \
-         migrate_eyebrow.py migrate_pdf_stamps.py; do
+         migrate_eyebrow.py migrate_pdf_stamps.py article_anchors.js; do
   cp "$PROJECT/src/$f" "$SRCDIR/src/"
 done
 cp "$PROJECT/newspaper/index.md" "$SRCDIR/newspaper/"
