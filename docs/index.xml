@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.35 (11/4-11/11) · PDF Vol.34 (10/28-11/4) · PDF Vol.33 (10/21-10/28) · PDF Vol.32 (10/15-10/21) · PDF Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8/27-9/3) · PDF Vol.24 (8/20... ]]></description>
-    <pubDate>Wed, 11 Nov 2026 01:23:19 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.36 (11/11-11/18) · PDF Vol.35 (11/4-11/11) · PDF Vol.34 (10/28-11/4) · PDF Vol.33 (10/21-10/28) · PDF Vol.32 (10/15-10/21) · PDF Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8... ]]></description>
+    <pubDate>Wed, 18 Nov 2026 01:24:03 GMT</pubDate>
+  </item><item>
+    <title>Vol.36 (11/11-11/18)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-11-11_11-18/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-11-11_11-18/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.36 11/11 - 11/18WEEKLY TECH &amp; AI DIGEST35 Articles This Week CLAUDE’S PICK Amazon Bedrock Managed Knowledge Base — 표 형식 검색으로 데이터 기반 질의응답 실현 기업 팀들이 정책, 메모, 워크북 등 여러 파일에 흩어진 정보로부터 답변을 찾아야 할 때, 기존 검색 기반 추론만으로는 불충분한 문제가 있다. ]]></description>
+    <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.35 (11/4-11/11)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-11-04_11-11/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-09-17_09-24/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.28 9/17 - 9/24WEEKLY TECH &amp; AI DIGEST32 Articles This Week CLAUDE’S PICK free-for-dev — DevOps 엔지니어를 위한 무료 클라우드 서비스 모음 DevOps 및 인프라 엔지니어들이 적합한 무료 클라우드 서비스를 찾기 위해 많은 시간을 소비하는 문제를 해결하는 종합 리스트. ]]></description>
     <pubDate>Wed, 23 Sep 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.27 (9/10-9/17)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-09-10_09-17/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-09-10_09-17/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.27 9/10 - 9/17WEEKLY TECH &amp; AI DIGEST25 Articles This Week CLAUDE’S PICK LLM 테이블 데이터 참조 오류 측정 및 개선 연구 LLM이 테이블 구조는 이해하면서도 잘못된 셀값을 인용하거나 누락하는 데이터 참조 오류(DRE)를 체계적으로 분석한 연구다. ]]></description>
-    <pubDate>Wed, 16 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
