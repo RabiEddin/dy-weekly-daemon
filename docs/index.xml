@@ -9,8 +9,14 @@
     <title>THE WEEKLY DAEMON</title>
     <link>https://weekly-daemon.searchdoc.ai/</link>
     <guid>https://weekly-daemon.searchdoc.ai/</guid>
-    <description><![CDATA[ ARCHIVE Vol.36 (11/11-11/18) · PDF Vol.35 (11/4-11/11) · PDF Vol.34 (10/28-11/4) · PDF Vol.33 (10/21-10/28) · PDF Vol.32 (10/15-10/21) · PDF Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26 (9/3-9/10) · PDF Vol.25 (8... ]]></description>
-    <pubDate>Wed, 18 Nov 2026 01:24:03 GMT</pubDate>
+    <description><![CDATA[ ARCHIVE Vol.37 (11/18-11/25) · PDF Vol.36 (11/11-11/18) · PDF Vol.35 (11/4-11/11) · PDF Vol.34 (10/28-11/4) · PDF Vol.33 (10/21-10/28) · PDF Vol.32 (10/15-10/21) · PDF Vol.31 (10/8-10/15) · PDF Vol.30 (10/1-10/8) · PDF Vol.29 (9/24-10/1) · PDF Vol.28 (9/17-9/24) · PDF Vol.27 (9/10-9/17) · PDF Vol.26... ]]></description>
+    <pubDate>Wed, 25 Nov 2026 01:22:22 GMT</pubDate>
+  </item><item>
+    <title>Vol.37 (11/18-11/25)</title>
+    <link>https://weekly-daemon.searchdoc.ai/2026-11-18_11-25/</link>
+    <guid>https://weekly-daemon.searchdoc.ai/2026-11-18_11-25/</guid>
+    <description><![CDATA[ THE WEEKLY DAEMONVol.37 11/18 - 11/25WEEKLY TECH &amp; AI DIGEST15 Articles This Week CLAUDE’S PICK Amazon Aurora PostgreSQL: 책임 있는 AI 제어 설계 RAG 기반 고객 지원 챗봇이 민감한 정보를 포함한 역사적 티켓과 지식 기사를 쿼리할 때 개인정보 보호, 정확성, 안전성, 거버넌스 문제가 발생한다. ]]></description>
+    <pubDate>Tue, 24 Nov 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>Vol.36 (11/11-11/18)</title>
     <link>https://weekly-daemon.searchdoc.ai/2026-11-11_11-18/</link>
@@ -59,12 +65,6 @@
     <guid>https://weekly-daemon.searchdoc.ai/2026-09-24_10-01/</guid>
     <description><![CDATA[ THE WEEKLY DAEMONVol.29 9/24 - 10/1WEEKLY TECH &amp; AI DIGEST41 Articles This Week CLAUDE’S PICK Amazon CloudWatch Omni — AI 에이전트용 IDE 통합 옵저버빌리티 솔루션 AI 에이전트의 비결정적 동작으로 인해 기존 모니터링 방식으로는 품질 저하를 감지하기 어렵고, 팀이 여러 시스템의 로그를 수동으로 검토해야 하는 문제가 발생한다. ]]></description>
     <pubDate>Wed, 30 Sep 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vol.28 (9/17-9/24)</title>
-    <link>https://weekly-daemon.searchdoc.ai/2026-09-17_09-24/</link>
-    <guid>https://weekly-daemon.searchdoc.ai/2026-09-17_09-24/</guid>
-    <description><![CDATA[ THE WEEKLY DAEMONVol.28 9/17 - 9/24WEEKLY TECH &amp; AI DIGEST32 Articles This Week CLAUDE’S PICK free-for-dev — DevOps 엔지니어를 위한 무료 클라우드 서비스 모음 DevOps 및 인프라 엔지니어들이 적합한 무료 클라우드 서비스를 찾기 위해 많은 시간을 소비하는 문제를 해결하는 종합 리스트. ]]></description>
-    <pubDate>Wed, 23 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
